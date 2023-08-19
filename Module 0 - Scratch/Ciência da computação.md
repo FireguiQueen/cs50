@@ -35,15 +35,18 @@ Ao se juntarem, eles formam o número 'centro e vinte três', isto corre devido 
 de digítos que estão juntos. 
 Por exemplo.: 
 - __Uma unidade:__ um digíto `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`;
-- __Uma dezena:__ dois digítos juntos `(10 = 1+0  ;  20 = 2+0 ;  95 = 9+5)`
-- __Uma centena:__ três digítos juntos `(100 = 1+0+0   ;  150 = 1+5+0)`
-- E assim por diante.. 
+- __Uma dezena:__ dois digítos juntos `(10, 20, 30.. 90)`
+- __Uma centena:__ três digítos juntos `(100, 200, 300.. 900)` 
 
-Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podem formar
+Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podememos formar
 números maiores.
 
 
-### Por que binário?
+
+
+### Como os computadores enxergam
+Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
+A diferença é que os computadores só tem acesso a dois números: 0 e 1
 
 
 
