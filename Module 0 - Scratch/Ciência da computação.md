@@ -29,10 +29,8 @@ O binário se resume a '0' e '1'.
 E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". -->
 
 ### Como enxergamos os números
-Quando lemos isto: `123`, pensamos no número cento e vinte e três. </br> Mas no fim, são apenas digíos: 1 + 2 + 3 (um, dois e três); </br> 
-Ao se juntarem, eles formam o número 'centro e vinte três', isto corre devido a quantidade
-de digítos que estão juntos. 
-Por exemplo.: 
+Quando lemos estes algarismos - `123`, pensamos no número cento e vinte e três. </br> Mas no fim, são apenas digítos: 1(00) + 2(0) + 3() (um, dois e três); </br> 
+Ao se juntarem, eles formam o número 'centro e vinte três', e é assim que nós, os seres humanos, fazemos para contar números além de 0-9. Quando os digítos se juntam, tornam-se maiores.
 - __Uma unidade:__ um digíto `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`;
 - __Uma dezena:__ dois digítos juntos `(10, 20, 30.. 90)`
 - __Uma centena:__ três digítos juntos `(100, 200, 300.. 900)` 
