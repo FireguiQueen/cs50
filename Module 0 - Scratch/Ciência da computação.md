@@ -40,7 +40,7 @@ Ao se juntarem, eles formam o número 'centro e vinte três', e é assim que nó
 Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podememos formar
 números maiores.
 
-### Na matemática isto pode ser representado de duas maneiras: 
+### Na matemática, isso pode ser representado de duas maneiras: 
 
 > Podemos pensar que, para resultar unidades, basta multiplicar seu digíto por 1. Para resultar em dezenas, multiplicar seu digíto por 10. Para centenas, multiplica-lo por 100. Por exemplo:
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
