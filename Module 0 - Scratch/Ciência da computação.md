@@ -7,7 +7,8 @@ Input (a) -> | | -> Ouput (b)
 O ponto 'A' será a entrada de uma informação, esta informação será jogada ao nosso programa, onde
 há diversas instruções sobre o que fazer com a informação passada, e por fim, será retornado para nós um output, ou seja, uma resposta.
 
-
+</br>
+</br>
 
 
 ## Representação de números
@@ -28,6 +29,8 @@ Mas eles não usam da base decimal, e sim do binário.
 O binário se resume a '0' e '1'.
 E dão origem a palavra "bits", onde a mesma é derivada de "binary digits".
 
+
+
 ### Como enxergamos os números
 Quando lemos isto: '123' pensamos no número cento e vinte e três
 Mas no fim, são apenas digíos: 1 + 2 + 3 (um, dois e três);
@@ -40,10 +43,9 @@ Por exemplo.:
 
 Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podememos formar
 números maiores.
+
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
 
-
-https://lucid.app/lucidspark/900c0e22-2361-4456-8d18-55247676d7f0/edit?viewport_loc=-575%2C-1306%2C5760%2C2907%2C0_0&invitationId=inv_24a84437-0e8e-43b7-992c-7618a5ef5c95
 
 ### Como os computadores enxergam
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
