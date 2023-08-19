@@ -10,25 +10,23 @@ há diversas instruções sobre o que fazer com a informação passada, e por fi
 
 
 
-## Representação de dados
-Suponha que você esteja em uma faculdade.
-O professor precisa saber quantos alunos faltaram neste dia.
-Para isso fazer isso é bem simples. O professor sabe quantos alunos há no total, 
-logo, ele só precisa contar quantos alunos há na sala naquele momento, o que sobrar, são os 
-alunos que faltaram. Naquele dia, haviam 7 alunos presentes, e para fazer esta contagem, ele utiliza de suas mãos.
+## Representação de números
+Imagine que você esteja na faculdade e o professor precise saber quantos alunos faltaram. É simples: ele sabe quantos alunos estão no total, então só conta quantos estão na sala; os que faltaram são o que sobram. Naquele dia, 7 alunos estavam presentes; ele usou suas mãos para contar.
 Observe que isto nada mais é do que um sistema para representar uma informação.
 Informação: há 7 alunos presentes;
 Sistema: há 7 dedos levantados, cada dedo representa um aluno.  
 
-Agora vamos escalar a coisa. E se nesta sala houvessem 350 alunos presentes, mas o professor
-não sabe desta informação, então ele começa a contar.. Mas o sistema que ele utiliza (suas mãos)
-é algo um tanto quanto limitado.
-Veja bem, para representar 10 alunos, ele precisa levantar 10 dedos (5 dedos em cada mão), mas
-como seria possível representar 20 alunos com apenas duas mãos? 
+Agora, escalando: o professor não sabe quantos alunos estão presentes, digamos 350, mas ele só pode usar as mãos para contar até 10 alunos. Como representar 20 com duas mãos?
+O sistema que ele utiliza não o permite fazer esta contagem.
 
-Aí que entra um sistema mais sofisticado, anotação númerica. Agora, esta informação usará de outro
-sistema para ser representada. 
-Ele irá escrever no quadro,
+Aqui entra um sistema mais avançado: notação numérica. Ele escreve "350" no quadro. Mas, para isso, usamos a base decimal, onde números são formados. Essa base vai de 0 a 9 e serve de alicerce para outros números. 
+A base decimal é uma base que vai de 0 a 9. E ela não precisa ultrapassar este valor, pois
+qualquer outro número após o '9' pode ser criado usando os digitos que estão entre 0 e 9.
+Veja bem, 10 é a junção do digito '1' + '0'. O número 420 é a junção de '4' + '2' + '0'. 
+
+
+
+
 
 
 
