@@ -28,6 +28,17 @@ Mas eles não usam da base decimal, e sim do binário.
 O binário se resume a '0' e '1'.
 E dão origem a palavra "bits", onde a mesma é derivada de "binary digits".
 
+### Como enxergamos os números
+Quando lemos isto: '123' pensamos no número cento e vinte e três
+Mas no fim, são apenas digíos: 1 + 2 + 3 (um, dois e três);
+Ao se juntarem, eles formam o número 'centro e vinte três', isto corre devido a quantidade
+de digítos que estão juntos. 
+Por exemplo.: 
+- Uma unidade representa um digíto juntos
+- Uma dezena representa dois digítos juntos
+- Uma centena representa três digítos juntos
+- E assim por diante.. 
+
 ### Por que binário?
 
 
