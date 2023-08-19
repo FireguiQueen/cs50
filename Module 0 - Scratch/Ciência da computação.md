@@ -45,12 +45,15 @@ números maiores.
 > Podemos pensar que, para resultar unidades, basta multiplicar seu digíto por 1. Para resultar em dezenas, multiplicar seu digíto por 10. Para centenas, multiplica-lo por 100. Por exemplo:
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
 
-> Também podemos ver o mesmo resultado, mas usando potênciação desta vez. Por exemplo, para obter uma unidade, basta fazer 10 x digíto. Para obter uma dezena, 10¹ x o digíto 
+> Também podemos ver o mesmo resultado, mas usando potênciação desta vez. Por exemplo, para obter uma unidade, basta
+> fazer 10 x digíto. Para obter uma dezena, (10¹) x digíto. Por exemplo:
+![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76) 
 
 
 
 ### Como os computadores enxergam
-Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
+Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.![Uploading image 2.png…]()
+
 A diferença é que os computadores só tem acesso a dois números: 0 e 1
 
 
