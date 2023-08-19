@@ -55,6 +55,9 @@ Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente id�
 A diferença é que os computadores só tem acesso a dois números: 0 e 1.
 Enquanto nós, temos acesso a 10 digítos (0-9), e eles (a base decimal) podem formar infinitos outros resultados. 
 
+Enquanto seguimos esta coluna: 
+10² 
+
 
 
 
