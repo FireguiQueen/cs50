@@ -34,9 +34,9 @@ Mas no fim, são apenas digíos: 1 + 2 + 3 (um, dois e três);
 Ao se juntarem, eles formam o número 'centro e vinte três', isto corre devido a quantidade
 de digítos que estão juntos. 
 Por exemplo.: 
-- __Uma unidade:__ um digíto (0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
-- __Uma dezena:__ dois digítos juntos (10 = 1+0  ;  20 = 2+0 ;  95 = 9+5)
-- __Uma centena:__ três digítos juntos (100 = 1+0+0   ;  150 = 1+5+0)
+- __Uma unidade:__ um digíto `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`;
+- __Uma dezena:__ dois digítos juntos `(10 = 1+0  ;  20 = 2+0 ;  95 = 9+5)`
+- __Uma centena:__ três digítos juntos `(100 = 1+0+0   ;  150 = 1+5+0)`
 - E assim por diante.. 
 
 Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podem formar
