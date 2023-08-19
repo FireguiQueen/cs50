@@ -39,6 +39,10 @@ Por exemplo.:
 - Uma centena representa três digítos juntos
 - E assim por diante.. 
 
+Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podem formar
+números maiores.
+
+
 ### Por que binário?
 
 
