@@ -17,11 +17,8 @@ Input: há 7 alunos presentes;
 Sistema: Há 30 alunos no total, ou seja, 30-7 = 23;
 Output: Há 23 alunos faltosos  
 
-Agora, escalando: o professor não sabe quantos alunos estão presentes, digamos 350, mas ele só pode usar as mãos para contar até 10 alunos. Como representar 20 com duas mãos?
-O sistema que ele utiliza não o permite fazer esta contagem.
 
-Aqui entra um sistema mais avançado: notação numérica. Ele escreve "350" no quadro. Mas, para isso, usamos a base decimal, onde números são formados. Essa base vai de 0 a 9 e serve de alicerce para outros números. 
-A base decimal é uma base que vai de 0 a 9. E ela não precisa ultrapassar este valor, pois
+Aqui entra um sistema mais avançado: A base decimal, ou base de 10. Essa base vai de 0-9 e serve de alicerce para outros números. Ela não precisa ultrapassar este valor, pois
 qualquer outro número após o '9' pode ser criado usando os digitos que estão entre 0 e 9.
 Veja bem, 10 é a junção do digito '1' + '0'. O número 420 é a junção de '4' + '2' + '0'. 
 
