@@ -56,7 +56,8 @@ A diferença é que os computadores só tem acesso a dois números: 0 e 1.
 Enquanto nós, temos acesso a 10 digítos (0-9), e eles (a base decimal) podem formar infinitos outros resultados. 
 
 Enquanto nós seguimos esta coluna: 
-[image](https://github.com/FireguiQueen/CC50/assets/98475125/c087de76-b301-4f2d-9ae4-4c6988358fe9)
+
+![image](https://github.com/FireguiQueen/CC50/assets/98475125/c087de76-b301-4f2d-9ae4-4c6988358fe9)
 
 Os computadores seguem esta:
 
