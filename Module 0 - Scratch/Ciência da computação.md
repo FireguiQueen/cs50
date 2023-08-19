@@ -43,6 +43,8 @@ Por exemplo.:
 Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podememos formar
 números maiores.
 
+#### Na matemática isto pode ser representado de duas maneiras: 
+
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
 
 
