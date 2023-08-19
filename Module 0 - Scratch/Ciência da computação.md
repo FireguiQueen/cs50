@@ -1,3 +1,15 @@
+# O que é Ciência da Computação
+A ciência da computação é fundamentalmente sobre resolução de problemas.
+Podemos pensar na resolução de problemas como o processo de pegar algumas informações (detalhes sobre nosso problema - informações) e gerar alguns resultados (a solução para nosso problema - soluções). 
+Pense na seguinte imagem: 
+Input (a) -> | | -> Ouput (b)
+
+O ponto 'A' será a entrada de uma informação, esta informação será jogada ao nosso programa, onde
+há diversas instruções sobre o que fazer com a informação passada, e por fim, será retornado para nós um output, ou seja, uma resposta.
+
+
+
+
 ## Representação de dados
 Suponha que você esteja em uma faculdade.
 O professor precisa saber quantos alunos faltaram neste dia.
@@ -13,6 +25,10 @@ não sabe desta informação, então ele começa a contar.. Mas o sistema que el
 é algo um tanto quanto limitado.
 Veja bem, para representar 10 alunos, ele precisa levantar 10 dedos (5 dedos em cada mão), mas
 como seria possível representar 20 alunos com apenas duas mãos? 
-E neste momento entramos em números
+
+Aí que entra um sistema mais sofisticado, anotação númerica. Agora, esta informação usará de outro
+sistema para ser representada. 
+Ele irá escrever no quadro,
+
 
 
