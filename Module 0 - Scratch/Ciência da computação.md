@@ -8,4 +8,11 @@ Observe que isto nada mais é do que um sistema para representar uma informaçã
 Informação: há 7 alunos presentes;
 Sistema: há 7 dedos levantados, cada dedo representa um aluno.  
 
+Agora vamos escalar a coisa. E se nesta sala houvessem 350 alunos presentes, mas o professor
+não sabe desta informação, então ele começa a contar.. Mas o sistema que ele utiliza (suas mãos)
+é algo um tanto quanto limitado.
+Veja bem, para representar 10 alunos, ele precisa levantar 10 dedos (5 dedos em cada mão), mas
+como seria possível representar 20 alunos com apenas duas mãos? 
+E neste momento entramos em números
+
 
