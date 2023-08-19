@@ -18,18 +18,15 @@ Input: há 7 alunos presentes;
 Sistema: Há 30 alunos no total, ou seja, 30-7 = 23;
 Output: Há 23 alunos faltosos  
 
-
 Aqui entra um sistema mais avançado: A base decimal, ou base de 10. Essa base vai de 0-9 e serve de alicerce para outros números. Ela não precisa ultrapassar este valor, pois
 qualquer outro número após o '9' pode ser criado usando os digitos que estão entre 0 e 9.
 Veja bem, 10 é a junção do digito '1' + '0'. O número 420 é a junção de '4' + '2' + '0'. 
 
-Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
+<!-- Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
 Mas eles não usam da base decimal, e sim do binário.
 
 O binário se resume a '0' e '1'.
-E dão origem a palavra "bits", onde a mesma é derivada de "binary digits".
-
-
+E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". -->
 
 ### Como enxergamos os números
 Quando lemos isto: `123`, pensamos no número cento e vinte e três. </br> Mas no fim, são apenas digíos: 1 + 2 + 3 (um, dois e três); </br> 
