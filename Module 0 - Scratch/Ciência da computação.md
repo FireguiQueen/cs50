@@ -47,6 +47,9 @@ números maiores.
 
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
 
+> OU
+
+
 
 ### Como os computadores enxergam
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
