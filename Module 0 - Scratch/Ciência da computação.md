@@ -24,6 +24,13 @@ A base decimal é uma base que vai de 0 a 9. E ela não precisa ultrapassar este
 qualquer outro número após o '9' pode ser criado usando os digitos que estão entre 0 e 9.
 Veja bem, 10 é a junção do digito '1' + '0'. O número 420 é a junção de '4' + '2' + '0'. 
 
+Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
+Mas eles não usam da base decimal, e sim do binário.
+
+O binário se resume a '0' e '1'.
+E dão origem a palavra "bits", onde a mesma é derivada de "binary digits".
+
+### Por que binário?
 
 
 
