@@ -30,7 +30,7 @@ E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". -->
 
 </br>
 
-### Como enxergamos os números
+## Como enxergamos os números
 Quando lemos estes algarismos - `123`, pensamos no número cento e vinte e três. </br> Mas no fim, são apenas digítos: 1(00) + 2(0) + 3() (um, dois e três); </br> 
 Ao se juntarem, eles formam o número 'centro e vinte três', e é assim que nós, os seres humanos, fazemos para contar números além de 0-9.
 - __Uma unidade:__ um digíto `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`;
@@ -40,7 +40,7 @@ Ao se juntarem, eles formam o número 'centro e vinte três', e é assim que nó
 Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podememos formar
 números maiores.
 
-#### Na matemática isto pode ser representado de duas maneiras: 
+### Na matemática isto pode ser representado de duas maneiras: 
 
 > Podemos pensar que, para resultar unidades, basta multiplicar seu digíto por 1. Para resultar em dezenas, multiplicar seu digíto por 10. Para centenas, multiplica-lo por 100. Por exemplo:
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
@@ -50,7 +50,7 @@ números maiores.
 
 
 
-### Como os computadores enxergam
+## Como os computadores enxergam
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.![Uploading image 2.png…]()
 
 A diferença é que os computadores só tem acesso a dois números: 0 e 1
