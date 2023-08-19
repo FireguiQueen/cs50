@@ -40,6 +40,7 @@ Por exemplo.:
 
 Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podememos formar
 números maiores.
+![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
 
 
 https://lucid.app/lucidspark/900c0e22-2361-4456-8d18-55247676d7f0/edit?viewport_loc=-575%2C-1306%2C5760%2C2907%2C0_0&invitationId=inv_24a84437-0e8e-43b7-992c-7618a5ef5c95
