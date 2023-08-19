@@ -11,10 +11,11 @@ há diversas instruções sobre o que fazer com a informação passada, e por fi
 
 
 ## Representação de números
-Imagine que você esteja na faculdade e o professor precise saber quantos alunos faltaram. É simples: ele sabe quantos alunos estão no total, então só conta quantos estão na sala; os que faltaram são o que sobram. Naquele dia, 7 alunos estavam presentes; ele usou suas mãos para contar.
-Observe que isto nada mais é do que um sistema para representar uma informação.
-Informação: há 7 alunos presentes;
-Sistema: há 7 dedos levantados, cada dedo representa um aluno.  
+Sendo um professor de uma faculdade, podemos começar com a tarefa de marcar presença, contando o número de pessoas em uma sala. Com a nossa mão, podemos levantar um dedo de cada vez para representar cada pessoa, mas não poderemos contar muito alto. Este sistema é denominado unário, onde cada dígito representa um único valor de um.
+De certa forma, podemos pensar na seguinte coisa:
+Input: há 7 alunos presentes;
+Sistema: Há 30 alunos no total, ou seja, 30-7 = 23;
+Output: Há 23 alunos faltosos  
 
 Agora, escalando: o professor não sabe quantos alunos estão presentes, digamos 350, mas ele só pode usar as mãos para contar até 10 alunos. Como representar 20 com duas mãos?
 O sistema que ele utiliza não o permite fazer esta contagem.
