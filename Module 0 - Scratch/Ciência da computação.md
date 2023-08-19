@@ -55,12 +55,11 @@ Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente id�
 A diferença é que os computadores só tem acesso a dois números: 0 e 1.
 Enquanto nós, temos acesso a 10 digítos (0-9), e eles (a base decimal) podem formar infinitos outros resultados. 
 
-* Enquanto nós seguimos esta coluna: 
-![image](https://github.com/FireguiQueen/CC50/assets/98475125/c087de76-b301-4f2d-9ae4-4c6988358fe9)
+* Enquanto nós seguimos esta coluna
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/6f0a983d-9674-4378-857c-24dc1469336c)
 
 
-* Os computadores seguem esta:
+* Os computadores seguem esta
 
 
 
