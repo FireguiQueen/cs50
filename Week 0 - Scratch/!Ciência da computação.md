@@ -1,7 +1,6 @@
 # O que é Ciência da Computação
 A ciência da computação é fundamentalmente sobre resolução de problemas.
-Podemos pensar na resolução de problemas como o processo de pegar algumas informações (detalhes sobre nosso problema - informações) e gerar alguns resultados (a solução para nosso problema - soluções). 
-Pense na seguinte imagem: 
+Podemos pensar na resolução de problemas como o processo de pegar algumas informações (detalhes sobre nosso problema) e gerar alguns resultados (a solução para nosso problema). 
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
 
