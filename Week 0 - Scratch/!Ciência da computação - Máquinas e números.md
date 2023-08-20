@@ -89,8 +89,8 @@ Mas, e se ao invés disso, cada posição de lampada representasse um número?
 - Terceira posição 3: 4 unidades
 > Com este metódo, podemos obter 7 unidades, enquanto no outro, apenas 3 unidades.
 
-
-E é desta forma que o computador trabalha. Apesar do binário ser "limitado" (pois há somente dois dígitos)
+E é desta forma que o computador trabalha. Apesar do binário ser "limitado" (pois há somente dois dígitos), é possível criar infinitos outros valores. No fim das contas, o que há nos computadores são pequenos interruptores (conhecidos como transístor), milhões deles, e que podem ter o status de desligado ou ligado, 0 ou 1.
+E bem, se você tem a capacidade de desligá-los e ligá-los, é possível criar uma sequência de dígitos de zeros e uns. Afinal, 0 é 'desligado' e 1 é 'ligado'. 
 
 
 
