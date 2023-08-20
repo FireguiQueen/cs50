@@ -138,6 +138,7 @@ Se '1' significa 'ligado', significa que, ao colocar o '1' em determinada casa, 
 
 ![Valores binarios](https://github.com/FireguiQueen/CC50/assets/98475125/10620426-633c-48b8-84c1-2e5331b31b75)
 
+![Valores binarios](https://github.com/FireguiQueen/CC50/assets/98475125/736efe04-d419-4ace-9d14-83132d0a73a4)
 
 
 #### Resumo
