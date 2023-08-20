@@ -59,35 +59,34 @@ Isto é, se um valor possui 4 casas, `3.150` por exemplo, iremos começar a cont
 
 ## Sistema Binário e a Eletricidade
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
-A diferença é que os computadores só tem acesso a dois dígitos: 0 e 1, ou seja, a base de dois. 
+A diferença é que os computadores só tem acesso a dois bits: 0 e 1, em outras palavras, só tem acesso a dois dígitos binários. 
+> Bits é derivado de "binary digits". Dígitos binários são 0 e 1. 
 
-Mas qual o motivo das máquinas trabalharem apenas com o binário? 
-A resposta para esta pergunta está atrelada a eletrecidade. 
-
-Antes, vamos pensar um pouco sobre como nós, os humanos, interpretamos algo.
+Mas qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?
+Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretamos informações.
 
 1. Entrada de uma informação (seja ouvindo ou lendo)
 2. Tratamento desta informação (pensamos como podemos resolver este problema)
 3. Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)
 
-Já deu pra perceber que o nosso cerébro facilita muito as coisas. O nosso 'input' pode ser captado de diversas maneiras. Exemplos:
+Certamente, percebemos que nosso cérebro simplifica muito as coisas. O nosso 'input' (nossa entrada de informação) pode ser captada de diversas maneiras. Exemplos:
 > Pessoa 'a' pergunta a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus ouvidos.
 
 > Pessoa 'a' escreve uma carta perguntando a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus olhos.
 
-Mas afinal, o que os computadores usam como INPUT? Na verdade, apenas eletricidade.
-Algo que todos nós fazemos ao usar um aparelho eletrônico é certificarmos que ele está plugado na tomada, ou que haja energia em sua bateria/pilha.
-E através desta eletricidade, passamos a representar informações com ela. Um aparelho que recebe eletricidade possui dois estados: desligado / ligado. E podemos chamar este comportamento de desligar/ligar de binário, 0 e 1.
+No entanto, o que os computadores utilizam como INPUT? Na realidade, apenas eletricidade.
+Algo que todos nós fazemos ao utilizar um dispositivo eletrônico é garantir que esteja conectado à tomada ou que tenha energia na sua bateria/pilha.
+Através dessa eletricidade, começamos a representar informações. Um dispositivo que recebe eletricidade possui dois estados: desligado/ligado. Esse comportamento de ligar/desligar pode ser denominado de forma binária, 0 e 1.
 
-Se no fim das contas os computadores só possuem um INPUT físico (eletricidade), vamos usar isto para armazenar informações.
+Dado que os computadores possuem basicamente um único tipo de ENTRADA física (eletricidade), podemos aproveitar isso para armazenar informações.
 
-Pense em três lampadas de luz. Se utilizarmos um método convencional de contagem, teremos 3 como resultado, afinal, cada lampada representa uma unidade.
+Pense em três lâmpadas de luz. Se seguirmos um método convencional de contagem, teremos 3 como resultado, já que cada lâmpada representa uma unidade.
 
-Mas, e se ao invés disso, cada posição de lampada representasse um número?
-- Primeira posição: 1 unidade
-- Segunda posição: 2 unidades
-- Terceira posição 3: 4 unidades
-> Com este metódo, podemos obter 7 unidades, enquanto no outro, apenas 3 unidades.
+Porém, e se, ao invés disso, atribuirmos a cada posição das lâmpadas uma potência da base 2? 
+- Primeira posição:   2<sup>0</sup> (1)
+- Segunda posição:    2¹ (2)
+- Terceira posição 3: 2² (4)
+> Com este metódo, podemos obter 7 unidades ao total, enquanto no outro, apenas 3 unidades.
 
 E é desta forma que o computador trabalha. Apesar do binário ser "limitado" (pois há somente dois dígitos), é possível criar infinitos outros valores. No fim das contas, o que há nos computadores são pequenos interruptores (conhecidos como transístor), milhões deles, e que podem ter o status de desligado ou ligado, 0 ou 1.
 E bem, se você tem a capacidade de desligá-los e ligá-los, é possível criar uma sequência de dígitos de zeros e uns. Afinal, 0 é 'desligado' e 1 é 'ligado'. 
@@ -134,7 +133,7 @@ A primeira posição é a 2<sup>0</sup>, a segunda é a 2¹, a terceira 2² e as
 
 Conforme já mencionado previamente, há uma razão especial pela qual as máquinas usam o sistema binário. E com essa coluna abaixo, conseguimos entender como números maiores que zero e um são formados.
 Se '1' representa 'ligado', isso quer dizer que, ao colocar o '1' em uma determinada posição, estamos ativando o valor correspondente. Na imagem, os números em laranja representam os valores que foram ativados devido à presença de energia.
-Ao somarmos todos os números em laranja, obtemos 68 como resultado, e é dessa maneira que os valores em binário são construídos.
+Ao somarmos todos os números em laranja, obtemos 68 como resultado, e é dessa maneira que os valores em binário são construídos, uma cadeia de zeros e uns.
 
 ![Valores binarios](https://github.com/FireguiQueen/CC50/assets/98475125/736efe04-d419-4ace-9d14-83132d0a73a4)
 
