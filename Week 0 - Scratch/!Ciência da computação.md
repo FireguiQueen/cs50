@@ -86,8 +86,14 @@ Em cada casa deste valor, pode haver apenas um número entre 0 até 9, logo, __1
 Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
 Mas eles não usam da base decimal, e sim da base de dois: `2¹`, `2²`, `2³`.
 
-A segunda diferença é como esta colunada é tratada por humanos e máquinas. Nesta imagem <a href="#img1">[...]</a> podemos ver como nós criamos valores além de 0-9 usando a base de 10. Explicando de maneira curta e grassa, o valor desta imagem é 250. terceira casa usa a base de 10 + o expoente de 2 (10² -> resultando no número 100). 
-Com este resultado, pegamos o número que está na terceira casa e multiplicamos pelo nosso resultado da potenciação. Então obtivemos: `10² = 100 ;  100 * 2 = 200`. 
+A segunda diferença está na forma como essa coluna é tratada por seres humanos e por máquinas. Na ilustração <a href="#img1">[...]</a>, podemos observar como criamos valores além dos digítos de 0 a 9 utilizando a base decimal. De forma simplificada, a terceira posição deste valor (o número 2) utiliza a base decimal 10, elevada à potência de 2 (10²). Ao resolvermos o cálculo de 10², obtemos o resultado de 100. 
+Em seguida, tomamos o dígito localizado na terceira posição e o multiplicamos pelo resultado. Portanto, obtemos: `10² = 100 ; 100 * 2 = 200`.
+
+Agora, resta apenas a segunda posição, que está associada às dezenas, ou seja, 10¹.
+Então teremos: `10¹ = 10 ; 10 * 5 = 50`.
+
+Para calcular o valor final, o procedimento é bastante simples: basta somar os resultados (200 + 50). 
+
 
 #### Resumo
 Fazemos o uso do número '10' pois é o total de números que há em nossa base. Há 10 possíveis resultados para cada casa numérica. 
