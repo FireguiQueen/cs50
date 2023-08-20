@@ -93,11 +93,13 @@ Para calcular o valor final, o procedimento é bastante simples: basta somar os 
 Já o computador, como dito anteriormente, faz uso da base de dois, como podemos ver nesta imagem <a href="#img2">[...]</a>. Aqui, a maneira de compreendermos esta coluna muda um pouco. 
 Cada _casa_ de um digíto representa um número, como podemos ver nesta imagem: 
 
+![Valores binarios](https://github.com/FireguiQueen/CC50/assets/98475125/10620426-633c-48b8-84c1-2e5331b31b75)
 
 
 
 #### Resumo
 Fazemos o uso do número '10' pois é o total de números que há em nossa base. Há 10 possíveis resultados para cada casa numérica. 
+
 
 
 
