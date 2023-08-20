@@ -62,6 +62,9 @@ Enquanto nós, temos acesso a 10 digítos (0-9), e eles (a base decimal) podem f
 
 * Os computadores seguem esta
 
+* ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
+
+
 
 
 
