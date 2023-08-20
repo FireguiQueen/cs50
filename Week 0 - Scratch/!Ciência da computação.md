@@ -20,13 +20,8 @@ Output: Há 23 alunos faltosos
 
 Aqui entra um sistema mais avançado: A base decimal, ou base de 10. Essa base vai de 0-9 e serve de alicerce para outros números. Ela não precisa ultrapassar este valor, pois
 qualquer outro número após o '9' pode ser criado usando os digitos que estão entre 0 e 9.
-Veja bem, 10 é a junção do digito '1' + '0'. O número 420 é a junção de '4' + '2' + '0'. 
 
-<!-- Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
-Mas eles não usam da base decimal, e sim do binário.
-
-O binário se resume a '0' e '1'.
-E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". -->
+<!-- E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". --> 
 
 </br>
 
@@ -60,7 +55,7 @@ Isto é, se o seu valor possui 4 casas por exemplo, iremos começar a contagem d
 ## Como os computadores enxergam
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
 A diferença é que os computadores só tem acesso a dois digítos (base de dois), ou seja, dois números: 0 e 1. </br>
-Enquanto nós, temos acesso a 10 digítos (0-9), e esta base (base de dez) pode formar infinitos outros resultados. 
+Enquanto nós, temos acesso a 10 digítos (0-9), e esta base (base de dez) pode formar infinitos outros valores. 
 
 * Enquanto nós seguimos esta coluna
 > ..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
@@ -68,7 +63,7 @@ Enquanto nós, temos acesso a 10 digítos (0-9), e esta base (base de dez) pode 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/6f0a983d-9674-4378-857c-24dc1469336c)
 
 
-* Os computadores seguem esta
+* Os computadores seguem esta <a name="img2"> </a>
 > ..10 <sup>8</sup> &nbsp; 2 <sup>4</sup>&nbsp; 2 <sup>2</sup> &nbsp; 2 <sup>1</sup>&nbsp; 2 <sup>0</sup>
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
@@ -93,6 +88,11 @@ Agora, resta apenas a segunda posição. Nesta posição, encontramos o número 
 Então teremos: `10¹ = 10 ; 10 * 5 = 50`.
 
 Para calcular o valor final, o procedimento é bastante simples: basta somar os resultados (200 + 50). 
+
+
+Já o computador, como dito anteriormente, faz uso da base de dois, como podemos ver nesta imagem <a href="#img2">[...]</a>
+
+
 
 
 #### Resumo
