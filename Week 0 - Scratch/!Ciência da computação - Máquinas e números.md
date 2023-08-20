@@ -70,8 +70,9 @@ Antes, vamos pensar um pouco sobre como nós, os humanos, interpretamos algo.
 2. Tratamento desta informação (pensamos como podemos resolver este problema)
 3. Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)
 
-Já deu pra perceber que o nosso cerébro facilita muito as coisas. O nosso 'input' pode ser captado de diversas maneiras. 
-> Exemplo: Pessoa 'a' pergunta a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus ouvidos. </br>
+Já deu pra perceber que o nosso cerébro facilita muito as coisas. O nosso 'input' pode ser captado de diversas maneiras. Exemplos:
+> Pessoa 'a' pergunta a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus ouvidos.
+
 > Pessoa 'a' escreve uma carta perguntando a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus olhos.
 
 Mas em relação as máquinas, temos uma situação um pouco mais complicada.
