@@ -81,6 +81,14 @@ E através desta eletricidade, passamos a representar informações com ela. Um 
 
 Se no fim das contas os computadores só possuem um INPUT físico (eletricidade), vamos usar isto para armazenar informações.
 
+Pense em três lampadas de luz. Se utilizarmos um método convencional de contagem, teremos 3 como resultado, afinal, cada lampada representa uma unidade.
+
+Mas, e se ao invés disso, cada posição de lampada representasse um número?
+- Primeira posição: 1 unidade
+- Segunda posição: 2 unidades
+- Terceira posição 3: 4 unidades
+> Com este metódo, podemos obter 7 unidades, um número bem maior do que 3 
+
 
 
 
