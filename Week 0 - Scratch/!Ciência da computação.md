@@ -89,7 +89,7 @@ Mas eles não usam da base decimal, e sim da base de dois: `2¹`, `2²`, `2³`.
 A segunda diferença está na forma como essa coluna é tratada por seres humanos e por máquinas. Na ilustração <a href="#img1">[...]</a>, podemos observar como criamos valores além dos digítos de 0 a 9 utilizando a base decimal. De forma simplificada, a terceira posição deste valor (o número 2) utiliza a base decimal 10, elevada à potência de 2 (10²). Ao resolvermos o cálculo de 10², obtemos o resultado de 100. 
 Em seguida, tomamos o dígito localizado na terceira posição e o multiplicamos pelo resultado. Portanto, obtemos: `10² = 100 ; 100 * 2 = 200`.
 
-Agora, resta apenas a segunda posição, que está associada às dezenas, ou seja, 10¹.
+Agora, resta apenas a segunda posição. Nesta posição, encontramos o número '5', e ela está associada às dezenas, ou seja, 10¹.
 Então teremos: `10¹ = 10 ; 10 * 5 = 50`.
 
 Para calcular o valor final, o procedimento é bastante simples: basta somar os resultados (200 + 50). 
