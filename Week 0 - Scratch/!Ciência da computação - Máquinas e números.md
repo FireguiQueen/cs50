@@ -75,7 +75,12 @@ Já deu pra perceber que o nosso cerébro facilita muito as coisas. O nosso 'inp
 
 > Pessoa 'a' escreve uma carta perguntando a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus olhos.
 
-Mas em relação as máquinas, temos uma situação um pouco mais complicada.
+Mas afinal, o que os computadores usam como INPUT? Na verdade, apenas eletricidade.
+Algo que todos nós fazemos ao usar um aparelho eletrônico é certificarmos que ele está plugado na tomada, ou que haja energia em sua bateria/pilha.
+E através desta eletricidade, passamos a representar informações com ela. Um aparelho que recebe eletricidade possui dois estados: desligado / ligado. E podemos chamar este comportamento de desligar/ligar de binário, 0 e 1.
+
+Se no fim das contas os computadores só possuem um INPUT físico (eletricidade), vamos usar isto para armazenar informações.
+
 
 
 
