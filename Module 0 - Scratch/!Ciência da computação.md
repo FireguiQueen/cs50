@@ -41,7 +41,9 @@ Ao se juntarem, eles formam o número 'cento e vinte três', e é assim que nós
 - __Uma dezena:__ dois digítos juntos `(10, 20, 30.. 90)`
 - __Uma centena:__ três digítos juntos `(100, 200, 300.. 900)` 
 
-Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são digítos separados que foram colocados juntos. E esta junção gera 'n' casas. E cada casa de um digíto representa uma potência de dez. A primeira casa (a casa das unidades) é 10^0, a segunda casa (dezenas) é 10¹, a terceira casa (centenas) é 10<sup>2</sup>, a quarta casa (milhares) é 10<sup>4</sup>
+Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são digítos da base decimal que foram colocados juntos. E esta junção gera 'n' casas. Cada casa de um digíto representa uma potência de dez. A primeira casa (a casa das unidades) é 10<sup>0</sup>, a segunda casa (dezenas) é 10¹, a terceira casa (centenas) é 10<sup>2</sup>, a quarta casa (milhares) é 10<sup>4</sup>.
+Isto é, se o seu valor possui 4 casas por exemplo, iremos começar a contagem da esquerda para a direita. Então vamos pensar o valor de 4.150. E ele pode ser traduzido desta forma:
+- 4.000 = 10<sup>4</sup>
 
 ### Na matemática, isso pode ser representado de duas maneiras: 
 
@@ -59,7 +61,7 @@ A diferença é que os computadores só tem acesso a dois números: 0 e 1.
 Enquanto nós, temos acesso a 10 digítos (0-9), e eles (a base decimal ou base dez) podem formar infinitos outros resultados. 
 
 * Enquanto nós seguimos esta coluna
-> ..10 <sup>8</sup> &nbsp; 10 <sup>4</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
+> ..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/6f0a983d-9674-4378-857c-24dc1469336c)
 
