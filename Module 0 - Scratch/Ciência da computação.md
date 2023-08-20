@@ -2,10 +2,11 @@
 A ciência da computação é fundamentalmente sobre resolução de problemas.
 Podemos pensar na resolução de problemas como o processo de pegar algumas informações (detalhes sobre nosso problema - informações) e gerar alguns resultados (a solução para nosso problema - soluções). 
 Pense na seguinte imagem: 
-Input (a) -> | | -> Ouput (b)
 
-O ponto 'A' será a entrada de uma informação, esta informação será jogada ao nosso programa, onde
-há diversas instruções sobre o que fazer com a informação passada, e por fim, será retornado para nós um output, ou seja, uma resposta.
+![image](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
+
+Input é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa, onde
+há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um output, ou seja, uma resposta.
 
 </br>
 </br>
