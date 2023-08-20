@@ -91,7 +91,8 @@ Para calcular o valor final, o procedimento é bastante simples: basta somar os 
 
 
 Já o computador, como dito anteriormente, faz uso da base de dois, como podemos ver nesta imagem <a href="#img2">[...]</a>. Aqui, a maneira de compreendermos esta coluna muda um pouco. 
-Como podemos ver nesta imagem, casa _casa_ de um digíto representa um número.
+Como podemos ver nesta imagem, casa _casa_ de um digíto representa uma potência de base 2.
+A primeira casa é a 2<sup>0</sup>, a segunda é a 2¹, a terceira 2² e assim respectivamente.
 
 ![Valores binarios](https://github.com/FireguiQueen/CC50/assets/98475125/10620426-633c-48b8-84c1-2e5331b31b75)
 
