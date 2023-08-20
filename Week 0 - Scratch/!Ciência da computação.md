@@ -32,14 +32,13 @@ E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". -->
 </br>
 
 ## Como enxergamos os números
-Ao ver estes algarismos - `123`, pensamos no número cento e vinte e três. </br>Isto ocorre pois
-o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
+Quando olhamos para o valor de `123` pensamos no número cento e vinte e três. </br>Isto ocorre poiso 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
 Portanto, `123` é `100 × 1` + `10 × 2` + `1 × 3` = `100 + 20 + 3` = `123`. </br>
-Cada casa de um dígito representa uma potência de dez, pois há dez dígitos possíveis para cada casa.  
-Ao se juntarem, eles formam o número 'cento e vinte três', e é assim que nós, os seres humanos, fazemos para contar números além de 0-9.
-- __Uma unidade:__ um digíto `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`;
-- __Uma dezena:__ dois digítos juntos `(10, 20, 30.. 90)`
-- __Uma centena:__ três digítos juntos `(100, 200, 300.. 900)` 
+Cada casa deste valor representa uma potência de dez, pois há dez dígitos possíveis para cada casa. E quando juntamos o resultado do digíto da casa vezes o resultado da potência, é formado o número 'cento e vinte três'. A ideia é que cada posição à esquerda de um número em notação decimal é 10 vezes maior do que a posição à direita dela.
+- __Unidade:__ 3. `(10^0 * 3 = 3)`;
+- __Dezena:__ 2.  `(10¹  * 2 = 20)`
+- __Centena:__ 1  `(10²  * 1 = 100)`
+- __RESULTADO = 100 + 20 + 3__  
 
 Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são digítos da base decimal que foram colocados juntos. E esta junção gera 'n' casas. Cada casa de um digíto representa uma potência de dez. A primeira casa (a casa das unidades) é 10<sup>0</sup>, a segunda casa (dezenas) é 10¹, a terceira casa (centenas) é 10<sup>2</sup>, a quarta casa (unidade de milhar) é 10<sup>3</sup>.
 Isto é, se o seu valor possui 4 casas por exemplo, iremos começar a contagem da esquerda para a direita. Então vamos pensar o valor de `4.150`. E ele pode ser traduzido desta forma:
@@ -88,7 +87,9 @@ Em cada casa deste valor pode haver apenas um número entre 0 até 9, logo, __10
 Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
 Mas eles não usam da base decimal, e sim da base de dois (binário), por exemplo: `2¹`, `2²`, `2³`.
 
-A segunda diferença é como esta colunada é tratada por humanos e máquinas. Nesta imagem <a href="#img1">[...]</a> podemos ver como nós criamos 
+A segunda diferença é como esta colunada é tratada por humanos e máquinas. Nesta imagem <a href="#img1">[...]</a> podemos ver como nós criamos valores além de 0-9 usando a base de 10. 
+A terceira casa usa a base de 10 + o expoente de 2 (10² -> resultando no número 100). 
+Com este resultado, pegamos o número que está na terceira casa e multiplicamos pelo nosso resultado da potenciação. Então obtivemos: `10² = 100 ;  100 * 2 = 200`. 
 
 #### Resumo
 Fazemos o uso do número '10' pois é o total de números que há em nossa base. Há 10 possíveis resultados para cada casa numérica. 
