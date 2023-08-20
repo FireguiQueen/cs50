@@ -53,7 +53,7 @@ Isto é, se o seu valor possui 4 casas por exemplo, iremos começar a contagem d
 
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
 
-> Também podemos ver o mesmo resultado, mas usando potênciação desta vez. A maneira anterior é exatamente igual a esta, porém, ela faz uso dos resultados das potênciações de maneira direta. Mas no fim é a mesma coisa. 
+> Também podemos ver o mesmo resultado, mas usando potênciação desta vez. A maneira anterior é exatamente igual a esta, porém, ela faz uso dos resultados das potênciações de maneira direta. Mas no fim é a mesma coisa. <a >
 
 ![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76) 
 
@@ -75,8 +75,8 @@ Enquanto nós, temos acesso a 10 digítos (0-9), e esta base (base de dez) pode 
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
 
-### Diferenças entre humanos e máquinas na forma de representar números
-Há duas principais diferenças entre a nossa base (base decimal) e a base dos computadores (base de dois). A primeira é que nós utilizamos do número 10 seguido a um expoente, por exemplo: `10²`.
+## Diferenças entre humanos e máquinas na forma de representar números
+Há duas principais diferenças entre a nossa base (base decimal) e a base dos computadores (base de dois). A primeira é que nós utilizamos do número 10 seguido a um expoente, por exemplo: `10¹` `10²`, `10³`.
 Pense no número quinhetos e dez (510). Neste número há 3 casas: 
 - Centenas: 5
 - Dezenas: 1
@@ -85,7 +85,10 @@ Pense no número quinhetos e dez (510). Neste número há 3 casas:
 Em cada casa deste valor pode haver apenas um número entre 0 até 9, logo, __10__ diferentes digítos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
 > _Caso tenha ficado confuso, levante suas duas mãos e comece contar de 0 até 9. Você irá levantar um dedo por número, e irá começar levantado o dedo para o número 0, até chegar no 9. Você verá que 10 dedos foram levantados, pois há 10 números entre 0 e 9._
 
-Referindo-me ainda a nossa primeira diferença, vimos o __motivo__ de nós usarmos a base de dez. Agora, vamos falar um pouco sobre as máquinas. 
+Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
+Mas eles não usam da base decimal, e sim da base de dois (binário), por exemplo: `2¹`, `2²`, `2³`.
+
+A segunda diferença é como esta colunada é tratada por humanos e máquinas. 
 
 #### Resumo
 Fazemos o uso do número '10' pois é o total de números que há em nossa base. Há 10 possíveis resultados para cada casa numérica. 
