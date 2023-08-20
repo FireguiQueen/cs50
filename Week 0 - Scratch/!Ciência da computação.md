@@ -11,18 +11,19 @@ há diversas instruções em relação ao tratamento desta informação. Por fim
 </br>
 
 
-## Representação de números
-Sendo um professor de uma faculdade, podemos começar com a tarefa de marcar presença, contando o número de pessoas em uma sala. Com a nossa mão, podemos levantar um dedo de cada vez para representar cada pessoa, mas não poderemos contar muito alto. Este sistema é denominado unário, onde cada dígito representa um único valor de um.
-De certa forma, podemos pensar na seguinte coisa:
-Input: há 7 alunos presentes;
-Sistema: Há 30 alunos no total, ou seja, 30-7 = 23;
-Output: Há 23 alunos faltosos  
+# Representação de números
+Imagina-se sendo um professor lesionando uma aula, ao final dela, você resolve ver quantos alunos estão presentes. Para isso, você pode levantar um dedo de cada vez para representar cada pessoa, mas não poderá contar muito alto. Este sistema é denominado 'unário', onde cada dígito representa um único valor de um.
 
-Aqui entra um sistema mais avançado: A base decimal, ou base de 10. Essa base vai de 0-9 e serve de alicerce para outros números. Ela não precisa ultrapassar este valor, pois
-qualquer outro número após o '9' pode ser criado usando os digitos que estão entre 0 e 9.
+Mas existe um sistema mais eficiente do que este para representar os alunos.
+Este sistema é denominado decimal, ou base 10, uma vez que existem dez valores diferentes que um dígito pode representar. Então utilizaremos números para representar os estudantes. 
+Essa base vai de 0-9 e serve de alicerce para outros números. Então mesmo que haja mais de 2000 alunos presentes, não haverá limitação nenhuma, pois qualquer outro número pode ser criado usando os digitos que estão entre 0 e 9.
 
-<!-- E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". --> 
+### E esta ação também pode ser traduzida num contexto de 'sistema'
+Entrada (input): _há 7 alunos presentes e 30 ao todo_
+Sistema (tratando a informação): _há 30 alunos no total, ou seja, 30-7 = 23_
+Saída (output): _há 23 alunos faltosos_
 
+</br>
 </br>
 
 ## Como enxergamos os números
@@ -91,7 +92,7 @@ Então teremos: `10¹ = 10 ; 10 * 5 = 50`.
 Para calcular o valor final, o procedimento é bastante simples: basta somar os resultados (200 + 50). 
 
 
-Já o computador, como dito anteriormente, faz uso da base de dois, como podemos ver nesta imagem <a href="#img2">[...]</a>. Aqui, a maneira de compreendermos esta coluna muda um pouco. 
+Já as máquinas faze uso da base de dois, como podemos ver nesta imagem <a href="#img2">[...]</a>. Aqui, a maneira de compreendermos esta coluna muda um pouco. 
 Como podemos ver nesta imagem, casa _casa_ de um digíto representa uma potência de base 2.
 A primeira casa é a 2<sup>0</sup>, a segunda é a 2¹, a terceira 2² e assim respectivamente.
 
