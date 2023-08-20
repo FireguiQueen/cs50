@@ -51,6 +51,7 @@ Isto é, se o seu valor possui 4 casas por exemplo, iremos começar a contagem d
 ![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76) 
 
 
+</br>
 
 ## Como os computadores enxergam
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.

@@ -20,3 +20,7 @@
 
 ### Que número decimal o valor binário de `110010` representa?
 > Resposta: 50
+
+### Quao o valor máximo que podemos chegar com 5 casas de um digíto (00000)?
+> Resposta: 31
+
