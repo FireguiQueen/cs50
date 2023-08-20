@@ -14,6 +14,9 @@
 - D: _150_ 
 > Resposta: 10010110
 
+- E: _214_
+> Resposta: 11010110
+
 
 ### Que número decimal o valor binário de `110010` representa?
 > Resposta: 50

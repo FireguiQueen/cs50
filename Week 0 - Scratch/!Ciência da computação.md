@@ -50,17 +50,19 @@ Isto é, se o seu valor possui 4 casas por exemplo, iremos começar a contagem d
 ### Na matemática, isso pode ser representado de duas maneiras: 
 
 > Para resultar unidades, basta multiplicar seu digíto por 1. Para resultar em dezenas, multiplicar seu digíto por 10. Para centenas, multiplica-lo por 100. 
+
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
 
 > Também podemos ver o mesmo resultado, mas usando potênciação desta vez. A maneira anterior é exatamente igual a esta, porém, ela faz uso dos resultados das potênciações de maneira direta. Mas no fim é a mesma coisa. 
+
 ![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76) 
 
 
 
 ## Como os computadores enxergam
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
-A diferença é que os computadores só tem acesso a dois números: 0 e 1.
-Enquanto nós, temos acesso a 10 digítos (0-9), e eles (a base decimal ou base dez) podem formar infinitos outros resultados. 
+A diferença é que os computadores só tem acesso a dois digítos (base de dois), ou seja, dois números: 0 e 1. </br>
+Enquanto nós, temos acesso a 10 digítos (0-9), e esta base (base de dez) pode formar infinitos outros resultados. 
 
 * Enquanto nós seguimos esta coluna
 > ..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
@@ -69,6 +71,7 @@ Enquanto nós, temos acesso a 10 digítos (0-9), e eles (a base decimal ou base 
 
 
 * Os computadores seguem esta
+> ..10 <sup>8</sup> &nbsp; 2 <sup>4</sup>&nbsp; 2 <sup>2</sup> &nbsp; 2 <sup>1</sup>&nbsp; 2 <sup>0</sup>
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
 
