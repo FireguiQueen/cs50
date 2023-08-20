@@ -41,8 +41,7 @@ Ao se juntarem, eles formam o número 'cento e vinte três', e é assim que nós
 - __Uma dezena:__ dois digítos juntos `(10, 20, 30.. 90)`
 - __Uma centena:__ três digítos juntos `(100, 200, 300.. 900)` 
 
-Com isso, concluímos que, através da junção de digitos únicos (0, 1, 2, 3... 9) podememos formar
-números maiores.
+Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são digítos separados que foram colocados juntos. E esta junção gera 'n' casas. E cada casa de um digíto representa uma potência de dez. A primeira casa (a casa das unidades) é 10, a segunda casa (dezenas) é 10²
 
 ### Na matemática, isso pode ser representado de duas maneiras: 
 
