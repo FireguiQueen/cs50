@@ -90,7 +90,8 @@ Então teremos: `10¹ = 10 ; 10 * 5 = 50`.
 Para calcular o valor final, o procedimento é bastante simples: basta somar os resultados (200 + 50). 
 
 
-Já o computador, como dito anteriormente, faz uso da base de dois, como podemos ver nesta imagem <a href="#img2">[...]</a>
+Já o computador, como dito anteriormente, faz uso da base de dois, como podemos ver nesta imagem <a href="#img2">[...]</a>. Aqui, a maneira de compreendermos esta coluna muda um pouco. 
+Cada _casa_ de um digíto representa um número, como podemos ver nesta imagem: 
 
 
 
