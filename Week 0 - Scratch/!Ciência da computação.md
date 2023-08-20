@@ -36,7 +36,7 @@ Cada casa deste valor representa uma potência de dez, pois há dez dígitos pos
 - __Centena:__ _1  `(10²  * 1 = 100)`_
 - __RESULTADO = 100 + 20 + 3__  
 
-Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são digítos da base decimal que foram colocados juntos. E esta junção gera 'n' casas. Cada casa deste valor representa uma potência de dez. A primeira casa (a casa das unidades) é 10<sup>0</sup>, a segunda casa (dezenas) é 10¹, a terceira casa (centenas) é 10<sup>2</sup>, a quarta casa (unidade de milhar) é 10<sup>3</sup>.
+Chegamos à conclusão de que qualquer valor, seja ele 123, 240 ou qualquer outro, na verdade, consiste em dígitos da base decimal que foram agrupados. E esta junção de dígitos gera 'n' casas. Cada casa deste valor representa uma potência de dez. A primeira casa (a casa das unidades) é 10<sup>0</sup>, a segunda casa (dezenas) é 10¹, a terceira casa (centenas) é 10<sup>2</sup>, a quarta casa (unidade de milhar) é 10<sup>3</sup>.
 
 Isto é, se um valor possui 4 casas, `3.150` por exemplo, iremos começar a contagem da esquerda para a direita. Se são 4 casas, temos: unidade de milhar; centenas; dezenas & unidades. E este valor pode ser traduzido desta forma.:
 - 3 -> Quarta casa   = 10<sup>3</sup> (10 x 10 x 10) * 3
