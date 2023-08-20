@@ -35,9 +35,9 @@ E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". -->
 Quando olhamos para o valor de `123` pensamos no número cento e vinte e três. </br>Isto ocorre poiso 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
 Portanto, `123` é `100 × 1` + `10 × 2` + `1 × 3` = `100 + 20 + 3` = `123`. </br>
 Cada casa deste valor representa uma potência de dez, pois há dez dígitos possíveis para cada casa. E quando juntamos o resultado do digíto da casa vezes o resultado da potência, é formado o número 'cento e vinte três'. A ideia é que cada posição à esquerda de um número em notação decimal é 10 vezes maior do que a posição à direita dela.
-- __Unidade:__ 3. `(10^0 * 3 = 3)`;
-- __Dezena:__ 2.  `(10¹  * 2 = 20)`
-- __Centena:__ 1  `(10²  * 1 = 100)`
+- __Unidade:__ _3 `(10^0 * 3 = 3)`_;
+- __Dezena:__ _2  `(10¹  * 2 = 20)`_
+- __Centena:__ _1  `(10²  * 1 = 100)`_
 - __RESULTADO = 100 + 20 + 3__  
 
 Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são digítos da base decimal que foram colocados juntos. E esta junção gera 'n' casas. Cada casa de um digíto representa uma potência de dez. A primeira casa (a casa das unidades) é 10<sup>0</sup>, a segunda casa (dezenas) é 10¹, a terceira casa (centenas) é 10<sup>2</sup>, a quarta casa (unidade de milhar) é 10<sup>3</sup>.
