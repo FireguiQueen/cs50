@@ -45,7 +45,7 @@ Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são
 Isto é, se o seu valor possui 4 casas por exemplo, iremos começar a contagem da esquerda para a direita. Então vamos pensar o valor de `4.150`. E ele pode ser traduzido desta forma:
 - 4.000 = 10<sup>3</sup> (10 x 10 x 10) * 4 
 - 100 = 10<sup>2</sup> (10 x 10) * 1
-- 50 = 10<sup>1</sup> (10)
+- 50 = 10<sup>1</sup> (10) * 5
 
 ### Na matemática, isso pode ser representado de duas maneiras: 
 
