@@ -129,12 +129,12 @@ Para calcular o valor final, o procedimento é bastante simples: basta somar os 
 
 
 Com as máquinas, a maneira de compreendermos esta coluna muda um pouco. 
-Como podemos ver nesta imagem, cada _casa_(ou posição) de um digíto representa uma potência de base 2.
-A primeira casa é a 2<sup>0</sup>, a segunda é a 2¹, a terceira 2² e assim respectivamente.
+Como podemos ver nesta imagem, cada _casa_(ou posição) representa uma potência de base 2.
+A primeira posição é a 2<sup>0</sup>, a segunda é a 2¹, a terceira 2² e assim respectivamente.
 
-Como já foi dito anteriormente, há um motivo especial das máquinas utilizarem o binário.
-E com esta coluna, podemos ver como números maiores que '0' e '1' são formados.
-Se '1' significa 'ligado', significa que, ao colocar o '1' em determinada casa, estamos ligando um valor
+Conforme já mencionado previamente, há uma razão especial pela qual as máquinas usam o sistema binário. E com essa coluna abaixo, conseguimos entender como números maiores que zero e um são formados.
+Se '1' representa 'ligado', isso quer dizer que, ao colocar o '1' em uma determinada posição, estamos ativando o valor correspondente. Na imagem, os números em laranja representam os valores que foram ativados devido à presença de energia.
+Ao somarmos todos os números em laranja, obtemos 68 como resultado, e é dessa maneira que os valores em binário são construídos.
 
 ![Valores binarios](https://github.com/FireguiQueen/CC50/assets/98475125/736efe04-d419-4ace-9d14-83132d0a73a4)
 
