@@ -77,8 +77,8 @@ Enquanto nós, temos acesso a 10 digítos (0-9), e esta base (base de dez) pode 
 
 Há duas principais diferenças entre a nossa base (base decimal) e a base dos computadores (base de dois). A primeira é que nós utilizamos do número 10 seguido a um expoente, por exemplo: `10²`.
 Pense no número quinhetos e dez (510). Neste número há 3 casas: 
-- Centenas: 500 
-- Dezenas: 10
+- Centenas: 5
+- Dezenas: 1
 - Unidades: 0
 
 Em cada casa deste valor pode haver apenas um número entre 0 até 9, logo, __10__ diferentes digítos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
