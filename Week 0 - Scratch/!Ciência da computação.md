@@ -75,6 +75,19 @@ Enquanto nós, temos acesso a 10 digítos (0-9), e esta base (base de dez) pode 
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
 
+Há duas principais diferenças entre a nossa base (base decimal) e a base dos computadores (base de dois). A primeira é que nós utilizamos do número 10 seguido a um expoente, por exemplo: `10²`.
+Pense no número quinhetos e dez (510). Neste número há 3 casas: 
+- Centenas: 500 
+- Dezenas: 10
+- Unidades: 0
+
+Em cada casa deste valor pode haver apenas um número entre 0 até 9, logo, __10__ diferentes digítos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
+
+Caso tenha ficado confuso, levante suas duas mãos e comece contar de 0 até 9. 
+Você irá levantar um dedo por número, e irá começar levantado o dedo para o número 0, até chegar no 9. Você verá que 10 dedos foram levantados, pois há 10 números entre 0 e 9.
+
+#### Resumo
+Fazemos o uso do número '10' pois é o total de números que há em nossa base. Há 10 possíveis resultados para cada casa numérica. 
 
 
 
