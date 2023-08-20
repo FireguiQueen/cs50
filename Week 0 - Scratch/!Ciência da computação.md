@@ -82,7 +82,6 @@ Pense no número quinhetos e dez (510). Neste número há 3 casas:
 - Unidades: 0
 
 Em cada casa deste valor pode haver apenas um número entre 0 até 9, logo, __10__ diferentes digítos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
-
 > Caso tenha ficado confuso, levante suas duas mãos e comece contar de 0 até 9. Você irá levantar um dedo por número, e irá começar levantado o dedo para o número 0, até chegar no 9. Você verá que 10 dedos foram levantados, pois há 10 números entre 0 e 9.
 
 #### Resumo
