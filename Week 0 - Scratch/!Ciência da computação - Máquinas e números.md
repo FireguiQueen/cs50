@@ -57,10 +57,9 @@ Isto é, se um valor possui 4 casas, `3.150` por exemplo, iremos começar a cont
 
 </br>
 
-## Como os computadores enxergam
+## Sistema Binário e a Eletricidade
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
 A diferença é que os computadores só tem acesso a dois digítos (base de dois), ou seja, dois números: 0 e 1. </br>
-Enquanto nós, temos acesso a 10 digítos (0-9), e esta base (base de dez) pode formar infinitos outros valores. 
 
 * Enquanto nós seguimos esta coluna
 > ..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
