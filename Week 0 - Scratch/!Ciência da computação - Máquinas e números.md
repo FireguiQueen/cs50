@@ -88,10 +88,9 @@ Porém, e se, ao invés disso, atribuirmos a cada posição das lâmpadas uma po
 - Terceira posição 3: 2² (4)
 > Com este metódo, podemos obter 7 unidades ao total, enquanto no outro, apenas 3 unidades.
 
-E é desta forma que o computador trabalha. Apesar do binário ser "limitado" (pois há somente dois dígitos), é possível criar infinitos outros valores. No fim das contas, o que há nos computadores são pequenos interruptores (conhecidos como transístor), milhões deles, e que podem ter o status de desligado ou ligado, 0 ou 1.
-E bem, se você tem a capacidade de desligá-los e ligá-los, é possível criar uma sequência de dígitos de zeros e uns. Afinal, 0 é 'desligado' e 1 é 'ligado'. 
-
-
+E é dessa maneira que o computador opera. Apesar de o sistema binário ser "limitado" por utilizar bits, é possível criar uma variedade infinita de outros valores. Em última análise, nos computadores, há milhões de interruptores (conhecidos como transistores) que podem assumir os estados de desligado ou ligado, 0 ou 1.
+Assim sendo, se você tem a habilidade de alterná-los entre esses estados, é possível criar uma sequência de dígitos de zeros e uns. Afinal, 0 representa "desligado" e 1, "ligado".
+Com essa sequência, é possível gerar números cada vez maiores.
 
 
 * Enquanto nós seguimos esta coluna
