@@ -80,14 +80,13 @@ Pense no número quinhetos e dez (510). Neste número há 3 casas:
 - Dezenas: 1
 - Unidades: 0
 
-Em cada casa deste valor pode haver apenas um número entre 0 até 9, logo, __10__ diferentes digítos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
+Em cada casa deste valor, pode haver apenas um número entre 0 até 9, logo, __10__ diferentes digítos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
 > _Caso tenha ficado confuso, levante suas duas mãos e comece contar de 0 até 9. Você irá levantar um dedo por número, e irá começar levantado o dedo para o número 0, até chegar no 9. Você verá que 10 dedos foram levantados, pois há 10 números entre 0 e 9._
 
 Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
-Mas eles não usam da base decimal, e sim da base de dois (binário), por exemplo: `2¹`, `2²`, `2³`.
+Mas eles não usam da base decimal, e sim da base de dois: `2¹`, `2²`, `2³`.
 
-A segunda diferença é como esta colunada é tratada por humanos e máquinas. Nesta imagem <a href="#img1">[...]</a> podemos ver como nós criamos valores além de 0-9 usando a base de 10. 
-A terceira casa usa a base de 10 + o expoente de 2 (10² -> resultando no número 100). 
+A segunda diferença é como esta colunada é tratada por humanos e máquinas. Nesta imagem <a href="#img1">[...]</a> podemos ver como nós criamos valores além de 0-9 usando a base de 10. Explicando de maneira curta e grassa, o valor desta imagem é 250. terceira casa usa a base de 10 + o expoente de 2 (10² -> resultando no número 100). 
 Com este resultado, pegamos o número que está na terceira casa e multiplicamos pelo nosso resultado da potenciação. Então obtivemos: `10² = 100 ;  100 * 2 = 200`. 
 
 #### Resumo
