@@ -59,7 +59,7 @@ Isto é, se um valor possui 4 casas, `3.150` por exemplo, iremos começar a cont
 
 ## Sistema Binário e a Eletricidade
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
-A diferença é que os computadores só tem acesso a dois digítos: 0 e 1, ou seja, a base de dois. 
+A diferença é que os computadores só tem acesso a dois dígitos: 0 e 1, ou seja, a base de dois. 
 
 Mas qual o motivo das máquinas trabalharem apenas com o binário? 
 A resposta para esta pergunta está atrelada a eletrecidade. 
@@ -87,7 +87,10 @@ Mas, e se ao invés disso, cada posição de lampada representasse um número?
 - Primeira posição: 1 unidade
 - Segunda posição: 2 unidades
 - Terceira posição 3: 4 unidades
-> Com este metódo, podemos obter 7 unidades, um número bem maior do que 3 
+> Com este metódo, podemos obter 7 unidades, enquanto no outro, apenas 3 unidades.
+
+
+E é desta forma que o computador trabalha. Apesar do binário ser "limitado" (pois há somente dois dígitos)
 
 
 
@@ -110,13 +113,13 @@ Pense no número quinhetos e dez (510). Neste número há 3 casas:
 - Dezenas: 1
 - Unidades: 0
 
-Em cada casa deste valor, pode haver apenas um número entre 0 até 9, logo, __10__ diferentes digítos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
+Em cada casa deste valor, pode haver apenas um número entre 0 até 9, logo, __10__ diferentes dígitos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
 > _Caso tenha ficado confuso, levante suas duas mãos e comece contar de 0 até 9. Você irá levantar um dedo por número, e irá começar levantado o dedo para o número 0, até chegar no 9. Você verá que 10 dedos foram levantados, pois há 10 números entre 0 e 9._
 
 Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
 Mas eles não usam da base decimal, e sim da base de dois: `2¹`, `2²`, `2³`.
 
-A segunda diferença está na forma como essa coluna é tratada por seres humanos e por máquinas. Na ilustração <a href="#img1">[...]</a>, podemos observar como criamos valores além dos digítos de 0 a 9 utilizando a base decimal. De forma simplificada, a terceira posição deste valor (o número 2) utiliza a base decimal 10, elevada à potência de 2 (10²). Ao resolvermos o cálculo de 10², obtemos o resultado de 100. 
+A segunda diferença está na forma como essa coluna é tratada por seres humanos e por máquinas. Na ilustração <a href="#img1">[...]</a>, podemos observar como criamos valores além dos dígitos de 0 a 9 utilizando a base decimal. De forma simplificada, a terceira posição deste valor (o número 2) utiliza a base decimal 10, elevada à potência de 2 (10²). Ao resolvermos o cálculo de 10², obtemos o resultado de 100. 
 Em seguida, tomamos o dígito localizado na terceira posição e o multiplicamos pelo resultado. Portanto, obtemos: `10² = 100 ; 100 * 2 = 200`.
 
 Agora, resta apenas a segunda posição. Nesta posição, encontramos o número '5', e ela está associada às dezenas, ou seja, 10¹.
