@@ -33,8 +33,8 @@ E dão origem a palavra "bits", onde a mesma é derivada de "binary digits". -->
 
 ## Como enxergamos os números
 Ao ver estes algarismos - `123`, pensamos no número cento e vinte e três. </br>Isto ocorre pois
-o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas.
-Portanto, `123` é `100 × 1` + `10 × 2` + `1 × 3` = `100 + 20 + 3` = `123`.
+o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
+Portanto, `123` é `100 × 1` + `10 × 2` + `1 × 3` = `100 + 20 + 3` = `123`. </br>
 Cada casa de um dígito representa uma potência de dez, pois há dez dígitos possíveis para cada casa.  
 Ao se juntarem, eles formam o número 'centro e vinte três', e é assim que nós, os seres humanos, fazemos para contar números além de 0-9.
 - __Uma unidade:__ um digíto `(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)`;
