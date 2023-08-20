@@ -19,9 +19,10 @@ Este sistema é denominado decimal, ou base 10, uma vez que existem dez valores 
 Essa base vai de 0-9 e serve de alicerce para outros números. Então mesmo que haja mais de 2000 alunos presentes, não haverá limitação nenhuma, pois qualquer outro número pode ser criado usando os digitos que estão entre 0 e 9.
 
 ### E esta ação também pode ser traduzida num contexto de 'sistema'
-Entrada (input): _há 7 alunos presentes e 30 ao todo_
-Sistema (tratando a informação): _há 30 alunos no total, ou seja, 30-7 = 23_
-Saída (output): _há 23 alunos faltosos_
+1. Entrada (input): _há 7 alunos presentes e 30 ao todo_ 
+2. Sistema (tratando a informação): _há 30 alunos no total, ou seja, 30-7 = 23_
+3. Saída (output): _há 23 alunos faltosos_
+
 
 </br>
 </br>
