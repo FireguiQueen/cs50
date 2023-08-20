@@ -53,7 +53,7 @@ Isto é, se o seu valor possui 4 casas por exemplo, iremos começar a contagem d
 
 ![Explicação-1](https://github.com/FireguiQueen/CC50/assets/98475125/cc43c2df-c7c0-4d91-bd86-b6047e0e4a91)
 
-> Também podemos ver o mesmo resultado, mas usando potênciação desta vez. A maneira anterior é exatamente igual a esta, porém, ela faz uso dos resultados das potênciações de maneira direta. Mas no fim é a mesma coisa. <a >
+> Também podemos ver o mesmo resultado, mas usando potênciação desta vez. A maneira anterior é exatamente igual a esta, porém, ela faz uso dos resultados das potênciações de maneira direta. Mas no fim é a mesma coisa.  <a name="img1"></a>
 
 ![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76) 
 
@@ -88,7 +88,7 @@ Em cada casa deste valor pode haver apenas um número entre 0 até 9, logo, __10
 Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
 Mas eles não usam da base decimal, e sim da base de dois (binário), por exemplo: `2¹`, `2²`, `2³`.
 
-A segunda diferença é como esta colunada é tratada por humanos e máquinas. 
+A segunda diferença é como esta colunada é tratada por humanos e máquinas. Nesta imagem <a href="#img1">[...]</a> podemos ver como nós criamos 
 
 #### Resumo
 Fazemos o uso do número '10' pois é o total de números que há em nossa base. Há 10 possíveis resultados para cada casa numérica. 
