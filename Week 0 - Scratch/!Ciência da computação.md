@@ -31,7 +31,7 @@ Essa base vai de 0-9 e serve de alicerce para outros números. Então mesmo que 
 Quando olhamos para o valor de `123` pensamos no número cento e vinte e três. </br>Isto ocorre pois o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
 Portanto, `123` é `1 × 100` + `2 × 10` + `3 × 1` = `100 + 20 + 3` = `123`. </br>
 Cada casa deste valor representa uma potência de dez, pois há dez dígitos possíveis para cada casa. E quando juntamos o resultado do digíto da casa vezes o resultado da potência, é formado o número 'cento e vinte três'. A ideia é que cada posição à esquerda de um número em notação decimal é 10 vezes maior do que a posição à direita dela.
-- __Unidade:__ _3 `(10^0 * 3 = 3)`_;
+- __Unidade:__ _3 `(10`<sup>0</sup>` * 3 = 3)`_;
 - __Dezena:__ _2  `(10¹  * 2 = 20)`_
 - __Centena:__ _1  `(10²  * 1 = 100)`_
 - __RESULTADO = 100 + 20 + 3__  
