@@ -41,7 +41,7 @@ Ao se juntarem, eles formam o número 'cento e vinte três', e é assim que nós
 - __Uma dezena:__ dois digítos juntos `(10, 20, 30.. 90)`
 - __Uma centena:__ três digítos juntos `(100, 200, 300.. 900)` 
 
-Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são digítos separados que foram colocados juntos. E esta junção gera 'n' casas. E cada casa de um digíto representa uma potência de dez. A primeira casa (a casa das unidades) é 10^0, a segunda casa (dezenas) é 10¹, a terceira casa (centenas) é 10<sup>2</sup>, a quarta casa é 104
+Concluímos que, um valor, seja ele 123, 240 ou qualquer outro, na verdade, são digítos separados que foram colocados juntos. E esta junção gera 'n' casas. E cada casa de um digíto representa uma potência de dez. A primeira casa (a casa das unidades) é 10^0, a segunda casa (dezenas) é 10¹, a terceira casa (centenas) é 10<sup>2</sup>, a quarta casa (milhares) é 10<sup>4</sup>
 
 ### Na matemática, isso pode ser representado de duas maneiras: 
 
