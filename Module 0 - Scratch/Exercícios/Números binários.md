@@ -3,13 +3,13 @@
 ### Cada questão abaixo possui um número, escreva-o em binário. 
 
 - A: _32_ 
-> Resposta: 
+> Resposta: 100000
 
 - B: _80_
-> Resposta: 
+> Resposta: 1010000
 
 - C: _47_ 
-> Resposta:
+> Resposta: 101111
 
 - D: _150_ 
-> Resposta:
+> Resposta: 10010110
