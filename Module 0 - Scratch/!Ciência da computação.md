@@ -61,6 +61,7 @@ Enquanto nós, temos acesso a 10 digítos (0-9), e eles (a base decimal ou base 
 * Enquanto nós seguimos esta coluna
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/6f0a983d-9674-4378-857c-24dc1469336c)
+> 10 <sup>1</sup> > 10 <sup>2</sup> 10 <sup>4</sup>  10 <sup>8</sup>.. 
 
 
 * Os computadores seguem esta
