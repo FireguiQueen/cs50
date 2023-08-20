@@ -93,13 +93,13 @@ Assim sendo, se você tem a habilidade de alterná-los entre esses estados, é p
 Com essa sequência, é possível gerar números cada vez maiores.
 
 
-* Enquanto nós seguimos esta coluna
+* Nossa base (decimal)
 > ..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/6f0a983d-9674-4378-857c-24dc1469336c)
 
 
-* Os computadores seguem esta <a name="img2"> </a>
+* Base das máquinas (binário) <a name="img2"> </a>
 > ..10 <sup>8</sup> &nbsp; 2 <sup>4</sup>&nbsp; 2 <sup>2</sup> &nbsp; 2 <sup>1</sup>&nbsp; 2 <sup>0</sup>
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
