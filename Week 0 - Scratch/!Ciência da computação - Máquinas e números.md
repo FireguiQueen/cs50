@@ -59,7 +59,24 @@ Isto é, se um valor possui 4 casas, `3.150` por exemplo, iremos começar a cont
 
 ## Sistema Binário e a Eletricidade
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
-A diferença é que os computadores só tem acesso a dois digítos (base de dois), ou seja, dois números: 0 e 1. </br>
+A diferença é que os computadores só tem acesso a dois digítos: 0 e 1, ou seja, a base de dois. 
+
+Mas qual o motivo das máquinas trabalharem apenas com o binário? 
+A resposta para esta pergunta está atrelada a eletrecidade. 
+
+Antes, vamos pensar um pouco sobre como nós, os humanos, interpretamos algo.
+
+1. Entrada de uma informação (seja ouvindo ou lendo)
+2. Tratamento desta informação (pensamos como podemos resolver este problema)
+3. Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)
+
+Já deu pra perceber que o nosso cerébro facilita muito as coisas. O nosso 'input' pode ser captado de diversas maneiras. 
+> Exemplo: Pessoa 'a' pergunta a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus ouvidos. </br>
+> Pessoa 'a' escreve uma carta perguntando a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus olhos.
+
+Mas em relação as máquinas, temos uma situação um pouco mais complicada.
+
+
 
 * Enquanto nós seguimos esta coluna
 > ..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
