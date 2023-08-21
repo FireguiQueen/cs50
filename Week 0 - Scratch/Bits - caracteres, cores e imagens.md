@@ -11,4 +11,7 @@ Contudo, nos dias atuais, utilizamos os computadores para uma infinidade de outr
 ### Então, surge uma pergunta: _como os computadores são capazes de não apenas representar números, mas também caracteres?_
 A resposta é simples, vamos atribuir caracteres (sejam eles letras ou acentos) aos números formados pelo sistema binário. Então por exemplo, o número '1' poderia receber o caractere 'A', o número '2' poderia ser o caractere 'B', o número '3' poderia ser o caractere 'C', e assim por diante. 
 
-E foi isso o que a humanidade fez nos promórdios da computação ao tentarem representar letras e outros caracteres alfabéticos nos computadores. Para isso, foi criado o ASCII (American Standard Code for Information Interchange) que é um sistema de representação de letras, algarismos e sinais de pontuação e de controle, através de uma cadeia de bits. 
+E foi isso que a humanidade fez nos primórdios da computação ao tentar representar letras e outros caracteres alfabéticos nos computadores. Para isso, foi criado o ASCII (American Standard Code for Information Interchange), que é um sistema utilizado para representar letras, algarismos, sinais de pontuação e caracteres de controle através de uma cadeia de bits.
+
+O ASCII foi criado não apenas para representar letras e sinais de pontuação e etc., mas também surgiu para padronizar a maneira como fazemos isso. Imagine se existissem 10 diferentes códigos ASCII de distintas empresas. Em um determinado ASCII, a letra 'A' poderia ser representada como 10001 (17), enquanto em outro, a letra 'A' seria indicada pelo código 100000 (32), e isso causaria uma grande confusão.
+- _Cada caractere é representado por um código de 8 bits (um byte)_
