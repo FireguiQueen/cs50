@@ -19,7 +19,10 @@ O ASCII foi criado não apenas para representar letras, algarismos e outros elem
 Vale ressaltar que tudo o que vemos na tela, ou seja, nas interfaces, são, na verdade, bits que representam caracteres específicos. Experimente abrir o Bloco de Notas e digitar o número '1', salve e feche o arquivo. Agora, localize o arquivo, clique com o botão direito e selecione "Propriedades" para verificar o tamanho do arquivo. Esse tamanho será exatamente a quantidade de bits contidos nele.
 Cada caractere do conjunto ASCII é representado por uma sequência de 8 bits. Portanto, quando inserimos o número '1' no Bloco de Notas, por trás dos panos, o que realmente é armazenado é '00000001', ou seja, 8 bits (oito dígitos binários). Ao verificar o tamanho do arquivo, constataremos que ele ocupa 8 bits (1 byte).
 
-![image](https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609)
+<details>
+    <summary>Clique aqui para ver a imagem</summary>
+    ![image](https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609)
+</details>
 
 
 ### O grande problema do ASCII
@@ -34,8 +37,8 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 À medida que o tempo avança, testemunhamos o surgimento de novas abordagens de representação que permitem a utilização de 8, 16 ou até mesmo 32 bits para codificar caracteres. Passamos do antigo padrão ASCII para o UNICODE, que oferece uma gama mais ampla de possibilidades de representação.
 
 <details>
-    <summary>Toggle Switch</summary>
-    Foldable Content[enter image description here][1]
+    <summary>Clique aqui para ver a imagem</summary>
+    ![image](https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609)
 </details>
 
 #### Informações 
