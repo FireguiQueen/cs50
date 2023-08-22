@@ -13,7 +13,7 @@ A humanidade teve uma ideia muito simples e útil nos primórdios da computaçã
 
 Para isso, foi criado o ASCII (American Standard Code for Information Interchange), um sistema utilizado para representar letras, algarismos, sinais de pontuação e caracteres de controle por meio de sequências de bits.
 
-O ASCII foi criado não apenas para representar letras, algarismos, sinais de pontuação e outros elementos, mas também para padronizar a maneira como fazemos essa representação. Imagine se existissem 10 diferentes códigos ASCII de distintas empresas. Em um determinado sistema ASCII, a letra 'A' poderia ser representada pelos bits 10001 (17), enquanto em outro, a letra 'A' seria indicada pelos bits 100000 (32); isso causaria uma grande confusão.
+O ASCII foi criado não apenas para representar letras, algarismos e outros elementos, mas também para padronizar a maneira como fazemos essa representação. Imagine se existissem 10 diferentes códigos ASCII de distintas empresas. Em um determinado sistema ASCII, a letra 'A' poderia ser representada pelos bits 10001 (17), enquanto em outro, a letra 'A' seria indicada pelos bits 100000 (32); isso causaria uma grande confusão.
 
 
 Vale ressaltar que tudo o que vemos na tela, ou seja, nas interfaces, são, na verdade, bits que representam caracteres específicos. Experimente abrir o Bloco de Notas e digitar o número '1', salve e feche o arquivo. Agora, localize o arquivo, clique com o botão direito e selecione "Propriedades" para verificar o tamanho do arquivo. Esse tamanho será exatamente a quantidade de bits contidos nele.
