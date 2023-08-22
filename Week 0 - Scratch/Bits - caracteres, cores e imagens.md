@@ -27,7 +27,11 @@ Para representar cada caractere, o ASCII utiliza um conjunto de 8 bits (00000000
 
 Contudo, ao considerarmos o panorama completo, percebemos a existência de inúmeros outros idiomas pelo mundo, cada um contendo letras, e até mesmo pontuações e sinais únicos. Tornar-se inviável representar todos esses algarismos, letras e acentuações com apenas 256 caracteres disponíveis.
 
-Inclusive, até os _emojis_ são bits e mais bits. Um dos emojis mais conhecidos é o '😂', mas na verdade, o numero decimal por tras dele, é o 128.514, em binário, seria próximo a 16 bits `(0000000000000000)`
+Os emojis são formados por sequências de bits. Um dos emojis mais instantaneamente reconhecíveis é o '😂'. Na realidade, o seu valor decimal equivale a 128.514. Na forma binária, essa representação exige cerca de 17 bits (0000000000000000).
+
+Consequentemente, o uso do ASCII para codificar emojis não seria viável, já que o ASCII apenas permite alocar 8 bits para a representação de um único caractere.
+
+À medida que o tempo avança, testemunhamos o surgimento de novas abordagens de representação que permitem a utilização de 8, 16 ou até mesmo 32 bits para codificar caracteres. Passamos do antigo padrão ASCII para o UNICODE, que oferece uma gama mais ampla de possibilidades de representação.
 
 
 
