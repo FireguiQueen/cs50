@@ -24,3 +24,6 @@
 ### Quao o valor máximo que podemos chegar com 5 casas de um digíto (00000)?
 > Resposta: 31
 
+### Ao digitar a palavra "batata" no NotePad, quantos bits este arquivo ocupará em nosso sistema?
+> Resposta: 48bits - 6bytes
+
