@@ -22,6 +22,15 @@ Cada caractere do conjunto ASCII é representado por uma sequência de 8 bits. P
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609)
 
 
+### O grande problema do ASCII
+Para representar cada caractere, o ASCII utiliza um conjunto de 8 bits (00000000). A princípio, essa abordagem atenderia às necessidades do sistema americano, uma vez que 8 bits possibilitam a representação de até 256 caracteres distintos.
+
+Contudo, ao considerarmos o panorama completo, percebemos a existência de inúmeros outros idiomas pelo mundo, cada um contendo letras, e até mesmo pontuações e sinais únicos. Tornar-se inviável representar todos esses algarismos, letras e acentuações com apenas 256 caracteres disponíveis.
+
+Inclusive, até os _emojis_ são bits e mais bits. Um dos emojis mais conhecidos é o '😂', mas na verdade, o numero decimal por tras dele, é o 128.514, em binário, seria próximo a 16 bits `(0000000000000000)`
+
+
+
 #### Informações 
 - _ASCII foi definido como padrão em 1968_
 - _Cada caractere é representado por um código de 8 bits (um byte)_
