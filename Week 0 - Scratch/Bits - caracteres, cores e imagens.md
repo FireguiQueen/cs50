@@ -20,4 +20,6 @@ O ASCII foi criado não apenas para representar letras e sinais de pontuação e
 - _Cada caractere é representado por um código de 8 bits (um byte)_
 - _'A' é representado pelos bits 1000001 `(65)`, 'B' pelo 1000010 `(66)` e assim por diante.._
 
+## Contextos diferentes, resultados diferentes
+Já aprendemos que, com determinada cadeia de bits, podemos formar letras, pontuções e simbolos. Mas isso tudo está relacionado ao contexto em que colocamos esta cadeia. 
 
