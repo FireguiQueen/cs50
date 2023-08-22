@@ -22,6 +22,7 @@ Cada caractere do conjunto ASCII é representado por uma sequência de 8 bits. P
 <details>
     <summary>Clique aqui para ver a imagem</summary>
     ![image](https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609)
+    <img src="https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609"/>
 </details>
 
 
