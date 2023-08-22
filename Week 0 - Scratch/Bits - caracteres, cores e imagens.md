@@ -40,6 +40,8 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 </br>
 
 # BITS: o surgimento das cores
+Já vimos como os caracteres são representados, e com as cores isto não é diferente.
+Um o ASCII é um padrão para representar caracteres com bits. 
 
 
 #### Informações 
