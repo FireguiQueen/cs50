@@ -18,4 +18,6 @@ O ASCII foi criado não apenas para representar letras e sinais de pontuação e
 #### Informações 
 - _ASCII foi definido como padrão em 1968_
 - _Cada caractere é representado por um código de 8 bits (um byte)_
+- _'A' é representado pelos bits 1000001 `(65)`, 'B' pelo 1000010 `(66)` e assim por diante.._
+
 
