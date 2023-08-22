@@ -21,7 +21,6 @@ Cada caractere do conjunto ASCII é representado por uma sequência de 8 bits. P
 
 <details>
     <summary>Clique aqui para ver a imagem</summary>
-    ![image](https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609)
     <img src="https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609"/>
 </details>
 
@@ -37,10 +36,6 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 
 À medida que o tempo avança, testemunhamos o surgimento de novas abordagens de representação que permitem a utilização de 8, 16 ou até mesmo 32 bits para codificar caracteres. Passamos do antigo padrão ASCII para o UNICODE, que oferece uma gama mais ampla de possibilidades de representação.
 
-<details>
-    <summary>Clique aqui para ver a imagem</summary>
-    ![image](https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609)
-</details>
 
 #### Informações 
 - _ASCII foi definido como padrão em 1968_
