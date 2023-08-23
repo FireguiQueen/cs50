@@ -10,6 +10,7 @@ Professor de Práticas de Ciência da Computação com a cátedra Gordon McKay, 
 </p>
 
 <br clear="left"/>
+<br clear="left"/>
 
 <p>
 <img align="left" height="280px "src="https://github.com/FireguiQueen/CC50/assets/98475125/8c094113-99e1-4e25-acb6-5f28803ba84a" alt="Doug Llyod" />
