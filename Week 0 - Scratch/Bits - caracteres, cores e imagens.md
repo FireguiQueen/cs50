@@ -63,7 +63,7 @@ Agora, ao abordar o sistema RGB, é essencial notar que nesse contexto, o númer
 
 Os valores de intensidade de cada componente são combinados para criar uma cor específica. Por exemplo, se você define os valores como:
 
-##### Isso resultaria em uma cor vermelha intensa, pois somente o canal vermelho está recebendo intensidade.
+#### Isso resultaria em uma cor vermelha intensa, pois somente o canal vermelho está recebendo intensidade.
 - Red: 255
 - Green: 0
 - Blue: 0
