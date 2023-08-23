@@ -75,6 +75,7 @@ Os valores de intensidade de cada componente são combinados para criar uma cor 
 - Red: 210
 - Green: 0
 - Blue: 120
+> Por trás dos panos, teremos esses números: _11111111 00000000 1111000_. Os primeiros 8 dígitos representam o canal vermelho, os próximos 8 dígitos representam o canal verde e os últimos 8 dígitos representam o canal azul. Em decimal, 11111111 é igual a 210, e 1111000 é igual a 210.Todos juntos formam uma cadeia de 24 bits.
 
 
 ## Contextos diferentes, resultados diferentes
