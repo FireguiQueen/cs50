@@ -3,6 +3,8 @@
 ## Sobre o Curso
 O CS50 (CC50) é um curso abrangente de Ciências da Computação ministrado pela Universidade Harvard. Este repositório contém minhas anotações pessoais, baseadas no meu entendimento do curso. Aqui, você encontrará insights, resumos e reflexões que espero que sejam úteis não apenas para minha pessoa, mas também a todos que estão vendo o repositório.
 
+</br>
+
 ## Tópicos Abordados
 - Algoritmos e estruturas de dados.
 - Princípios de design de software.
@@ -10,6 +12,7 @@ O CS50 (CC50) é um curso abrangente de Ciências da Computação ministrado pel
 - Sistemas operacionais e arquitetura de computadores.
 - Introdução à programação em linguagens como C e SQL.
 
+</br>
 
 ## Professores
 <p>
