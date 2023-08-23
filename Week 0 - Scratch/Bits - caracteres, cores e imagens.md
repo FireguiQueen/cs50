@@ -61,14 +61,6 @@ Na matematica, 2^8 nos resulta em 256, mas estamos trabalhando com computadores,
 
 Agora, ao abordar o sistema RGB, é essencial notar que nesse contexto, o número 0 representa uma intensidade baixa (indicando ausência daquela cor), enquanto o número 255 simboliza a intensidade máxima da cor.
 
-<!-- No sistema ASCII, precisamos de 8 bits para representar um caractere, no sistema de RGB, precisamos de 8 bits para representar a __intensidade__ de uma cor. 
-- Podemos pensar da seguinte maneira: 
-- Temos 8 posições (pois serão 8 digitos em uma cadeia)
-- Cada posição pode receber apenas 0 ou 1 (ou seja, a cada digito, há duas possibilidades);
-- Se temos 8 posições, e cada posição há duas possibilidades, podemos representar desta forma: `2^8    OU   2.2.2.2.2.2.2`
-
-Na matematica, 2^8 nos resulta em 256, mas estamos trabalhando com computadores, ou seja, começamos pelo 0, então teremos 255. 
-Agora, no sistema RGB, o número 0 representa uma intensidade _fraca_ (ausência daquela cor), enquanto o número 255 representa a intensidade máxima da cor. -->
 
 
 
