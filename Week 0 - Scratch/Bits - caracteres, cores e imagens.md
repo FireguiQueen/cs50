@@ -63,13 +63,19 @@ Agora, ao abordar o sistema RGB, é essencial notar que nesse contexto, o númer
 
 Os valores de intensidade de cada componente são combinados para criar uma cor específica. Por exemplo, se você define os valores como:
 
-Isso resultaria em uma cor vermelha intensa pois só o vermelho está recebendo intensidade. 
+Isso resultaria em uma cor vermelha intensa, pois somente o canal vermelho está recebendo intensidade.
 - Red: 255
 - Green: 0
 - Blue: 0
-> Resulta 11111111 00000000 00000000, onde os primeiros 8 dígitos representam o vermelho, os próximos 8 o verde e os últimos 8 o azul. Isso forma uma cadeia de 24 bits.
+> Por trás dos panos, teremos esses números: _11111111 00000000 00000000_, em que os primeiros 8 dígitos representam o canal vermelho, os próximos 8 dígitos representam o canal verde e os últimos 8 dígitos representam o canal azul. Isso forma uma cadeia de 24 bits.
 
-Agora, se adicionar intensidade a mais alguma cor, por exemplo, ao 
+</br>
+
+Agora, ao adicionar intensidade a outra cor, como o azul, teremos uma cor mais azulada. À medida que aumentamos a intensidade do azul, começamos a ver cores próximas ao roxo e ao rosa.
+- Red: 210
+- Green: 0
+- Blue: 120
+
 
 ## Contextos diferentes, resultados diferentes
 Já aprendemos que, com determinada cadeia de bits, podemos formar letras, pontuções e simbolos. Mas isso tudo está relacionado ao contexto em que colocamos esta cadeia. 
