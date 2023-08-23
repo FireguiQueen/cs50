@@ -6,7 +6,7 @@ O CS50 (ou CC50) é um curso para ciencia da compútação de Havard.
 - Princípios de design de software.
 - Conceitos de segurança cibernética.
 - Sistemas operacionais e arquitetura de computadores.
-- Introdução à programação em linguagens como C, Python e SQL.
+- Introdução à programação em linguagens como C e SQL.
 
 
 ## Professores
