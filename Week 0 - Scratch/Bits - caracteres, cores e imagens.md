@@ -58,11 +58,18 @@ No sistema ASCII, utilizamos 8 bits para representar um único caractere, e no s
 Imagine que temos 8 posições (8bits) para representar um valor, e em cada posição, podemos ter somente 0 ou 1 (duas possibilidades).
 Com 8 posições e duas possibilidades em cada uma, podemos expressar isso como 2^8 ou 2.2.2.2.2.2.2.2.
 Na matematica, 2^8 nos resulta em 256, mas estamos trabalhando com computadores, ou seja, começamos pelo 0, então teremos 255. 
-
+</br>
 Agora, ao abordar o sistema RGB, é essencial notar que nesse contexto, o número 0 representa uma intensidade baixa (indicando ausência daquela cor), enquanto o número 255 simboliza a intensidade máxima da cor.
 
+Os valores de intensidade de cada componente são combinados para criar uma cor específica. Por exemplo, se você define os valores como:
 
+Isso resultaria em uma cor vermelha intensa pois só o vermelho está recebendo intensidade. 
+- Red: 255
+- Green: 0
+- Blue: 0
+> Resulta 11111111 00000000 00000000, onde os primeiros 8 dígitos representam o vermelho, os próximos 8 o verde e os últimos 8 o azul. Isso forma uma cadeia de 24 bits.
 
+Agora, se adicionar intensidade a mais alguma cor, por exemplo, ao 
 
 ## Contextos diferentes, resultados diferentes
 Já aprendemos que, com determinada cadeia de bits, podemos formar letras, pontuções e simbolos. Mas isso tudo está relacionado ao contexto em que colocamos esta cadeia. 
