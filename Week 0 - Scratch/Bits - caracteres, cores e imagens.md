@@ -41,7 +41,11 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 
 # BITS: o surgimento das cores
 Já vimos como os caracteres são representados, e com as cores isto não é diferente.
-Um o ASCII é um padrão para representar caracteres com bits. 
+Um o ASCII é um padrão para representar caracteres com bits, já o RGB é __uma das__ maneiras para representarmos cores usando bits.
+
+Antes de qualquer coisa, vamos começar com o básico quando se trata de cores. Já é sabido que existe uma gama finita de cores, mas como essas cores são produzidas? A resposta é simples: utilizando três cores fundamentais — _vermelho, verde e azul_. Com essa combinação, somos capazes de gerar uma vasta gama de cores distintas.
+Esse princípio também se aplica à computação. Portanto, seria impraticável associar cada cor existente a uma sequência única de bits. Seria necessário um número significativo de bits para representar todas essas cores existentes em nossos computadores. Para contornar isso, adotamos um método onde escolhemos as cores primárias, conhecidas em inglês como red - green - blue (vermelho, verde e azul), que deu origem à sigla RGB.
+Ao designar três sequências de bits distintas para cada uma das cores primárias, conseguimos criar uma infinidade de novas cores combinando esses bits.
 
 
 #### Informações 
