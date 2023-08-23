@@ -36,6 +36,11 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 
 À medida que o tempo avança, testemunhamos o surgimento de novas abordagens de representação que permitem a utilização de 8, 16 ou até mesmo 32 bits para codificar caracteres. Passamos do antigo padrão ASCII para o UNICODE, que oferece uma gama mais ampla de possibilidades de representação.
 
+#### Informações 
+- _ASCII foi definido como padrão em 1968_
+- _Cada caractere é representado por um código de 8 bits (um byte)_
+- _'A' é representado pelos bits 1000001 `(65)`, 'B' pelo 1000010 `(66)` e assim por diante.._
+
 </br>
 </br>
 
@@ -48,10 +53,7 @@ Esse princípio também se aplica à computação. Portanto, seria impraticável
 Ao designar três sequências de bits distintas para cada uma das cores primárias, conseguimos criar uma infinidade de novas cores combinando esses bits.
 
 
-#### Informações 
-- _ASCII foi definido como padrão em 1968_
-- _Cada caractere é representado por um código de 8 bits (um byte)_
-- _'A' é representado pelos bits 1000001 `(65)`, 'B' pelo 1000010 `(66)` e assim por diante.._
+
 
 ## Contextos diferentes, resultados diferentes
 Já aprendemos que, com determinada cadeia de bits, podemos formar letras, pontuções e simbolos. Mas isso tudo está relacionado ao contexto em que colocamos esta cadeia. 
