@@ -13,7 +13,7 @@ Professor de Práticas de Ciência da Computação com a cátedra Gordon McKay, 
 <br clear="left"/>
 
 <p>
-<img align="left" height="460px "src="https://github.com/FireguiQueen/CC50/assets/98475125/45ad881d-f51b-4df7-a006-84e831086620" alt="Doug Llyod" />
+<img align="left" height="280px "src="https://github.com/FireguiQueen/CC50/assets/98475125/45ad881d-f51b-4df7-a006-84e831086620" alt="Doug Llyod" />
 Professor de Práticas de Ciência da Computação com a cátedra Gordon McKay, e Membro da Faculdade de Educação em Harvard University. Ele recebeu seu bacharelado, mestrado, e PhD em Ciência da Computação em Harvard nos anos 1999, 2004 e 2007, respectivamente.
 </p>
 
@@ -21,7 +21,7 @@ Professor de Práticas de Ciência da Computação com a cátedra Gordon McKay, 
 <br clear="left"/>
 
 <p>
-<img align="left" width="120px "height="296px" src="https://github.com/FireguiQueen/CC50/assets/98475125/f20ab6f8-fb18-4eaf-9fe7-0f287b886d32" alt="Brian Yu" />
+<img align="left" width="440px "height="296px" src="https://github.com/FireguiQueen/CC50/assets/98475125/f20ab6f8-fb18-4eaf-9fe7-0f287b886d32" alt="Brian Yu" />
 Professor de Práticas de Ciência da Computação com a cátedra Gordon McKay, e Membro da Faculdade de Educação em Harvard University. Ele recebeu seu bacharelado, mestrado, e PhD em Ciência da Computação em Harvard nos anos 1999, 2004 e 2007, respectivamente.
 </p>
 
