@@ -71,7 +71,7 @@ Os valores de intensidade de cada componente são combinados para criar uma cor 
 
 </br>
 
-Agora, ao adicionar intensidade a outra cor, como o azul, teremos uma cor mais azulada. À medida que aumentamos a intensidade do azul, começamos a ver cores próximas ao roxo e ao rosa.
+#### Agora, ao adicionar intensidade a outra cor, como o azul, teremos uma cor mais azulada. À medida que aumentamos a intensidade do azul, começamos a ver cores próximas ao roxo e ao rosa.
 - Red: 210
 - Green: 0
 - Blue: 120
