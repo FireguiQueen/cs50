@@ -48,9 +48,9 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 Já vimos como os caracteres são representados, e com as cores isto não é diferente.
 O ASCII é um padrão para representar caracteres com bits, já o RGB é __uma das__ maneiras para representarmos cores usando bits.
 
-Antes de qualquer coisa, vamos começar com o básico quando se trata de cores. Já é sabido que existe uma gama finita de cores, mas como essas cores são produzidas? A resposta é simples: utilizando três cores fundamentais — _vermelho, verde e azul_. Com essa combinação, somos capazes de gerar uma vasta gama de cores distintas.
-Esse princípio também se aplica à computação. Portanto, seria impraticável associar cada cor existente a uma sequência única de bits. Seria necessário um número significativo de bits para representar todas essas cores existentes em nossos computadores. Para contornar isso, adotamos um método onde escolhemos as cores primárias, conhecidas em inglês como red - green - blue (vermelho, verde e azul), que deu origem à sigla RGB.
-Ao designar três sequências de bits distintas para cada uma das cores primárias, conseguimos criar uma infinidade de novas cores combinando esses bits.
+Vamos começar pelo básico quando se trata de cores. Todos nós sabemos que há uma quantidade limitada de cores, mas como exatamente essas cores são geradas? A resposta é surpreendentemente simples: através da combinação de três cores fundamentais - vermelho, verde e azul. Essas três cores primárias nos permitem criar uma ampla variedade de tonalidades. </br>
+Esse conceito também se aplica no mundo da computação. Imagina ter que atribuir uma sequência única de bits a cada possível cor existente - essa abordagem seria praticamente inviável. Seria necessário um grande número de bits para representar todas as cores possíveis em nossos sistemas de computador. Como solução, adotamos um método que se baseia nas cores primárias, conhecidas pelo acrônimo RGB (red - green - blue, ou vermelho, verde e azul). </br>
+Através da atribuição de três sequências de bits distintas, uma para cada uma das cores primárias, somos capazes de criar uma infinidade de novas cores ao combinar esses bits de maneiras variadas. Esse sistema de cores RGB forma a base para todas as representações visuais digitais que vemos em telas de computador, televisores e dispositivos móveis. É como se essas três cores primárias se unissem para criar um mundo visualmente rico em nossa era digital.
 
 
 
