@@ -52,8 +52,23 @@ Vamos começar pelo básico quando se trata de cores. Todos nós sabemos que há
 Esse conceito também se aplica no mundo da computação. Imagina ter que atribuir uma sequência única de bits a cada possível cor existente - essa abordagem seria praticamente inviável. Seria necessário um grande número de bits para representar todas as cores possíveis em nossos sistemas de computador. Como solução, adotamos um método que se baseia nas cores primárias, conhecidas pelo acrônimo RGB (red - green - blue, ou vermelho, verde e azul). </br>
 Através da atribuição de três sequências de bits distintas, uma para cada uma das cores primárias, somos capazes de criar uma infinidade de novas cores ao combinar esses bits de maneiras variadas. Esse sistema de cores RGB forma a base para todas as representações visuais digitais que vemos em telas de computador, televisores e dispositivos móveis.
 
-Então por exemplo
 
+No sistema ASCII, utilizamos 8 bits para representar um único caractere, e no sistema RGB também usamos 8 bits para indicar a intensidade de cada componente de cor. 
+</br>
+Imagine que temos 8 posições (8bits) para representar um valor, e em cada posição, podemos ter somente 0 ou 1 (duas possibilidades).
+Com 8 posições e duas possibilidades em cada uma, podemos expressar isso como 2^8 ou 2.2.2.2.2.2.2.2.
+Na matematica, 2^8 nos resulta em 256, mas estamos trabalhando com computadores, ou seja, começamos pelo 0, então teremos 255. 
+
+Agora, ao abordar o sistema RGB, é essencial notar que nesse contexto, o número 0 representa uma intensidade baixa (indicando ausência daquela cor), enquanto o número 255 simboliza a intensidade máxima da cor.
+
+<!-- No sistema ASCII, precisamos de 8 bits para representar um caractere, no sistema de RGB, precisamos de 8 bits para representar a __intensidade__ de uma cor. 
+- Podemos pensar da seguinte maneira: 
+- Temos 8 posições (pois serão 8 digitos em uma cadeia)
+- Cada posição pode receber apenas 0 ou 1 (ou seja, a cada digito, há duas possibilidades);
+- Se temos 8 posições, e cada posição há duas possibilidades, podemos representar desta forma: `2^8    OU   2.2.2.2.2.2.2`
+
+Na matematica, 2^8 nos resulta em 256, mas estamos trabalhando com computadores, ou seja, começamos pelo 0, então teremos 255. 
+Agora, no sistema RGB, o número 0 representa uma intensidade _fraca_ (ausência daquela cor), enquanto o número 255 representa a intensidade máxima da cor. -->
 
 
 
