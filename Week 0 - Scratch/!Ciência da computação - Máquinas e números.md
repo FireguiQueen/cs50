@@ -11,17 +11,15 @@ há diversas instruções em relação ao tratamento desta informação. Por fim
 </br>
 
 
-# Representação de números
-Imagina-se sendo um professor lesionando uma aula, ao final dela, você resolve ver quantos alunos estão presentes. Para isso, você pode levantar um dedo de cada vez para representar cada pessoa, mas não poderá contar muito alto. Este sistema é denominado 'unário', onde cada dígito representa um único valor de um.
+## Representação de Números
+Imagine-se como um professor dando aula e, ao final dela, você decide verificar quantos alunos estão presentes. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa, mas não pode contar muito alto. Esse sistema é chamado de 'unário', onde cada dígito representa uma única unidade.
 
-Mas existe um sistema mais eficiente do que este para representar os alunos.
-Este sistema é denominado decimal, ou base 10, uma vez que existem dez valores diferentes que um dígito pode representar. Então utilizaremos números para representar os estudantes. 
-Essa base vai de 0-9 e serve de alicerce para outros números. Então mesmo que haja mais de 2000 alunos presentes, não haverá limitação nenhuma, pois qualquer outro número pode ser criado usando os digitos que estão entre 0 e 9.
+No entanto, existe um sistema mais eficiente para representar os alunos. Esse sistema é conhecido como sistema decimal, ou base 10, pois existem dez valores diferentes que um dígito pode representar. Assim, usaremos números para representar os estudantes. Essa base vai de 0 a 9 e serve como base para outros números. Portanto, mesmo se houver mais de 2000 alunos presentes, não haverá limitação, pois qualquer número pode ser criado usando os dígitos de 0 a 9.
 
-#### E esta ação também pode ser traduzida num contexto de 'sistema'
-1. Entrada (input): _há 7 alunos presentes e 30 ao todo_ 
-2. Sistema (tratando a informação): _há 30 alunos no total, ou seja, 30-7 = 23_
-3. Saída (output): _há 23 alunos faltosos_
+Essa ação também pode ser traduzida para os computadores, onde facilitaria o seu trabalho:
+- **Entrada (input):** Há 7 alunos presentes e um total de 30.
+- **Sistema (processamento da informação):** Há 30 alunos no total, o que significa que faltam 30 - 7 = 23 alunos.
+- **Saída (output):** Portanto, há 23 alunos ausentes.
 
 
 </br>
