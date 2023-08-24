@@ -35,11 +35,8 @@ Cada posição nesse valor representa uma potência de dez, uma vez que há dez 
 - **Centena:** 1 _(10² * 1 = 100)_.
 - **RESULTADO = 100 + 20 + 3**
 
-Chegamos à conclusão de que qualquer valor, seja ele 123, 240 ou qualquer outro, na verdade consiste em unidades foram agrupadas. E essa combinação de dígitos gera um número com 'n' posições. Por exemplo, se tivermos um valor com 4 posições, como `3.150`, contamos da esquerda para a direita: unidade de milhar, centenas, dezenas e unidades. E o valor pode ser representado da seguinte forma:
-- 3 -> Quarta posição   = 10^3 (10 x 10 x 10) * 3
-- 1 -> Terceira posição = 10^2 (10 x 10) * 1
-- 5 -> Segunda posição  = 10^1 (10) * 5
-- 0 -> Primeira posição = 10^0 (1) * 0
+Chegamos à conclusão de que qualquer valor consiste em unidades foram agrupadas. E esse agrupamento de dígitos gera um número com 'n' posições. Por exemplo, se tivermos um valor com 4 posições, como `3.150`, contamos da esquerda para a direita: unidade de milhar (10^3 * 3), centenas (10^2 * 1), dezenas (10^1 * 5) e unidades (10^0 * 0).
+
 
 ### Na matemática, isso pode ser representado de duas maneiras: 
 
