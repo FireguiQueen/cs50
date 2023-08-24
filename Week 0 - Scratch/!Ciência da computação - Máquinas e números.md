@@ -97,26 +97,10 @@ E é dessa maneira que o computador opera. O sistema binário aparenta ser limit
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
 
 ## Diferenças entre humanos e máquinas na forma de representar números
-Há duas principais diferenças entre a nossa base (base decimal) e a base dos computadores (base de dois). A primeira é que nós utilizamos do número 10 seguido a um expoente, por exemplo: `10¹` `10²`, `10³`.
-Pense no número quinhetos e dez (510). Neste número há 3 casas: 
-- Centenas: 5
-- Dezenas: 1
-- Unidades: 0
-
-Em cada casa deste valor, pode haver apenas um número entre 0 até 9, logo, __10__ diferentes dígitos podem ser colocados em cada casa, por isso usamos a base decimal (base de dez).
-> _Caso tenha ficado confuso, levante suas duas mãos e comece contar de 0 até 9. Você irá levantar um dedo por número, e irá começar levantado o dedo para o número 0, até chegar no 9. Você verá que 10 dedos foram levantados, pois há 10 números entre 0 e 9._
-
-Por outro lado, os computadores também precisam de um sistema capaz de criar outros números.
+Os computadores também precisam de um sistema capaz de criar outros números.
 Mas eles não usam da base decimal, e sim da base de dois: `2¹`, `2²`, `2³`.
 
-A segunda diferença está na forma como essa coluna é tratada por seres humanos e por máquinas. Na ilustração <a href="#img1">[...]</a>, podemos observar como criamos valores além dos dígitos de 0 a 9 utilizando a base decimal. De forma simplificada, a terceira posição deste valor (o número 2) utiliza a base decimal 10, elevada à potência de 2 (10²). Ao resolvermos o cálculo de 10², obtemos o resultado de 100. 
-Em seguida, tomamos o dígito localizado na terceira posição e o multiplicamos pelo resultado. Portanto, obtemos: `10² = 100 ; 100 * 2 = 200`.
-
-Agora, resta apenas a segunda posição. Nesta posição, encontramos o número '5', e ela está associada às dezenas, ou seja, 10¹.
-Então teremos: `10¹ = 10 ; 10 * 5 = 50`.
-
-Para calcular o valor final, o procedimento é bastante simples: basta somar os resultados (200 + 50). 
-
+Na ilustração <a href="#img1">[...]</a>, podemos observar como criamos valores além dos dígitos de 0 a 9 utilizando a base decimal. 
 
 Com as máquinas, a maneira de compreendermos esta coluna muda um pouco. 
 Como podemos ver nesta imagem, cada _casa_(ou posição) representa uma potência de base 2.
