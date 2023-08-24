@@ -82,12 +82,10 @@ Pense em três lâmpadas de luz. Se seguirmos um método convencional de contage
 Porém, e se, ao invés disso, atribuirmos a cada posição das lâmpadas uma potência da base 2? 
 - Primeira posição:   2<sup>0</sup> (1)
 - Segunda posição:    2¹ (2)
-- Terceira posição 3: 2² (4)
+- Terceira posição:   2² (4)
 > Com este metódo, podemos obter 7 unidades ao total, enquanto no outro, apenas 3 unidades.
 
-E é dessa maneira que o computador opera. Apesar de o sistema binário ser "limitado" por utilizar bits, é possível criar uma variedade infinita de outros valores. Em última análise, nos computadores, há milhões de interruptores (conhecidos como transistores) que podem assumir os estados de desligado ou ligado, 0 ou 1.
-Assim sendo, se você tem a habilidade de alterná-los entre esses estados, é possível criar uma sequência de dígitos de zeros e uns. Afinal, 0 representa "desligado" e 1, "ligado".
-Com essa sequência, é possível gerar números cada vez maiores.
+E é dessa maneira que o computador opera. O sistema binário aparenta ser limitado por utilizar bits, mas é possível criar uma variedade infinita de outros valores. Em última análise, nos computadores, há milhões de interruptores (conhecidos como transistores) que podem assumir os estados de desligado ou ligado, 0 ou 1. Assim sendo, se você tem a habilidade de alterná-los entre esses estados, é possível criar uma sequência de dígitos de zeros e uns. Com essa sequência gerada entre '0' e '1', é possível gerar números cada vez maiores.
 
 
 * Nossa base (decimal)
