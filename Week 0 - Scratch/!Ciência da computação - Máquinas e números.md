@@ -27,10 +27,29 @@ Essa base vai de 0-9 e serve de alicerce para outros números. Então mesmo que 
 </br>
 </br>
 
-## Como enxergamos os números
+## Como compreendemos os números
+
+Quando olhamos para o valor `123`, pensamos no número cento e vinte e três. Isso ocorre porque o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas.
+Portanto, `123` pode ser desmembrado como `1 × 100` + `2 × 10` + `3 × 1` = `100 + 20 + 3` = `123`.
+Cada posição nesse valor representa uma potência de dez, uma vez que há dez dígitos possíveis para cada posição. Quando multiplicamos nosso dígito único (1, localizado na terceira posição) pelo valor da potência, obtemos o número 'cento e vinte e três'. A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
+- **Unidade:** 3 _(10^0 * 3 = 3)_;
+- **Dezena:** 2 _(10¹ * 2 = 20)_.
+- **Centena:** 1 _(10² * 1 = 100)_.
+- **RESULTADO = 100 + 20 + 3**
+
+Chegamos à conclusão de que qualquer valor, seja ele 123, 240 ou qualquer outro, na verdade consiste nos dígitos da base decimal que foram agrupados. Essa combinação de dígitos gera um número com 'n' posições. Cada posição nesse valor representa uma potência de dez. A primeira posição (a posição das unidades) é 10^0, a segunda posição (dezenas) é 10^1, a terceira posição (centenas) é 10^2 e assim por diante. A quarta posição (unidade de milhar) seria 10^3.
+
+Por exemplo, se tivermos um valor com 4 posições, como `3.150`, contamos da esquerda para a direita: unidade de milhar, centenas, dezenas e unidades. E o valor pode ser representado da seguinte forma:
+- 3 -> Quarta posição   = 10^3 (10 x 10 x 10) * 3
+- 1 -> Terceira posição = 10^2 (10 x 10) * 1
+- 5 -> Segunda posição  = 10^1 (10) * 5
+- 0 -> Primeira posição = 10^0 (1) * 0
+
+
+<!-- ## Como enxergamos os números
 Quando olhamos para o valor de `123` pensamos no número cento e vinte e três. </br>Isto ocorre pois o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
 Portanto, `123` é `1 × 100` + `2 × 10` + `3 × 1` = `100 + 20 + 3` = `123`. </br>
-Cada casa deste valor representa uma potência de dez, pois há dez dígitos possíveis para cada casa.  E quando multiplicamos nosso digíto único (1 - localizado na terceira casa) pelo resultado da potência, é formado o número 'cento e vinte três'. A ideia é que cada posição à esquerda de um número em notação decimal é 10 vezes maior do que a posição à direita dela.
+Cada casa deste valor representa uma potência de dez, pois há dez dígitos possíveis para cada casa. E quando multiplicamos nosso digíto único (1 - localizado na terceira casa) pelo resultado da potência, é formado o número 'cento e vinte três'. A ideia é que cada posição à esquerda de um número em notação decimal é 10 vezes maior do que a posição à direita dela.
 - __Unidade:__ _3 `(10^0 * 3 = 3)`_;
 - __Dezena:__ _2  `(10¹  * 2 = 20)`_
 - __Centena:__ _1  `(10²  * 1 = 100)`_
@@ -42,7 +61,7 @@ Isto é, se um valor possui 4 casas, `3.150` por exemplo, iremos começar a cont
 - 3 -> Quarta casa   = 10<sup>3</sup> (10 x 10 x 10) * 3
 - 1 -> Terceira casa = 10<sup>2</sup> (10 x 10) * 1
 - 5 -> Segunda casa  = 10<sup>1</sup> (10) * 5
-- 0 -> Primeira casa = 10<sup>0</sup> (1)  * 0
+- 0 -> Primeira casa = 10<sup>0</sup> (1)  * 0 -->
 
 ### Na matemática, isso pode ser representado de duas maneiras: 
 
