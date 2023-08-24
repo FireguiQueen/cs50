@@ -90,24 +90,15 @@ E é dessa maneira que o computador opera. O sistema binário aparenta ser limit
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
 
 ## Diferenças entre humanos e máquinas na forma de representar números
-Os computadores também precisam de um sistema capaz de criar outros números.
-Mas eles não usam da base decimal, e sim da base de dois: `2¹`, `2²`, `2³`.
+Absolutamente tudo que vemos no computador, imagens, texto, vídeos e etc são bits.
+Sendo assim, os computadores também precisam de um sistema capaz de criar outros números além de 0 e 1. Mas eles não usam da base decimal `(10¹, 10², 10³..)`, e sim da base de dois: `2¹`, `2²`, `2³`. 
 
-Na ilustração <a href="#img1">[...]</a>, podemos observar como criamos valores além dos dígitos de 0 a 9 utilizando a base decimal. 
-
-Com as máquinas, a maneira de compreendermos esta coluna muda um pouco. 
-Como podemos ver nesta imagem, cada _casa_(ou posição) representa uma potência de base 2.
-A primeira posição é a 2<sup>0</sup>, a segunda é a 2¹, a terceira 2² e assim respectivamente.
-
-Conforme já mencionado previamente, há uma razão especial pela qual as máquinas usam o sistema binário. E com essa coluna abaixo, conseguimos entender como números maiores que zero e um são formados.
-Se '1' representa 'ligado', isso quer dizer que, ao colocar o '1' em uma determinada posição, estamos ativando o valor correspondente. Na imagem, os números em laranja representam os valores que foram ativados devido à presença de energia.
+Vimos anteriormente que '1' representa 'ligado', isso quer dizer que, ao colocar o '1' em uma determinada posição, estamos ativando o valor correspondente. Na imagem, os números em laranja representam os valores que foram ativados devido à presença de energia.
 Ao somarmos todos os números em laranja, obtemos 68 como resultado, e é dessa maneira que os valores em binário são construídos, uma cadeia de zeros e uns.
 
 ![Valores binarios](https://github.com/FireguiQueen/CC50/assets/98475125/736efe04-d419-4ace-9d14-83132d0a73a4)
 
 
-#### Resumo
-Fazemos o uso do número '10' pois é o total de números que há em nossa base. Há 10 possíveis resultados para cada casa numérica. 
 
 
 
