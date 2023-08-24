@@ -14,7 +14,7 @@ há diversas instruções em relação ao tratamento desta informação. Por fim
 ## Representação de Números
 Imagine-se como um professor dando aula e, ao final dela, você decide verificar quantos alunos estão presentes. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa, mas não pode contar muito alto. Esse sistema é chamado de 'unário', onde cada dígito representa uma única unidade.
 
-Existe um sistema mais eficiente para representar alunos, chamado sistema decimal ou base 10. Aqui, cada dígito pode representar dez valores diferentes, de 0 a 9, permitindo-nos usar números para representar estudantes. Mesmo com mais de 2000 alunos presentes, não há limitações, pois qualquer número pode ser criado usando os dígitos de 0 a 9.
+Há um método mais eficiente para representar alunos, conhecido como sistema decimal ou base 10. Aqui, cada dígito pode abranger dez valores distintos, de 0 a 9, o que nos possibilita empregar números para identificar estudantes. Independentemente da quantidade de alunos, como mais de 2000, não existem restrições, já que é possível criar qualquer número por meio de sequências de zeros e noves.
 
 Essa ação também pode ser traduzida para os computadores, onde facilitaria o seu trabalho:
 - **Entrada (input):** Há 7 alunos presentes e um total de 30.
