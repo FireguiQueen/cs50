@@ -6,7 +6,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 ### Atravessar a rua 
 1. Olhar para os lados (esquerda e direita) 
 2. __Se__ houver um carro se aproximando </br>
-    &nbsp;&nbsp; -> _Aguardar até que ele passe. Retornar ao passo 2._ </br>
+    &nbsp;&nbsp; -> _Aguardar até que ele passe._ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   __Se não:__ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                -> _Cruzar a rua até a calçada oposta._
 
