@@ -20,4 +20,4 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   __Se não:__ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                -> _Prosseguir com os planos de viagem._
 
- 
+> Esses exemplos ilustram como os algoritmos são utilizados em diversas situações do cotidiano para tomar decisões de maneira lógica e ordenada.
