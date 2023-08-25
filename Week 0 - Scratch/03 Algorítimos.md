@@ -28,7 +28,7 @@ Com mais clareza, podemos notar quais são esses padrões na imagem abaixo.
 O algoritimo abaixo está procurando o número de telefone de um estudante da universade de Havard.
 Este livro segue uma ordem alfabética.
 
-1. Procurando pelo estudante ${\color{green}David  Wallace}$
+1. Procurando pelo estudante ${\color{green}David \space Wallace}$
 2. ${\color{red}Pegar}$ o livro;
 3. ${\color{red}Abrir}$ o livro;
 4. ${\color{red}Procurar}$ pela página onde começa a letra 'D'.
