@@ -27,7 +27,7 @@ Podemos notar um padrão em ambos os algoritmos. Percebemos uma sequência de a�
 Com mais clareza, podemos notar quais são esses padrões na imagem abaixo.
 O algoritimo abaixo está procurando o número de telefone de um estudante da universade de Havard.
 
-1. Procurando pelo estudante ${\color{green}David Wallace}$
+1. Procurando pelo estudante ${\color{green}David  Wallace}$
 2. ${\color{red}Pegar}$ o livro;
 3. ${\color{red}Abrir}$ na parte do meio;
 4. ${\color{red}Olhar}$ a página atual.  
