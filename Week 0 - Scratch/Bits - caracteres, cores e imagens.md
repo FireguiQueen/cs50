@@ -78,6 +78,8 @@ Os valores de intensidade de cada componente são combinados para criar uma cor 
 - Blue: 120
 > Por trás dos panos, teremos esses números: _11010010 00000000 1111000_. Em decimal, 11010010 é igual a 210, e 1111000 é igual a 120.
 
+</br>
+</br>
 
 ## BITS: o surgimento das imagens e de qualquer outra coisa (musica...)
 Da explicação acima, compreendemos que a criação de uma cor requer 24 bits (3 bytes) e que podemos associar uma cor a um pixel. Um pixel é simplesmente um pequeno quadrado preenchido com uma cor.
