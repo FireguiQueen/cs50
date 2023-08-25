@@ -62,7 +62,7 @@ Na matematica, 2^8 nos resulta em 256, mas estamos trabalhando com computadores,
 </br>
 Agora, ao abordar o sistema RGB, é essencial notar que nesse contexto, o número 0 representa uma intensidade baixa (indicando ausência daquela cor), enquanto o número 255 simboliza a intensidade máxima da cor.
 
-Os valores de intensidade de cada componente são combinados para criar uma cor específica. Por exemplo, se você define os valores como:
+Os valores de intensidade de cada componente são combinados para criar uma cor específica. 
 
 #### Isso resultaria em uma cor vermelha intensa, pois somente o canal vermelho está recebendo intensidade.
 - Red: 255
@@ -76,7 +76,7 @@ Os valores de intensidade de cada componente são combinados para criar uma cor 
 - Red: 210
 - Green: 0
 - Blue: 120
-> Por trás dos panos, teremos esses números: _11111111 00000000 1111000_. Os primeiros 8 dígitos representam o canal vermelho, os próximos 8 dígitos representam o canal verde e os últimos 8 dígitos representam o canal azul. Em decimal, 11111111 é igual a 210, e 1111000 é igual a 210.Todos juntos formam uma cadeia de 24 bits.
+> Por trás dos panos, teremos esses números: _11010010 00000000 1111000_. Em decimal, 11010010 é igual a 210, e 1111000 é igual a 120.
 
 
 ## Contextos diferentes, resultados diferentes
