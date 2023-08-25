@@ -35,7 +35,7 @@ Um exemplo simples que é impossível representar tudo com somente 256 caractere
 
 Consequentemente, o uso do ASCII para codificar emojis não seria viável, já que o ASCII apenas permite alocar 8 bits para a representação de um único caractere.
 
-À medida que o tempo avança, testemunhamos o surgimento de novas abordagens de representação que permitem a utilização de 8, 16 ou até mesmo 32 bits para codificar caracteres. Passamos do antigo padrão ASCII para o UNICODE, que oferece uma gama mais ampla de possibilidades de representação.
+À medida que o tempo avança, testemunhamos o surgimento de novas abordagens de representação que permitem a utilização de 16 ou até mesmo 32 bits para codificar caracteres. Passamos do antigo padrão ASCII para o UNICODE, que oferece uma gama mais ampla de possibilidades de representação.
 
 #### Informações 
 - _ASCII foi definido como padrão em 1968_
