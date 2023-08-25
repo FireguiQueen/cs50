@@ -51,16 +51,12 @@ A diferença é que os computadores só tem acesso a dois bits: 0 e 1, em outras
 
 __Mas qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?__
 Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretamos informações.
-1. Entrada de uma informação (seja ouvindo ou lendo)
-2. Tratamento desta informação (pensamos como podemos resolver este problema)
-3. Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)
+1. __INPUT:__ _Entrada de uma informação (seja ouvindo ou lendo)_
+2. __PROCESSAMENTO:__ _Tratamento desta informação (pensamos como podemos resolver este problema)_
+3. __OUTPUT:__ _Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)_
 
-Certamente, percebemos que nosso cérebro simplifica muito as coisas. O nosso 'input' (nossa entrada de informação) pode ser captada de diversas maneiras. Exemplos:
-> Pessoa 'a' pergunta a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus ouvidos.
-
-> Pessoa 'a' escreve uma carta perguntando a pessoa 'b' quanto é 1+1. Nesse contexto o INPUT usado pela pessoa 'b' foram seus olhos.
-
-No entanto, o que os computadores utilizam como INPUT? Na realidade, apenas eletricidade.
+Certamente, percebemos que nosso cérebro simplifica muito as coisas. O nosso 'input' (nossa entrada de informação) pode ser captada de diversas maneiras: ouvindo, vendo ou até mesmo pelo tato.
+__No entanto, o que os computadores utilizam como INPUT?__ Na realidade, apenas eletricidade.
 Algo que todos nós fazemos ao utilizar um dispositivo eletrônico é garantir que esteja conectado à tomada ou que tenha energia na sua bateria/pilha.
 Através dessa eletricidade, começamos a representar informações. Um dispositivo que recebe eletricidade possui dois estados: desligado/ligado. Esse comportamento de ligar/desligar pode ser denominado de forma binária, 0 e 1.
 
@@ -76,6 +72,13 @@ Porém, e se, ao invés disso, atribuirmos a cada posição das lâmpadas uma po
 
 E é dessa maneira que o computador opera. O sistema binário aparenta ser limitado por utilizar bits, mas é possível criar uma variedade infinita de outros valores. Em última análise, nos computadores, há milhões de interruptores (conhecidos como transistores) que podem assumir os estados de desligado ou ligado, 0 ou 1. Assim sendo, se você tem a habilidade de alterná-los entre esses estados, é possível criar uma sequência de dígitos de zeros e uns. Com essa sequência gerada entre '0' e '1', é possível gerar números cada vez maiores.
 
+<details>
+    <summary>Base decimal x base binária</summary>
+    <h4>..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup> </h4>
+    <img src="https://github.com/FireguiQueen/CC50/assets/98475125/6f0a983d-9674-4378-857c-24dc1469336c"/>
+    <h4>..10 <sup>8</sup> &nbsp; 2 <sup>4</sup>&nbsp; 2 <sup>2</sup> &nbsp; 2 <sup>1</sup>&nbsp; 2 <sup>0</sup> </h4> <a name="img2">
+    <img src="https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e"/>
+</details>
 
 * Nossa base (decimal)
 > ..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
@@ -84,7 +87,6 @@ E é dessa maneira que o computador opera. O sistema binário aparenta ser limit
 
 
 * Base das máquinas (binário) <a name="img2"> </a>
-> ..10 <sup>8</sup> &nbsp; 2 <sup>4</sup>&nbsp; 2 <sup>2</sup> &nbsp; 2 <sup>1</sup>&nbsp; 2 <sup>0</sup>
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
 
