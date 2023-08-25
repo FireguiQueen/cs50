@@ -22,6 +22,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 
 > Esses exemplos ilustram como os algoritmos são utilizados em diversas situações do cotidiano para tomar decisões de maneira lógica e ordenada.
 
+Podemos notar um padrão em ambos os algoritmos. Percebemos uma sequência de ações, palavras-chave e avaliações que de: verdadeiro ou falso. Por exemplo, no algoritmo de atravessar a rua, na primeira etapa, ocorre a ação inicial. Na segunda etapa, surge uma condição: Existe um carro vindo? Se sim, uma ação é executada; se não, outra ação é realizada.
 
-Podemos detectar que há um padrão em ambos os algoritimos, vemos que há uma realização de ação, algumas palavras chaves e valores que se resumem a verdadeiro ou falso. Por exemplo, no algoritimo de atravessar a rua, temos a primeira etapa, e ela que inicia o nosso algoritimo, na segunda etapa temos uma condição: Há um carro vindo? Se sim, fazer uma coisa, se não estiver vindo nada, fazer outra coisa.
-
+Com mais clareza, podemos notar quais são esses padrões na imagem abaixo.
+<span style="color:blue">some *blue* text</span>.
