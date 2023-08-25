@@ -81,9 +81,8 @@ E é dessa maneira que o computador opera. O sistema binário aparenta ser limit
 </details>
 
 
-## Diferenças entre humanos e máquinas na forma de representar números
-Absolutamente tudo que vemos no computador, imagens, texto, vídeos e etc são bits.
-Sendo assim, os computadores também precisam de um sistema capaz de criar outros números além de 0 e 1. Mas eles não usam da base decimal `(10¹, 10², 10³..)`, e sim da base de dois: `2¹`, `2²`, `2³`. 
+## Como os computadores criam outros números
+Os computadores precisam de um sistema capaz de criar outros números além de 0 e 1. Mas eles não usam da base decimal `(10¹, 10², 10³..)`, e sim da base de dois: `2¹`, `2²`, `2³`. 
 
 Aprendemos que '1' representa 'ligado' pois na computação, o '1' representa passagem de energia, isso quer dizer que, ao colocar o '1' em uma determinada posição, estamos ativando o valor correspondente. Ao somarmos todos os números em laranja, obtemos 68 como resultado, e é dessa maneira que os _valores em binário são construídos_, __uma cadeia de zeros e uns__.
 
