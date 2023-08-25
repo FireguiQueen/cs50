@@ -21,3 +21,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                -> _Prosseguir com os planos de viagem._
 
 > Esses exemplos ilustram como os algoritmos são utilizados em diversas situações do cotidiano para tomar decisões de maneira lógica e ordenada.
+
+
+Podemos detectar que há um padrão em ambos os algoritimos, vemos que há uma realização de ação, algumas palavras chaves e valores que se resumem a verdadeiro ou falso. Por exemplo, no algoritimo de atravessar a rua, temos a primeira etapa, e ela que inicia o nosso algoritimo, na segunda etapa temos uma condição: Há um carro vindo? Se sim, fazer uma coisa, se não estiver vindo nada, fazer outra coisa.
+
