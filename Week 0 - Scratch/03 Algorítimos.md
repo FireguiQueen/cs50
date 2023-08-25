@@ -7,7 +7,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 1. Olhar para os lados (esquerda e direita) 
 2. __Se__ houver um carro se aproximando </br>
     &nbsp;&nbsp; -> _Aguardar até que ele passe. Retornar ao passo 2._ </br>
-&nbsp;&nbsp;&nbsp; __Se não:__ 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; __Se não:__ 
                 -> _Cruzar a rua até a calçada oposta._
 
 ### Viajar 
