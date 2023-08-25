@@ -35,5 +35,5 @@ Este livro segue uma ordem alfabética.
 
 5. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual: </br>
 &nbsp;&nbsp;&nbsp;&nbsp; -> Ligar para ele </br>
-${\color{orange}Se não}$ Passe para a próxima página. Repita a linha 5.
+${\color{orange}Se \space não}$ Passe para a próxima página. Repita a linha 5.
 
