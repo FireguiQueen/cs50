@@ -30,7 +30,8 @@ Para representar cada caractere, o ASCII utiliza um conjunto de 8 bits (00000000
 
 Contudo, ao considerarmos o panorama completo, percebemos a existência de inúmeros outros idiomas pelo mundo, cada um contendo letras, e até mesmo pontuações e sinais únicos. Tornar-se inviável representar todos esses algarismos, letras e acentuações com apenas 256 caracteres disponíveis.
 
-Um exemplo simples que é impossível representar tudo com somente 256 caracteres são os emojis. Eles são formados por sequências de bits. Um dos emojis mais famosos é o '😂'. Na realidade, essa simples representação de um simples rostinho, exige cerca de 17 bits (0000000000000000).
+Um exemplo simples que é impossível representar tudo com somente 256 caracteres são os emojis. Eles são formados por sequências de bits. Um dos emojis mais famosos é o '😂'. Na realidade, essa simples representação de um simples rostinho, exige 17 bits (0000000000000000). 
+> Sequência de bits para colocar o emoji: 11111011000000010. Decimal: 128.514
 
 Consequentemente, o uso do ASCII para codificar emojis não seria viável, já que o ASCII apenas permite alocar 8 bits para a representação de um único caractere.
 
