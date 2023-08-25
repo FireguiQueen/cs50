@@ -79,6 +79,12 @@ Os valores de intensidade de cada componente são combinados para criar uma cor 
 > Por trás dos panos, teremos esses números: _11010010 00000000 1111000_. Em decimal, 11010010 é igual a 210, e 1111000 é igual a 120.
 
 
+## BITS: o surgimento das imagens
+Com a explicação acima, entendemos que para se fazer uma cor, é necessário 24bits (3 bytes), e podemos compreender que uma cor se equivale a um pixel. Um pixel nada mais é do que um pequeno quadradinho representado por uma cor. 
+E como todos nós sabemos, uma imagem é feita por vários e vários pixels. 
+Então concluímos que imagens, assim como os caracteres, são na verdade bits. 
+
+
 ## Contextos diferentes, resultados diferentes
 Já aprendemos que, com determinada cadeia de bits, podemos formar letras, pontuções e simbolos. Mas isso tudo está relacionado ao contexto em que colocamos esta cadeia. 
 
