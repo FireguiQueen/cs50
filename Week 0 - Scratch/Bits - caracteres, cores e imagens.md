@@ -81,7 +81,7 @@ Os valores de intensidade de cada componente são combinados para criar uma cor 
 </br>
 </br>
 
-## BITS: o surgimento das imagens
+# BITS: o surgimento das imagens
 Da explicação acima, compreendemos que a criação de uma cor requer 24 bits (3 bytes) e que podemos associar uma cor a um pixel. Um pixel é simplesmente um pequeno quadrado preenchido com uma cor.
 E, como sabemos, uma imagem é composta de muitos e muitos pixels. Portanto, podemos concluir que tanto as imagens nada mais são do que bits.
 > Caso tenha ficado confuso, é bem fácil de entender. As três cores principais que se combinam para formar outras cores são 'vermelho', 'verde' e 'azul'. Cada cor exige 8 bits, os quais controlam a intensidade dessa cor. Como há três cores, teremos 8 bits + 8 bits + 8 bits = 24 bits (3 bytes).
