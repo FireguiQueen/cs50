@@ -8,7 +8,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 2. __Se__ houver um carro se aproximando </br>
     &nbsp;&nbsp; -> _Aguardar até que ele passe. Retornar ao passo 2._ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   __Se não:__ </br>
-                -> _Cruzar a rua até a calçada oposta._
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                -> _Cruzar a rua até a calçada oposta._
 
 ### Viajar 
 1. Verificar a previsão do tempo. __Se__ estiver prevista chuva intensa:
