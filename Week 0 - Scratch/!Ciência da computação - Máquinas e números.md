@@ -80,15 +80,6 @@ E é dessa maneira que o computador opera. O sistema binário aparenta ser limit
     <img src="https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e"/>
 </details>
 
-* Nossa base (decimal)
-> ..10 <sup>4</sup> &nbsp; 10 <sup>3</sup>&nbsp; 10 <sup>2</sup> &nbsp; 10 <sup>1</sup>&nbsp; 10 <sup>0</sup>
-
-![image](https://github.com/FireguiQueen/CC50/assets/98475125/6f0a983d-9674-4378-857c-24dc1469336c)
-
-
-* Base das máquinas (binário) <a name="img2"> </a>
-
-![image](https://github.com/FireguiQueen/CC50/assets/98475125/38d021f4-3a21-4420-a6f5-553ab31b898e)
 
 ## Diferenças entre humanos e máquinas na forma de representar números
 Absolutamente tudo que vemos no computador, imagens, texto, vídeos e etc são bits.
