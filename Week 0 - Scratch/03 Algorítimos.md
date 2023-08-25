@@ -3,7 +3,6 @@ Na matemática e na ciência da computação, um algoritmo representa uma sequê
 
 Algoritmos não são somente utilizados em máquinas, mas também têm aplicações no mundo real. A seguir, apresentamos alguns exemplos de algoritmos:
 
-</br>
 
 ### Atravessar a rua 
 1. Olhar para os lados (esquerda e direita) 
@@ -11,6 +10,8 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
     &nbsp;&nbsp; -> _Aguardar até que ele passe._ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   __Se não:__ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                -> _Cruzar a rua até a calçada oposta._
+
+</br>
 
 ### Viajar 
 1. Verificar a previsão do tempo. 
