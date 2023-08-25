@@ -33,7 +33,7 @@ Este livro segue uma ordem alfabética.
 3. ${\color{red}Abrir}$ o livro;
 4. ${\color{red}Procurar}$ pela página onde começa a letra 'D'.
 
-5. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual.
+5. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual. </br>
 &nbsp;&nbsp;&nbsp;&nbsp; -> Ligar para ele
 ${\color{orange}Se não}$ Passe para a próxima página. Repita a linha 5.
 
