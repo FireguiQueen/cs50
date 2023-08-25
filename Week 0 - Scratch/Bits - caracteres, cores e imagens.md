@@ -8,7 +8,7 @@ A discussão anterior nos permite compreender que a principal função dos compu
 
 Porém, hoje em dia, os computadores são usados para uma variedade infinita de tarefas. As ações que realizamos neles, como assistir vídeos, fazer cursos, jogar e negociar ações, são muito mais complexas do que cálculos simples. Observamos que, todas essas atividades envolvem a interação de números e caracteres. Afinal, como um humano entenderia a interface de um programa sem palavras e números?"
 
-### Então, surge uma pergunta: _como os computadores são capazes de apresentar caracteres (alfabéticos, numéricos..) em interfaces?_
+### Surge uma pergunta: _como os computadores são capazes de apresentar caracteres (alfabéticos, numéricos..) em interfaces?_
 A humanidade teve uma ideia muito simples e útil nos primórdios da computação ao tentar representar caracteres. Foi pensado: Vamos atribuir caracteres aos números em binário. Por exemplo, a sequência de bits '1000001' forma o número 65; portanto, vamos associar a letra "A" a essa sequência de bits. 
 
 Para isso, foi criado o ASCII (American Standard Code for Information Interchange), um sistema utilizado para representar letras, algarismos, sinais de pontuação e caracteres de controle por meio de sequências de bits.
