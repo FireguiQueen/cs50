@@ -15,7 +15,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 
 ### Viajar 
 1. Verificar a previsão do tempo. 
-2. __Se__ estiver prevista chuva <p style="color: red">intensa:</p> </br>
+2. __Se__ estiver prevista chuva intensa: </br>
     &nbsp;&nbsp; -> _Reavaliar a decisão e possivelmente adiar a viagem._ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   __Se não:__ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                -> _Prosseguir com os planos de viagem._
