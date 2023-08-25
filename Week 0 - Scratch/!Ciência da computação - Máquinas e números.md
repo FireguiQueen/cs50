@@ -51,7 +51,6 @@ A diferença é que os computadores só tem acesso a dois bits: 0 e 1, em outras
 
 __Mas qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?__
 Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretamos informações.
-
 1. Entrada de uma informação (seja ouvindo ou lendo)
 2. Tratamento desta informação (pensamos como podemos resolver este problema)
 3. Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)
