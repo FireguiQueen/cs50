@@ -12,7 +12,7 @@ há diversas instruções em relação ao tratamento desta informação. Por fim
 
 
 ## Representação de Números
-Imagine-se como um professor dando aula e, ao final dela, você decide verificar quantos alunos estão presentes. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa, mas não pode contar muito alto. Esse sistema é chamado de 'unário', onde cada dígito representa uma única unidade.
+Imagine-se como um professor em sala de aula verificando a presença dos alunos. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa. Esse sistema é chamado de 'unário', onde cada dígito representa uma única unidade. No entanto, a contagem não permite ir muito longe. Somando os dedos erguidos, o máximo possível seria contar até 10 alunos.
 
 Há um método mais eficiente para representar alunos, conhecido como sistema decimal ou base 10. Aqui, cada dígito pode abranger dez valores distintos, de 0 a 9, o que nos possibilita empregar números para identificar estudantes. Independentemente da quantidade de alunos, como mais de 2000, não existem restrições, já que é possível criar qualquer número por meio de sequências de zeros e noves.
 
@@ -25,15 +25,15 @@ Essa ação também pode ser traduzida para os computadores, onde facilitaria o 
 </br>
 </br>
 
-## Como compreendemos os números
+## Entendendo a Estrutura Numérica
 Quando olhamos para o valor `123`, pensamos no número cento e vinte e três. Isso ocorre porque o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas.
-Cada posição nesse valor representa uma potência de dez, uma vez que há dez dígitos possíveis para cada posição. A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
+Cada posição nesse valor representa uma potência de base dez, uma vez que há dez dígitos possíveis para cada posição. A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
 - **Unidade:** 3 _(10^0 * 3 = 3)_;
 - **Dezena:** 2 _(10¹ * 2 = 20)_.
 - **Centena:** 1 _(10² * 1 = 100)_.
 - **RESULTADO = 100 + 20 + 3**
 
-Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse agrupamento de dígitos gera um número com 'n' posições. Por exemplo, se tivermos um valor com 4 posições, como `3.150`, contamos da esquerda para a direita: unidade de milhar (10^3 * 3), centenas (10^2 * 1), dezenas (10^1 * 5) e unidades (10^0 * 0).
+Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse agrupamento de dígitos gera um valor com 'n' posições. Por exemplo, se tivermos um valor com 4 posições, como `3.150`, contamos da esquerda para a direita: unidade de milhar (10^3 * 3), centenas (10^2 * 1), dezenas (10^1 * 5) e unidades (10^0 * 0).
 
 
 ### Na matemática, isso pode ser representado desta maneira: 
@@ -49,7 +49,7 @@ Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente id�
 A diferença é que os computadores só tem acesso a dois bits: 0 e 1, em outras palavras, só tem acesso a dois dígitos binários. 
 > Bits é derivado de "binary digits". Dígitos binários são 0 e 1. 
 
-Mas qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?
+__Mas qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?__
 Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretamos informações.
 
 1. Entrada de uma informação (seja ouvindo ou lendo)
