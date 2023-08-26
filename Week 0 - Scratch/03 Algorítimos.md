@@ -5,7 +5,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 
 
 ### Atravessar a rua 
-1. Olhar para os lados (esquerda e direita) 
+1. __Olhar__ para os lados (esquerda e direita) 
 2. __Se__ houver um carro se aproximando </br>
     &nbsp;&nbsp; -> _Aguardar até que ele passe._ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   __Se não:__ </br>
@@ -14,7 +14,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 </br>
 
 ### Viajar 
-1. Verificar a previsão do tempo. 
+1. __Verificar__ a previsão do tempo. 
 2. __Se__ estiver prevista chuva intensa: </br>
     &nbsp;&nbsp; -> _Reavaliar a decisão e possivelmente adiar a viagem._ </br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   __Se não:__ </br>
