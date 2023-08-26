@@ -36,5 +36,5 @@ Este livro segue uma ordem alfabética.
 6. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual: </br>
 &nbsp;&nbsp;&nbsp;&nbsp; -> Ligar para ele </br>
 7. ${\color{orange}Se \space não}$ Passe para a próxima página. Repita a linha 3.
-8. ${\color{orange}Se nenhuma das condições acima}$ Guarde o livro.
+8. ${\color{orange}Se \space nenhuma \space das \space condições  \space acima}$ Guarde o livro.
 
