@@ -31,7 +31,7 @@ Com mais clareza, podemos identificar os padrões na imagem abaixo. O algoritmo 
 2. ${\color{red}Abrir}$ o livro;
 3. ${\color{red}Procurar}$ a página onde começa a letra 'D' (de David)
 4. ${\color{red}Olhar}$ para a página;
-5. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual: </br>
+5. ${\color{orange}Se}$ o ${\color{green}estudante}$  ${\color{purple}está}$ na página atual: </br>
 &nbsp;&nbsp;&nbsp;&nbsp; -> Ligar para ele </br>
 6. ${\color{orange}Caso contrário}$ Pare de procurar e feche o livro.
 
