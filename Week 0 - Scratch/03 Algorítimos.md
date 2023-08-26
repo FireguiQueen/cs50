@@ -31,9 +31,10 @@ Este livro segue uma ordem alfabética.
 1. Procurando pelo estudante ${\color{green}David \space Wallace}$
 2. ${\color{red}Pegar}$ o livro;
 3. ${\color{red}Abrir}$ o livro;
-3. ${\color{red}Olhar}$ para a página;
-5. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual: </br>
+4. ${\color{red}Procurar}$ a página onde começa a letra 'D' (de David)
+5. ${\color{red}Olhar}$ para a página;
+6. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual: </br>
 &nbsp;&nbsp;&nbsp;&nbsp; -> Ligar para ele </br>
-6. ${\color{orange}Se \space não}$ Passe para a próxima página. Repita a linha 3.
-7. ${\color{orange}Se nenhuma das condições acima}$ Guarde o livro.
+7. ${\color{orange}Se \space não}$ Passe para a próxima página. Repita a linha 3.
+8. ${\color{orange}Se nenhuma das condições acima}$ Guarde o livro.
 
