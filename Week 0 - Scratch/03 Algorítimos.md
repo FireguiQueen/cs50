@@ -24,10 +24,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 
 Podemos notar um padrão em ambos os algoritmos. Percebemos uma sequência de ações, palavras-chave e avaliações que de: verdadeiro ou falso. Por exemplo, no algoritmo de atravessar a rua, na primeira etapa, ocorre a ação inicial `verificar`. Na segunda etapa, surge uma condição: `Existe um carro vindo?` Se sim, uma ação é executada; se não, outra ação é realizada.
 
-Com mais clareza, podemos notar quais são esses padrões na imagem abaixo.
-O algoritimo abaixo está procurando o número de telefone de um estudante da universade de Havard.
-Este livro segue uma ordem alfabética.
-Cada página deste livro representa uma letra. Por exemplo: página 1 = A (contem os nomes com inicais de "a': 'alice', 'Ailton'..), página 2 = "B" ('bernado', 'Bruce'..)
+Com mais clareza, podemos identificar os padrões na imagem abaixo. O algoritmo a seguir está buscando o número de telefone de um estudante da Universidade de Harvard. Este livro segue uma ordem alfabética, sendo que cada página representa uma letra. Por exemplo, a página 1 contém nomes iniciados com "A", como 'Alice' e 'Ailton', a página 2 representa a letra "B" e inclui nomes como 'Bernardo' e 'Bruce'.
 
 - __Procurando pelo estudante__ ${\color{green}David \space Wallace}$
 1. ${\color{red}Pegar}$ o livro;
