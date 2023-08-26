@@ -27,14 +27,14 @@ Podemos notar um padrão em ambos os algoritmos. Percebemos uma sequência de a�
 Com mais clareza, podemos notar quais são esses padrões na imagem abaixo.
 O algoritimo abaixo está procurando o número de telefone de um estudante da universade de Havard.
 Este livro segue uma ordem alfabética.
+Cada página deste livro representa uma letra. Por exemplo: página 1 = A (contem os nomes com inicais de "a': 'alice', 'Ailton'..), página 2 = "B" ('bernado', 'Bruce'..)
 
-1. Procurando pelo estudante ${\color{green}David \space Wallace}$
-2. ${\color{red}Pegar}$ o livro;
-3. ${\color{red}Abrir}$ o livro;
-4. ${\color{red}Procurar}$ a página onde começa a letra 'D' (de David)
-5. ${\color{red}Olhar}$ para a página;
-6. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual: </br>
+- __Procurando pelo estudante__ ${\color{green}David \space Wallace}$
+1. ${\color{red}Pegar}$ o livro;
+2. ${\color{red}Abrir}$ o livro;
+3. ${\color{red}Procurar}$ a página onde começa a letra 'D' (de David)
+4. ${\color{red}Olhar}$ para a página;
+5. ${\color{orange}Se}$ o ${\color{green}estudante}$ está na página atual: </br>
 &nbsp;&nbsp;&nbsp;&nbsp; -> Ligar para ele </br>
-7. ${\color{orange}Se \space não}$ Passe para a próxima página. Repita a linha 5.
-8. ${\color{orange}Se \space nenhuma \space das \space condições  \space acima}$ Guarde o livro.
+6. ${\color{orange}Caso contrário}$ Pare de procurar e feche o livro.
 
