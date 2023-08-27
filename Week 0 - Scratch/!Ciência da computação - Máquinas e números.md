@@ -23,12 +23,12 @@ Essa ação também pode ser traduzida para os computadores, onde facilitaria o 
 - **Saída (output):** Portanto, há 23 alunos ausentes.
 <details>
     <summary>Exemplo em código Javascript:</summary>
-    <code> 
+<code> 
         function alunosFaltosos(alunosPresentes, totalAlunos){
             console.log(totalAlunos - alunosPresentes);
         }
         alunosFaltosos(7, 30);
-    </code>
+</code>
 </details>
 
 
