@@ -35,7 +35,7 @@ Com mais clareza, podemos identificar os padrões na imagem abaixo. O algoritmo 
 &nbsp;&nbsp;&nbsp;&nbsp; -> ${\color{red}ligar}$ para ele </br>
 6. ${\color{orange}Caso \space contrário}$ Pare de procurar e feche o livro.
 
-Verde: _variável (contém um valor que varia, assim conseguimos reutilizar o mesmo algoritimo com outros nomes);_
-Vermelho: _função (uma instrução/ação do que fazer)_
-Laranja: _Condição (se for verdadeira, fazer uma coisa. Se for falsa, fazer outra)_
-Roxo: _expressão booleana, ou seja, só pode ser verdadeira ou falsa. É muito utilizada com condicionais. Geralmente elas tendem a ser as perguntas das condições_
+- Verde: _variável (contém um valor que varia, assim conseguimos reutilizar o mesmo algoritmo com outros nomes);_
+- Vermelho: _função (uma instrução/ação do que fazer)_
+- Laranja: _Condição (se for verdadeira, fazer uma coisa. Se for falsa, fazer outra)_
+- Roxo: _expressão booleana, ou seja, só pode ser verdadeira ou falsa. Geralmente elas tendem a ser as perguntas das condições_
