@@ -19,7 +19,7 @@ Há um método mais eficiente para representar alunos, conhecido como sistema de
 
 Essa ação também pode ser traduzida para os computadores, onde facilitaria o seu trabalho:
 - **Entrada (input):** Há 7 alunos presentes e um total de 30.
-- **Processamento (algoritimo(s) para a resolução do problema):** Há 30 alunos no total, o que significa que faltam 30 - 7 = 23 alunos.
+- **Processamento (algoritimo(s) para a resolução do problema):** Há 30 alunos no total e 7 presentes. Sendo assim, 30 - 7 = 23 alunos faltosos.
 - **Saída (output):** Portanto, há 23 alunos ausentes.
 <details>
     <summary>Exemplo em código Javascript:</summary>
