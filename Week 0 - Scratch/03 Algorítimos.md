@@ -24,7 +24,7 @@ Algoritmos não são somente utilizados em máquinas, mas também têm aplicaç�
 
 Podemos notar um padrão em ambos os algoritmos. Percebemos uma sequência de ações, palavras-chave e avaliações que de: verdadeiro ou falso. Por exemplo, no algoritmo de atravessar a rua, na primeira etapa, ocorre a ação inicial `verificar`. Na segunda etapa, surge uma condição: `Existe um carro vindo?` Se sim, uma ação é executada; se não, outra ação é realizada.
 
-Com mais clareza, podemos identificar os padrões na imagem abaixo. O algoritmo a seguir está buscando o número de telefone de um estudante da Universidade de Harvard. Este livro segue uma ordem alfabética, sendo que cada página representa uma letra. Por exemplo, a página 1 contém nomes iniciados com "A", como 'Alice' e 'Ailton', a página 2 representa a letra "B" e inclui nomes como 'Bernardo' e 'Bruce'.
+Com mais clareza, podemos identificar os padrões na imagem abaixo. O algoritmo a seguir está buscando o número de telefone de um estudante da Universidade de Harvard. Este livro segue uma ordem alfabética, sendo que cada página representa uma letra. Por exemplo, a página 1 contém nomes iniciados com "A", como 'Alice' e 'Andy', a página 2 representa a letra "B" e inclui nomes como 'Bernardo' e 'Bruce'.
 
 - __Procurando pelo estudante__ ${\color{green}David \space Wallace}$
 1. ${\color{red}Pegar}$ o livro;
@@ -32,6 +32,10 @@ Com mais clareza, podemos identificar os padrões na imagem abaixo. O algoritmo 
 3. ${\color{red}Procurar}$ a página onde começa a letra 'D' (de David)
 4. ${\color{red}Olhar}$ para a página;
 5. ${\color{orange}Se}$ o ${\color{green}estudante}$  ${\color{purple}está}$ na página atual: </br>
-&nbsp;&nbsp;&nbsp;&nbsp; -> Ligar para ele </br>
-6. ${\color{orange}Caso contrário}$ Pare de procurar e feche o livro.
+&nbsp;&nbsp;&nbsp;&nbsp; -> ${\color{red}ligar}$ para ele </br>
+6. ${\color{orange}Caso \space contrário}$ Pare de procurar e feche o livro.
 
+Verde: _variável (contém um valor que varia, assim conseguimos reutilizar o mesmo algoritimo com outros nomes);_
+Vermelho: _função (uma instrução/ação do que fazer)_
+Laranja: _Condição (se for verdadeira, fazer uma coisa. Se for falsa, fazer outra)_
+Roxo: _expressão booleana, ou seja, só pode ser verdadeira ou falsa. É muito utilizada com condicionais. Geralmente elas tendem a ser as perguntas das condições_
