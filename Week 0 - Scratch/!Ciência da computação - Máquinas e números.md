@@ -2,6 +2,7 @@
 Ciência da computação é a ciência que estuda as técnicas, metodologias, instrumentos computacionais e aplicações tecnológicas, que informatizem os processos e desenvolvam soluções de processamento de dados de entrada e saída pautados no computador.
 Podemos pensar na resolução de problemas como o processo de pegar algumas informações (detalhes sobre nosso problema) e gerar alguns resultados (a solução para nosso problema). 
 
+
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
 
 Input é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa, onde
@@ -14,12 +15,21 @@ há diversas instruções em relação ao tratamento desta informação. Por fim
 ## Representação de Números
 Imagine-se como um professor em sala de aula verificando a presença dos alunos. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa. Esse sistema é chamado de 'unário', onde cada dígito representa uma única unidade. No entanto, a contagem não permite ir muito longe. Somando os dedos erguidos, o máximo possível seria contar até 10 alunos.
 
-Há um método mais eficiente para representar alunos, conhecido como sistema decimal ou base 10. Aqui, cada dígito pode abranger dez valores distintos, de 0 a 9, o que nos possibilita empregar números para identificar estudantes. Independentemente da quantidade de alunos, como mais de 2000, não existem restrições, já que é possível criar qualquer número por meio de sequências de zeros e noves.
+Há um método mais eficiente para representar alunos, conhecido como sistema decimal ou base 10. Nele, iremos agrupar diferentes unidades, e cada posição neste valor pode abranger dez valores distintos, de 0 a 9, o que nos possibilita empregar números para identificar estudantes. Independentemente da quantidade de alunos, como mais de 2000, não existem restrições, já que é possível criar qualquer número por meio de sequências de zeros e noves.
 
 Essa ação também pode ser traduzida para os computadores, onde facilitaria o seu trabalho:
 - **Entrada (input):** Há 7 alunos presentes e um total de 30.
-- **Sistema (processamento da informação):** Há 30 alunos no total, o que significa que faltam 30 - 7 = 23 alunos.
+- **Processamento (algoritimo(s) para a resolução do problema):** Há 30 alunos no total, o que significa que faltam 30 - 7 = 23 alunos.
 - **Saída (output):** Portanto, há 23 alunos ausentes.
+<details>
+    <summary>Exemplo em código Javascript:</summary>
+    <code> 
+        function alunosFaltosos(alunosPresentes, totalAlunos){
+            console.log(totalAlunos - alunosPresentes);
+        }
+        alunosFaltosos(7, 30);
+    </code>
+</details>
 
 
 </br>
