@@ -48,7 +48,7 @@ Nas linguagens interpretadas, como JavaScript, PHP e Python, o processo é um po
 
 
 ## Low-level & high-level
-Linguagens "low-level" não são muito utilizadas em geral pois além de exigir profissionais mais experientes, também demanda muito tempo. Esse tipo de linguagem é mais próxima a linguagem do computador, ou seja, do binário. 
+Linguagens "low-level" não são muito utilizadas em geral pois além de exigir profissionais mais experientes, também demanda __muito__ mais tempo. Esse tipo de linguagem é mais próxima a linguagem do computador, ou seja, do binário.  
 
 
 ### Recomendação de vídeos
