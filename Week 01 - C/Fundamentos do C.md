@@ -22,18 +22,6 @@ void frase(){
 }
 ```
 
-
-
-### void
-Ao declarar uma função usando `void`, estamos especificando que a função _não_ irá retornar nada,
-apenas fazer a execução das instruções.
-```c
-void digaOi(){
-
-}
-```
-
-
 </br>
 
 ## Para que servem e como importar as bibliotecas
