@@ -12,6 +12,7 @@ int retorneIdade(){
 }
 ```
  
+</br>
 
 ### void _(vazio)_
 A declaração 'void' serve para funções que não retornam __nada__. Você pode ser perguntar, bem, mas caso a função não retorne nada, podemos usar o `int` também. Sim, isso é verdade, mas é uma _boa prática_ usar o `void` para funções que não retornam nada, apenas que executam ações.
