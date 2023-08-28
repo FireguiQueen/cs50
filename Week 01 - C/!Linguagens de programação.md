@@ -23,8 +23,8 @@ Considere um algoritmo simples:
 </br>
 </br>
 
-## IDES
-Uma IDE é um software que agrega uma variedade de ferramentas e recursos projetados para auxiliar os desenvolvedores durante todo o ciclo de vida do desenvolvimento de software. Seu objetivo é proporcionar um ambiente centralizado e eficiente para escrever, testar, depurar e gerenciar código.
+## IDE (integrated development environment )
+Uma IDE é um software que agrega uma variedade de ferramentas e recursos projetados para _auxiliar_ os desenvolvedores durante todo o ciclo de vida do desenvolvimento de software. Seu objetivo é proporcionar um ambiente centralizado e eficiente para escrever, testar, depurar e gerenciar código.
 
 ### Mais do que um Editor
 Embora seja verdade que um simples editor de texto, como o Bloco de Notas, pode ser usado para escrever código, as IDEs oferecem muito mais. Realce de Sintaxe, Autocompletar e Correção Automática são apenas o começo. A IDE não apenas destaca erros, mas também oferece sugestões úteis para melhorar a qualidade do código.
@@ -37,7 +37,11 @@ Por exemplo, existe uma extensão no VsCode que atualiza em tempo real as mudan�
 </br>
 
 ## Linguagem interpretada x compilada 
+Conforme vimos antes, os computadores se comunicam essencialmente por meio da linguagem binária, aquela composta por zeros e uns. Quando se trata de criar programas de computador, temos dois principais jeitos de fazer isso: linguagens compiladas e linguagens interpretadas.
 
+No universo das linguagens compiladas, como C, C++, Java e Go, os programadores escrevem o código usando uma linguagem mais próxima da humana. Esse código passa por um programa chamado compilador, que o transforma totalmente em linguagem binária que o computador entende. O resultado final é um arquivo executável que o sistema operacional pode rodar diretamente. Essa etapa de compilação age como uma espécie de tradutor do idioma humano para o idioma das máquinas.
+
+Nas linguagens interpretadas, como JavaScript, PHP e Python, o processo é um pouco diferente. Ainda começamos escrevendo o código numa linguagem de alto nível, mas ao invés de ser convertido antecipadamente para linguagem binária, ele necessita de um intérprete. Esse intérprete, como o motor V8 usado no JavaScript, lê e executa o código linha por linha, transformando-o em tempo real em instruções compreensíveis para o hardware. Isso traz flexibilidade e agilidade no desenvolvimento, mas pode levar a um desempenho um pouco menor comparado às linguagens compiladas.
 
 </br>
 </br>
