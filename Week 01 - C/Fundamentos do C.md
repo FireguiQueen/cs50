@@ -5,9 +5,9 @@ Esta função vai retornar um valor __OU__ vai executar aquele bloco, realizando
 </br>
 
 ### int _(integer)_
-Ao usarmos `int`, esperamos que esta função retorne um valor inteiro. Observe que não é obrigatório fazer com que ela retorne algum valor.
+Ao utilizar a palavra-chave `int`, indicamos que a função retornará um valor inteiro. É importante notar que a função _não é_ obrigada a retornar um valor; no entanto, essa é uma possibilidade.
 ```c
-int retorneIdade(){
+int retornarIdade(){
     return 17;
 }
 ```
