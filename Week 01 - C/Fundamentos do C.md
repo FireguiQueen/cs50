@@ -1,6 +1,8 @@
 # Declarações básicas de funções
-Ao declarar uma função é esperado duas coisas: 
-- Esta função vai retornar um valor OU vai executar aquele bloco, realizando ações no programa.
+Ao declarar uma função é esperado duas coisas: </br> 
+Esta função vai retornar um valor __OU__ vai executar aquele bloco, realizando ações no programa.
+
+</br>
 
 ### int _(integer)_
 Ao usarmos `int`, esperamos que esta função retorne um valor inteiro. Observe que não é obrigatório fazer com que ela retorne algum valor.
