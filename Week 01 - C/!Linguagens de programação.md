@@ -31,6 +31,7 @@ Embora seja verdade que um simples editor de texto, como o Bloco de Notas, pode 
 
 ### Extensões 
 A verdadeira força das IDEs reside nas extensões. Elas são complementos que estendem as funcionalidades da IDE. Por exemplo, se você estiver desenvolvendo em Python, pode adicionar uma extensão que ofereça integração direta com o gerenciador de pacotes pip. Se estiver trabalhando com web design, há extensões que facilitam a edição de HTML, CSS e JavaScript. Essa flexibilidade permite que você adapte a IDE às suas necessidades específicas.
+Por exemplo, existe uma extensão no VsCode que atualiza em tempo real as mudanças em arquivos .HTML. Por exemplo, ao colocar uma tag `<p>` em seu arquivo, logo em seguida você precisa dar F5 em sua página para ver esta alteração. Agora com esta extensão, ela faz isso de maneira automática para você.
 
 </br>
 </br>
