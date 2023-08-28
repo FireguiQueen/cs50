@@ -23,7 +23,7 @@ Considere um algoritmo simples:
 </br>
 </br>
 
-## IDE (integrated development environment )
+## IDE (integrated development environment)
 Uma IDE é um software que agrega uma variedade de ferramentas e recursos projetados para _auxiliar_ os desenvolvedores durante todo o ciclo de vida do desenvolvimento de software. Seu objetivo é proporcionar um ambiente centralizado e eficiente para escrever, testar, depurar e gerenciar código.
 
 ### Mais do que um Editor
@@ -48,7 +48,12 @@ Nas linguagens interpretadas, como JavaScript, PHP e Python, o processo é um po
 
 
 ## Low-level & high-level
-Linguagens "low-level" não são muito utilizadas em geral pois além de exigir profissionais mais experientes, também demanda __muito__ mais tempo. Esse tipo de linguagem é mais próxima a linguagem do computador, ou seja, do binário.  
+Linguagens "low-level", também conhecidas como linguagens de programação de baixo nível, não são amplamente utilizadas devido a vários fatores. Primeiramente, exigem profissionais mais experientes, uma vez que estão mais próximas da linguagem de máquina e envolvem manipulação direta de recursos do hardware. Além disso, o processo de desenvolvimento nessas linguagens é mais lento e trabalhoso, pois cada detalhe precisa ser especificado. Exemplos de linguagens de baixo nível incluem Assembly e C.
+
+As linguagens "high-level", ou linguagens de alto nível, são mais próximas da linguagem humana, o que as torna mais acessíveis e fáceis de aprender e usar. Elas abstraem muitos detalhes de baixo nível e oferecem bibliotecas e frameworks que facilitam o desenvolvimento. Isso resulta em maior produtividade, uma vez que os programadores podem se concentrar mais na lógica do programa do que em questões técnicas. Exemplos de linguagens de alto nível são Python, Java, e C++.
+
+A razão pela qual muitos programas não são desenvolvidos em linguagens de baixo nível está relacionada à falta de suporte e às dificuldades mencionadas anteriormente. A ausência de bibliotecas e frameworks prontos para uso nessas linguagens pode aumentar drasticamente o tempo necessário para desenvolver um programa. Em contraste, linguagens de alto nível oferecem uma ampla gama de recursos e ferramentas que agilizam o processo de desenvolvimento e permitem que os programadores se concentrem na resolução de problemas.
+
 
 
 ### Recomendação de vídeos

@@ -5,7 +5,11 @@ Ao declarar uma função usando o `int`, esperamos que esta função retorne um 
 Não é obrigatório fazer com que ela retorne algum valor. Mas caso precise que a função retorne um número por exemplo, use o `int`. 
 ```c
 int digaOi(){
+    return 250;
+}
 
+int main(){
+    printf(digaOi())
 }
 ```
 
