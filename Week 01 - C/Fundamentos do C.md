@@ -1,17 +1,25 @@
 # Declarações básicas de funções
+Ao declarar uma função é esperado duas coisas: 
+- Esta função vai retornar um valor OU vai executar aquele bloco, realizando ações no programa.
 
-### int 
-Ao declarar uma função usando o `int`, esperamos que esta função retorne um valor inteiro. 
-Não é obrigatório fazer com que ela retorne algum valor. Mas caso precise que a função retorne um número por exemplo, use o `int`. 
+### int _(integer)_
+Ao usarmos `int`, esperamos que esta função retorne um valor inteiro. Observe que não é obrigatório fazer com que ela retorne algum valor.
 ```c
-int digaOi(){
-    return 250;
-}
-
-int main(){
-    printf(digaOi())
+int retorneIdade(){
+    return 17;
 }
 ```
+ 
+
+### void _(vazio)_
+A declaração 'void' serve para funções que não retornam __nada__. Você pode ser perguntar, bem, mas caso a função não retorne nada, podemos usar o `int` também. Sim, isso é verdade, mas é uma _boa prática_ usar o `void` para funções que não retornam nada, apenas que executam ações.
+```c
+void frase(){
+    printf("Hello, world! I'm learning C")
+}
+```
+
+
 
 ### void
 Ao declarar uma função usando `void`, estamos especificando que a função _não_ irá retornar nada,
