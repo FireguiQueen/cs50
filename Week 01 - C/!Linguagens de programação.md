@@ -36,4 +36,11 @@ Por exemplo, existe uma extens√£o no VsCode que atualiza em tempo real as mudan√
 </br>
 </br>
 
+## Linguagem interpretada x compilada 
+
+
+</br>
+</br>
+
+
 ## Low-level & high-level
