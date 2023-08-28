@@ -29,10 +29,10 @@ Quando nos aventuramos no mundo da programação em C, percebemos rapidamente qu
 
 A razão por trás dessa prática é fundamental: cada ponto e vírgula sinaliza ao compilador C que uma instrução foi concluída. É como se fosse o fechamento de um pensamento, um marco que separa uma ação da próxima. Para entender melhor, considere a seguinte analogia linguística.
 
-Imagine a seguinte frase em português: </br>
++ Imagine a seguinte frase em português: </br>
 <q>Eu irei viajar amanhã. Será divertido.</q>
 
-Agora, retiremos o ponto final: </br>
++ Agora, retiremos o ponto final: </br>
 <q>Eu irei viajar amanhã Será divertido.</q>
 
 Embora ainda seja possível entender a frase, fica evidente que algo está errado devido à falta do ponto final. A mesma lógica se aplica à linguagem C: a ausência do ponto e vírgula pode resultar em um código incorreto ou, em muitos casos, até mesmo em erros de compilação. A diferença crucial é que enquanto nossos cérebros podem lidar com ambiguidades na linguagem falada, uma linguagem de programação não possui essa flexibilidade.
