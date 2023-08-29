@@ -1,4 +1,14 @@
-# Declarações básicas de funções
+# Funções e suas declarações
+Uma função é um miniprograma dentro do nosso programa. Para facilitar a explicação, podemos pensar num software de controle de entrada/saida de dinheiro.
+Bem, vamos pensar neste software -  ele irá possuir muitas funcionalidades, tais como:
+- Permitir que você coloque seus lucros (entrada de dinheiro)
+- Permitir que você coloque suas despesas (saida de dinheiro)
+- Gerar gráficos que informam se você está lucrando ou não
+- Gerar gráficos que informam da onde vem seus lucros (se é pix, boleto, dinheiro vivo, bitcoin..)
+- Gerar gráficos que informam onde você tem suas despesas (aluguel de escritório, luz, água..)
+
+Bem, há diversas outras 
+
 Ao declarar uma função é esperado duas coisas: </br> 
 Esta função vai retornar um valor __OU__ vai executar aquele bloco, realizando ações no programa.
 > _Ou ela fará ambas as coisas. Mas isso geralmente é feito em funções separadas_
