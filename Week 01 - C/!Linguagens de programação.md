@@ -22,7 +22,7 @@ Vamos desconsiderar a questão relacionada à máquina; vamos assumir que ela se
 A resposta é bem simples: _certas ações não foram previstas. O algoritimo é falho._
 
 Considere um algoritmo simples:
-1. Pegar uma folha _(uma folha de agenda que pode conter números de pessoas)_.
+1. Pegar uma folha _(folha de uma agenda que pode conter números de pessoas)_.
 2. Ligar para o primeiro número que você ver na folha.
 > Observe que neste algoritmo há um pequeno erro: pode ou não haver um número na folha. No entanto, em nenhum momento foi indicado o que fazer no caso de __não__ haver um número, e isso pode levar a um erro no programa.
 
