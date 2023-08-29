@@ -13,7 +13,7 @@ A importância das funções vai além da organização do código. Elas também
 Ao criar funções, estamos na verdade construindo blocos reutilizáveis que podem ser chamados sempre que necessário, tanto no contexto do mesmo programa quanto em diferentes projetos. Isso promove a modularidade e escalabilidade do código, permitindo adicionar, modificar ou remover funcionalidades com facilidade.
 Dominar o uso de funções é uma habilidade crucial para desenvolvedores. Elas permitem a criação de programas mais organizados, flexíveis e eficientes, além de promover a colaboração e compartimentalização do trabalho em equipes de desenvolvimento. Portanto, ao criar software complexo, aproveite ao máximo o poder das funções.
 
-Ao declarar uma função é esperado duas coisas: </br> 
+#### Ao declarar uma função é esperado duas coisas:  
 Esta função vai retornar um valor __OU__ vai executar aquele bloco, realizando ações no programa.
 > _Ou ela fará ambas as coisas. Mas isso geralmente é feito em funções separadas_
 
