@@ -24,7 +24,7 @@ A resposta é bem simples: _certas ações não foram previstas. O algoritimo é
 Considere um algoritmo simples:
 1. Pegar uma folha _(folha de uma agenda que pode conter números de pessoas)_.
 2. Ligar para o primeiro número que você ver na folha.
-> Observe que neste algoritmo há um pequeno erro: pode ou não haver um número na folha. No entanto, em nenhum momento foi indicado o que fazer no caso de __não__ haver um número, e isso pode levar a um erro no programa.
+> Observe que neste algoritmo há um pequeno erro: pode ou não haver um número na folha. No entanto, em nenhum momento foi indicado o que fazer no caso de __não__ haver um número, e isso pode levar a um erro em nosso algoritimo.
 
 É claro que crashes, travamentos ou bugs não ocorrem apenas por causa do motivo mencionado acima. Algo que também pode causar travamentos ou crashes é quando o código, por exemplo, é mal escrito, apresentando muita redundância. Portanto, mesmo com uma máquina extremamente potente, é possível ter problemas com alguns softwares devido a códigos mal elaborados, o que faz com que o software demande muito mais recursos do que o necessário.
 
