@@ -19,7 +19,7 @@ Com a linguagem de progração, as diferenças não são muito grandes. Com ling
 ## Erros no código
 Vamos desconsiderar a questão relacionada à máquina; vamos assumir que ela seja de excelente qualidade e capaz de executar qualquer software (jogos, editores de imagem/vídeo, modelagem 3D, etc.) tranquilamente. Você provavelmente já se questionou por que ocorrem bugs ou crashes em softwares, principalmente em jogos.
 
-A resposta é bem simples: _certas ações não foram previstas_.
+A resposta é bem simples: _certas ações não foram previstas. O algoritimo é falho._
 
 Considere um algoritmo simples:
 1. Pegar uma folha _(uma folha de agenda que pode conter números de pessoas)_.
