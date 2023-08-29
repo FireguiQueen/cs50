@@ -1,6 +1,7 @@
 # Declarações básicas de funções
 Ao declarar uma função é esperado duas coisas: </br> 
 Esta função vai retornar um valor __OU__ vai executar aquele bloco, realizando ações no programa.
+> _Ou ela fará ambas as coisas. Mas isso geralmente é feito em funções separadas_
 
 </br>
 
