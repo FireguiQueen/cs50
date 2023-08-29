@@ -38,8 +38,8 @@ Uma IDE é um software que agrega uma variedade de ferramentas e recursos projet
 Embora seja verdade que um simples editor de texto, como o Bloco de Notas, pode ser usado para escrever código, as IDEs oferecem muito mais. Realce de Sintaxe, Autocompletar e Correção Automática são apenas o começo. A IDE não apenas destaca erros, mas também oferece sugestões úteis para melhorar a qualidade do código.
 
 ### Extensões 
-A verdadeira força das IDEs reside nas extensões. Elas são complementos que estendem as funcionalidades da IDE. Por exemplo, se você estiver desenvolvendo em Python, pode adicionar uma extensão que ofereça integração direta com o gerenciador de pacotes pip. Se estiver trabalhando com web design, há extensões que facilitam a edição de HTML, CSS e JavaScript. Essa flexibilidade permite que você adapte a IDE às suas necessidades específicas.
-Por exemplo, existe uma extensão no VsCode que atualiza em tempo real as mudanças em arquivos .HTML. Por exemplo, ao colocar uma tag `<p>` em seu arquivo, logo em seguida você precisa dar F5 em sua página para ver esta alteração. Agora com esta extensão, ela faz isso de maneira automática para você.
+A verdadeira fortaleza das IDEs reside em suas extensões. Estas são complementos que ampliam as funcionalidades da IDE. Por exemplo, ao desenvolver em Python, você pode adicionar uma extensão que ofereça integração direta com o gerenciador de pacotes pip. Se estiver trabalhando com web design, existem extensões que facilitam a edição de HTML, CSS e JavaScript. Essa flexibilidade permite que você adapte a IDE às suas necessidades específicas.
+Um exemplo disso é a extensão no Visual Studio Code que atualiza em tempo real as mudanças em arquivos .HTML. Quando você insere uma tag <p> em seu arquivo, as alterações são refletidas automaticamente na sua página, dispensando a necessidade de atualizar manualmente (dar F5) a página para ver as mudanças.
 
 </br>
 </br>
