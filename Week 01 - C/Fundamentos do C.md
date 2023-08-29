@@ -40,10 +40,17 @@ Embora ainda seja possível entender a frase, fica evidente que algo está errad
 
 Quando o compilador C analisa seu código, ele segue um conjunto rígido de regras. Cada ponto e vírgula indica que uma instrução foi terminada, o que permite que o compilador interprete corretamente a sequência de ações que você deseja executar. Portanto, esses pequenos símbolos desempenham um papel vital na estruturação e na clareza do seu código.
 
+</br>
+</br>
+
 ## Para que servem e como importar as bibliotecas
 
 
+</br>
+</br>
 
+## Compilação do código
+Nosso código-fonte foi escrito em caracteres que podemos ler, mas precisa ser compilado: _convertido em código de máquina, padrões de zeros e uns que nosso computador possa entender diretamente._
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
