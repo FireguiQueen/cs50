@@ -3,7 +3,7 @@ Uma linguagem de programação é um vocabulário e um conjunto de regras gramat
 
 Vamos pensar num idioma do mundo, o português. Quando há duas pessoas que falam o idioma nativamente, a tendência é que elas se comuniquem em português. Pense nessas duas pessoas como Pesosa 'a' e pessoa 'b', para a pessoa 'a' pedir que a outra realize uma ação, ela dirá uma frase contendo palavras do idioma. 
 
-Com a linguagem de progração, as diferenças não são muito grandes. Com linguagem de programação, usamos alguns padrões, algumas palavras chaves para determinar como uma ação dentro do computador será realizada. Além disso, na programação, precisamos escrever o nosso código da melhor maneira possível, sendo extremamente detalhistas ao criar um código. Pois qualquer informação erronea em nosso programa, pode gerar bugs ou resultados inesperados. 
+Com a linguagem de progração, as diferenças não são muito grandes. Com linguagem de programação, usamos alguns padrões, algumas palavras chaves para determinar como uma ação dentro do computador será realizada. Além disso, na programação, precisamos escrever o nosso código da melhor maneira possível, sendo extremamente detalhistas ao criar um código. Pois qualquer informação erronea em nosso programa, pode gerar bugs, resultados inesperados ou erros. 
 
 </br>
 </br>
