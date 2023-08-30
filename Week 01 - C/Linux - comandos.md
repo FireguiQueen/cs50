@@ -19,7 +19,7 @@ Os "comandos Linux" são instruções que você pode digitar em um terminal ou l
 > O comando "cp" (copy) é usado para copiar arquivos e diretórios.
 
 ### mv
-> O comando "mv" (move) é usado para mover arquivos e diretórios: `move hello.c`.
+> O comando "mv" (move) é usado para mover arquivos e diretórios: `move hello.c programasEmC`.
 
 ### grep
 > O comando "grep" é usado para pesquisar padrões em arquivos de texto.
