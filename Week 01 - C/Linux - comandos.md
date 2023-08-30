@@ -4,22 +4,22 @@ Os "comandos Linux" são instruções que você pode digitar em um terminal ou l
 ## Linux: Algumas instruções
 
 ### ls
-> O comando "ls" (list) é usado para listar o conteúdo de um diretório.
+> O comando "ls" (list) é usado para listar o conteúdo de um diretório: `ls` ou para listar em diretórios especificos `ls nome_diretorio`
 
 ### rm
 > O comando "rm" (remove) é usado para excluir arquivos ou diretórios.
 
 ### cd
-> O comando "cd" (change directory) é usado para mudar o diretório atual.
+> O comando "cd" (change directory) é usado para mudar o diretório atual: `cd nome_diretorio` ou para voltar um diretorio anterior `cd ..`
 
 ### mkdir
-> O comando "mkdir" (make directory) é usado para criar diretórios.
+> O comando "mkdir" (make directory) é usado para criar diretórios: `mkdir photos` 
 
 ### cp
 > O comando "cp" (copy) é usado para copiar arquivos e diretórios.
 
 ### mv
-> O comando "mv" (move) é usado para mover arquivos e diretórios.
+> O comando "mv" (move) é usado para mover arquivos e diretórios: `move hello.c`.
 
 ### grep
 > O comando "grep" é usado para pesquisar padrões em arquivos de texto.
