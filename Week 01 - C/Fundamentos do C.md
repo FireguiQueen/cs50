@@ -78,6 +78,9 @@ Aqui estão algumas razões pelas quais as bibliotecas em C são importantes e t
 
 Um exemplo prático disso é a função printf. Essa função é usada para exibir informações na saída padrão, como o console. Imagine ter que escrever o código necessário para interagir com a saída do console toda vez que você quisesse exibir algo na tela. Seria um processo demorado e propenso a erros. Graças à biblioteca padrão de C, que inclui o arquivo de cabeçalho `<stdio.h>`, você pode simplesmente usar a função printf para exibir informações, economizando tempo e esforço.
 
+É interessante observar que as bibliotecas seguem um padrão de "estilo". Por exemplo, o nome "stdio" é uma abreviação de "standard input output" (entrada e saída padrão), e esse nome nos indica imediatamente que o propósito dela é fornecer funções para o gerenciamento de informações de entrada e saída. Além disso, as funções oferecidas por essa biblioteca, como a "printf()", também têm nomes bem pensados. Pelo próprio nome, compreendemos que essa função tem o propósito de imprimir informações na saída, como resultado, no nosso console.
+
+
 
 
 
