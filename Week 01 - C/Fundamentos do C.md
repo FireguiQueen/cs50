@@ -74,7 +74,7 @@ Aqui estão algumas razões pelas quais as bibliotecas em C são importantes e t
 
 + Economia de tempo: _Usar bibliotecas permite que você se concentre na lógica específica do seu programa, em vez de gastar tempo na implementação de funcionalidades genéricas._
 
-Maturidade: _Bibliotecas bem estabelecidas são frequentemente testadas e atualizadas ao longo do tempo, o que contribui para a confiabilidade e estabilidade do seu código._
++ Maturidade: _Bibliotecas bem estabelecidas são frequentemente testadas e atualizadas ao longo do tempo, o que contribui para a confiabilidade e estabilidade do seu código._
 
 Um exemplo prático disso é a função printf. Essa função é usada para exibir informações na saída padrão, como o console. Imagine ter que escrever o código necessário para interagir com a saída do console toda vez que você quisesse exibir algo na tela. Seria um processo demorado e propenso a erros. Graças à biblioteca padrão de C, que inclui o arquivo de cabeçalho `<stdio.h>`, você pode simplesmente usar a função printf para exibir informações, economizando tempo e esforço.
 
