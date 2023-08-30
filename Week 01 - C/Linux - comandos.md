@@ -7,7 +7,10 @@ Os "comandos Linux" são instruções que você pode digitar em um terminal ou l
 > O comando "ls" (list) é usado para listar o conteúdo de um diretório: `ls` ou para listar em diretórios especificos `ls nome_diretorio`
 
 ### rm
-> O comando "rm" (remove) é usado para excluir arquivos ou diretórios.
+> O comando "rm" (remove) é usado para excluir apenas arquivos: `rm hello.c`.
+
+### rmdir
+> O comando "rmdir (remove directory) é usado para excluir diretórios: `rmdir photos`
 
 ### cd
 > O comando "cd" (change directory) é usado para mudar o diretório atual: `cd nome_diretorio` ou para voltar um diretorio anterior `cd ..`
