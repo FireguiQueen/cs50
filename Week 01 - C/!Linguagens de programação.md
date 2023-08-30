@@ -11,7 +11,7 @@ Com a linguagem de progração, as diferenças não são muito grandes. Com ling
 ## Correção, design e estilo
 + Correção: _verificamos se o nosso código funciona corretamente, conforme planejado._
 + Design: _uma medida subjetiva de quão bem escrito nosso código é, com base em quão eficiente, elegante ou logicamente legível ele é, sem repetição desnecessária. Afinal, não queremos um software demandando mais recursos do que o necessário._
-+ Estilo: _o quão esteticamente formatado nosso código é, em termos de indentação consistente e outra colocação de símbolos. As diferenças de estilo não afetam a exatidão ou o significado do nosso código, mas afetam o quão legível é visualmente. Um exemplo em javascript é que, caso a estrutura condicional `if` contenha apenas uma linha, podemos escolher não utilizar as chaves._
++ Estilo: _o quão esteticamente formatado nosso código é, em termos de indentação consistente e outra colocação de símbolos. As diferenças de estilo não afetam a exatidão ou o significado do nosso código, mas afetam o quão legível é visualmente. Um exemplo em javascript é que, caso a estrutura condicional `if` contenha apenas uma linha, podemos escolher não utilizar as chaves. Outro exemplo são os nomes que damos a nossas variáveis, eles precisam fazer sentido ao que a variável recebe. Se você irá criar uma variável referente ao saldo do usuário no seu site, o nome mais adequado a variável seria "saldo" ou "saldoUsuario"._
 
 </br>
 </br>
