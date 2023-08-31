@@ -87,11 +87,10 @@ Um exemplo prático disso é a função printf. Essa função é usada para exib
 Nosso código-fonte foi escrito em caracteres que podemos ler, mas precisa ser compilado: _convertido em código de máquina, padrões de zeros e uns que nosso computador possa entender diretamente._
 
 ### Compilando um código 
-Você já se perguntou o porque dos caracteres aleatorios no seu bloco de notas ao tentar editar um arquivo executavel? 
+Você já se perguntou o porquê dos caracteres aleatórios no seu bloco de notas ao tentar editar um arquivo executável? 
 ![Bloco de notas - caractares aleatorios](image.png)
 
-Após criar seu arquivo em C, você irá compilar ele, pois todo aquele código precisa ser transformado em zeros e uns para a máquina poder entender.
-Após a compilação, será criado um arquivo executavel
+Antes de responder a esta pergunta, vamos pensar na compilação. Após criar o seu arquivo em C, você irá compilá-lo, pois todo aquele código precisa ser transformado em zeros e uns para a máquina poder entender. Após a compilação, será criado um arquivo executável (um arquivo que contém diversos zeros e uns). Sendo assim, caso você tente abri-lo pelo bloco de notas, vários caracteres "aleatórios" serão mostrados. Isso ocorre porque o bloco de notas é um software para fazer a leitura de bits ou transformar caracteres em bits para o computador. Todos aqueles zeros e uns no arquivo executável são lidos pelo bloco de notas usando a tabela ASCII.
 
 
 </br>
