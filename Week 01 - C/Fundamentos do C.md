@@ -86,5 +86,31 @@ Um exemplo prático disso é a função printf. Essa função é usada para exib
 ## Compilação do código
 Nosso código-fonte foi escrito em caracteres que podemos ler, mas precisa ser compilado: _convertido em código de máquina, padrões de zeros e uns que nosso computador possa entender diretamente._
 
+</br>
+</br>
+
+## Variáveis: o que são e como definir elas 
+Variáveis são meios para armazenar valores na memória. Por exemplo, na matemática, podemos expressar isso como 'Y = 3' e 'X = Y + 1'. Nesse caso, a nossa variável é 'Y' e recebe o valor '3'. O sinal de igual (=) que fica entre a variável e o valor não denota igualdade, mas sim atribuição de valor. Estamos atribuindo um valor a uma determinada variável.
+
+Variáveis também podem receber funções, as quais, por sua vez, retornam um valor.
+
+##### Aqui está um pequeno exemplo usando a linguagem javascript
+> Um exemplo prático usando a linguagem JavaScript ilustra esse conceito. A função prompt é utilizada para criar uma janela na página onde o usuário pode inserir um valor. Quando o usuário clica em 'OK', o valor digitado é transmitido como segundo argumento para a função. Essa função, por sua vez, retorna o valor inserido pelo usuário. Nesse código, a variável 'nomeUsuario' recebe o valor inserido pelo usuário através do prompt, e então esse valor é exibido no console. Sem o uso da variável, o valor inserido pelo usuário no prompt não seria armazenado e acessível para uso posterior
+```js
+const nomeUsuario = prompt('Qual o seu nome?');
+console.log(nomeusuario) // retorna o nome digitado
+```
+
+Em javascript nós não precisamos definir o _tipo de dado_ de uma variável. Por exemplo, se você for criar uma variável que recebe uma string basta dizer `const nome_da_variavle = "sua string aqui :D"`, a mesma coisa vale para outros tipos de dados:
+- `const saldoDaConta = 4000`
+- `const umNumeroMuitoGrande = 40000000000000000000000`
+- `const umNumeroQuebrado = 4.13134101`
+- `const fraseAleatoria = "Olá, me chamo Kelvin Scott"`
+
+Mas na linguagem C isso não ocorre, ao criarmos uma variável, precisamos definir _qual o tipo de dado que ela irá receber_. 
+Portanto, se você for criar uma variável que receba um número, seria `int nome_da_variavel`.
+"Int" significa inteiro, ou seja, definimos que o tipo desta variável será um número inteiro
+
+
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
