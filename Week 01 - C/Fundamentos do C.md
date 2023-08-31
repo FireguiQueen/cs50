@@ -151,24 +151,27 @@ Por esses motivos, foi criado o tipo `long`, que significa "longer integer" ou, 
 
 ___________________________________________________________
 
-## Entendendo algumas funções
+## Entendendo Algumas Funções
 
-#### printf()
-A função `printf();` é uma função de saída, ou seja, ela faz a saida de informações.
-Essa função é reponsável por printar (imprimir) no console o que passamos como argumento.
-Esta função é da biblioteca `<stdio>`.
-```c 
+### printf()
+A função `printf();` é uma função de saída, ou seja, ela gera saída de informações.
+Essa função é responsável por exibir (imprimir) no console o que passamos como argumento.
+Esta função é da biblioteca `<stdio.h>`.
+
+```c
 #include <stdio.h>
 
 int main(){
-    printf("Hello, world!"); // printa ''Hello, world" no console.
+    printf("Hello, world!"); // imprime "Hello, world" no console.
 }
 ```
 
 #### scanf()
-A função `scanf()` é uma função de entrada, ou seja, entrada de informação. 
-Essa função é responsável por permitir o usuário a passar um valor para ela como argumento através do console.
-Esta função é da biblioteca `<stdio>`.
+A função scanf() é uma função de entrada, ou seja, ela lida com a entrada de informações.
+Essa função é responsável por permitir que o usuário insira um valor como argumento através do console. A função recebe dois argumentos:
+1. Indica como interpretar o valor inserido pelo usuário.
+2. Endereço de memória da variável onde o valor convertido será armazenado.
+
 ```c 
 #include <stdio.h>
 
@@ -178,6 +181,10 @@ int main(){
 }
 ```
 
+## O Operador "&" (E Comercial)
+Como mencionado anteriormente, a função `scanf()` requer um segundo argumento, o qual é indicado por um "&" seguido pelo nome da variável. A razão para isso é simples: ao usar o "&" antes do nome da variável, estamos indicando seu endereço. Sem o "&", estaríamos referindo-nos ao valor da variável. Sendo assim, a função `scanf()` se resume com a seguinte frase: 
+"Quero que você pegue o valor digitado pelo usuário e converta ele 
+ 
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
