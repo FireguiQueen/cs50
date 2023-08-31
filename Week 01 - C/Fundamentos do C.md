@@ -86,14 +86,12 @@ Um exemplo prático disso é a função printf. Essa função é usada para exib
 ## Compilação do código
 Nosso código-fonte foi escrito em caracteres que podemos ler, mas precisa ser compilado: _convertido em código de máquina, padrões de zeros e uns que nosso computador possa entender diretamente._
 
-### Compilando um código 
+#### Executavel pós compilação
 Você já se perguntou o porquê dos caracteres aleatórios no seu bloco de notas ao tentar editar um arquivo executável? 
 
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/29a6caee-f0af-4d16-ae14-664c1e56ba77)
 
-
 Antes de responder a esta pergunta, vamos pensar na compilação. Após criar o seu arquivo em C, você irá compilá-lo, pois todo aquele código precisa ser transformado em zeros e uns para a máquina poder entender. Após a compilação, será criado um arquivo executável (um arquivo que contém diversos zeros e uns). Sendo assim, caso você tente abri-lo pelo bloco de notas, vários caracteres "aleatórios" serão mostrados. Isso ocorre porque o bloco de notas é um software para fazer a leitura de bits ou transformar caracteres em bits para o computador. Todos aqueles zeros e uns no arquivo executável são lidos pelo bloco de notas usando a tabela ASCII.
-
 
 </br>
 </br>
@@ -111,7 +109,6 @@ Portanto, uma variável precisa conter um endereço, já que o valor dessa vari�
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/378b946f-f56e-4a0a-b7b9-a1dceb222a32)
 
 
-
 Na matemática também existem variáveis, por exemplo: 'Y = 3' e 'X = Y + 1'. </br> Nesse caso, a nossa variável é 'Y' e recebe o valor '3'. O sinal de igual (=) que fica entre a variável e o valor não denota igualdade, mas sim atribuição de valor. Estamos atribuindo um valor a uma determinada variável.
 
 
@@ -122,26 +119,35 @@ const nomeUsuario = prompt('Qual o seu nome?');
 console.log(nomeusuario) // retorna o nome digitado
 ```
 
-Em JavaScript, não é necessário definir o tipo de dado de uma variável. Por exemplo, ao criar uma variável para armazenar uma string, basta utilizar const nome_da_variavel = "sua string aqui :D". O mesmo se aplica a outros tipos de dados:
+</br>
+
+## Tipos de Dados em JavaScript e C
+
+### JavaScript
+
+Em JavaScript, não é necessário definir o tipo de dado de uma variável. Por exemplo, ao criar uma variável para armazenar uma string, basta utilizar `const nome_da_variavel = "sua string aqui :D"`. O mesmo se aplica a outros tipos de dados:
 - `const saldoDaConta = 4000`
 - `const umNumeroMuitoGrande = 40000000000000000000000`
 - `const umNumeroQuebrado = 4.13134101`
 - `const fraseAleatoria = "Olá, meu nome é Kelvin Scott"`
 
-Contudo, na linguagem C, essa liberdade não existe. Ao criar uma variável, é necessário especificar qual será o tipo de dado que ela irá conter. Por exemplo, se você deseja criar uma variável para armazenar um número inteiro, você usaria `int nome_da_variavel`.
+### Linguagem C
+
+No entanto, na linguagem C, essa liberdade não existe. Ao criar uma variável, é necessário especificar qual será o tipo de dado que ela irá conter. Por exemplo, se você deseja criar uma variável para armazenar um número inteiro, você usaria `int nome_da_variavel`.
 Aqui, 'int' indica que o tipo dessa variável será um número inteiro.
 
 ### Alguns tipos de dados em C
-- int  &nbsp; _(para números inteiros: -400,  -200.. 0,  1,  20,  200..)_
-- long &nbsp; _(para números inteiros mais longos: -5000000000, 0, 490000000000)_
-- float &nbsp; _(para números quebrados: 4.120,  7.9,  42.2 ...)_
-- char &nbsp; _(para caracteres: '#', 'o', 'j'..)_
+- `int`  &nbsp; _(para números inteiros: -400, -200... 0, 1, 20, 200...)_
+- `long` &nbsp; _(para números inteiros mais longos: -5000000000, 0, 490000000000)_
+- `float` &nbsp; _(para números quebrados: 4.120, 7.9, 42.2...)_
+- `char` &nbsp; _(para caracteres: '#', 'o', 'j'...)_
 
-Ao observamos esses dados, vimos que existem duas formas de representar os números inteiros: `long` e `int`, mas por que? 
-A resposta é simples, o "int" possui uma limitação de 32 bits (4bytes), ou seja, números que precisam de mais bits, não conseguem ser representados pelo `int`. O 'int' possui 32bits para armazenar os números, então o cálculo que usamos é "2<sup>32</sup>", o resultado é 4.294.967.296 (4bi, 249mi, 967mil e 296), porém, lembre-se o `int` serve tanto para representamos números positivos, quanto números negativos, então, precisamos dividir este resultado: metade vai ser o limite de representação de numeros positivos e a outra metade para os números negativos.
+Ao observarmos esses dados, vemos que existem duas formas de representar os números inteiros: `long` e `int`, mas por quê?
+A resposta é simples: o "int" possui uma limitação de 32 bits (4 bytes), ou seja, números que precisam de mais bits não conseguem ser representados pelo `int`. O 'int' utiliza 32 bits para armazenar os números, então o cálculo que usamos é "2^32", o resultado é 4.294.967.296 (4 bilhões, 249 milhões, 967 mil e 296), porém, lembre-se que o `int` serve tanto para representar números positivos quanto negativos, então precisamos dividir este resultado: metade será o limite de representação para números positivos e a outra metade para os números negativos.
 No final de tudo, o tipo `int` pode representar no máximo 2 bilhões positivos ou 2 bilhões negativos.
 
-Por esses motivos, foi criado o tipo `long` que significa "longer integer" ou em portugues, "numero inteiro mais longo". O `long` possui uma limitação de 64bits (8 bytes), ou seja, com o 'long' podemos representar numeros muito maiores. 
+Por esses motivos, foi criado o tipo `long`, que significa "longer integer" ou, em português, "número inteiro mais longo". O `long` possui uma limitação de 64 bits (8 bytes), ou seja, com o 'long', podemos representar números muito maiores.
+
 
 ___________________________________________________________
 
