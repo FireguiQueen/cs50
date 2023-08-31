@@ -6,11 +6,11 @@ O CS50 (CC50) é um curso abrangente de Ciências da Computação ministrado pel
 </br>
 
 ## Tópicos Abordados
-- Algoritmos e estruturas de dados.
-- Princípios de design de software.
-- Conceitos de segurança cibernética.
-- Sistemas operacionais e arquitetura de computadores.
-- Introdução à programação em linguagens como C e SQL.
+- Algoritmos e estruturas de dados;
+- Princípios de design de software;
+- Conceitos de segurança cibernética;
+- Sistemas operacionais e arquitetura de computadores;
+- Introdução à programação em linguagens como C e SQL;
 
 </br>
 
