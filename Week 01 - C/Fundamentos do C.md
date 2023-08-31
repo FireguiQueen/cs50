@@ -88,8 +88,6 @@ Nosso código-fonte foi escrito em caracteres que podemos ler, mas precisa ser c
 
 ### Compilando um código 
 Você já se perguntou o porquê dos caracteres aleatórios no seu bloco de notas ao tentar editar um arquivo executável? 
-![Bloco de notas - caractares aleatorios](image.png)
-
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/29a6caee-f0af-4d16-ae14-664c1e56ba77)
 
 
