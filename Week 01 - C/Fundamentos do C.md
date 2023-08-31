@@ -119,8 +119,8 @@ Contudo, na linguagem C, essa liberdade não existe. Ao criar uma variável, é 
 Aqui, 'int' indica que o tipo dessa variável será um número inteiro.
 
 ### Tipos de dados em C
-- int  &nbsp; _(para números inteiros: -400, -200.. 0, 1, 20, 200..)_
-- float &nbsp; _(para números quebrados: 4.120, 7.9, 42.2 ...)_
+- int  &nbsp; _(para números inteiros: -400,  -200.. 0,  1,  20,  200..)_
+- float &nbsp; _(para números quebrados: 4.120,  7.9,  42.2 ...)_
 
 
 ### Recomendação de vídeos
