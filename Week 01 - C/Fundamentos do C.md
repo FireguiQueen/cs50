@@ -143,6 +143,35 @@ No final de tudo, o tipo `int` pode representar no máximo 2 bilhões positivos 
 
 Por esses motivos, foi criado o tipo `long` que significa "longer integer" ou em portugues, "numero inteiro mais longo". O `long` possui uma limitação de 64bits (8 bytes), ou seja, com o 'long' podemos representar numeros muito maiores. 
 
+___________________________________________________________
+
+## Entendendo algumas funções
+
+#### printf()
+A função `printf();` é uma função de saída, ou seja, ela faz a saida de informações.
+Essa função é reponsável por printar (imprimir) no console o que passamos como argumento.
+Esta função é da biblioteca `<stdio>`.
+```c 
+#include <stdio.h>
+
+int main(){
+    printf("Hello, world!"); // printa ''Hello, world" no console.
+}
+```
+
+#### scanf()
+A função `scanf()` é uma função de entrada, ou seja, entrada de informação. 
+Essa função é responsável por permitir o usuário a passar um valor para ela como argumento.
+Esta função é da biblioteca `<stdio>`.
+```c 
+#include <stdio.h>
+
+int main(){
+    int numeroDigitado;
+    scanf("%i", &numeroDigitado);
+}
+```
+
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
