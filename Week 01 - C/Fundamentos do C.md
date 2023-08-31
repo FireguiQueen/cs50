@@ -167,7 +167,7 @@ int main(){
 
 #### scanf()
 A função `scanf()` é uma função de entrada, ou seja, entrada de informação. 
-Essa função é responsável por permitir o usuário a passar um valor para ela como argumento.
+Essa função é responsável por permitir o usuário a passar um valor para ela como argumento através do console.
 Esta função é da biblioteca `<stdio>`.
 ```c 
 #include <stdio.h>
