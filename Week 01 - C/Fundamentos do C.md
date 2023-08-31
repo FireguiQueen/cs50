@@ -106,8 +106,7 @@ As variáveis são utilizadas para armazenar valores em nossa memória RAM. Quan
 </br>
 Uma analogia simples pode ser feita: a memória RAM é como um bairro, e as variáveis são como casas. Quando uma casa é construída no bairro, ela recebe um endereço. Afinal, essa casa irá acomodar seus moradores, receber entregas de comida, produtos e até visitantes.
 
-Portanto, uma variável precisa conter um endereço, pois esse valor desta variável será utilizado posteriormente pelo programa. Como fariamos o uso deste valor se não soubessemos onde este valor está? Por isso o endereço é importante.
-Resumindo, as variáveis são formas de armazenar valores na memória, as variáveis também possuem endereço pois os seus valores precisam ser chamados posteriormente. 
+Portanto, uma variável precisa conter um endereço, já que o valor dessa variável será utilizado posteriormente pelo programa. Como poderíamos utilizar esse valor se não soubermos onde ele está armazenado? Daí a importância do endereço.
 
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/378b946f-f56e-4a0a-b7b9-a1dceb222a32)
 
