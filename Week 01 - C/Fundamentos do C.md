@@ -106,9 +106,10 @@ As variáveis são utilizadas para armazenar valores em nossa memória RAM. Quan
 Uma analogia simples pode ser feita: a memória RAM é como um bairro, e as variáveis são como casas. Quando uma casa é construída no bairro, ela recebe um endereço. Afinal, essa casa irá acomodar seus moradores, receber entregas de comida, produtos e até visitantes.
 
 Portanto, uma variável precisa conter um endereço, pois esse valor desta variável será utilizado posteriormente pelo programa. Como fariamos o uso deste valor se não soubessemos onde este valor está? Por isso o endereço é importante.
-
-
 Resumindo, as variáveis são formas de armazenar valores na memória, as variáveis também possuem endereço pois os seus valores precisam ser chamados posteriormente. 
+![image](https://github.com/FireguiQueen/CS50/assets/98475125/378b946f-f56e-4a0a-b7b9-a1dceb222a32)
+
+
 
 Na matemática também existem variáveis, por exemplo: 'Y = 3' e 'X = Y + 1'. </br> Nesse caso, a nossa variável é 'Y' e recebe o valor '3'. O sinal de igual (=) que fica entre a variável e o valor não denota igualdade, mas sim atribuição de valor. Estamos atribuindo um valor a uma determinada variável.
 
