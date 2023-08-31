@@ -166,12 +166,12 @@ int main(){
 }
 ```
 
-#### scanf()
+### scanf()
 A função scanf() é uma função de entrada, ou seja, ela lida com a entrada de informações.
 Essa função é responsável por permitir que o usuário insira um valor como argumento através do console. A função recebe dois argumentos:
 1. Indica como interpretar o valor inserido pelo usuário.
 2. Endereço de memória da variável onde o valor convertido será armazenado.
-
+Esta função também faz parte da biblioteca <stdio.h>.
 ```c 
 #include <stdio.h>
 
