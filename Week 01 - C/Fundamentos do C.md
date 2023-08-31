@@ -98,7 +98,21 @@ Antes de responder a esta pergunta, vamos pensar na compilação. Após criar o 
 </br>
 
 ## Variáveis: o que são e como definir elas 
-Variáveis são meios para armazenar valores na memória. Por exemplo, na matemática, podemos expressar isso como 'Y = 3' e 'X = Y + 1'. Nesse caso, a nossa variável é 'Y' e recebe o valor '3'. O sinal de igual (=) que fica entre a variável e o valor não denota igualdade, mas sim atribuição de valor. Estamos atribuindo um valor a uma determinada variável.
+Antes de tudo, vamos entender como a memória RAM funciona.
+A memória RAM é uma forma de memória volátil que o computador utiliza para armazenar dados que estão sendo ativamente usados pelo sistema operacional e pelos programas em execução. Ela é volátil porque frequentemente estamos abrindo e fechando softwares; assim, após fechar um software, não há necessidade alguma de manter informações dele em nossa memória RAM.
+
+As variáveis são utilizadas para armazenar valores em nossa memória RAM. Quando você declara uma variável em um programa, o sistema operacional aloca um espaço na memória RAM para armazenar o valor dessa variável. Durante a execução do programa, é possível acessar e modificar o valor da variável diretamente na memória RAM. 
+</br>
+Uma analogia simples pode ser feita: a memória RAM é como um bairro, e as variáveis são como casas. Quando uma casa é construída no bairro, ela recebe um endereço. Afinal, essa casa irá acomodar seus moradores, receber entregas de comida, produtos e até visitantes.
+
+Portanto, uma variável precisa conter um endereço, pois esse valor desta variável será utilizado posteriormente pelo programa. Como fariamos o uso deste valor se não soubessemos onde este valor está? Por isso o endereço é importante.
+
+
+
+Variáveis formas de armazenar valores na memória, as variáveis também possuem endereço. 
+
+
+Por exemplo, na matemática, podemos expressar isso como 'Y = 3' e 'X = Y + 1'. Nesse caso, a nossa variável é 'Y' e recebe o valor '3'. O sinal de igual (=) que fica entre a variável e o valor não denota igualdade, mas sim atribuição de valor. Estamos atribuindo um valor a uma determinada variável.
 
 Variáveis também podem receber funções, as quais, por sua vez, retornam um valor.
 
