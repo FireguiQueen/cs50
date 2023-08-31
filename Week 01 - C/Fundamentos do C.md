@@ -112,10 +112,9 @@ Resumindo, as variáveis são formas de armazenar valores na memória, as variá
 
 Na matemática também existem variáveis, por exemplo: 'Y = 3' e 'X = Y + 1'. </br> Nesse caso, a nossa variável é 'Y' e recebe o valor '3'. O sinal de igual (=) que fica entre a variável e o valor não denota igualdade, mas sim atribuição de valor. Estamos atribuindo um valor a uma determinada variável.
 
-Variáveis também podem receber funções, as quais, por sua vez, retornam um valor.
 
-##### Aqui está um pequeno exemplo usando a linguagem javascript
-> Um exemplo prático com a linguagem JavaScript ilustra esse conceito. A função 'prompt' é empregada para criar uma janela na página, onde o usuário pode inserir um valor. Quando o usuário clica em 'OK', o valor digitado é passado como o segundo argumento para a função. Essa função, por sua vez, retorna o valor inserido pelo usuário. No código a seguir, a variável 'nomeUsuario' armazena o valor inserido pelo usuário através do 'prompt', e esse valor é exibido no console. Sem o uso da variável, o valor inserido pelo usuário no 'prompt' não seria armazenado e acessível para uso posterior.
+#### Variáveis também podem receber funções, as quais, por sua vez, retornam um valor.
+> Um exemplo prático com a linguagem JavaScript ilustra esse conceito. A função 'prompt' é empregada para criar uma janela na página, onde o usuário pode inserir um valor. Quando o usuário clica em 'OK', o valor digitado é passado como o segundo argumento para a função. Essa função, por sua vez, retorna (return) o valor inserido pelo usuário. No código a seguir, a variável 'nomeUsuario' armazena o valor inserido pelo usuário através do 'prompt', e esse valor é exibido no console. Sem o uso da variável, o valor inserido pelo usuário no 'prompt' não seria armazenado e acessível para uso posterior.
 ```js
 const nomeUsuario = prompt('Qual o seu nome?');
 console.log(nomeusuario) // retorna o nome digitado
