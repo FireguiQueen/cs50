@@ -13,7 +13,7 @@ Os "comandos Linux" são instruções que você pode digitar em um terminal ou l
 > O comando "rmdir (remove directory) é usado para excluir diretórios: `rmdir photos`
 
 ### cd
-> O comando "cd" (change directory) é usado para mudar o diretório atual: `cd nome_diretorio` ou para voltar um diretorio anterior `cd ..`
+> O comando "cd" (change directory) é usado para mudar o diretório atual: `cd nome_diretorio` ou para voltar um diretorio anterior `cd ..`. O `..` é como se fosse o diretório pai. 
 
 ### mkdir
 > O comando "mkdir" (make directory) é usado para criar diretórios: `mkdir photos` 
