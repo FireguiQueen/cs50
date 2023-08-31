@@ -101,15 +101,13 @@ const nomeUsuario = prompt('Qual o seu nome?');
 console.log(nomeusuario) // retorna o nome digitado
 ```
 
-Em javascript nós não precisamos definir o _tipo de dado_ de uma variável. Por exemplo, se você for criar uma variável que recebe uma string basta dizer `const nome_da_variavle = "sua string aqui :D"`, a mesma coisa vale para outros tipos de dados:
+Em JavaScript, não é necessário definir o tipo de dado de uma variável. Por exemplo, ao criar uma variável para armazenar uma string, basta utilizar const nome_da_variavel = "sua string aqui :D". O mesmo se aplica a outros tipos de dados:
 - `const saldoDaConta = 4000`
 - `const umNumeroMuitoGrande = 40000000000000000000000`
 - `const umNumeroQuebrado = 4.13134101`
-- `const fraseAleatoria = "Olá, me chamo Kelvin Scott"`
-
-Mas na linguagem C isso não ocorre, ao criarmos uma variável, precisamos definir _qual o tipo de dado que ela irá receber_. 
-Portanto, se você for criar uma variável que receba um número, seria `int nome_da_variavel`.
-"Int" significa inteiro, ou seja, definimos que o tipo desta variável será um número inteiro
+- `const fraseAleatoria = "Olá, meu nome é Kelvin Scott"`
+Contudo, na linguagem C, essa liberdade não existe. Ao criar uma variável, é necessário especificar qual será o tipo de dado que ela irá conter. Por exemplo, se você deseja criar uma variável para armazenar um número inteiro, você usaria int nome_da_variavel.
+Aqui, 'int' indica que o tipo dessa variável será um número inteiro.
 
 
 ### Recomendação de vídeos
