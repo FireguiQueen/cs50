@@ -108,11 +108,9 @@ Uma analogia simples pode ser feita: a memória RAM é como um bairro, e as vari
 Portanto, uma variável precisa conter um endereço, pois esse valor desta variável será utilizado posteriormente pelo programa. Como fariamos o uso deste valor se não soubessemos onde este valor está? Por isso o endereço é importante.
 
 
+Resumindo, as variáveis são formas de armazenar valores na memória, as variáveis também possuem endereço pois os seus valores precisam ser chamados posteriormente. 
 
-Variáveis formas de armazenar valores na memória, as variáveis também possuem endereço. 
-
-
-Por exemplo, na matemática, podemos expressar isso como 'Y = 3' e 'X = Y + 1'. Nesse caso, a nossa variável é 'Y' e recebe o valor '3'. O sinal de igual (=) que fica entre a variável e o valor não denota igualdade, mas sim atribuição de valor. Estamos atribuindo um valor a uma determinada variável.
+Na matemática também existem variáveis, por exemplo: 'Y = 3' e 'X = Y + 1'. </br> Nesse caso, a nossa variável é 'Y' e recebe o valor '3'. O sinal de igual (=) que fica entre a variável e o valor não denota igualdade, mas sim atribuição de valor. Estamos atribuindo um valor a uma determinada variável.
 
 Variáveis também podem receber funções, as quais, por sua vez, retornam um valor.
 
