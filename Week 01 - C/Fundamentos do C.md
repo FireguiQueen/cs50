@@ -95,7 +95,7 @@ Variáveis são meios para armazenar valores na memória. Por exemplo, na matem�
 Variáveis também podem receber funções, as quais, por sua vez, retornam um valor.
 
 ##### Aqui está um pequeno exemplo usando a linguagem javascript
-> Um exemplo prático usando a linguagem JavaScript ilustra esse conceito. A função prompt é utilizada para criar uma janela na página onde o usuário pode inserir um valor. Quando o usuário clica em 'OK', o valor digitado é transmitido como segundo argumento para a função. Essa função, por sua vez, retorna o valor inserido pelo usuário. Nesse código, a variável 'nomeUsuario' recebe o valor inserido pelo usuário através do prompt, e então esse valor é exibido no console. Sem o uso da variável, o valor inserido pelo usuário no prompt não seria armazenado e acessível para uso posterior
+> Um exemplo prático com a linguagem JavaScript ilustra esse conceito. A função 'prompt' é empregada para criar uma janela na página, onde o usuário pode inserir um valor. Quando o usuário clica em 'OK', o valor digitado é passado como o segundo argumento para a função. Essa função, por sua vez, retorna o valor inserido pelo usuário. No código a seguir, a variável 'nomeUsuario' armazena o valor inserido pelo usuário através do 'prompt', e esse valor é exibido no console. Sem o uso da variável, o valor inserido pelo usuário no 'prompt' não seria armazenado e acessível para uso posterior.
 ```js
 const nomeUsuario = prompt('Qual o seu nome?');
 console.log(nomeusuario) // retorna o nome digitado
@@ -106,8 +106,10 @@ Em JavaScript, não é necessário definir o tipo de dado de uma variável. Por 
 - `const umNumeroMuitoGrande = 40000000000000000000000`
 - `const umNumeroQuebrado = 4.13134101`
 - `const fraseAleatoria = "Olá, meu nome é Kelvin Scott"`
-Contudo, na linguagem C, essa liberdade não existe. Ao criar uma variável, é necessário especificar qual será o tipo de dado que ela irá conter. Por exemplo, se você deseja criar uma variável para armazenar um número inteiro, você usaria int nome_da_variavel.
+
+Contudo, na linguagem C, essa liberdade não existe. Ao criar uma variável, é necessário especificar qual será o tipo de dado que ela irá conter. Por exemplo, se você deseja criar uma variável para armazenar um número inteiro, você usaria `int nome_da_variavel`.
 Aqui, 'int' indica que o tipo dessa variável será um número inteiro.
+
 
 
 ### Recomendação de vídeos
