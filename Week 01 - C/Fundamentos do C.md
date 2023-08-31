@@ -131,12 +131,15 @@ Em JavaScript, não é necessário definir o tipo de dado de uma variável. Por 
 Contudo, na linguagem C, essa liberdade não existe. Ao criar uma variável, é necessário especificar qual será o tipo de dado que ela irá conter. Por exemplo, se você deseja criar uma variável para armazenar um número inteiro, você usaria `int nome_da_variavel`.
 Aqui, 'int' indica que o tipo dessa variável será um número inteiro.
 
-### Tipos de dados em C
+### Alguns tipos de dados em C
 - int  &nbsp; _(para números inteiros: -400,  -200.. 0,  1,  20,  200..)_
 - long &nbsp; _(para números inteiros mais longos: -5000000000, 0, 490000000000)_
 - float &nbsp; _(para números quebrados: 4.120,  7.9,  42.2 ...)_
 - char &nbsp; _(para caracteres: '#', 'o', 'j'..)_
 
+Ao observamos esses dados, vimos que existem duas formas de representar os números inteiros: `long` e `int`, mas por que? 
+A resposta é simples, o "int" possui uma limitação de 32 bits (4bytes), ou seja, números que precisam de mais bits, não conseguem ser representados pelo `int`. O 'int' possui 32bits para armazenar os números, então o cálculo que usamos é "2<sup>32</sup>", o resultado é 4.294.967.296 (4bi, 249mi, 967mil e 296), porém, lembre-se o `int` serve tanto para representamos números positivos, quanto números negativos, então, precisamos dividir este resultado: metade vai ser o limite de representação de numeros positivos e a outra metade para os números negativos.
+No final de tudo, o tipo `int` pode representar no máximo 2 bilhões positivos ou 2 bilhões negativos.
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
