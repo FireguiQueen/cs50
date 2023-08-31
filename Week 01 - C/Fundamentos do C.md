@@ -120,6 +120,7 @@ Aqui, 'int' indica que o tipo dessa variável será um número inteiro.
 
 ### Tipos de dados em C
 - int  &nbsp; _(para números inteiros: -400,  -200.. 0,  1,  20,  200..)_
+- long &nbsp; _(para números inteiros mais longos: -5000000000, 0, 490000000000)_
 - float &nbsp; _(para números quebrados: 4.120,  7.9,  42.2 ...)_
 
 
