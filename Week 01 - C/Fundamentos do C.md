@@ -88,6 +88,7 @@ Nosso código-fonte foi escrito em caracteres que podemos ler, mas precisa ser c
 
 ### Compilando um código 
 Você já se perguntou o porquê dos caracteres aleatórios no seu bloco de notas ao tentar editar um arquivo executável? 
+
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/29a6caee-f0af-4d16-ae14-664c1e56ba77)
 
 
@@ -107,6 +108,7 @@ Uma analogia simples pode ser feita: a memória RAM é como um bairro, e as vari
 
 Portanto, uma variável precisa conter um endereço, pois esse valor desta variável será utilizado posteriormente pelo programa. Como fariamos o uso deste valor se não soubessemos onde este valor está? Por isso o endereço é importante.
 Resumindo, as variáveis são formas de armazenar valores na memória, as variáveis também possuem endereço pois os seus valores precisam ser chamados posteriormente. 
+
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/378b946f-f56e-4a0a-b7b9-a1dceb222a32)
 
 
