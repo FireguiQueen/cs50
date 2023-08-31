@@ -141,5 +141,8 @@ Ao observamos esses dados, vimos que existem duas formas de representar os núme
 A resposta é simples, o "int" possui uma limitação de 32 bits (4bytes), ou seja, números que precisam de mais bits, não conseguem ser representados pelo `int`. O 'int' possui 32bits para armazenar os números, então o cálculo que usamos é "2<sup>32</sup>", o resultado é 4.294.967.296 (4bi, 249mi, 967mil e 296), porém, lembre-se o `int` serve tanto para representamos números positivos, quanto números negativos, então, precisamos dividir este resultado: metade vai ser o limite de representação de numeros positivos e a outra metade para os números negativos.
 No final de tudo, o tipo `int` pode representar no máximo 2 bilhões positivos ou 2 bilhões negativos.
 
+Por esses motivos, foi criado o tipo `long` que significa "longer integer" ou em portugues, "numero inteiro mais longo". O `long` possui uma limitação de 64bits (8 bytes), ou seja, com o 'long' podemos representar numeros muito maiores. 
+
+
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
