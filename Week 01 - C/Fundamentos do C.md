@@ -204,6 +204,9 @@ int main(){
 }
 ```
 
+</br>
+
+
 ## O Operador "&" (E Comercial)
 Como mencionado anteriormente, a função `scanf()` requer um segundo argumento, o qual é indicado por um "&" seguido pelo nome da variável. A razão para isso é simples: ao usar o "&" antes do nome da variável, estamos indicando o endereço de memória onde o valor inserido pelo usuário será armazenado. Sem o "&", estaríamos nos referindo ao valor da variável. Sendo assim, a função `scanf()` pode ser resumida na seguinte frase:
 "Quero que você pegue o valor digitado pelo usuário e o converta de acordo com o primeiro argumento passado para a função. Em seguida, pegue o valor convertido e o armazene no LOCAL onde está a variável, realizando uma atribuição."
