@@ -185,7 +185,29 @@ int main(){
 Como mencionado anteriormente, a função `scanf()` requer um segundo argumento, o qual é indicado por um "&" seguido pelo nome da variável. A razão para isso é simples: ao usar o "&" antes do nome da variável, estamos indicando o endereço de memória onde o valor inserido pelo usuário será armazenado. Sem o "&", estaríamos nos referindo ao valor da variável. Sendo assim, a função `scanf()` pode ser resumida na seguinte frase:
 "Quero que você pegue o valor digitado pelo usuário e o converta de acordo com o primeiro argumento passado para a função. Em seguida, pegue o valor convertido e o armazene no LOCAL onde está a variável, realizando uma atribuição."
 
- 
+</br>
+</br>
+
+## Syntactic sugar (açúcar sintático)
+Em ciência da computação, açúcar sintático refere-se à sintaxe dentro de uma linguagem de programação que é projetada para facilitar a leitura e a expressão de conceitos. Essa abordagem torna a linguagem mais amigável para uso humano, permitindo uma expressão mais clara, concisa ou até mesmo em um estilo preferido por alguns programadores.
+
+Um exemplo ilustrativo disso é a maneira como expressamos que uma variável é incrementada em 1. No formato padrão, faríamos da seguinte maneira:
+```c
+int saldo = 500;
+saldo = saldo + 1;
+```
+
+No entanto, com açúcar sintático, podemos simplificar para:
+```c
+int saldo = 500; 
+saldo++     // faz a mesma coisa que 'saldo = saldo + 1'. 
+saldo += 1  // faz a mesma coisa que 'saldo = saldo + 1'. 
+```
+A diferença entre 'saldo++' e 'saldo += 1' é que 'saldo++' é mais restrito, permitindo apenas o incremento de 1. Enquanto saldo += 1 possibilita a alteração do valor, por exemplo: 
+- `saldo += 500` -> equivalente a `saldo = saldo + 500`.
+
+E também permite a substituição do operador matemático, por exemplo: 
+- `saldo *= 2`, equivalente a `saldo = saldo * 2`.
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
