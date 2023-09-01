@@ -15,7 +15,7 @@ Dominar o uso de funções é uma habilidade crucial para desenvolvedores. Elas 
 
 #### Ao declarar uma função é esperado duas coisas:  
 Esta função vai retornar um valor __OU__ vai executar aquele bloco, realizando ações no programa.
-> _Ou ela fará ambas as coisas. Mas isso geralmente é feito em funções separadas_
+> _Ou ela fará ambas as coisas._
 
 </br>
 
