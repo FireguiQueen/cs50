@@ -12,7 +12,7 @@ int main(void){
     scanf("%f", &y);
 
     if(x > y){
-        printf("X is higher than Y.");
+        printf("X is greater than Y.");
     } else if(y > x){
         printf("Y is greater than X.");
     } else{
