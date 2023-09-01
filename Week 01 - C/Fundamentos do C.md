@@ -322,6 +322,38 @@ If - Se
 Else if - Se não for aquilo, tente isto. Se isto for verdade, acabe a leitura aqui.
 Else - Se nada anteriormente for verdadeiro, execute este bloco.
 
+## Como fazer duas expressões em único IF? 
+A resposta é curta e grossa: operadores lógicos. 
+Operadores lógicos são as conjunções no mundo do desenvolvimento. Nós temos dois principais que serão mostrados agora: 
++ || - significa "OR"
++ && - siginifica "AND" 
+
+Podemos pensar que, para você realizar uma ação na vida real, você precisa de uma condição. Por exemplo:
+- Paulo desafiou Julia a pular no rio
+- Julia disse que só faria isso __SE__ ele pagar R$5 pra ela __E__ ele pular junto.
+
+Outro exemplo seria:
+- Paulo desafiou Marcos a pular do barco
+- Marcos disse que só faria isso __SE__ ele pagar R$5 pra ele __OU__ ele andar de calcinha na rua.
+
+No primeiro, há duas condições para Julia pular no rio: 
+1. Paulo precisa pagar cincão pra ela;
+2. Paulo precisa pular junto com ela. 
+
+No segunda, há duas condições para Marcos pular do barco, e só uma precisa ser feita:
+1. Paulo precisa pagar cincão ao Marcos
+-  __OU__
+2. Paulo precisa andar de calcinha na rua no próximo dia. 
+
+Agora, parando um pouco com as brincadeiras, vamos pensar num pequeno programa, onde analisa a idade  da pessoa, e informa se ela pode tomar ou não bebidas alcoolicas. 
+```c 
+int idade = 18; 
+
+```
+
+## Casos onde "IFs" repetios podem ser uma boa prática
+Bem, eu acabei de dizer 
+
 </br>
 </br>
 
