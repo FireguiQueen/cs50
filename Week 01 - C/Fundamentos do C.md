@@ -207,7 +207,7 @@ A diferença entre 'saldo++' e 'saldo += 1' é que 'saldo++' é mais restrito, p
 - `saldo += 500` -> equivalente a `saldo = saldo + 500`.
 
 E também permite a substituição do operador matemático, por exemplo: 
-- `saldo *= 2`, equivalente a `saldo = saldo * 2`.
+- `saldo *= 2` -> equivalente a `saldo = saldo * 2`.
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
