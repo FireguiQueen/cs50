@@ -55,6 +55,29 @@ Embora ainda seja possível entender a frase, fica evidente que algo está errad
 Quando o compilador C analisa seu código, ele segue um conjunto rígido de regras. Cada ponto e vírgula indica que uma instrução foi terminada, o que permite que o compilador interprete corretamente a sequência de ações que você deseja executar. Portanto, esses pequenos símbolos desempenham um papel vital na estruturação e na clareza do seu código.
 
 </br>
+
+### Parâmetros em Funções em C 
+Os parâmetros desempenham um papel fundamental no funcionamento das funções em linguagem C. Eles representam a maneira pela qual as funções recebem informações de entrada. Para compreender melhor esse conceito, considere uma função de soma como exemplo. O objetivo dessa função é adicionar dois valores e retornar o resultado da soma. No entanto, para que essa função seja flexível e não se limite a somar valores fixos, é necessário permitir que os valores a serem somados variem, dependendo da escolha do usuário. Como podemos tornar essa entrada de informação possível?
+
+A resposta está nos parâmetros. Os parâmetros são variáveis que recebem valores quando a função é chamada. Eles permitem que você informe às funções os valores que deseja manipular e usar como base para as operações da função.
+
+> Aqui está um exemplo de como usar parâmetros em C para criar uma função de soma:
+```c
+#include <stdio.h>
+
+int somar(int x, int y){
+    printf("A soma entre X e Y é: %i", x + y);
+}
+int main(){
+    somar(4, 5) // retorna 9 
+    somar(1, 2) // retorna 3 
+    somar(3, 3) // retorna 6 
+    somar(8, 4) // retorna 12 
+}
+```
+Neste exemplo, a função somar recebe dois parâmetros, x e y, que representam os valores a serem somados. Os valores são passados como argumentos quando a função é chamada. Os parâmetros x e y permitem que a função realize a soma e retorne o resultado. Além disso, cada chamada da função pode produzir resultados diferentes, tornando-a versátil e reutilizável. Lembre-se sempre de declarar o tipo de retorno da função e usar return para retornar valores apropriados.
+
+</br>
 </br>
 
 ## Para que servem e como funcionam as bibliotecas
