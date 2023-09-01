@@ -1,5 +1,5 @@
 # Funções e suas Declarações: Estruturando a Lógica do Programa
-Uma função é um componente essencial em programação, frequentemente comparado a um "miniprograma" dentro do programa principal. Para entender melhor, podemos comparar uma função a um software de controle financeiro, onde suas várias funcionalidades exemplificam o poder das funções em um contexto mais amplo.
+Uma função é um componente essencial em programação, frequentemente comparado a um "miniprograma" dentro do programa principal. Para entender melhor, podemos pensar na utilidade de uma função para um software de controle financeiro, onde suas várias funcionalidades exemplificam o poder das funções em um contexto mais amplo.
 
 Imagine que estamos desenvolvendo um software de controle financeiro que abrange uma série de tarefas, incluindo:
 - Registrar seus ganhos (entrada de dinheiro).
