@@ -209,6 +209,23 @@ A diferença entre 'saldo++' e 'saldo += 1' é que 'saldo++' é mais restrito, p
 E também permite a substituição do operador matemático, por exemplo: 
 - `saldo *= 2` -> equivalente a `saldo = saldo * 2`.
 
+</br>
+</br>
+
+## Diferenças entre Aspas Duplas e Simples em C
+Ao programar em C, entender a diferença entre aspas duplas e simples é crucial para manipular caracteres individuais e cadeias de caracteres (strings) adequadamente.
+
++ __Aspas Simples (' '):__ As aspas simples são usadas para representar caracteres individuais. Quando você envolve um caractere com aspas simples, está declarando um único caractere. Por exemplo, 'a' representa o caractere 'a', '5' representa o caractere numérico 5 e '!' representa o caractere de exclamação.
+
++ __Aspas Duplas (" "):__ As aspas duplas são usadas para delimitar strings, que são sequências de caracteres. Uma string é uma coleção de caracteres, como palavras ou frases. Por exemplo, "hello" é uma string que contém os caracteres 'h', 'e', 'l', 'l' e 'o'.
+
+Quando estamos comparando uma variável com um caractere individual, devemos utilizar aspas simples. Isso se deve ao fato de que aspas simples denotam um único caractere, permitindo uma comparação direta, como neste exemplo:
+```cs
+char c = 'y';
+if (c == 'y') {
+    printf("Agreed");
+}
+```
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
