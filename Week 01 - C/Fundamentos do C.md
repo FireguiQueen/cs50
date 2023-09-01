@@ -257,7 +257,7 @@ if (c == 'y') {
 
 ___________________________________________
 
-## Estruturas condicionais
+# Estruturas condicionais
 As estruturas condicionais são usadas para estabelecer condições. Quando a condição é verdadeira, um determinado bloco de código é executado. A principal estrutura condicional é o "IF" (e sim, existem outras). A sintaxe do "IF" é bastante simples de entender. "If" significa "se", e após o "if", inserimos uma expressão booleana (valores que são verdadeiros ou falsos).
 
 Aqui está um exemplo em que definimos uma variável do tipo "integer" e atribuímos um valor a ela. Em seguida, apresentamos uma expressão: "Se X for maior do que 100, execute o seguinte bloco de código:"
@@ -322,6 +322,10 @@ If - Se
 Else if - Se não for aquilo, tente isto. Se isto for verdade, acabe a leitura aqui.
 Else - Se nada anteriormente for verdadeiro, execute este bloco.
 
+</br>
+</br>
+
+# Laços de repetição
 
 
 ### Recomendação de vídeos
