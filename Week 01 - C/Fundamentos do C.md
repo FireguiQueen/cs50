@@ -20,7 +20,7 @@ Esta função vai retornar um valor __OU__ vai executar aquele bloco, realizando
 </br>
 
 ## int _(integer)_
-Ao utilizar a palavra-chave `int`, indicamos que a função retornará um valor inteiro. É importante notar que a função _não é_ obrigada a retornar um valor; no entanto, essa é uma possibilidade.
+Ao utilizar a palavra-chave `int`, indicamos que a função retornará um valor inteiro. É importante notar que a função _não é_ obrigada a retornar um valor; no entanto, caso você precise retornar um valor inteiro, utilize o 'int'.
 ```c
 int retornarIdade(){
     return 17;
