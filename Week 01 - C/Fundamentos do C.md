@@ -258,12 +258,9 @@ if (c == 'y') {
 ___________________________________________
 
 ## Estruturas condicionais
-As estruturas condicionais existem para estabelecer condições. Caso a condição seja verdadeira, execute aquele bloco de código. 
-A principal condicional é o "IF" (e sim, existem outras). 
-A sintaxe dela é bem simples de se entender. "If" significa "se", após o "if" colocaremos um valor boolean (valores que são verdadeiros ou falsos).
+As estruturas condicionais são usadas para estabelecer condições. Quando a condição é verdadeira, um determinado bloco de código é executado. A principal estrutura condicional é o "IF" (e sim, existem outras). A sintaxe do "IF" é bastante simples de entender. "If" significa "se", e após o "if", inserimos uma expressão booleana (valores que são verdadeiros ou falsos).
 
-Aqui está um exemplo onde definimos uma variável do tipo interger e atribuimos um valor a ela.
-Depois temos uma expressão: "Se X for maior do que 100, excute isto:" 
+Aqui está um exemplo em que definimos uma variável do tipo "integer" e atribuímos um valor a ela. Em seguida, apresentamos uma expressão: "Se X for maior do que 100, execute o seguinte bloco de código:"
 ```c
 int x = 5;
 if(x > 100){
@@ -271,11 +268,9 @@ if(x > 100){
     printf("X é um valor alto! É maior do que 100!");
 }
 ```
-Note que para a expressão ser verdadeira, o X precisa ser _MAIOR_ que 100, não pode ser igual. 
+> Note que para a expressão ser verdadeira, o X precisa ser _MAIOR_ que 100, não pode ser igual.
 
-
-Bem, e se precisarmos de mais condições? Pensando de uma maneira mais ampla o X pode: ser maior que 100. Pode ser menor. Ou pode ser igual. Agora temos 3 condições. 
-Acontece que não usaremos três "IFs", pois sempre que um "IF" é colocado, ele será obrigatoriamente lido. vamos pensar no seguinte código usando três "IFs":
+Agora, imagine que precisamos lidar com ainda mais condições. Em uma perspectiva mais ampla, o valor de X pode ser maior que 100, menor que 100 ou igual a 100. Isso nos dá três possibilidades. No entanto, não queremos utilizar três blocos "IF", uma vez que cada "IF" é sempre avaliado, independentemente de os anteriores serem verdadeiros ou falsos. Para ilustrar esse conceito, considere o seguinte código com três "IFs":
 ```c
 int idadeDoVovo = 89;
 if(idadeDoVovo > 70){ // caso a idade do "vovo" seja maior que 70:
@@ -294,26 +289,22 @@ O else if serve para nós adicionarmos uma condição que será lida caso o IF s
 ```c
 int minhaIdade = 17;
 
-if(minhaIdade > 50) // expressão considerada "FALSE", será prosseguido para a proxima condição.
-{ 
-    printf("Você está ficando velinho.."); 
+if (minhaIdade > 50) { // Se a idade for maior que 50, esta condição é falsa, e a próxima será avaliada.
+    printf("Você está ficando mais velho.."); 
 } 
-else if(minhaIdade > 30) // considerada "FALSE", será prosseguido para a proxima condição.
-{ 
-    printf("Você está no caminho para começar a ficar velinho..");
+else if (minhaIdade > 30) { // Se a idade for maior que 30, esta condição é falsa, e a próxima será avaliada.
+    printf("Você está no caminho para começar a ficar mais velho..");
 }
-else if(minhaIdade > 15) // "TRUE" pois o valor variavel "minhaIdade" é maior do que 15. Nenhum else if será lido. A leitura nessa estrutura condicional termina aqui.   
-{
+else if (minhaIdade > 15) { // Esta condição é verdadeira porque o valor da variável "minhaIdade" é maior do que 15. Nenhum "else if" posterior será avaliado, encerrando a leitura aqui.
     printf("Você tem mais de 15 anos de vida!");
 }
-else if(minhaIdade == 10)
-{
+else if (minhaIdade == 10) {
     printf("Você tem 10 anos de vida!");
-
 }
+
 ```
 
-No exemplo acima, o "else" não foi mencionado, mas ele é bem simples de se entender. Podemos compreende-lo como: "CASO NENHUMA CONDIÇÃO ACIMA FOR TRUE, FAÇA ISSO"
+No exemplo acima, o "else" não foi mencionado, mas ele é bem simples de se entender. Podemos compreendê-lo como: "CASO NENHUMA CONDIÇÃO ACIMA FOR TRUE, FAÇA ISSO".
 ```c
 int x = 10;
 if(x > 10){ // o valor da variavel X não é maior do que 10. 
@@ -326,10 +317,10 @@ if(x > 10){ // o valor da variavel X não é maior do que 10.
 }
 ```
 
-De forma resumida: 
+De forma resumida:
 If - Se
 Else if - Se não for aquilo, tente isto. Se isto for verdade, acabe a leitura aqui.
-Else - Se nada anteriormente for verdade, excute este bloco. 
+Else - Se nada anteriormente for verdadeiro, execute este bloco.
 
 
 
