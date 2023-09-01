@@ -257,7 +257,81 @@ if (c == 'y') {
 
 ___________________________________________
 
-## Operadores lógicos 
+## Estruturas condicionais
+As estruturas condicionais existem para estabelecer condições. Caso a condição seja verdadeira, execute aquele bloco de código. 
+A principal condicional é o "IF" (e sim, existem outras). 
+A sintaxe dela é bem simples de se entender. "If" significa "se", após o "if" colocaremos um valor boolean (valores que são verdadeiros ou falsos).
+
+Aqui está um exemplo onde definimos uma variável do tipo interger e atribuimos um valor a ela.
+Depois temos uma expressão: "Se X for maior do que 100, excute isto:" 
+```c
+int x = 5;
+if(x > 100){
+    // se X for maior que 100, este bloco será executado.
+    printf("X é um valor alto! É maior do que 100!");
+}
+```
+Note que para a expressão ser verdadeira, o X precisa ser _MAIOR_ que 100, não pode ser igual. 
+
+
+Bem, e se precisarmos de mais condições? Pensando de uma maneira mais ampla o X pode: ser maior que 100. Pode ser menor. Ou pode ser igual. Agora temos 3 condições. 
+Acontece que não usaremos três "IFs", pois sempre que um "IF" é colocado, ele será obrigatoriamente lido. vamos pensar no seguinte código usando três "IFs":
+```c
+int idadeDoVovo = 89;
+if(idadeDoVovo > 70){ // caso a idade do "vovo" seja maior que 70:
+    printf("O vovo tem mais de 70 anos!");
+} 
+if(idadeDoVovo < 70){ // caso a idade do "vovo" seja menor que 70:
+    printf("O vovo tem menos de 70 anos!");
+}
+if(idadeDoVovo == 70){ // caso a idade do "vovo" seja igual a 70:
+    printf("O vovo tem 70 anos!");
+}
+```
+Você pode se perguntar o que há de errado com o código, e eu respondo: há uma coisa errada, mas ele funciona como deveria. Sim, isso mesmo, este código funciona perfeitamente, o problema está em relação ao design dele. O código funciona, porém, irá perder eficiencia. Isto ocorre pois os "ifs" são sempre lidos. Perceba que na primeira expressão já é __TRUE__: `caso a idade do "vovo" seja maior que 70`. Mas os outros IF serão lidos também, mas não deveriam, afinal, o primeiro já foi considerado verdadeiro e seu bloco foi executado, mas como há outros "IF", o compilador do C continuara fazendo a leitura. 
+Como solução para este problema, temos o surgimento de mais duas palavras chaves: else if e else. 
+O else if serve para nós adicionarmos uma condição que será lida caso o IF seja falso, ou caso o else if anterior seja falso. Por exemplo:
+```c
+int minhaIdade = 17;
+
+if(minhaIdade > 50) // expressão considerada "FALSE", será prosseguido para a proxima condição.
+{ 
+    printf("Você está ficando velinho.."); 
+} 
+else if(minhaIdade > 30) // considerada "FALSE", será prosseguido para a proxima condição.
+{ 
+    printf("Você está no caminho para começar a ficar velinho..");
+}
+else if(minhaIdade > 15) // "TRUE" pois o valor variavel "minhaIdade" é maior do que 15. Nenhum else if será lido. A leitura nessa estrutura condicional termina aqui.   
+{
+    printf("Você tem mais de 15 anos de vida!");
+}
+else if(minhaIdade == 10)
+{
+    printf("Você tem 10 anos de vida!");
+
+}
+```
+
+No exemplo acima, o "else" não foi mencionado, mas ele é bem simples de se entender. Podemos compreende-lo como: "CASO NENHUMA CONDIÇÃO ACIMA FOR TRUE, FAÇA ISSO"
+```c
+int x = 10;
+if(x > 10){ // o valor da variavel X não é maior do que 10. 
+    printf("X é maior que 10!");
+} else if (x < 10) // o valor da variavel X não é menor do que 10
+{
+    printf("X é menor que 10!");
+} else{ // como nenhuma condição acima foi verdadeira. Excute isto:
+    printf("Se X não é menor e nem igual a 10, X é igual a 10!");
+}
+```
+
+De forma resumida: 
+If - Se
+Else if - Se não for aquilo, tente isto. Se isto for verdade, acabe a leitura aqui.
+Else - Se nada anteriormente for verdade, excute este bloco. 
+
+
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
