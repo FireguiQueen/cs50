@@ -393,6 +393,16 @@ Certo, agora vamos entender o que cada informação antes do ";" significa dentr
 - `num++`: esta é a etapa de incremento. A cada iteração do loop, adicionamos 1 ao valor da variável de controle num. Isso é importante para evitar um loop infinito. Se não incrementássemos num, o loop continuaria indefinidamente.
 
 ### while
+O while acaba sendo um pouco mais simples. O while se traduz como "enquanto", ou seja, "enquanto isto for verdade, excute isto". Iremos definir nossa variável de controle fora do escopo do `while`. E o nosso incremento será feito dentro da repetição (para o loop não ficar infinito.). 
+
+```c
+int num = 0;
+while(num  > 5){
+    printf("Isto será executado 5 vezes!");
+    num++;
+}
+
+```
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
