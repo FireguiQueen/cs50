@@ -318,41 +318,60 @@ if(x > 10){ // o valor da variavel X não é maior do que 10.
 ```
 
 De forma resumida:
-If - Se
-Else if - Se não for aquilo, tente isto. Se isto for verdade, acabe a leitura aqui.
-Else - Se nada anteriormente for verdadeiro, execute este bloco.
+- if: _se._
+- else if: _se a condição anterior for falsa, tente isto. Se isto for verdade, acabe a leitura aqui._
+- else: _se nada anteriormente for verdadeiro, execute este bloco._
+
+E, claro, precisamos entender como uma condição é avaliada. Bem, é bastante simples. Linguagens de programação, incluindo o C, simplesmente avaliam se uma determinada expressão é "verdadeira" (true). Por exemplo:
+```c
+int x = 10;
+if(x > 5){
+    printf("X é maior do que 5.");
+}
+```
+A primeira coisa a ser feita é a análise da expressão "x > 5". A variável X recebe o valor 10, portanto, esta expressão será avaliada como verdadeira. Tudo se resume a analisar a expressão e verificar se ela é falsa ou verdadeira.
+
+</br>
 
 ## Como fazer duas expressões em único IF? 
-A resposta é curta e grossa: operadores lógicos. 
-Operadores lógicos são as conjunções no mundo do desenvolvimento. Nós temos dois principais que serão mostrados agora: 
+A resposta é simples: utilizando operadores lógicos. Os operadores lógicos são como as conexões no mundo da programação. Temos dois principais operadores que serão apresentados agora:
 + || - significa "OR"
 + && - siginifica "AND" 
 
-Podemos pensar que, para você realizar uma ação na vida real, você precisa de uma condição. Por exemplo:
-- Paulo desafiou Julia a pular no rio
-- Julia disse que só faria isso __SE__ ele pagar R$5 pra ela __E__ ele pular junto.
+Podemos pensar que, para realizar uma ação em situações do mundo real, geralmente precisamos de condições e conjunções. Por exemplo:
+- Paulo desafiou Julia a pular no rio;
+- Julia concordou em fazê-lo __SE__ ele pagar R$5 para ela __E__ ele pular junto com ela.
 
 Outro exemplo seria:
-- Paulo desafiou Marcos a pular do barco
-- Marcos disse que só faria isso __SE__ ele pagar R$5 pra ele __OU__ ele andar de calcinha na rua.
+- Paulo desafiou Marcos a pular do barco;
+- Marcos concordou em fazê-lo __SE__ Paulo pagar R$5 para ele __OU__ se Paulo andar de calcinha na rua.
 
-No primeiro, há duas condições para Julia pular no rio: 
+No primeiro exemplo, existem duas condições para Julia pular no rio:
 1. Paulo precisa pagar cincão pra ela;
 2. Paulo precisa pular junto com ela. 
 
-No segunda, há duas condições para Marcos pular do barco, e só uma precisa ser feita:
-1. Paulo precisa pagar cincão ao Marcos
+No segundo exemplo, existem duas condições para Marcos pular do barco, mas apenas uma delas precisa ser atendida:
+1. Paulo precisa pagar cincão ao Marcos.
 -  __OU__
-2. Paulo precisa andar de calcinha na rua no próximo dia. 
+- Paulo precisa andar de calcinha na rua no próximo dia.
 
-Agora, parando um pouco com as brincadeiras, vamos pensar num pequeno programa, onde analisa a idade  da pessoa, e informa se ela pode tomar ou não bebidas alcoolicas. 
+Agora, deixando de lado as brincadeiras, vamos pensar em um pequeno programa que analisa a idade de uma pessoa usando operadores lógicos e informa se ela pode comprar bebidas alcoólicas ou não:
 ```c 
 int idade = 18; 
-
+bool pessoaTemDinheiro = true;
+if (idade >= 18 && pessoaTemDinheiro)
+{
+    printf("Você pode comprar bebidas!");
+}
+else
+{
+    printf("Você não pode comprar bebidas!");
+}
 ```
 
-## Casos onde "IFs" repetios podem ser uma boa prática
-Bem, eu acabei de dizer 
+Ao analisar nosso código, podemos notar algo importante: os dois sinais >= juntos. Esse sinal está perguntando: "A idade é MAIOR ou IGUAL a 18?" Em seguida, encontramos o operador lógico && (E). E, por fim, temos uma variável chamada "pessoaTemDinheiro". Nesse caso, o nosso programa imprimirá "Você pode comprar as bebidas!" porque a variável "pessoaTemDinheiro" possui o valor "true".
+
+Em resumo, estamos questionando: "A idade é maior ou igual a 18? E, além disso, a pessoa tem dinheiro?" Ambas as expressões serão avaliadas como 'true'. É importante notar que, devido ao uso do operador &&, a pessoa precisa satisfazer ambas as condições: ter 18 anos ou mais E ter dinheiro. 
 
 </br>
 </br>
