@@ -333,7 +333,7 @@ A primeira coisa a ser feita é a análise da expressão "x > 5". A variável X 
 
 </br>
 
-## Como fazer duas expressões em único IF? 
+### Como fazer duas expressões em único IF? 
 A resposta é simples: utilizando operadores lógicos. Os operadores lógicos são como as conexões no mundo da programação. Temos dois principais operadores que serão apresentados agora:
 + || - significa "OR"
 + && - siginifica "AND" 
