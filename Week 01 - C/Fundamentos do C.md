@@ -377,7 +377,22 @@ Em resumo, estamos questionando: "A idade é maior ou igual a 18? E, além disso
 </br>
 
 # Laços de repetição
+Os laços de repetição são uma parte fundamental da programação, usados para executar um bloco de código repetidamente até que uma condição específica seja atendida. Eles são uma maneira eficaz de automatizar tarefas que precisam ser executadas várias vezes ou de processar coleções de dados, como listas ou arrays.
+> Enquanto uma condição for verdadeira, determinado bloco de código será executado. 
 
+### for
+O for é uma das estruturas de repetição disponíveis em C. Sua sintaxe pode parecer confusa à primeira vista, mas é, na verdade, bastante simples. Veja um exemplo:
+```c
+for(int num = 0; num < 5; num++){
+    printf("isto será impresso no console 5 vezes.");
+}
+```
+Certo, agora vamos entender o que cada informação antes do ";" significa dentro dos parentesis.
+- `int num = 0;`: neste trecho, estamos realizando a inicialização do loop. Aqui, declaramos e inicializamos a variável de controle num.
+- `num < 5`: esta é a condição do loop. Perguntamos: "A variável _num_ é _menor que_ 5?". Se essa condição for verdadeira, o código dentro do loop será executado. A variável de controle é crucial aqui, pois ela determina se a condição é verdadeira ou falsa.
+- `num++`: esta é a etapa de incremento. A cada iteração do loop, adicionamos 1 ao valor da variável de controle num. Isso é importante para evitar um loop infinito. Se não incrementássemos num, o loop continuaria indefinidamente.
+
+### while
 
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
