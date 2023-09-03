@@ -3,6 +3,7 @@
 int askHeight();
 void createPyramid();
 
+
 int main(void){
     // Capture the height of the pyramid and save it in a func. If answer > 8 OR answer < 1: Ask again.
     int pyramidHeight = askHeight();
@@ -11,6 +12,9 @@ int main(void){
     createPyramid(pyramidHeight);
     return 0;
 }
+
+
+
 
 void createPyramid(int pyramidHeight){
     for(int hash = 0; hash < pyramidHeight; hash++)
@@ -23,27 +27,17 @@ void createPyramid(int pyramidHeight){
 
       printf("#");
 
-      // left part
       for(int x = 0; x < hash; x++)
       {
         printf("#");
       }
-
-      // space
-      printf("..");
-      printf("#");
-
-      // right part
-      for(int x = 0; x < hash; x++)
-      {
-        printf("#");
-      }
-
       printf("\n");
-
     }
 
+    
 }
+
+
 
 int askHeight(void){
     int pyramidHeight;

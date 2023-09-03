@@ -1,5 +1,3 @@
-// ALL NOTES AND EXERCISES HERE: https://github.com/FireguiQueen/CS50
-
 #include <stdio.h>
 
 int askHeight();
@@ -19,15 +17,38 @@ int main(void){
 void createPyramid(int pyramidHeight){
     for(int hash = 0; hash < pyramidHeight; hash++)
     {
+
+      for(int dot = pyramidHeight-1; dot > hash; dot--)
+      {
+        printf(" ");
+      }
+
       printf("#");
 
-        for(int x = 0; x < hash; x++)
-        {
-          printf("#");
-        }
-        printf("\n");
+      // left part
+      for(int x = 0; x < hash; x++)
+      {
+        printf("#");
+      }
+
+      // space
+      printf("..");
+      printf("#");
+
+
+      // right part
+      for(int x = 0; x < hash; x++)
+      {
+        printf("#");
+      }
+
+      printf("\n");
+
     }
+
+
 }
+
 
 int askHeight(void){
     int pyramidHeight;
