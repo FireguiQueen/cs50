@@ -1,26 +1,40 @@
+// ALL NOTES AND EXERCISES HERE: https://github.com/FireguiQueen/CS50
+
 #include <stdio.h>
 
+int askHeight();
+void createPyramid();
+
+
 int main(void){
-    // Capture the height of the pyramid. If answer > 8 OR answer < 1: Ask again.
+    // Capture the height of the pyramid and save it in a func. If answer > 8 OR answer < 1: Ask again.
+    int pyramidHeight = askHeight();
+
+    // Print the pyramid - arg: how many hashes do you want for height?
+    createPyramid(pyramidHeight);
+    return 0;
+}
+
+
+void createPyramid(int pyramidHeight){
+    for(int hash = 0; hash < pyramidHeight; hash++)
+    {
+      printf("#");
+
+        for(int x = 0; x < hash; x++)
+        {
+          printf("#");
+        }
+        printf("\n");
+    }
+}
+
+int askHeight(void){
     int pyramidHeight;
     do {
       printf("Pyramid height: ");
       scanf("%i", &pyramidHeight);
     } while(pyramidHeight < 1 || pyramidHeight > 8);
 
-
-    // Print the pyramid.
-    for(int hash = 0; hash < pyramidHeight; x++)
-    {
-      printf("#");
-        for()
-        {
-
-        }
-        printf("\n");
-
-    }
-
-
-    return 0;
+    return pyramidHeight;
 }
