@@ -397,12 +397,31 @@ O while acaba sendo um pouco mais simples. O while se traduz como "enquanto", ou
 
 ```c
 int num = 0;
-while(num  > 5){
-    printf("Isto será executado 5 vezes!");
+while(num > 2){
+    printf("Isto será executado 2 vezes!");
     num++;
 }
 
 ```
 
+</br>
+
+#### Como funciona o incremento e a condição
+Esta explicação é aplicável tanto à estrutura 'for' quanto ao 'while'. Em ambos os tipos de laços, você precisa definir variáveis de controle.
+
+Nos exemplos fornecidos anteriormente, essas variáveis foram inicializadas com o valor '0'. Vamos usar o 'while' como exemplo para entender melhor o processo.
+
+Quando o programa entra no laço 'while' pela primeira vez, ele faz a seguinte pergunta: "O valor atual da variável é igual a 0 (o valor inicial) e é menor do que 2?" Se essa pergunta for respondida com "sim", o código dentro do 'while' é executado, e em seguida, somamos 1 à nossa variável de controle.
+
+Na segunda iteração, o programa pergunta: "O valor atual da variável é igual a 1 (o resultado da iteração anterior) e é menor do que 2?" Se a resposta ainda for "sim", o código é executado novamente, e mais 1 é adicionado à variável de controle.
+
+No terceiro ciclo, o valor da variável de controle agora é 2. O programa faz a pergunta: "O valor atual da variável é igual a 2 e é menor do que 2?" Neste ponto, a resposta é "não", pois 2 não é menor do que 2. Portanto, o código dentro do 'while' não é executado nesta iteração, e o laço é encerrado.
+
+Em resumo, o incremento (adição de 1 à variável de controle em cada iteração) e a condição (verificação se a variável de controle atende a uma condição específica) são componentes fundamentais para controlar a execução dos laços 'for' e 'while'. Eles permitem que você execute o código repetidamente até que a condição não seja mais atendida. É importante entender como esses elementos funcionam para criar loops eficientes em seus programas.
+
+
+
 ### Recomendação de vídeos
 - <a href="https://youtu.be/vVLhdyte9PA">Para que servem as bibliotecas stdio.h e stdlib.h | toCode</a> 
+- <a href="https://youtu.be/yOyaJXpAYZQ">Comparing C to machine language
+| Ben Eater</a> 
