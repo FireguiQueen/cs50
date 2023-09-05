@@ -1,1 +1,0 @@
-construirLargura(width)
