@@ -1,1 +1,1 @@
-3
+construirLargura(width)
