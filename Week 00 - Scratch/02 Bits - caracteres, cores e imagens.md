@@ -49,10 +49,10 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 Já vimos como os caracteres são representados, e com as cores, isso não é mutio diferente.
 O ASCII é um padrão para representar caracteres com uma sequência de bits, já o RGB é __uma das__ maneiras para representarmos cores usando bits.
 
-### Mas antes de tudo, vamos entender o porque de utilizarmos o RGB e como as cores foram definidas pelo computador:
+### Mas antes de tudo, vamos entender o porque de utilizarmos o RGB
 Por dentro as telas são revestidas com fósforo – um material que brilha quando é atingido por radiação (como elétrons) – que cria os pixels de luz. Um monitor de computador tem milhões de pixels (menor unidade de imagem) e cada um desses quadradinhos contém três pontos, os chamados 'fósforos'. Esses pontos seriam equivalentes às células da retina chamadas cones, fundamentais para o reconhecimento da cor pelo olho humano.
 
-Cada quadradinho (cada pixel) contém três fósforos: vermelho, azul e verde. 
+Cada quadradinho (cada pixel) contém três fósforos: vermelho, azul e verde (RGB). 
 Através dos bits, nós definimos o quanto de luz vai para cada fósforo de determinado pixel. Se mandarmos muita "luz", significa que queros que aquele determinado fósforo tenha sua intensidade máxima.
 
 #### Fontes
@@ -64,8 +64,7 @@ Esse conceito também se aplica no mundo da computação. Imagina ter que atribu
 
 Através da atribuição de três sequências de bits distintas, uma para cada uma das cores primárias, somos capazes de criar uma infinidade de novas cores ao combinar esses bits de maneiras variadas. Esse sistema de cores RGB forma a base para todas as representações visuais digitais que vemos em telas de computador, televisores e dispositivos móveis.
 
-
-No sistema ASCII, utilizamos 8 bits para representar um único caractere, e no sistema RGB também usamos 8 bits para indicar qual fósforo do pixel desejamos faze-lo brilhar. 
+No sistema ASCII, utilizamos 8 bits para representar um único caractere, e no sistema RGB também usamos 8 bits para indicar uma cor. _Esta cor nada mais é do que um fósforo do pixel._ 
 
 </br>
 
