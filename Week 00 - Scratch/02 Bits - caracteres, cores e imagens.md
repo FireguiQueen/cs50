@@ -46,62 +46,51 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 </br>
 
 # BITS: o surgimento das cores
-Já vimos como os caracteres são representados, e com as cores, isso não é mutio diferente.
-O ASCII é um padrão para representar caracteres com uma sequência de bits, já o RGB é __uma das__ maneiras para representarmos cores usando bits.
+Vimos anteriormente como os caracteres são representados por meio de bits, e com as cores, não é muito diferente. 
+O ASCII é um padrão para representar caracteres usando sequências de bits, enquanto o RGB é uma das maneiras mais comuns de representar cores por meio de bits. 
 
-### Mas antes de tudo, vamos entender o porque de utilizarmos o RGB
-Por dentro as telas são revestidas com fósforo – um material que brilha quando é atingido por radiação (como elétrons) – que cria os pixels de luz. Um monitor de computador tem milhões de pixels (menor unidade de imagem) e cada um desses quadradinhos contém três pontos, os chamados 'fósforos'. Esses pontos seriam equivalentes às células da retina chamadas cones, fundamentais para o reconhecimento da cor pelo olho humano.
-
-Cada quadradinho (cada pixel) contém três fósforos: vermelho, azul e verde (RGB). 
-Através dos bits, nós definimos o quanto de luz vai para cada fósforo de determinado pixel. Se mandarmos muita "luz", significa que queros que aquele determinado fósforo tenha sua intensidade máxima.
+#### Mas, antes de tudo, vamos entender por que usamos o RGB 
+Os monitores são compostos por milhões de pequenos quadradinhos de luz chamados pixels. Cada pixel contém três pontos, conhecidos como "fósforos," que correspondem aos cones na retina do olho humano e são essenciais para perceber as cores.
+Cada pixel possui três fósforos: vermelho, verde e azul (RGB). 
+Usando bits, nós controlamos a quantidade de luz enviada a cada fósforo em um pixel. Quanto mais "luz" enviamos, maior será a intensidade da cor nesse fósforo.
 
 #### Fontes
-- https://gizmodo.uol.com.br/tela-verde-preto/
-- https://mentalidadesmatematicas.org.br/a-matematica-por-tras-das-cores-do-computador/
+- [Gizmodo - Tela verde ou preta?](https://gizmodo.uol.com.br/tela-verde-preto/)
+- [A Matemática por Trás das Cores do Computador](https://mentalidadesmatematicas.org.br/a-matematica-por-tras-das-cores-do-computador/)
 
+### Criação das cores
 Vamos começar pelo básico quando se trata de cores. Todos nós sabemos que há uma quantidade finita de cores, mas como exatamente essas cores são geradas? A resposta é surpreendentemente simples: _através da combinação de três cores fundamentais - vermelho, verde e azul_. Essas três cores primárias nos permitem criar uma ampla variedade de tonalidades. </br>
-Esse conceito também se aplica no mundo da computação. Imagina ter que atribuir uma sequência única de bits a cada possível cor existente - essa abordagem seria praticamente inviável. Seria necessário um grande número de bits para representar todas as cores possíveis em nossos sistemas de computador. Como solução, adotamos um método que se baseia nas cores primárias, conhecidas pelo acrônimo RGB (red - green - blue, ou vermelho, verde e azul). </br>
-
+Esse conceito também se aplica no mundo da computação. Imagina ter que atribuir uma sequência única de bits a cada possível cor existente - essa abordagem seria praticamente inviável. Seria necessário um grande número de bits para representar todas as cores possíveis em nossos computadores. Como solução, adotamos um método que se baseia nas cores primárias, conhecidas pelo acrônimo RGB (red - green - blue, ou vermelho, verde e azul). </br>
 Através da atribuição de três sequências de bits distintas, uma para cada uma das cores primárias, somos capazes de criar uma infinidade de novas cores ao combinar esses bits de maneiras variadas. Esse sistema de cores RGB forma a base para todas as representações visuais digitais que vemos em telas de computador, televisores e dispositivos móveis.
-
-No sistema ASCII, utilizamos 8 bits para representar um único caractere, e no sistema RGB também usamos 8 bits para indicar uma cor. _Esta cor nada mais é do que um fósforo do pixel._ 
+No sistema ASCII, usamos 8 bits para representar um caractere, e no sistema RGB, também usamos 8 bits para representar uma cor, que corresponde a um fósforo de um pixel.
 
 </br>
 
-Caso a explicação acima tenha ficado confusa, observe a sequência de bits abaixo: </br>
+Para entender melhor o sistema RGB, considere a sequência de bits abaixo:
 - 111111110000000000000000
 
-Esta sequência possui 24 bits (3 bytes) no total, vamos quebrá-la em três partes, e cada parte deve conter 8 bits (1 byte). Teremos o seguinte resultado:
+Essa sequência contém 24 bits (3 bytes) no total. Vamos dividi-la em três partes, cada uma com 8 bits (1 byte):
 1. 11111111
 2. 00000000
 3. 00000000
+   
+Agora ficou mais fácil compreender o sistema RGB, onde cada parte representa uma COR. Lembrando o que foi dito anteriormente: "Um pixel é formado por três fósforos - vermelho, azul e verde". Portanto, a primeira parte representa o fósforo vermelho do pixel, a segunda parte representa o fósforo verde do pixel, e, por fim, a terceira parte representa o fósforo azul do pixel. Como resultado desta sequência de bits `(111111110000000000000000)`, teremos uma cor vermelha extremamente intensa. Isso ocorre porque atribuímos a sequência "11111111" ao fósforo vermelho, e essa sequência de bits representa o número 255, ou seja, um valor máximo de intensidade. Já que os outros fósforos receberam "00000000" (número 0), nenhum deles emite sua respectiva cor, já que o nível de intensidade é zero. Agora, surge a pergunta: "Por que a maior intensidade de um fósforo é representada pela sequência '11111111' (255)?" A resposta é simples, mas antes, vamos fazer uma breve incursão na matemática:
 
-
-red: 255
-green: 0
-blue: 0
-
-Imagine que temos 8 posições (8bits) para representar um valor, e em cada posição, podemos ter somente 0 ou 1 (duas possibilidades).
-Com 8 posições e duas possibilidades em cada uma, podemos expressar isso como 2^8 ou 2.2.2.2.2.2.2.2.
-Na matematica, 2^8 nos resulta em 256, mas estamos trabalhando com computadores, ou seja, começamos pelo 0, então teremos 255. 
-</br>
-Agora, ao abordar o sistema RGB, é essencial notar que nesse contexto, o número 0 representa uma intensidade baixa (indicando ausência daquela cor), enquanto o número 255 simboliza a intensidade máxima da cor.
-
-Os valores de intensidade de cada componente são combinados para criar uma cor específica. 
-
+Imagine que temos 8 posições (8 bits) para representar uma cor (um fósforo). Em cada dígito desses 8 bits, podemos ter apenas 0 ou 1 (duas possibilidades). Com 8 posições e duas possibilidades em cada uma, podemos expressar isso como 2^8 (2 * 2 * 2 * 2 * 2 * 2 * 2 * 2). Na matemática, 2^8 resulta em 256, mas estamos trabalhando com computadores, o que significa que começamos a contar do zero, então temos 255. Portanto, ao abordar o sistema RGB, é essencial notar que, nesse contexto, o número 0 representa uma intensidade baixa (indicando a ausência daquela cor), enquanto o número 255 simboliza a intensidade máxima da cor. Os valores de intensidade de cada componente são combinados para criar uma cor específica.
+ 
 #### Isso resultaria em uma cor vermelha intensa, pois somente o canal vermelho está recebendo intensidade.
 - Red: 255
 - Green: 0
 - Blue: 0
-> Por trás dos panos, teremos esses números: _11111111 00000000 00000000_, em que os primeiros 8 dígitos representam o canal vermelho, os próximos 8 dígitos representam o canal verde e os últimos 8 dígitos representam o canal azul. Em decimal, a cadeia '11111111' é igual a 255. Isso forma uma cadeia de 24 bits.
+> Por trás dos panos, teremos esta sequência de bits: _111111110000000000000000_
 
 </br>
 
-#### Agora, ao adicionar intensidade a outra cor, como o azul, teremos uma cor mais azulada. À medida que aumentamos a intensidade do azul, começamos a ver cores próximas ao roxo e ao rosa.
+#### Aumentar a intensidade de outras cores, como o azul, resulta em cores mais azuladas, que podem se aproximar de tons de roxo e rosa:
 - Red: 210
 - Green: 0
 - Blue: 120
-> Por trás dos panos, teremos esses números: _11010010 00000000 1111000_. Em decimal, 11010010 é igual a 210, e 1111000 é igual a 120.
+> Por trás dos panos, teremos esta sequência de bits: _11010010000000001111000_
 
 </br>
 </br>
