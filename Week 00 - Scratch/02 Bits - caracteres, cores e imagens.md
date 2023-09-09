@@ -46,16 +46,42 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 </br>
 
 # BITS: o surgimento das cores
-Já vimos como os caracteres são representados, e com as cores isto não é diferente.
-O ASCII é um padrão para representar caracteres com bits, já o RGB é __uma das__ maneiras para representarmos cores usando bits.
+Já vimos como os caracteres são representados, e com as cores, isso não é mutio diferente.
+O ASCII é um padrão para representar caracteres com uma sequência de bits, já o RGB é __uma das__ maneiras para representarmos cores usando bits.
 
-Vamos começar pelo básico quando se trata de cores. Todos nós sabemos que há uma quantidade limitada de cores, mas como exatamente essas cores são geradas? A resposta é surpreendentemente simples: _através da combinação de três cores fundamentais - vermelho, verde e azul_. Essas três cores primárias nos permitem criar uma ampla variedade de tonalidades. </br>
+### Mas antes de tudo, vamos entender o porque de utilizarmos o RGB e como as cores foram definidas pelo computador:
+Por dentro as telas são revestidas com fósforo – um material que brilha quando é atingido por radiação (como elétrons) – que cria os pixels de luz. Um monitor de computador tem milhões de pixels (menor unidade de imagem) e cada um desses quadradinhos contém três pontos, os chamados 'fósforos'. Esses pontos seriam equivalentes às células da retina chamadas cones, fundamentais para o reconhecimento da cor pelo olho humano.
+
+Cada quadradinho (cada pixel) contém três fósforos: vermelho, azul e verde. 
+Através dos bits, nós definimos o quanto de luz vai para cada fósforo de determinado pixel. Se mandarmos muita "luz", significa que queros que aquele determinado fósforo tenha sua intensidade máxima.
+
+#### Fontes
+- https://gizmodo.uol.com.br/tela-verde-preto/
+- https://mentalidadesmatematicas.org.br/a-matematica-por-tras-das-cores-do-computador/
+
+Vamos começar pelo básico quando se trata de cores. Todos nós sabemos que há uma quantidade finita de cores, mas como exatamente essas cores são geradas? A resposta é surpreendentemente simples: _através da combinação de três cores fundamentais - vermelho, verde e azul_. Essas três cores primárias nos permitem criar uma ampla variedade de tonalidades. </br>
 Esse conceito também se aplica no mundo da computação. Imagina ter que atribuir uma sequência única de bits a cada possível cor existente - essa abordagem seria praticamente inviável. Seria necessário um grande número de bits para representar todas as cores possíveis em nossos sistemas de computador. Como solução, adotamos um método que se baseia nas cores primárias, conhecidas pelo acrônimo RGB (red - green - blue, ou vermelho, verde e azul). </br>
+
 Através da atribuição de três sequências de bits distintas, uma para cada uma das cores primárias, somos capazes de criar uma infinidade de novas cores ao combinar esses bits de maneiras variadas. Esse sistema de cores RGB forma a base para todas as representações visuais digitais que vemos em telas de computador, televisores e dispositivos móveis.
 
 
-No sistema ASCII, utilizamos 8 bits para representar um único caractere, e no sistema RGB também usamos 8 bits para indicar a intensidade de cada componente de cor. 
+No sistema ASCII, utilizamos 8 bits para representar um único caractere, e no sistema RGB também usamos 8 bits para indicar qual fósforo do pixel desejamos faze-lo brilhar. 
+
 </br>
+
+Caso a explicação acima tenha ficado confusa, observe a sequência de bits abaixo: </br>
+- 111111110000000000000000
+
+Esta sequência possui 24 bits (3 bytes) no total, vamos quebrá-la em três partes, e cada parte deve conter 8 bits (1 byte). Teremos o seguinte resultado:
+1. 11111111
+2. 00000000
+3. 00000000
+
+
+red: 255
+green: 0
+blue: 0
+
 Imagine que temos 8 posições (8bits) para representar um valor, e em cada posição, podemos ter somente 0 ou 1 (duas possibilidades).
 Com 8 posições e duas possibilidades em cada uma, podemos expressar isso como 2^8 ou 2.2.2.2.2.2.2.2.
 Na matematica, 2^8 nos resulta em 256, mas estamos trabalhando com computadores, ou seja, começamos pelo 0, então teremos 255. 
