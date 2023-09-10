@@ -74,15 +74,23 @@ Essa sequência contém 24 bits (3 bytes) no total. Vamos dividi-la em três par
 2. 00000000
 3. 00000000
    
-Agora ficou mais fácil compreender o sistema RGB, onde cada parte representa uma COR. Lembrando o que foi dito anteriormente: "Um pixel é formado por três fósforos - vermelho, azul e verde". Portanto, a primeira parte representa o fósforo vermelho do pixel, a segunda parte representa o fósforo verde do pixel, e, por fim, a terceira parte representa o fósforo azul do pixel. Como resultado desta sequência de bits `(111111110000000000000000)`, teremos uma cor vermelha extremamente intensa. Isso ocorre porque atribuímos a sequência "11111111" ao fósforo vermelho, e essa sequência de bits representa o número 255, ou seja, um valor máximo de intensidade. Já que os outros fósforos receberam "00000000" (número 0), nenhum deles emite sua respectiva cor, já que o nível de intensidade é zero. Agora, surge a pergunta: "Por que a maior intensidade de um fósforo é representada pela sequência '11111111' (255)?" A resposta é simples, mas antes, vamos fazer uma breve incursão na matemática:
-
-Imagine que temos 8 posições (8 bits) para representar uma cor (um fósforo). Em cada dígito desses 8 bits, podemos ter apenas 0 ou 1 (duas possibilidades). Com 8 posições e duas possibilidades em cada uma, podemos expressar isso como 2^8 (2 * 2 * 2 * 2 * 2 * 2 * 2 * 2). Na matemática, 2^8 resulta em 256, mas estamos trabalhando com computadores, o que significa que começamos a contar do zero, então temos 255. Portanto, ao abordar o sistema RGB, é essencial notar que, nesse contexto, o número 0 representa uma intensidade baixa (indicando a ausência daquela cor), enquanto o número 255 simboliza a intensidade máxima da cor. Os valores de intensidade de cada componente são combinados para criar uma cor específica.
+Agora ficou mais fácil compreender o sistema RGB, onde cada parte representa uma COR. Lembrando o que foi dito anteriormente: "Um pixel é formado por três fósforos - vermelho, azul e verde". </br>
+Portanto, a primeira parte representa o fósforo vermelho do pixel, a segunda parte representa o fósforo verde do pixel, e, por fim, a terceira parte representa o fósforo azul do pixel. Como resultado desta sequência de bits `(111111110000000000000000)`, teremos uma cor vermelha extremamente intensa. Isso ocorre porque atribuímos a sequência "11111111" ao quanto de "luz" o fósforo vermelho irá receber. E essa sequência de bits "1111..." representa o número 255, ou seja, um valor máximo de intensidade. Já que os outros fósforos receberam "00000000" (número 0), nenhum deles emite sua respectiva cor, já que o nível de intensidade é zero. Agora, surge a pergunta: "Por que a maior intensidade de um fósforo é representada pela sequência '11111111' (255)?" A resposta é simples, mas antes, vamos fazer uma breve incursão na matemática:
+Imagine que temos 8 posições (8 bits) para representar uma cor (um fósforo). Em cada dígito desses 8 bits, podemos ter apenas 0 ou 1 (duas possibilidades). Com 8 posições e duas possibilidades em cada uma, podemos expressar isso como 2^8 (2 * 2 * 2 * 2 * 2 * 2 * 2 * 2). Na matemática, 2^8 resulta em 256, mas estamos trabalhando com computadores, o que significa que começamos a contar do zero, então temos 255. Portanto, o número 0 representa uma intensidade baixa (indicando a ausência de luz para aquele fosfóro), enquanto o número 255 simboliza a intensidade máxima de luz para o outro fósforo. Os valores de intensidade de cada componente são combinados para criar uma cor específica.
  
 #### Isso resultaria em uma cor vermelha intensa, pois somente o canal vermelho está recebendo intensidade.
 - Red: 255
 - Green: 0
 - Blue: 0
 > Por trás dos panos, teremos esta sequência de bits: _111111110000000000000000_
+
+</br>
+
+#### Isso resultaria em uma cor vermelha menos intensa, pois o fósforo da cor vermelha está recebendo menos 'luz'.
+- Red: 120
+- Green: 0
+- Blue: 0
+> Por trás dos panos, teremos esta sequência de bits: _011110000000000000000000_
 
 </br>
 
