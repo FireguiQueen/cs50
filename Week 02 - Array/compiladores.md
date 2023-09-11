@@ -8,3 +8,6 @@ Cada compilador gera seus próprios comandos, no caso, da maneira mais básica p
 
 Após a compilação, será criado um arquivo chamado "a.out", traduzindo: "assembler.output". 
 Você pode se perguntar o por que deste nome, e bem, observe que em nenhum momento foi dito no terminal o nome que desejamos para o arquivo compilado, logo, 'a.out' é o nome padrão dado ao executável compilado.
+> a.out é um formato de arquivo usado em antigas versões de sistemas operacionais baseados no Unix para executáveis, código objeto, e, em sistemas posteriores, biblioteca compartilhada. O nome vem de assembler output (saída do programa montador). a.out permaneceu como o nome padrão de saída para arquivos executáveis criados a partir de certos compiladores e linkers, quando nenhum nome era especificado, mesmo sendo esses executáveis não mais do formato a.out.
+
+
