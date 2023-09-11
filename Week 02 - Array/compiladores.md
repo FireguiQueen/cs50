@@ -16,3 +16,6 @@ Digamos que você queira compilar e escolher um nome adequado para o programa. S
 
 Observe que surgem três argumentos após o comando 'clang'.
 O argumento `-o` significa "-output", ou seja, desejamos criar uma saída de informação, criar um arquivo. Após `-o`, iremos colocar o nome para esta saída, ou seja, o nome que desejamos para o arquivo compilado. E, por fim, iremos colocar qual arquivo desejamos compilar.
+
+
+## Bibliotecas e os compiladores
