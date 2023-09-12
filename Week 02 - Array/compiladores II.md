@@ -38,9 +38,14 @@ Podemos entender melhor com a imagem abaixo.:
 </br>
 
 ## Compiling
-Nesta etapa, nosso código em C é traduzido para a linguagem assembly. Agora, nossos processadores serão capazes de transformar nosso código assembly em linguagém de máquina (binário).
+Nesta etapa, o compilador traduz seu código-fonte (por exemplo, código em C) em código de montagem (assembly). Agora, nossos processadores serão capazes de transformar nosso código assembly em linguagém de máquina (binário).
+O código é transformado em assembly pois é a unica linguagem que os nosso processadores compreendem. 
+O código ainda está em uma forma legível para nós humanos. 
+Portanto, o código de montagem não é diretamente instruções de máquina binárias, mas sim uma representação intermediária.
 
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/24d2b69f-4531-45bd-917c-c57cb6b1e32c)
 
 
 ## Assembling
+Na etapa anterior, nosso código foi transformado em assembly, agora, faremos com que o assembly se torne código binário. 
+O resultado da etapa de montagem é um arquivo objeto binário que contém as instruções de máquina.
