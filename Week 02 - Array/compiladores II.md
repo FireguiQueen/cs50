@@ -28,3 +28,8 @@ ____________________________________________
 # Funcionamento Interno da Compilação em C
 Até o momento, nosso saber sobre compilação é bem superficial; até então, a única coisa que sabemos é que compilar uma linguagem significa transformar aquele código em linguágem de máquina (binário), mas existem algumas etapas a serem seguidas antes de ação de compilar ser concluída. 
 
+# CPP (pre-processors C)
+O CPP (ou pré-processadores C) na verdade __não__ faz parte do compilador. 
+O CPP é uma etapa dentro para concluirmos o ato de 'compilar', mas o CCP faz parte da própria linguagem C. 
+Você já notou em que muitas das vezes utilizamso o "#" em nosso código. Pois bem, os compiladores C _não_ foram feitos para entender aquele caractere e sua palavra chave, e nem deveriam. O C é o responsável por traduzir determinada instrução de texto, por exemplo em código. 
+Por exemplo, quando colocamos `#include <stdio.h>` estamos informando ao C que desejamos fazer uso da biblioteca 'stdio'.  
