@@ -29,9 +29,6 @@ ____________________________________________
 Até o momento, nosso saber sobre compilação é bem superficial; até então, a única coisa que sabemos é que compilar uma linguagem significa transformar aquele código em linguágem de máquina (binário), mas existem algumas etapas a serem seguidas antes de ação de compilar ser concluída. 
 
 # CPP (pre-processors C)
-O CPP (ou pré-processadores C) na verdade __não__ faz parte do compilador. 
-O CPP é uma etapa dentro para concluirmos o ato de 'compilar', mas o CCP faz parte da própria linguagem C. 
-Você já notou em que muitas das vezes utilizamso o "#" em nosso código. Pois bem, os compiladores C _não_ foram feitos para entender aquele caractere e sua palavra chave, e nem deveriam. O C é o responsável por traduzir determinada instrução de texto, por exemplo em código. 
-Por exemplo, quando colocamos `#include <stdio.h>` estamos informando ao C que desejamos fazer uso da biblioteca 'stdio'. E este biblioteca na verde é um outro arquivo que define todas as funções da biblioteca. Por exemplo, quando colocamos a biblioteca stdio geralmente fazemos uso da função `printf();` e foi justamente naquele outro arquivo que ela foi definida. 
-Então o CPP é uma ferramenta de substuição de texto para código. 
+O CPP (ou Pré-processador C) não é, na verdade, parte do compilador. O CPP é uma etapa preliminar no processo de 'compilação', mas faz parte da própria linguagem C. Você já deve ter notado o uso frequente do caractere '#' em nosso código. Bem, os compiladores C não são projetados para interpretar esse caractere e suas palavras-chave, e nem deveriam ser. O C é responsável por traduzir determinadas instruções de texto em código executável.
+Por exemplo, quando escrevemos #include <stdio.h>, estamos informando ao C que desejamos usar a biblioteca 'stdio'. Essa biblioteca, na verdade, é um arquivo separado que contém as definições de todas as funções da biblioteca. Quando usamos a biblioteca 'stdio', geralmente estamos interessados na função printf();, e foi exatamente nesse outro arquivo que essa função foi definida. Portanto, o CPP é uma ferramenta de substituição de texto que permite a transformação de instruções em código.
 Podemos entender melhor com a imagem abaixo.:
