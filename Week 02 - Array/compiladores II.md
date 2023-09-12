@@ -38,21 +38,8 @@ Podemos entender melhor com a imagem abaixo.:
 </br>
 
 ## Compiling
-Nesta etapa, nosso código em C é traduzido para a linguagem assembly. 
-Talvez você possa se perguntar: </br>
-<q>Por que nosso código em C precisa ser traduzido para assembly ao invés de traduzirmos diretamente para a linguagem de máquina (código binário)?</q> 
-A grosso modo, isto seria inviável. Isto porque o assembly é quase uma linguagem universal, ou seja, definir uma variável com um valor em C ou Java por exemplo, no código assembly, 
-
-```c
-int num;
-num = 5;  
-```
-
-```a
-```
-
-
-
+Nesta etapa, nosso código em C é traduzido para a linguagem assembly. Agora, nossos processadores serão capazes de transformar nosso código assembly em linguagém de máquina (binário).
+![image](https://github.com/FireguiQueen/CS50/assets/98475125/24d2b69f-4531-45bd-917c-c57cb6b1e32c)
 
 
 ## Assembling
