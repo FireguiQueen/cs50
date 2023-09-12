@@ -49,7 +49,9 @@ Portanto, o código de montagem não é diretamente instruções de máquina bin
 
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/24d2b69f-4531-45bd-917c-c57cb6b1e32c)
 
+</br>
 
 ## Assembling
 Na etapa anterior, nosso código foi transformado em assembly, agora, faremos com que o assembly se torne código binário. 
 O resultado da etapa de montagem é um arquivo objeto binário que contém as instruções de máquina.
+
