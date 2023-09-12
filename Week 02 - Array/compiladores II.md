@@ -40,7 +40,7 @@ Podemos entender melhor com a imagem abaixo.:
 ## Compiling
 Nesta etapa, nosso código em C é traduzido para a linguagem assembly. 
 Talvez você possa se perguntar: </br>
-<q>Por que nosso código em C precisa ser traduzido para assembly invés de virar diretamente linguagem de máquina (código binário)?</q>
+<q>Por que nosso código em C precisa ser traduzido para assembly invés de virar diretamente linguagem de máquina (código binário)?</q> A grosso modo, isto seria inviável.
 
 
 
