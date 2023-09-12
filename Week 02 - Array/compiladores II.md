@@ -23,3 +23,8 @@ O argumento `-o` significa "-output", ou seja, desejamos criar uma saída de inf
 Quando incluímos alguma biblioteca em nosso programa #include <stdio.h>, podemos pensar que elas estão adicionando funções prontas novas ao nosso programa, para que não precisemos criá-las do zero. Por exemplo, a função printf() é uma função da biblioteca <stdio.h>. Poderíamos até recriar esta função, mas seria algo extremamente trabalhoso. A biblioteca stdio.h não traz apenas o printf() para uso, mas também é responsável por gerar todo um sistema para possibilitar a entrada e saída de informações.
 Mas onde entram os compiladores nesta história? Quando fazemos uso de algumas bibliotecas (não são todas), precisamos especificar ao nosso compilador como encontrar e incorporar essas bibliotecas em nosso código. As funções já foram criadas, mas agora, nosso compilador precisa entender como lê-las para transformar todo o nosso programa em zeros e uns.
 
+____________________________________________
+
+# Funcionamento Interno da Compilação em C
+Até o momento, nosso saber sobre compilação é bem superficial; até então, a única coisa que sabemos é que compilar uma linguagem significa transformar aquele código em linguágem de máquina (binário), mas existem algumas etapas a serem seguidas antes de ação de compilar ser concluída. 
+
