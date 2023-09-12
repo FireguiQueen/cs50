@@ -39,6 +39,7 @@ Podemos entender melhor com a imagem abaixo.:
 
 ## Compiling
 Nesta etapa, nosso código em C é traduzido para a linguagem assembly. Agora, nossos processadores serão capazes de transformar nosso código assembly em linguagém de máquina (binário).
+
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/24d2b69f-4531-45bd-917c-c57cb6b1e32c)
 
 
