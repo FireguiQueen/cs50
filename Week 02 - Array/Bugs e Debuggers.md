@@ -86,4 +86,9 @@ int main(void)
 </br>
 </br>
 
+## Debugger
+
+</br>
+</br>
+
 ## Rubber duck debugging
