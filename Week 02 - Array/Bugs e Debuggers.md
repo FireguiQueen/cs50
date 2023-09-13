@@ -9,9 +9,17 @@ int main(void)
 {
     for(int i = 0; i <= 5; i++)
     {
-        printf("%");
+        printf("% \n");
     }
 }
 ```
 
 Como output do nosso pequeno programa, veremos o caractere "%" sendo repetido 6 vezes, e não 5
+```
+%
+%
+%
+%
+%
+%
+```
