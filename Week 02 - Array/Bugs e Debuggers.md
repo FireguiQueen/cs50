@@ -61,7 +61,7 @@ O valor de I é: 5
 $ 
 ```
 
-Agora ficou bem simples de solucionar o nosso bug. Podemos observar que o valor do "I" foi de 0 a 5, e cada valor diferente, ele printava o nosso caractere "$". Fazendo uma contagem rápida, temos 6 números totais como resultado: 0, 1, 2, 3, 4, 5.  
+Agora ficou bem simples de solucionar o nosso bug. Podemos observar que o valor do "I" foi de 0 a 5, e a cada valor diferente, ele printa o nosso caractere "$". Fazendo uma contagem rápida, temos 6 números totais como resultado: 0, 1, 2, 3, 4, 5, e por consequência, teremos o "$" sendo repetido 6 vezes.  
 
 Vamos analisar o algoritimo feito:
 - Inciar um loop
