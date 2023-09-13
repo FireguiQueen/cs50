@@ -1,9 +1,8 @@
 # Algorítimos e seus problemas
-Para se entender o que é um 'bug', podemos pensar que eles são nada mais do que problemas lógicos que ocorrem por falta de um raciocinio preciso; lembre-se, as máquinas precisam de todos os detalhes possíveis para fazer corretamente um programa, não deve haver ambiguidades.
+Para entender o que é um 'bug', podemos considerá-lo nada mais do que problemas lógicos que ocorrem devido à falta de um raciocínio preciso. Lembre-se de que as máquinas precisam de todos os detalhes possíveis para executar um programa corretamente, sem ambiguidades.
 
 ## Importância do `printf()`
-Vamos pensar num algoritimo onde você precisa printar o caractere '%' 5 vezes. 
-Para construí-lo é bem simples, basta fazer o uso de um loop.
+Vamos pensar em um algoritmo no qual você precisa imprimir o caractere '%' cinco vezes. Para construí-lo, é bastante simples, basta usar um loop.
 ```c
 #include <stdio.h>
 int main(void)
@@ -15,7 +14,7 @@ int main(void)
 }
 ```
 
-##### Como output do nosso pequeno programa, veremos o caractere "$" sendo repetido 6 vezes, e não 5
+##### Após usar o algorítimo acima, veremos o caractere "$" sendo repetido seis vezes, e não cinco.
 ```
 $
 $
@@ -25,9 +24,7 @@ $
 $
 ```
 
-Bem, queriamos o cifrão sentido repetido 5 vezes, e não 6. O importante agora é pensar em voz alta: "Isto é um bug". O que fazer para solucioná-lo?
-Uma ferramenta "arcaica" porém muito útil quando trabalhamos com programas pequenos é a função `printf();` da biblioteca stdio.h.
-Com ele podemos fazer com que o valor do nosso "i" (variável de controle/inicialização) seja printada toda vez que nosso "for" rodar, por exemplo:
+Bem, queríamos o cifrão sendo repetido cinco vezes, e não seis. O importante agora é pensar em voz alta: "Isso é um bug". O que fazer para resolvê-lo? Uma ferramenta "antiga" porém muito útil quando se trabalha com programas simples é a função `printf()` da biblioteca `stdio.h`. Neste caso, podemos imprimir o valor da nossa variável de controle "i" toda vez que nosso "for" for executado, por exemplo:
 ```c
 #include <stdio.h>
 int main(void)
@@ -61,7 +58,7 @@ O valor de I é: 5
 $ 
 ```
 
-Agora ficou bem simples de solucionar o nosso bug. Podemos observar que o valor do "I" foi de 0 a 5, e a cada valor diferente, ele printa o nosso caractere "$". Fazendo uma contagem rápida, temos 6 números totais como resultado: 0, 1, 2, 3, 4, 5, e por consequência, teremos o "$" sendo repetido 6 vezes.  
+Agora ficou muito simples solucionar o nosso bug. Podemos observar que o valor de "i" variou de 0 a 5, e a cada valor diferente, o caractere "$" é impresso. Fazendo uma contagem rápida, temos um total de seis números como resultado: 0, 1, 2, 3, 4, 5, e, como resultado, o "$" é repetido seis vezes.
 
 Vamos analisar o algoritimo feito:
 - Inciar um loop
@@ -70,9 +67,9 @@ Vamos analisar o algoritimo feito:
     3. Se a condição acima for verdadeira (ou seja, se I for menor ou igual a 5), printe o caractere '$' no terminal.
     4. Por fim, adicionar +1 a nossa variável de controle. Na segunda vez que o "for" ser executado, o valor da nossa variável de inicialização será '1'. 
 
-Vemos que o resultado no terminal nos mostrou que o valor de I foi de 0 até 5, e isto ocorreu justamente pela segunda etapa do nosso algoritimo, onde a condição era "I <= 5", isto significa que, se o "i" for menor ou IGUAL a 5, o nosso algoritmo ainda pode ser executado, por fim, a ultima vez que o 'for' se executou, o valor de sua variável valia 5, então foi perguntado: 
-5 <= 5? Será considerado 'true', pois 5 não é menor do que 5, mas cinco é __igual__ a 5. 
-Então para resolver nosso bug, basta tirarmos o operador aritmético de igualdade.
+Vemos que o resultado no terminal nos mostrou que o valor de 'i' variou de 0 até 5, e isso ocorreu devido à segunda etapa do nosso algoritmo, onde a condição era 'i <= 5'. Quando utilizamos 'i <= 5', estamos dizendo que o loop deve continuar enquanto 'i' for menor ou igual a 5. No entanto, na última iteração do loop, o valor de 'i' é igual a 5.
+Aqui está o ponto crucial: a condição '5 <= 5' é considerada verdadeira, porque 5 não é menor que 5, mas é igual a 5. Isso significa que o loop continua a ser executado mesmo quando 'i' é igual a 5, o que não era a nossa intenção original.
+Para resolver o nosso bug e garantir que o caractere '$' seja impresso apenas cinco vezes, precisamos ajustar a condição para 'i < 5'. Dessa forma, o loop será executado enquanto 'i' for estritamente menor que 5, indo de 0 a 4, como desejado
 ```c
 #include <stdio.h>
 int main(void)
