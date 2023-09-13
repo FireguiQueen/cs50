@@ -15,7 +15,7 @@ int main(void)
 }
 ```
 
-##### Como output do nosso pequeno programa, veremos o caractere "$" sendo repetido 6 vezes, e não 5
+#### Como output do nosso pequeno programa, veremos o caractere "$" sendo repetido 6 vezes, e não 5
 ```
 $
 $
