@@ -55,7 +55,15 @@ $
 
 O valor de I é: 4 
 $
- 
+
 O valor de I é: 5 
 $ 
 ```
+
+Agora ficou bem simples de solucionar o nosso bug. Podemos observar que o valor do "I" foi de 0 a 5, e cada valor diferente, ele printava o nosso caractere "$". Fazendo uma contagem rápida, temos 6 números totais como resultado: 0, 1, 2, 3, 4, 5.  
+
+Vamos analisar o algoritimo feito:
+1. Inciar um loop
+    - Definir uma variável de inicialização: I = 0    (variável i recebe zero);
+    - Definir uma condição: Enquanto I for menor ou igual a 5 continue o loop (I <= 5);
+    - Por fim, adicionar +1 a nossa variável de controle. Na segunda vez que o "for" ser executado, o valor da nossa variável de inicialização será '1'. 
