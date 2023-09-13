@@ -70,7 +70,7 @@ Vamos analisar o algoritimo feito:
     3. Se a condição acima for verdadeira (ou seja, se I for menor ou igual a 5), printe o caractere '$' no terminal.
     4. Por fim, adicionar +1 a nossa variável de controle. Na segunda vez que o "for" ser executado, o valor da nossa variável de inicialização será '1'. 
 
-Vemos que o resultado no terminal nos mostrou que o valor de I foi de 0 até 5, e isto ocorreu justamente pela segunda etapa do nosso algoritimo, onde a condição era "I <= 5", isto significa que, se o "i" for menor do que 5, o nosso algoritmo ainda pode ser executado, por fim, a ultima vez que o 'for' se executou, o valor de sua variável valia 5, então foi perguntado: 
+Vemos que o resultado no terminal nos mostrou que o valor de I foi de 0 até 5, e isto ocorreu justamente pela segunda etapa do nosso algoritimo, onde a condição era "I <= 5", isto significa que, se o "i" for menor ou IGUAL a 5, o nosso algoritmo ainda pode ser executado, por fim, a ultima vez que o 'for' se executou, o valor de sua variável valia 5, então foi perguntado: 
 5 <= 5? Será considerado 'true', pois 5 não é menor do que 5, mas cinco é __igual__ a 5. 
 Então para resolver nosso bug, basta tirarmos o operador aritmético de igualdade.
 ```c
