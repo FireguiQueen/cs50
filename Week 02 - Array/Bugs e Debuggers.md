@@ -81,5 +81,6 @@ int main(void)
 }
 ```
 
+</br>
 
-# 
+## Rubber duck debugging
