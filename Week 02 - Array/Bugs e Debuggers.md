@@ -1,6 +1,8 @@
 # Algorítimos e seus problemas
 Para entender o que é um 'bug', podemos considerá-lo nada mais do que problemas lógicos que ocorrem devido à falta de um raciocínio preciso. Lembre-se de que as máquinas precisam de todos os detalhes possíveis para executar um programa corretamente, sem ambiguidades.
 
+</br>
+
 ## Importância do `printf()`
 Vamos pensar em um algoritmo no qual você precisa imprimir o caractere '%' cinco vezes. Para construí-lo, é bastante simples, basta usar um loop.
 ```c
@@ -81,6 +83,7 @@ int main(void)
 }
 ```
 
+</br>
 </br>
 
 ## Rubber duck debugging
