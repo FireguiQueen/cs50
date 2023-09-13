@@ -66,4 +66,5 @@ Vamos analisar o algoritimo feito:
 1. Inciar um loop
     - Definir uma variável de inicialização: I = 0    (variável i recebe zero);
     - Definir uma condição: Enquanto I for menor ou igual a 5 continue o loop (I <= 5);
+    - Se a condição acima for verdadeira, printe o caractere '$' no terminal.
     - Por fim, adicionar +1 a nossa variável de controle. Na segunda vez que o "for" ser executado, o valor da nossa variável de inicialização será '1'. 
