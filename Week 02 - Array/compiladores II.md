@@ -26,7 +26,7 @@ Mas onde entram os compiladores nesta história? Quando fazemos uso de algumas b
 ____________________________________________
 
 # Funcionamento Interno da Compilação em C
-Até o momento, nosso saber sobre compilação é bem superficial; até então, a única coisa que sabemos é que compilar uma linguagem significa transformar aquele código em linguágem de máquina (binário), mas existem algumas etapas a serem seguidas antes de ação de compilar ser concluída. 
+Até o momento, nosso saber sobre compilação é bem superficial; a única coisa que sabemos é que compilar um arquivo C por exemplo, significa transformar o código fonte em linguágem de máquina (binário), mas existem algumas etapas a serem seguidas antes de ação de compilar ser concluída. 
 
 ## CPP (pre-processors C)
 O CPP (ou Pré-processador C) não é, na verdade, parte do compilador. O CPP é uma etapa preliminar no processo de 'compilação', mas faz parte da própria linguagem C. Você já deve ter notado o uso frequente do caractere '#' em nosso código. Bem, os compiladores C não são projetados para interpretar esse caractere e suas palavras-chave, e nem deveriam ser. O CPP é responsável por traduzir determinadas instruções de texto em código executável.
