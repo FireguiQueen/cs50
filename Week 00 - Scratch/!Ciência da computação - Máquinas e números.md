@@ -65,7 +65,8 @@ Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretam
 Percebemos que nosso cérebro simplifica muito as coisas. O nosso 'input' (nossa entrada de informação) pode ser captada de diversas maneiras: ouvindo, vendo ou até mesmo pelo tato.
 __No entanto, o que os computadores utilizam como INPUT?__ Na realidade, apenas eletricidade.
 Algo que todos nós fazemos ao utilizar um dispositivo eletrônico é garantir que esteja conectado à tomada ou que tenha energia na sua bateria/pilha.
-Através dessa eletricidade, começamos a representar informações. Um dispositivo que recebe eletricidade possui dois estados: desligado/ligado. Esse comportamento de ligar/desligar pode ser denominado de forma binária, 0 e 1.
+Através dessa eletricidade, começamos a representar informações. </br>
+Um dispositivo que recebe eletricidade possui dois estados: desligado/ligado. Esse comportamento de ligar/desligar pode ser denominado de forma binária, 0 e 1.
 
 Dado que os computadores possuem basicamente um único tipo de ENTRADA física (eletricidade), podemos aproveitar isso para armazenar informações.
 
