@@ -51,9 +51,9 @@ Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse
 
 </br>
 
-## Sistema Binário e a Eletricidade
+## Sistema Binário, eletricidade e a estrutura numérica
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
-A diferença é que os computadores só tem acesso a dois bits: 0 e 1, em outras palavras, só tem acesso a dois dígitos binários. 
+A diferença é que os computadores só tem acesso a dois números: 0 e 1, em outras palavras, só tem acesso a dois bits. Por isso, eles fazem uso da base de dois (binário) para a criação de outros números. 
 > Bits é derivado de "binary digits". Dígitos binários são 0 e 1. 
 
 __Mas qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?__
