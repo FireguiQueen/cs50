@@ -62,7 +62,7 @@ Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretam
 2. __PROCESSAMENTO:__ _Tratamento desta informação (pensamos como podemos resolver este problema)_
 3. __OUTPUT:__ _Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)_
 
-Certamente, percebemos que nosso cérebro simplifica muito as coisas. O nosso 'input' (nossa entrada de informação) pode ser captada de diversas maneiras: ouvindo, vendo ou até mesmo pelo tato.
+Percebemos que nosso cérebro simplifica muito as coisas. O nosso 'input' (nossa entrada de informação) pode ser captada de diversas maneiras: ouvindo, vendo ou até mesmo pelo tato.
 __No entanto, o que os computadores utilizam como INPUT?__ Na realidade, apenas eletricidade.
 Algo que todos nós fazemos ao utilizar um dispositivo eletrônico é garantir que esteja conectado à tomada ou que tenha energia na sua bateria/pilha.
 Através dessa eletricidade, começamos a representar informações. Um dispositivo que recebe eletricidade possui dois estados: desligado/ligado. Esse comportamento de ligar/desligar pode ser denominado de forma binária, 0 e 1.
