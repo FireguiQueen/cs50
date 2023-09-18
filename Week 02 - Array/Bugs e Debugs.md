@@ -19,28 +19,26 @@ Para construí-lo, é bastante simples, basta usar um loop.
         printf("$ \n");
     }
 ```
+> Após usar o algorítimo acima, veremos o caractere "$" sendo repetido seis vezes, e não cinco.
 
-##### Após usar o algorítimo acima, veremos o caractere "$" sendo repetido seis vezes, e não cinco.
 ```
-$
-$
-$
-$
-$
-$
+$       // uma vez
+$       // duas vezes
+$       // três..
+$       // quatro..
+$       // cinco..
+$       // seis..
 ```
 
-Bem, queríamos o cifrão sendo repetido cinco vezes, e não seis. O importante agora é pensar em voz alta: "Isso é um bug". O que fazer para resolvê-lo? Uma ferramenta "antiga" porém muito útil quando se trabalha com programas simples é a função `printf()` da biblioteca `stdio.h`. Neste caso, podemos imprimir o valor da nossa variável de controle "i" toda vez que nosso "for" for executado, por exemplo:
+Bem, queríamos o cifrão se repetisse cinco vezes, e não seis. O importante agora é pensar em voz alta: "Isso é um bug". O que fazer para resolvê-lo? 
+Para a depuração, existe uma ferramenta "antiga" porém muito útil quando se trabalha com programas simples, ela é a famosa função `printf()` da biblioteca `stdio.h`. 
+Neste caso em específico, podemos imprimir o valor da nossa variável de controle "i" toda vez que nosso "for" for executado, por exemplo:
 ```c
-#include <stdio.h>
-int main(void)
-{
     for(int i = 0; i <= 5; i++)
     {
         printf("O valor de I é: %i \n", i);  // Variável 'i' sendo chamada.
         printf("$ \n");                      // nosso caractere sendo printado. 
     }
-}
 ```
 
 Após compilar e executar o código acima, teremos o seguinte resultado em nosso terminal:
@@ -77,20 +75,18 @@ Vemos que o resultado no terminal nos mostrou que o valor de 'i' variou de 0 at�
 Aqui está o ponto crucial: a condição '5 <= 5' é considerada verdadeira, porque 5 não é menor que 5, mas é igual a 5. Isso significa que o loop continua a ser executado mesmo quando 'i' é igual a 5, o que não era a nossa intenção original.
 Para resolver o nosso bug e garantir que o caractere '$' seja impresso apenas cinco vezes, precisamos ajustar a condição para 'i < 5'. Dessa forma, o loop será executado enquanto 'i' for estritamente menor que 5, indo de 0 a 4, como desejado
 ```c
-#include <stdio.h>
-int main(void)
-{
     for(int i = 0; i < 5; i++)
     {
         printf("$ \n");              
     }
-}
 ```
 
 </br>
 </br>
 
 ## Debug
+Diferentemente do printf() (uma função que surgiu para fazer outputs; mas acaba sendo usada para depurar programas simples), o "debug" é uma ferramenta própria para depuração, ele nos permite usar uma variedade de ferramentas para fazer a depuração de nosso código. 
+Um exemplo disso é que, com o 'debug', podemos fazer com que o nosso programa seja executado passo-a-passo, linha por linha, e isso nos permite ver o que está acontecendo.
 
 </br>
 </br>
