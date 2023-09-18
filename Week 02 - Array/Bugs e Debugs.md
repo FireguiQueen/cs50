@@ -14,14 +14,10 @@ Para fazer a depuração, temos ferramentas próprias, que são criadas para iss
 Vamos pensar em um algoritmo no qual você precisa imprimir o caractere '%' cinco vezes. 
 Para construí-lo, é bastante simples, basta usar um loop.
 ```c
-#include <stdio.h>
-int main(void)
-{
     for(int i = 0; i <= 5; i++)
     {
         printf("$ \n");
     }
-}
 ```
 
 ##### Após usar o algorítimo acima, veremos o caractere "$" sendo repetido seis vezes, e não cinco.
