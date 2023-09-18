@@ -57,8 +57,10 @@ O resultado da etapa de montagem é um arquivo objeto binário que contém as in
 </br>
 
 ## Linkers
-Agora que temos nossos arquivos objeto binários após a etapa de montagem, é hora de juntá-los em um único executável. É nesse ponto que os linkers entram em cena.
+Agora que temos nossos arquivos binários após a etapa de montagem, é hora de juntá-los em um único executável. É nesse ponto que os linkers entram em cena.
 
 Os linkers são ferramentas que desempenham um papel crucial na fase de ligação (linkagem) do processo de compilação. Sua principal tarefa é unir todas as partes do seu programa, incluindo seu código-fonte, bibliotecas e funções externas, em um único executável que pode ser executado no sistema operacional.
 
 Os linkers resolvem referências entre diferentes partes do código, garantindo que as funções que você chamou no seu código estejam corretamente associadas às suas implementações reais nas bibliotecas ou em outros módulos do seu programa. Além disso, eles também podem otimizar o código, remover código não utilizado e garantir que tudo esteja configurado corretamente para a execução.
+
+Resumidamente, você terá vários arquivos que foram traduzidos para binário, agora, com esta etapa, está na hora de juntá-los. 
