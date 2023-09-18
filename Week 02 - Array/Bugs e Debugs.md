@@ -94,6 +94,9 @@ Suponhamos que temos um loop for simples em nosso código:
         // Algum código aqui
     }
 ```
+Usando uma ferramenta de depuração, como um ambiente de desenvolvimento integrado (IDE) ou um depurador de linha de comando, podemos adicionar pontos de interrupção (breakpoints) dentro do loop for. Quando o programa é executado no modo de depuração e atinge um ponto de interrupção, ele pausa a execução e nos permite inspecionar o valor da variável "i" naquele momento.
+
+Isso é particularmente útil para entender como as variáveis mudam à medida que o programa é executado, permitindo-nos identificar problemas e corrigir possíveis erros em nosso código de maneira mais eficiente. Durante a depuração, podemos observar o valor de "i" em cada iteração do loop e garantir que ele está se comportando conforme o esperado.
 
 </br>
 </br>
