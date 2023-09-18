@@ -7,8 +7,7 @@ Essa falta de raciocínio preciso não ocorre somente quando nós, desenvolvedor
 </br>
 
 # Debugging (depuração)
-A depuração é o processo de identificar, analisar e corrigir erros, falhas ou bugs em um programa de computador. O objetivo da depuração é garantir que o programa funcione conforme o esperado, produzindo resultados corretos e evitando comportamentos indesejados.
-Para fazer a depuração, temos ferramentas próprias, que são criadas para isso, mas além delas, temos soluções (que não necessariamente foram criadas para depurar) mas podem cumprimir este propósito. 
+A depuração é o processo de identificar, analisar e corrigir erros, falhas ou bugs em um programa de computador. O objetivo da depuração é garantir que o programa funcione conforme o esperado, produzindo resultados corretos e evitando comportamentos indesejados. Para realizar a depuração, existem ferramentas específicas criadas para esse fim, mas também podemos contar com soluções que, embora não tenham sido originalmente desenvolvidas para a depuração, podem servir a esse propósito.
 
 ## `printf()` 
 Vamos pensar em um algoritmo no qual você precisa imprimir o caractere '%' cinco vezes. 
@@ -85,8 +84,16 @@ Para resolver o nosso bug e garantir que o caractere '$' seja impresso apenas ci
 </br>
 
 ## Debug
-Diferentemente do printf() (uma função que surgiu para fazer outputs; mas acaba sendo usada para depurar programas simples), o "debug" é uma ferramenta própria para depuração, ele nos permite usar uma variedade de ferramentas para fazer a depuração de nosso código. 
-Um exemplo disso é que, com o 'debug', podemos fazer com que o nosso programa seja executado passo-a-passo, linha por linha, e isso nos permite ver o que está acontecendo.
+Ao contrário da função printf() (que foi originalmente projetada para saída de dados, mas é frequentemente usada para depurar programas simples), o "debug" é uma ferramenta específica para depuração que nos permite utilizar uma variedade de recursos para depurar nosso código.
+Um exemplo disso é que, com o 'debug', podemos fazer com que nosso programa seja executado passo a passo, linha por linha, o que nos permite acompanhar o que está acontecendo.
+
+Suponhamos que temos um loop for simples em nosso código:
+```c
+    for (int i = 1; i <= 5; i++) 
+    {
+        // Algum código aqui
+    }
+```
 
 </br>
 </br>
