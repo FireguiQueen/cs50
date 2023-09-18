@@ -1,10 +1,18 @@
 # Algorítimos e seus problemas
-Para entender o que é um 'bug', podemos considerá-lo nada mais do que problemas lógicos que ocorrem devido à falta de um raciocínio preciso. Lembre-se de que as máquinas precisam de todos os detalhes possíveis para executar um programa corretamente, sem ambiguidades.
+Imagine que você está jogando um jogo de computador e, de repente, seu personagem fica preso em uma parede, incapaz de se mover. Esse é um exemplo de um bug. Um bug é um erro ou problema no código de software que faz com que ele não funcione como deveria. 
+Sendo assim, podemos considerá-lo nada mais do que problemas lógicos que ocorrem devido à falta de um raciocínio preciso. _Lembre-se de que as máquinas precisam de todos os detalhes possíveis para executar um programa corretamente, sem ambiguidades._
+
+Essa falta de raciocínio preciso não ocorre somente quando nós, desenvolvedores em geral, estamos escrevendo nosso código, mas também pode ocorrer para os desenvolvedores de tecnologias. Por exemplo, você está fazendo uso da tecnologia X e seu código está 100% lógico e preciso, porém, ocorre um bug em seu software. Neste caso, podemos imaginar que o bug ocorreu devido a um raciocínio impreciso na tecnologia que foi utilizada durante a construção do nosso software.
 
 </br>
 
-## Importância do `printf()`
-Vamos pensar em um algoritmo no qual você precisa imprimir o caractere '%' cinco vezes. Para construí-lo, é bastante simples, basta usar um loop.
+# Debugging (depuração)
+A depuração é o processo de identificar, analisar e corrigir erros, falhas ou bugs em um programa de computador. O objetivo da depuração é garantir que o programa funcione conforme o esperado, produzindo resultados corretos e evitando comportamentos indesejados.
+Para fazer a depuração, temos ferramentas próprias, que são criadas para isso, mas além delas, temos soluções (que não necessariamente foram criadas para depurar) mas podem cumprimir este propósito. 
+
+## `printf()` 
+Vamos pensar em um algoritmo no qual você precisa imprimir o caractere '%' cinco vezes. 
+Para construí-lo, é bastante simples, basta usar um loop.
 ```c
 #include <stdio.h>
 int main(void)
@@ -86,7 +94,7 @@ int main(void)
 </br>
 </br>
 
-## Debugger
+## Debug
 
 </br>
 </br>
