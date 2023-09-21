@@ -1,6 +1,9 @@
+
+
+
 # Linguagens de programação 
 Uma linguagem de programação é um vocabulário e um conjunto de regras gramaticais usadas para escrever programas de computador. Esses programas instruem o computador a realizar determinadas tarefas específicas.
-Vamos pensar no idioma português, e há duas pessoas se comunicando através dele. Pense nessas duas pessoas como Pesosa 'a' e pessoa 'b'. Para a pessoa 'a' pedir que a outra realize uma ação, ela dirá uma frase contendo palavras do idioma português, mas é claro, não basta apenas dizer palavras chaves, também é necessário seguir as leis gramaticais daquele determinado idioma, o português.
+Vamos pensar no idioma português, e há duas pessoas se comunicando através dele. Pense nessas duas pessoas como Pessoa 'A' e Pessoa 'B'. Para que a Pessoa 'A' peça que a outra realize uma ação, ela dirá uma frase contendo palavras do idioma português. No entanto, não basta apenas usar palavras-chave; é necessário seguir as leis gramaticais daquele determinado idioma, o português.
 
 Vamos pensar no seguinte diálogo entre elas:
 - pessoa A: você quer um copo de refrigerante?
