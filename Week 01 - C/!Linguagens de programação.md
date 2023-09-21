@@ -84,20 +84,23 @@ Hoje em dia, a situação mudou. O que se tornou caro são os desenvolvedores; a
 Também podemos abordar um assunto mais complexo: "dificilmente você será melhor do que um compilador". O objetivo dos softwares compiladores é exatamente compilar, ou seja, pegar o código fonte de determinada linguagem (C, C++, Go) e transformá-lo em zeros e uns. A realidade é que eles fazem isso MUITO bem, incrivelmente bem mesmo. Os compiladores são capazes de identificar erros e até mesmo transformar seu código bosta repetitivo em algo mais sofisticado.
 Portanto, quando se trata de escolher entre desenvolver em Assembly ou em C e, em seguida, compilar, a escolha mais inteligente, geralmente, é escrever em C mesmo. Isso ocorre porque os compiladores são mestres em otimização e podem transformar seu código em algo eficiente e elegante, poupando você do trabalho árduo de lidar com a complexidade do Assembly.
 
-Para simplificar a explicação, podemos pensar na seguinte situação:
-- Você está na Russia;
-- Você sabe falar russo, porém seu vocabulário é limitado e sua pronuncia é péssima;
-- Você possui um amigo que seu idioma nativo é o russo, e o português dele é excelente;
+Para simplificar a explicação, podemos imaginar a seguinte situação:
 
-Você deseja fazer uma pergunta ao dono de um mercadinho em Moscou, para isso, você tem duas opções:
-1. Falar com ele diretamente. Possivelmente ele terá dificuldades de entender você devido a pronúncia
-2. Falar em portuguẽs com seu amigo russo, para que ele diga em russo o que você quer perguntar ao dono do mercado
+- Você está na Rússia.
+- Você sabe falar russo, porém, seu vocabulário é limitado e sua pronúncia é péssima.
+- Você possui um amigo cuja língua nativa é o russo, e ele fala português fluentemente.
 
-A escolha mais inteligente a se fazer obivamente é a segunda opção, e podemos pensar nela como:
-- Você é a linguagem C
-- Seu amigo é o compilador
-- O dono do mercado é a máquina
+Suponha que você deseje fazer uma pergunta ao dono de um mercadinho em Moscou. Para isso, você tem duas opções:
+1. Falar diretamente com ele. No entanto, é provável que ele tenha dificuldades em entender você devido à sua pronúncia.
+2. Falar em português com seu amigo russo, para que ele traduza sua pergunta para o russo e a transmita ao dono do mercado.
 
+A escolha mais inteligente, sem dúvida, é a segunda opção, e podemos relacioná-la da seguinte maneira:
+- Você representa a linguagem de programação C.
+- Seu amigo atua como o compilador.
+- O dono do mercado é o computador.
+
+Assim como no exemplo, o compilador (seu amigo) desempenha um papel crucial na tradução das instruções que você fornece em C para uma linguagem que a máquina (dono do mercado) possa compreender e executar com precisão. 
+Isso é mais eficaz porque o russo do seu amigo é excelente, garantindo uma comunicação clara e precisa com o dono do mercado.
 
 
 ____________________________________________________
