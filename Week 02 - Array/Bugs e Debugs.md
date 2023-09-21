@@ -87,7 +87,7 @@ Observamos no terminal que o valor de 'i' variou de 0 a 5 devido à segunda etap
 
 ## Debug
 Ao contrário da função printf() (que foi originalmente projetada para saída de dados, mas é frequentemente usada para depurar programas simples), o "debug" é uma ferramenta específica para depuração que nos permite utilizar uma variedade de recursos para depurar nosso código.
-Um exemplo disso é que, com o 'debug', podemos fazer com que nosso programa seja executado passo a passo, linha por linha, o que nos permite acompanhar o que está acontecendo.
+Um exemplo disso é que, com o 'debug', podemos fazer com que nosso programa seja executado passo a passo, linha por linha, o que nos permite compreender melhor o que está acontecendo.
 
 Suponhamos que temos um loop for simples em nosso código:
 ```c
@@ -104,3 +104,6 @@ Isso é particularmente útil para entender como as variáveis mudam à medida q
 </br>
 
 ## Rubber duck debugging
+Apesar do nome, esta é uma ferramenta muito útil para depurar nosso código. A ideia é você "conversar" com um pato. Claro, este é apenas um nome comumente utilizado, mas você pode falar com objetos, pessoas ou simplesmente falar.
+O objetivo disso é que, quando falamos, temos uma percepção maior do que está sendo feito. Ouvir a nós mesmos ou outras pessoas dizendo algo ilógico é mais perceptível do que ao ler.
+Essa técnica é especialmente útil quando estamos presos em um problema complexo e não sabemos por onde começar. Ao compartilhar nossos pensamentos em voz alta, ganhamos clareza e, muitas vezes, encontramos soluções que não teríamos descoberto de outra forma.
