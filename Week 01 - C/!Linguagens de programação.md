@@ -84,6 +84,7 @@ Hoje em dia, a situação mudou. O que se tornou caro são os desenvolvedores; a
 Também podemos abordar um assunto mais complexo: "dificilmente você será melhor do que um compilador". O objetivo dos softwares compiladores é exatamente compilar, ou seja, pegar o código fonte de determinada linguagem (C, C++, Go) e transformá-lo em zeros e uns. A realidade é que eles fazem isso MUITO bem, incrivelmente bem mesmo. Os compiladores são capazes de identificar erros e até mesmo transformar seu código bosta repetitivo em algo mais sofisticado.
 Portanto, quando se trata de escolher entre desenvolver em Assembly ou em C e, em seguida, compilar, a escolha mais inteligente, geralmente, é escrever em C mesmo. Isso ocorre porque os compiladores são mestres em otimização e podem transformar seu código em algo eficiente e elegante, poupando você do trabalho árduo de lidar com a complexidade do Assembly.
 
+____________________________________________________
 
 ### Recomendação de vídeos
 <a href="https://youtu.be/SNyh-cubxaU">Linguagem Compilada vs Interpretada | Fabio Akita</a>
