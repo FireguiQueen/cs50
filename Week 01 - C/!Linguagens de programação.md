@@ -1,6 +1,3 @@
-
-
-
 # Linguagens de programação 
 Uma linguagem de programação é um vocabulário e um conjunto de regras gramaticais usadas para escrever programas de computador. Esses programas instruem o computador a realizar determinadas tarefas específicas.
 Vamos pensar no idioma português, e há duas pessoas se comunicando através dele. Pense nessas duas pessoas como Pessoa 'A' e Pessoa 'B'. Para que a Pessoa 'A' peça que a outra realize uma ação, ela dirá uma frase contendo palavras do idioma português. No entanto, não basta apenas usar palavras-chave; é necessário seguir as leis gramaticais daquele determinado idioma, o português.
@@ -54,8 +51,10 @@ Embora seja verdade que um simples editor de texto, como o Bloco de Notas, pode 
 A verdadeira fortaleza das IDEs reside em suas extensões. Estas são complementos que ampliam as funcionalidades da IDE. Por exemplo, ao desenvolver em Python, você pode adicionar uma extensão que ofereça integração direta com o gerenciador de pacotes pip. Se estiver trabalhando com web design, existem extensões que facilitam a edição de HTML, CSS e JavaScript. Essa flexibilidade permite que você adapte a IDE às suas necessidades específicas.
 Um exemplo disso é a extensão no Visual Studio Code que atualiza em tempo real as mudanças em arquivos .HTML. Quando você insere uma tag `<p>` em seu arquivo, as alterações são refletidas automaticamente na sua página, dispensando a necessidade de atualizar manualmente (dar F5) a página para ver as mudanças.
 
+
 </br>
 </br>
+
 
 ## Linguagem interpretada x compilada 
 Conforme vimos antes, os computadores se comunicam essencialmente por meio da linguagem binária, aquela composta por zeros e uns. Quando se trata de criar programas de computador, temos dois principais jeitos de fazer isso: linguagens compiladas e linguagens interpretadas.
@@ -64,19 +63,21 @@ No universo das linguagens compiladas, como C, C++, Java e Go, os programadores 
 
 Nas linguagens interpretadas, como JavaScript, PHP e Python, o processo é um pouco diferente. Ainda começamos escrevendo o código numa linguagem de alto nível, mas ao invés de ser convertido antecipadamente para linguagem binária, ele necessita de um intérprete. Esse intérprete, como o motor V8 usado no JavaScript, lê e executa o código linha por linha, transformando-o em tempo real em instruções compreensíveis para o hardware. Isso traz flexibilidade e agilidade no desenvolvimento, mas pode levar a um desempenho um pouco menor comparado às linguagens compiladas.
 
+
 </br>
 </br>
 
 
 ## Low-level & high-level
-Linguagens "low-level", também conhecidas como linguagens de programação de baixo nível, não são amplamente utilizadas devido a vários fatores. Primeiramente, exigem profissionais mais experientes, uma vez que estão mais próximas da linguagem de máquina e envolvem manipulação direta de recursos do hardware. Além disso, o processo de desenvolvimento nessas linguagens é mais lento e trabalhoso, pois cada detalhe precisa ser especificado. Exemplos de linguagens de baixo nível incluem Assembly e C.
+As linguagens de programação "low-level," também conhecidas como linguagens de baixo nível, não são amplamente adotadas devido a uma série de fatores. Primeiramente, elas exigem profissionais mais experientes, uma vez que estão mais próximas da linguagem de máquina e envolvem a manipulação direta dos recursos de hardware. Além disso, o processo de desenvolvimento nessas linguagens é mais lento e trabalhoso, uma vez que cada detalhe precisa ser especificado meticulosamente. Exemplos de linguagens de baixo nível incluem Assembly e C.
 
-As linguagens "high-level", ou linguagens de alto nível, são mais próximas da linguagem humana, o que as torna mais acessíveis e fáceis de aprender e usar. Elas abstraem muitos detalhes de baixo nível e oferecem bibliotecas e frameworks que facilitam o desenvolvimento. Isso resulta em maior produtividade, uma vez que os programadores podem se concentrar mais na lógica do programa do que em questões técnicas. Exemplos de linguagens de alto nível são Python, Java, e C++.
+Por outro lado, as linguagens de programação "high-level," ou de alto nível, estão mais próximas da linguagem humana, o que as torna mais acessíveis e fáceis de aprender e utilizar. Elas abstraem muitos detalhes de baixo nível e oferecem bibliotecas e frameworks que simplificam o desenvolvimento. Isso resulta em maior produtividade, uma vez que os programadores podem se concentrar mais na lógica do programa do que em questões técnicas. Exemplos de linguagens de alto nível incluem Python, Java e C++.
 
-A razão pela qual muitos programas não são desenvolvidos em linguagens de baixo nível está relacionada à falta de suporte e às dificuldades mencionadas anteriormente. A ausência de bibliotecas e frameworks prontos para uso nessas linguagens pode aumentar drasticamente o tempo necessário para desenvolver um programa. Em contraste, linguagens de alto nível oferecem uma ampla gama de recursos e ferramentas que agilizam o processo de desenvolvimento e permitem que os programadores se concentrem na resolução de problemas.
-Antigamente, era se trabalhado com assembly, inclusive, muitos games foram escritos diretamente nesta linguagem.
-Isso se deve ao fato de que o assembly é a linguagem que trabalha muito próxima a linguagem binária, fazendo com que todo aquele código em assembly seja rapidamente traduzido em zeroas e uns.
+A razão pela qual muitos programas não são desenvolvidos em linguagens de baixo nível está relacionada à falta de suporte e às dificuldades mencionadas anteriormente. A ausência de bibliotecas e frameworks prontos para uso nessas linguagens pode aumentar significativamente o tempo necessário para desenvolver um programa. Em contraste, as linguagens de alto nível oferecem uma ampla gama de recursos e ferramentas que agilizam o processo de desenvolvimento e permitem que os programadores se concentrem na resolução de problemas.
 
+Antigamente, o desenvolvimento em Assembly era comum; inclusive, muitos jogos foram escritos diretamente nessa linguagem. Isso se devia ao fato de que o Assembly trabalha muito próximo à linguagem binária, o que faz com que todo o código em Assembly seja rapidamente traduzido em zeros e uns, economizando assim muitos recursos dos computadores antigos.
+É importante ressaltar que, no passado, o hardware era extremamente caro; meros megabytes de RAM custavam muito caro. Portanto, era essencial desenvolver software de forma otimizada para que ele pudesse ser executado eficientemente em componentes limitados.
+Hoje em dia, a situação mudou. O que se tornou caro são os desenvolvedores; a hora do programador é valiosa. Portanto, é mais viável direcioná-los para trabalhar com linguagens de alto nível, uma vez que o processo de desenvolvimento é mais rápido e eficiente.
 
 
 ### Recomendação de vídeos
