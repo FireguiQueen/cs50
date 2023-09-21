@@ -71,15 +71,19 @@ Nas linguagens interpretadas, como JavaScript, PHP e Python, o processo é um po
 
 
 ## Low-level & high-level
-As linguagens de programação "low-level," também conhecidas como linguagens de baixo nível, não são amplamente adotadas devido a uma série de fatores. Primeiramente, elas exigem profissionais mais experientes, uma vez que estão mais próximas da linguagem de máquina e envolvem a manipulação direta dos recursos de hardware. Além disso, o processo de desenvolvimento nessas linguagens é mais lento e trabalhoso, uma vez que cada detalhe precisa ser especificado meticulosamente. Exemplos de linguagens de baixo nível incluem Assembly e C.
+As linguagens de programação "low-level," também conhecidas como linguagens de baixo nível, não são amplamente adotadas devido a uma série de fatores. Primeiramente, elas exigem profissionais mais experientes, uma vez que estão mais próximas da linguagem de máquina e envolvem a manipulação direta dos recursos de hardware. Além disso, o processo de desenvolvimento nessas linguagens é mais lento e trabalhoso, uma vez que cada detalhe precisa ser especificado meticulosamente. Exemplo de uma linguagem de baixo nível é o Assembly.
 
 Por outro lado, as linguagens de programação "high-level," ou de alto nível, estão mais próximas da linguagem humana, o que as torna mais acessíveis e fáceis de aprender e utilizar. Elas abstraem muitos detalhes de baixo nível e oferecem bibliotecas e frameworks que simplificam o desenvolvimento. Isso resulta em maior produtividade, uma vez que os programadores podem se concentrar mais na lógica do programa do que em questões técnicas. Exemplos de linguagens de alto nível incluem Python, Java e C++.
 
 A razão pela qual muitos programas não são desenvolvidos em linguagens de baixo nível está relacionada à falta de suporte e às dificuldades mencionadas anteriormente. A ausência de bibliotecas e frameworks prontos para uso nessas linguagens pode aumentar significativamente o tempo necessário para desenvolver um programa. Em contraste, as linguagens de alto nível oferecem uma ampla gama de recursos e ferramentas que agilizam o processo de desenvolvimento e permitem que os programadores se concentrem na resolução de problemas.
 
 Antigamente, o desenvolvimento em Assembly era comum; inclusive, muitos jogos foram escritos diretamente nessa linguagem. Isso se devia ao fato de que o Assembly trabalha muito próximo à linguagem binária, o que faz com que todo o código em Assembly seja rapidamente traduzido em zeros e uns, economizando assim muitos recursos dos computadores antigos.
-É importante ressaltar que, no passado, o hardware era extremamente caro; meros megabytes de RAM custavam muito caro. Portanto, era essencial desenvolver software de forma otimizada para que ele pudesse ser executado eficientemente em componentes limitados.
+É importante ressaltar que, no passado, o hardware era extremamente caro; meros megabytes de RAM custavam o olho da cara. Portanto, era essencial desenvolver software de forma otimizada para que ele pudesse ser executado eficientemente em componentes limitados.
 Hoje em dia, a situação mudou. O que se tornou caro são os desenvolvedores; a hora do programador é valiosa. Portanto, é mais viável direcioná-los para trabalhar com linguagens de alto nível, uma vez que o processo de desenvolvimento é mais rápido e eficiente.
+
+Também entramos em um outro assunto mais complexo: _dificilmente você será melhor do que um compilador_. 
+O objetivo de softwares compiladores é justamente compilar, ou seja, pegar o código fonte de determinada linguagen (C, C++, go) e transformá-lo em zeros e uns, e a realidade é que, eles fazem isso MUITO bem, muito bem mesmo. Os compiladores são capazes de encontrar erros e até mesmo traduzir seu código bosta repetitivo em algo mais sofisticado.
+Então entre desenvolver com assembly ou desenvolver em C e depois compilar, __geralmente__ a escolha mais intaligentre a se fazer é escrwever em C mesmo.
 
 
 ### Recomendação de vídeos
