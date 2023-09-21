@@ -74,6 +74,8 @@ Linguagens "low-level", também conhecidas como linguagens de programação de b
 As linguagens "high-level", ou linguagens de alto nível, são mais próximas da linguagem humana, o que as torna mais acessíveis e fáceis de aprender e usar. Elas abstraem muitos detalhes de baixo nível e oferecem bibliotecas e frameworks que facilitam o desenvolvimento. Isso resulta em maior produtividade, uma vez que os programadores podem se concentrar mais na lógica do programa do que em questões técnicas. Exemplos de linguagens de alto nível são Python, Java, e C++.
 
 A razão pela qual muitos programas não são desenvolvidos em linguagens de baixo nível está relacionada à falta de suporte e às dificuldades mencionadas anteriormente. A ausência de bibliotecas e frameworks prontos para uso nessas linguagens pode aumentar drasticamente o tempo necessário para desenvolver um programa. Em contraste, linguagens de alto nível oferecem uma ampla gama de recursos e ferramentas que agilizam o processo de desenvolvimento e permitem que os programadores se concentrem na resolução de problemas.
+Antigamente, era se trabalhado com assembly, inclusive, muitos games foram escritos diretamente nesta linguagem.
+Isso se deve ao fato de que o assembly é a linguagem que trabalha muito próxima a linguagem binária, fazendo com que todo aquele código em assembly seja rapidamente traduzido em zeroas e uns.
 
 
 
