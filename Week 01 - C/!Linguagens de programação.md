@@ -81,9 +81,8 @@ Antigamente, o desenvolvimento em Assembly era comum; inclusive, muitos jogos fo
 É importante ressaltar que, no passado, o hardware era extremamente caro; meros megabytes de RAM custavam o olho da cara. Portanto, era essencial desenvolver software de forma otimizada para que ele pudesse ser executado eficientemente em componentes limitados.
 Hoje em dia, a situação mudou. O que se tornou caro são os desenvolvedores; a hora do programador é valiosa. Portanto, é mais viável direcioná-los para trabalhar com linguagens de alto nível, uma vez que o processo de desenvolvimento é mais rápido e eficiente.
 
-Também entramos em um outro assunto mais complexo: _dificilmente você será melhor do que um compilador_. 
-O objetivo de softwares compiladores é justamente compilar, ou seja, pegar o código fonte de determinada linguagen (C, C++, go) e transformá-lo em zeros e uns, e a realidade é que, eles fazem isso MUITO bem, muito bem mesmo. Os compiladores são capazes de encontrar erros e até mesmo traduzir seu código bosta repetitivo em algo mais sofisticado.
-Então entre desenvolver com assembly ou desenvolver em C e depois compilar, __geralmente__ a escolha mais intaligentre a se fazer é escrwever em C mesmo.
+Também podemos abordar um assunto mais complexo: "dificilmente você será melhor do que um compilador". O objetivo dos softwares compiladores é exatamente compilar, ou seja, pegar o código fonte de determinada linguagem (C, C++, Go) e transformá-lo em zeros e uns. A realidade é que eles fazem isso MUITO bem, incrivelmente bem mesmo. Os compiladores são capazes de identificar erros e até mesmo transformar seu código bosta repetitivo em algo mais sofisticado.
+Portanto, quando se trata de escolher entre desenvolver em Assembly ou em C e, em seguida, compilar, a escolha mais inteligente, geralmente, é escrever em C mesmo. Isso ocorre porque os compiladores são mestres em otimização e podem transformar seu código em algo eficiente e elegante, poupando você do trabalho árduo de lidar com a complexidade do Assembly.
 
 
 ### Recomendação de vídeos
