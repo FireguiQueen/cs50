@@ -1,7 +1,17 @@
 # Linguagens de programação 
 Uma linguagem de programação é um vocabulário e um conjunto de regras gramaticais usadas para escrever programas de computador. Esses programas instruem o computador a realizar determinadas tarefas específicas.
+Vamos pensar no idioma português, e há duas pessoas se comunicando através dele. Pense nessas duas pessoas como Pesosa 'a' e pessoa 'b'. Para a pessoa 'a' pedir que a outra realize uma ação, ela dirá uma frase contendo palavras do idioma português, mas é claro, não basta apenas dizer palavras chaves, também é necessário seguir as leis gramaticais daquele determinado idioma, o português.
 
-Vamos pensar num idioma do mundo, o português. Quando há duas pessoas que falam o idioma nativamente, a tendência é que elas se comuniquem em português. Pense nessas duas pessoas como Pesosa 'a' e pessoa 'b', para a pessoa 'a' pedir que a outra realize uma ação, ela dirá uma frase contendo palavras do idioma. 
+Vamos pensar no seguinte diálogo entre elas:
+- pessoa A: você quer um copo de refrigerante?
+- pessoa B: não, quero um copo de água
+
+Observe a frase da pessoa A, a ideia é fazer uma pergunta se a pessoa deseja refrigerante, e a frase não poderia simplesmente ser "Você quer copo de refrigerante". Isto seria uma formulação incorreta. Ao vez disso, para encurtar a frase num contexto mais informal, seria algo como: "Você quer refrigerante?"
+
+Agora, vamos analisar a resposta da pessoa B. Há uma coisa muito importante na frase dela, a vírgula. 
+Sem o uso dela, a frase muderia de sentido, ela expressaria "Não quero um copo de água" (não desejo água).
+E esta frase em si (sem a vírgula) estaria correta, porém, não neste contexto, já que em nenhum momento foi perguntado se ela deseja água. 
+
 
 Com a linguagem de progração, as diferenças não são muito grandes. Com linguagem de programação, usamos alguns padrões, algumas palavras chaves para determinar como uma ação dentro do computador será realizada. Além disso, na programação, precisamos escrever o nosso código da melhor maneira possível, sendo extremamente detalhistas ao criar um código. Pois qualquer informação erronea em nosso programa, pode gerar bugs, resultados inesperados ou erros. 
 
