@@ -5,6 +5,7 @@ A Ciência da Computação é a ciência que desenvolve soluções por meio de m
 
 Input é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa, onde
 há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um output, ou seja, uma resposta.
+__Resumidamente, iremos criar soluções para problemas através das máquinas, tendo entradas de informações, processamento de solução e uma saída.__
 
 </br>
 </br>
