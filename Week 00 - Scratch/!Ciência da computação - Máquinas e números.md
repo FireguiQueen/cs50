@@ -12,10 +12,9 @@ __Resumidamente, iremos criar soluções para problemas através das máquinas, 
 
 
 ## Representação de Números
-Imagine-se como um professor em sala de aula verificando a presença dos alunos. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa. Esse sistema é chamado de 'unário', onde cada dígito representa uma única unidade. No entanto, a contagem não permite ir muito longe. Somando os dedos erguidos, o máximo possível seria contar até 10 alunos.
-
-Há um método mais eficiente para representar alunos, conhecido como sistema decimal ou base 10. Nele, iremos agrupar diferentes unidades, e cada posição neste valor pode abranger dez valores distintos, de 0 a 9 (quando temos um valor que contém apenas uma casa, este número pode variar entre 0 a 9), o que nos possibilita empregar números para identificar estudantes.
-Independentemente da quantidade de alunos, como mais de 2000, não haverá nenhum problema, pois podemos criar infinitos números com esta base.
+Imagine-se como um professor em sala de aula verificando a presença dos alunos. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa. Esse sistema é chamado de 'sistema unário', onde cada dígito representa uma única unidade. No entanto, a contagem não permite ir muito longe. Somando os dedos erguidos, o máximo possível seria contar até 10 alunos.
+Por outro lado, existem outras formas de representar números maiores usando o sistema unário. Por exemplo, para cada aluno presente na sala, você poderia fazer um pequeno risco na folha.
+Mas há um método ainda mais eficiente para representar os alunos, conhecido como sistema decimal ou base 10. Nele, agrupamos diferentes unidades. Cada posição em um valor específico pode conter dez valores distintos, variando de 0 a 9, o que nos permite criar números para representar a quantidade de alunos presentes.
 
 Essa ação também pode ser traduzida para os computadores, onde facilitaria o seu trabalho:
 - **Entrada (input):** _há 7 alunos presentes e um total de 30._
