@@ -36,9 +36,9 @@ Essa ação também pode ser traduzida para os computadores, onde facilitaria o 
 ## Entendendo a Estrutura Numérica
 Quando olhamos para o valor `123`, pensamos no número cento e vinte e três. Isso ocorre porque o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
 Cada posição nesse valor representa uma potência de base dez, uma vez que há dez dígitos possíveis para cada posição. A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
-- **Unidade:** 3 _(10^0 * 3 = 3)_;
-- **Dezena:** 2 _(10¹ * 2 = 20)_.
-- **Centena:** 1 _(10² * 1 = 100)_.
+- **Unidade:** 3 _(10<sup>0</sup> * __3__ = 3)_;
+- **Dezena:** 2 _(10¹ * __2__ = 20)_.
+- **Centena:** 1 _(10² * __1__ = 100)_.
 - **RESULTADO = 100 + 20 + 3**
 
 Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse agrupamento de dígitos gera um valor com 'n' posições. Por exemplo, se tivermos um valor com 4 posições, como `3.150`, contamos da esquerda para a direita: unidade de milhar (10^3 * 3), centenas (10^2 * 1), dezenas (10^1 * 5) e unidades (10^0 * 0).
