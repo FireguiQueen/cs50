@@ -1,4 +1,4 @@
-# O que é Ciência da Computação (CC)
+# Ciência da Computação 
 A Ciência da Computação é a ciência que desenvolve soluções por meio de máquinas. Podemos pensar em problemas do mundo real e automatizar a resolução desses problemas com o processo de coletar informações (detalhes sobre nosso problema) e gerar resultados (a solução para nosso problema), e tudo isso é realizado por uma máquina que, é claro, foi desenvolvida ou possui um software para resolver tal problema.
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
