@@ -14,12 +14,13 @@ __Resumidamente, iremos criar soluções para problemas através das máquinas, 
 ## Representação de Números
 Imagine-se como um professor em sala de aula verificando a presença dos alunos. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa. Esse sistema é chamado de 'unário', onde cada dígito representa uma única unidade. No entanto, a contagem não permite ir muito longe. Somando os dedos erguidos, o máximo possível seria contar até 10 alunos.
 
-Há um método mais eficiente para representar alunos, conhecido como sistema decimal ou base 10. Nele, iremos agrupar diferentes unidades, e cada posição neste valor pode abranger dez valores distintos, de 0 a 9, o que nos possibilita empregar números para identificar estudantes. Independentemente da quantidade de alunos, como mais de 2000, não existem restrições, já que é possível criar qualquer número por meio de sequências de zeros e noves.
+Há um método mais eficiente para representar alunos, conhecido como sistema decimal ou base 10. Nele, iremos agrupar diferentes unidades, e cada posição neste valor pode abranger dez valores distintos, de 0 a 9 (quando temos um valor que contém apenas uma casa, este número pode variar entre 0 a 9), o que nos possibilita empregar números para identificar estudantes.
+Independentemente da quantidade de alunos, como mais de 2000, não haverá nenhum problema, pois podemos criar infinitos números com esta base.
 
 Essa ação também pode ser traduzida para os computadores, onde facilitaria o seu trabalho:
-- **Entrada (input):** Há 7 alunos presentes e um total de 30.
-- **Processamento (algoritimo(s) para a resolução do problema):** Há 30 alunos no total e 7 presentes. Sendo assim, 30 - 7 = 23 alunos faltosos.
-- **Saída (output):** Portanto, há 23 alunos ausentes.
+- **Entrada (input):** _há 7 alunos presentes e um total de 30._
+- **Processamento (algoritimo(s) para a resolução do problema):** _há 30 alunos no total e 7 presentes. Sendo assim, 30 - 7 = 23 alunos faltosos._
+- **Saída (output):** _há 23 alunos ausentes._
 <details>
     <summary>Exemplo em código Javascript:</summary>
 <code>  function alunosFaltosos(alunosPresentes, totalAlunos){
