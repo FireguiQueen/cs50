@@ -26,22 +26,23 @@ Cada caractere do conjunto ASCII é representado por uma sequência de 8 bits. P
 ### O grande problema do ASCII
 Para representar cada caractere, o ASCII utiliza um conjunto de 8 bits (00000000). A princípio, essa abordagem atenderia às necessidades do sistema americano, uma vez que 8 bits possibilitam a representação de até 256 caracteres distintos _(0, %, G, !, ?..)_.
 
-Contudo, ao considerarmos o panorama completo, percebemos a existência de inúmeros outros idiomas pelo mundo, cada um contendo letras, e até mesmo pontuações e sinais únicos. Tornar-se inviável representar todos esses algarismos, letras e acentuações com apenas 256 caracteres disponíveis.
+Contudo, existem inúmeros outros idiomas pelo mundo, cada um contendo letras, e até mesmo pontuações e sinais únicos. Tornar-se inviável representar todos esses algarismos, letras e acentuações com apenas 256 caracteres disponíveis.
 
-Um exemplo simples que é impossível representar tudo com somente 256 caracteres são os emojis. Eles são formados por sequências de bits. Um dos emojis mais famosos é o '😂'. Na realidade, essa simples representação de um simples rostinho, exige 17 bits (0000000000000000). 
-> Sequência de bits para colocar o emoji: 11111011000000010. Decimal: 128.514
-
-Consequentemente, o uso do ASCII para codificar emojis não seria viável, já que o ASCII apenas permite alocar 8 bits para a representação de um único caractere.
+Um exemplo simples que é impossível representar tudo com somente 256 caracteres são os emojis. Eles são formados por sequências de bits. Um dos emojis mais famosos é o '😂'. Essa simples representação de um simples rostinho, exige 17 bits (0000000000000000). 
+> Sequência de bits para colocar o emoji: 11111011000000010. Decimal: 128.514; Consequentemente, o uso do ASCII para codificar emojis não seria viável, já que o ASCII apenas permite alocar 8 bits para a representação de um único caractere.
 
 À medida que o tempo avança, testemunhamos o surgimento de novas abordagens de representação que permitem a utilização de 16 ou até mesmo 32 bits para codificar caracteres. Passamos do antigo padrão ASCII para o UNICODE, que oferece uma gama mais ampla de possibilidades de representação.
 
-#### Informações 
-- _ASCII foi definido como padrão em 1968_
+#### Resumo 
+- _ASCII foi definido como padrão em 1968. Ele foi e ainda é utilizado para representar caracteres_
+- _Caracteres não inglobam apenas letras, mas também sinais e números_ 
 - _Cada caractere é representado por um código de 8 bits (um byte)_
 - _'A' é representado pelos bits 1000001 `(65)`, 'B' pelo 1000010 `(66)` e assim por diante.._
 
 </br>
 </br>
+
+__________________________________
 
 # BITS: o surgimento das cores
 Vimos anteriormente como os caracteres são representados por meio de bits, e com as cores, não é muito diferente. 
