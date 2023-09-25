@@ -4,17 +4,15 @@
 ________________________________________________
 
 # BITS: o surgimento dos caracteres
-A discussão anterior nos permite compreender que a principal função dos computadores é computar, ou seja, atuar como calculadoras. Eles foram originalmente criados para facilitar cálculos matemáticos demorados ou complexos para os seres humanos.
-
-Porém, hoje em dia, os computadores são usados para uma variedade infinita de tarefas. As ações que realizamos neles, como assistir vídeos, fazer cursos, jogar e negociar ações, são muito mais complexas do que simplesmente cálculos. Observamos que, todas essas atividades envolvem a interação de números e caracteres. Afinal, como um humano entenderia a interface de um programa sem palavras e números?
+Antigamente a principal função dos computadores era computar, ou seja, atuar como calculadoras. Eles foram originalmente criados para facilitar cálculos matemáticos demorados ou complexos para os seres humanos.
+No entanto, nos dias de hoje, os computadores desempenham uma ampla variedade de tarefas. As ações que realizamos neles, como assistir a vídeos, jogar e efetuar transações bancárias, são muito mais complexas do que simples cálculos. E, naturalmente, todas essas atividades envolvem a interação com caracteres, onde eles estarão presentes nas interfaces dos softwares. Isso não se aplica apenas aos usuários finais, mas também aos desenvolvedores, que necessitam da manipulação de caracteres de diversas maneiras ao criar seus softwares
 
 ### Surge uma pergunta: _como os computadores são capazes de apresentar caracteres (alfabéticos, numéricos..) em interfaces?_
 A humanidade teve uma ideia muito simples e útil nos primórdios da computação ao tentar representar caracteres. Foi pensado: Vamos atribuir caracteres aos números em binário. Por exemplo, a sequência de bits '1000001' forma o número 65; portanto, vamos associar a letra "A" a essa sequência de bits. 
-
 Para isso, foi criado o ASCII (American Standard Code for Information Interchange), um sistema utilizado para representar letras, algarismos, sinais de pontuação e caracteres de controle por meio de sequências de bits.
 
-O ASCII foi desenvolvido não apenas para representar letras, números e símbolos, mas também para padronizar como realizamos essa representação. Imagine ter 10 padrões ASCII distintos, cada um usado por organizações diferentes. Se um computador X usar um padrão onde a letra 'A' seja representada pelo valor 65, e um computador Y usar um padrão diferente onde 'A' seja representada pelo valor 97, isso causaria confusão. Por exemplo, ao enviar um arquivo de texto do seu computador X para o computador Y, os caracteres no arquivo pareceriam diferentes no computador Y. Isso ocorre porque por trás dos caracteres estão os BITS. Uma sequência de BITS representa 'A', mas essa mesma sequência no computador Y poderia ser interpretada como 'J'.
-
+O ASCII foi desenvolvido não apenas para representar letras, números e símbolos, mas também para padronizar como realizamos essa representação. Imagine ter 10 padrões ASCII distintos, cada um usado por organizações diferentes. Se um computador X usar um padrão onde a letra 'A' seja representada pelo valor 65, e um computador Y usar um padrão diferente onde 'A' seja representada pelo valor 97, isso causaria. Ao enviar um arquivo de texto do seu computador para o computador Y, os caracteres no arquivo irão ser diferentes no computador Y. 
+Isso ocorre porque por trás dos caracteres estão os BITS. Uma sequência de BITS representa 'A', mas essa mesma sequência no computador Y poderia ser interpretada como 'J'.
 
 Vale ressaltar que tudo o que vemos na tela, são, na verdade, bits. Experimente abrir o Bloco de Notas e digitar o número '1', salve e feche o arquivo. Agora, localize o arquivo, clique com o botão direito e selecione "Propriedades" para verificar o tamanho do arquivo. Esse tamanho será exatamente a quantidade de bits contidos nele.
 Cada caractere do conjunto ASCII é representado por uma sequência de 8 bits. Portanto, quando inserimos o número '1' no Bloco de Notas, por trás dos panos, o que realmente é armazenado são 8 bits (oito dígitos binários). Ao verificar o tamanho do arquivo, constataremos que ele ocupa 8 bits (1 byte).
