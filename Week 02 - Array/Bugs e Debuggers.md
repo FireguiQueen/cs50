@@ -11,6 +11,7 @@ Essa falta de raciocínio preciso não ocorre somente quando nós, desenvolvedor
 # Debugging (depuração)
 A depuração é o processo de identificar, analisar e corrigir erros, falhas ou bugs em um programa de computador. O objetivo da depuração é garantir que o programa funcione conforme o esperado, produzindo resultados corretos e evitando comportamentos indesejados. Para realizar a depuração, existem ferramentas específicas criadas para esse fim, mas também podemos contar com soluções que, embora não tenham sido originalmente desenvolvidas para a depuração, podem servir a esse propósito.
 
+</br>
 
 ## `printf()` 
 Vamos pensar em um algoritmo no qual você precisa imprimir o caractere '%' cinco vezes. 
