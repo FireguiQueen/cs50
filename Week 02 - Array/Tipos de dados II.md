@@ -8,3 +8,8 @@ Cada tipo de dado ocupa uma quantidade fixa de espaço, e na verdade, diferentes
 - `long`    _8 bytes_
 - ..
 
+</br>
+
+# RAM (random acess memory) 
+Há muita confusão no que se diz a respeito de memória RAM e HD. O HD (hard disk) é um hardware utilizado para salvar dados.  
+
