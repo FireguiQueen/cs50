@@ -4,7 +4,7 @@ Um compilador serve para transformar o código de uma determinada linguagem em c
 </br>
 
 ## Clang
-Para a linguagem C, podemos usar o compilador "Clang". Cada compilador gera seus próprios comandos. Neste caso, a maneira mais básica possível para transformar um código em C para binário,será dando a seguinte instrução no terminal:
+Para a linguagem C, podemos usar o compilador "Clang". Cada compilador gera seus próprios comandos. Neste caso, a maneira mais básica possível para transformar um código em C para binário, será dando a seguinte instrução no terminal:
 - `clang arquivoParaCompilar.c`
 
 Após a compilação, será criado um arquivo chamado "a.out", traduzindo: "assembler output" (saída do programa montador). Você pode se perguntar o porquê deste nome. Bem, observe que em nenhum momento foi especificado no terminal o nome que desejamos para o arquivo compilado, logo, 'a.out' é o nome padrão dado ao executável compilado.
