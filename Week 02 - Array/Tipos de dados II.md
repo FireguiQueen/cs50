@@ -1,6 +1,5 @@
 # Tipos de dados 
-Aprendemos anteriormente que cada tipo de dado ocupa uma quantidade fixa de espaço, mas é importante saber que esta quantidade de espaço pode variar de sistema a sistema. Na maior parte das vezes, você sempre verá da seguinte forma: 
-
+Cada tipo de dado ocupa uma quantidade fixa de espaço, e na verdade, diferentes sistemas de computador variam na quantidade de espaço realmente usado para cada tipo. Mas em geral, será desta forma:
 - `bool`    _1 byte_
 - `char`    _1 byte_
 - `double`  _8 bytes_
