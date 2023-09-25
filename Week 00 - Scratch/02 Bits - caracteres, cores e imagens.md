@@ -47,13 +47,12 @@ Consequentemente, o uso do ASCII para codificar emojis não seria viável, já q
 Vimos anteriormente como os caracteres são representados por meio de bits, e com as cores, não é muito diferente. 
 O ASCII é um padrão para representar caracteres usando sequências de bits, enquanto o RGB é uma das maneiras mais comuns de representar cores por meio de bits. 
 
-#### Mas, antes de tudo, vamos entender por que usamos o RGB 
-Os monitores são compostos por milhões de pequenos quadradinhos de luz chamados pixels. Cada pixel contém três pontos, conhecidos como "fósforos," que correspondem aos cones na retina do olho humano e são essenciais para perceber as cores.
-Cada pixel possui três fósforos: vermelho, verde e azul (RGB). 
-Usando bits, nós controlamos a quantidade de luz enviada a cada fósforo em um pixel. Quanto mais "luz" enviamos, maior será a intensidade da cor nesse fósforo.
+#### Como o monitor funciona e por que usamos RGB?
+Os monitores são compostos por milhões de pequenos quadrados de luz chamados pixels. Cada pixel contém três pontos, conhecidos como "fósforos", que correspondem aos cones na retina do olho humano e são essenciais para a percepção das cores.
+Cada pixel possui três fósforos: vermelho, verde e azul (RGB). Usando bits, controlamos a quantidade de luz enviada a cada fósforo em um pixel. Quanto mais "luz" enviamos, maior será a intensidade da cor nesse fósforo
 
 #### Fontes
-- [Gizmodo - Tela verde ou preta?](https://gizmodo.uol.com.br/tela-verde-preto/)
+- [Por que os monitores eram monocromáticos, exibindo apenas verde e preto?](https://gizmodo.uol.com.br/tela-verde-preto/)
 - [A Matemática por Trás das Cores do Computador](https://mentalidadesmatematicas.org.br/a-matematica-por-tras-das-cores-do-computador/)
 
 ### Criação das cores
