@@ -41,7 +41,8 @@ Cada posição nesse valor representa uma potência de base dez, uma vez que há
 - **Centena:** 1 _(10² * __1__ = 100)_.
 - **RESULTADO = 100 + 20 + 3**
 
-Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse agrupamento de dígitos gera um valor com 'n' posições. Por exemplo, se tivermos um valor com 4 posições, como `3.150`, contamos da esquerda para a direita: unidade de milhar (10^3 * 3), centenas (10^2 * 1), dezenas (10^1 * 5) e unidades (10^0 * 0).
+Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse agrupamento de dígitos gera um valor com 'n' posições. 
+> Como o valor `3.150` (há 4 posições), contamos da esquerda para a direita: unidade de milhar (10^3 * 3), centenas (10^2 * 1), dezenas (10^1 * 5) e unidades (10^0 * 0).
 
 
 ### Na matemática, isso pode ser representado desta maneira: 
