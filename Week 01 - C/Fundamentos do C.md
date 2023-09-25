@@ -106,10 +106,7 @@ Um exemplo prático disso é a função printf. Essa função é usada para exib
 </br>
 </br>
 
-## Compilação do código
-Nosso código-fonte foi escrito em caracteres que podemos ler, mas precisa ser compilado: _convertido em código de máquina, padrões de zeros e uns que nosso computador possa entender diretamente._
-
-#### Executavel pós compilação
+## Executavel pós compilação
 Você já se perguntou o porquê dos caracteres aleatórios no seu bloco de notas ao tentar editar um arquivo executável? 
 
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/29a6caee-f0af-4d16-ae14-664c1e56ba77)
