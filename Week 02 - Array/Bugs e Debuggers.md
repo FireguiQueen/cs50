@@ -4,7 +4,6 @@ Sendo assim, podemos considerá-lo nada mais do que problemas lógicos que ocorr
 
 Essa falta de raciocínio preciso não ocorre somente quando nós, desenvolvedores em geral, estamos escrevendo nosso código, mas também pode ocorrer para os desenvolvedores de tecnologias. Por exemplo, você está fazendo uso da tecnologia X e seu código está 100% lógico e preciso, porém, ocorre um bug em seu software. Neste caso, podemos imaginar que o bug ocorreu devido a um raciocínio impreciso na tecnologia que foi utilizada durante a construção do nosso software.
 
-
 </br>
 
 
@@ -86,9 +85,9 @@ Observamos no terminal que o valor de 'i' variou de 0 a 5 devido à segunda etap
 </br>
 </br>
 
-## Debug
-Ao contrário da função printf() (que foi originalmente projetada para saída de dados, mas é frequentemente usada para depurar programas simples), o "debug" é uma ferramenta específica para depuração que nos permite utilizar uma variedade de recursos para depurar nosso código.
-Um exemplo disso é que, com o 'debug', podemos fazer com que nosso programa seja executado passo a passo, linha por linha, o que nos permite compreender melhor o que está acontecendo.
+## Debugger
+Ao contrário da função printf() (que foi originalmente projetada para saída de dados, mas é frequentemente usada para depurar programas simples), o "debugger" é uma ferramenta específica para depuração que nos permite utilizar uma variedade de recursos para depurar nosso código.
+Um exemplo disso é que, com um 'debugger', podemos fazer com que nosso programa seja executado passo a passo, linha por linha, o que nos permite compreender melhor o que está acontecendo.
 
 Suponhamos que temos um loop for simples em nosso código:
 ```c
