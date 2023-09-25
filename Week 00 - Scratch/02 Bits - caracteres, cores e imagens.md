@@ -35,7 +35,7 @@ Um exemplo simples que é impossível representar tudo com somente 256 caractere
 
 #### Resumo 
 - _ASCII foi definido como padrão em 1968. Ele foi e ainda é utilizado para representar caracteres_
-- _Caracteres não inglobam apenas letras, mas também sinais e números_ 
+- _Caracteres não englobam apenas letras, mas também sinais e números: A, a, 7, @, !, "", _,-_ 
 - _Cada caractere é representado por um código de 8 bits (um byte)_
 - _'A' é representado pelos bits 1000001 `(65)`, 'B' pelo 1000010 `(66)` e assim por diante.._
 
