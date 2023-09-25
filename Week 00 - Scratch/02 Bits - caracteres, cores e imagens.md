@@ -49,19 +49,17 @@ Vimos anteriormente como os caracteres são representados por meio de bits, e co
 O ASCII é um padrão para representar caracteres usando sequências de bits, enquanto o RGB é uma das maneiras mais comuns de representar cores por meio de bits. 
 
 #### Como o monitor funciona e por que usamos RGB?
-Os monitores são compostos por milhões de pequenos quadrados de luz chamados pixels. Cada pixel contém três pontos, conhecidos como "fósforos", que correspondem aos cones na retina do olho humano e são essenciais para a percepção das cores.
-Cada pixel possui três fósforos: vermelho, verde e azul (RGB). Usando bits, controlamos a quantidade de luz enviada a cada fósforo em um pixel. Quanto mais "luz" enviamos, maior será a intensidade da cor nesse fósforo
+Os monitores são compostos por milhões de pequenos quadrados de luz chamados pixels. Cada pixel contém três pontos, conhecidos como "fósforos", sendo um  fósforo vermelho, verde e azul (RGB). Usando bits, controlamos a quantidade de luz enviada a cada fósforo em um pixel. Quanto mais "luz" enviamos, maior será a intensidade da cor em determinado fósforo. 
 
 #### Fontes
 - [Por que os monitores eram monocromáticos, exibindo apenas verde e preto?](https://gizmodo.uol.com.br/tela-verde-preto/)
 - [A Matemática por Trás das Cores do Computador](https://mentalidadesmatematicas.org.br/a-matematica-por-tras-das-cores-do-computador/)
 
 ### Criação das cores
-Vamos começar pelo básico quando se trata de cores. Todos nós sabemos que há uma quantidade finita de cores, mas como exatamente essas cores são geradas? A resposta é surpreendentemente simples: _através da combinação de três cores fundamentais - vermelho, verde e azul_. Essas três cores primárias nos permitem criar uma ampla variedade de tonalidades. </br>
+Nós sabemos que há uma quantidade finita de cores, mas como exatamente essas cores são geradas? A resposta é surpreendentemente simples: _através da combinação de três cores fundamentais - vermelho, verde e azul_. </br> Essas três cores primárias nos permitem criar uma ampla variedade de tonalidades. </br>
 Esse conceito também se aplica no mundo da computação. Imagina ter que atribuir uma sequência única de bits a cada possível cor existente - essa abordagem seria praticamente inviável. Seria necessário um grande número de bits para representar todas as cores possíveis em nossos computadores. Como solução, adotamos um método que se baseia nas cores primárias, conhecidas pelo acrônimo RGB (red - green - blue, ou vermelho, verde e azul). </br>
 Através da atribuição de três sequências de bits distintas, uma para cada uma das cores primárias, somos capazes de criar uma infinidade de novas cores ao combinar esses bits de maneiras variadas. Esse sistema de cores RGB forma a base para todas as representações visuais digitais que vemos em telas de computador, televisores e dispositivos móveis.
-
-> Enquanto no sistema ASCII, usamos 8 bits para representar um caractere, no sistema RGB, usamos 8 bits para representar a intensidade de luz que será enviada ao fósforo para gerar uma _única_ cor.
+> Enquanto o sistema ASCII usa 8 bits para representar um caractere, no sistema RGB, usamos 8 bits para representar a intensidade de luz enviada a cada um dos três fósforos de um pixel. Isso significa que são necessários 24 bits para representar uma cor.
 
 </br>
 
