@@ -1,8 +1,10 @@
 # Algorítimos e seus problemas
-Imagine que você está jogando um jogo de computador e, de repente, seu personagem fica preso em uma parede, incapaz de se mover. Esse é um exemplo de um bug. Um bug é um erro ou problema no código de software que faz com que ele não funcione como deveria. 
-Sendo assim, podemos considerá-lo nada mais do que problemas lógicos que ocorrem devido à falta de um raciocínio preciso. _Lembre-se de que as máquinas precisam de todos os detalhes possíveis para executar um programa corretamente, não deve haver ambiguidades._
+Imagine que você está jogando um jogo de computador e, de repente, seu personagem fica preso em uma parede, incapaz de se mover. Esse é um exemplo de um bug. Um bug é um erro ou problema no código de software que faz com que ele não funcione como deveria. </br>
+Os bugs não se resumem apenas a problemas lógicos que ocorrem devido à falta de um raciocínio preciso, mas bugs podem ser ocasionados também devido aos erros de sintaxe, como por exemplo, não colocar o ponto e vírgula em determinada linha num código C, ou seja, o código não está apropriado de acordo com as regras da linguagem.
+> _Lembre-se de que as máquinas precisam de todos os detalhes possíveis para executar um programa corretamente, não deve haver ambiguidades._
 
-Essa falta de raciocínio preciso não ocorre somente quando nós, desenvolvedores em geral, estamos escrevendo nosso código, mas também pode ocorrer para os desenvolvedores de tecnologias. Por exemplo, você está fazendo uso da tecnologia X e seu código está 100% lógico e preciso, porém, ocorre um bug em seu software. Neste caso, podemos imaginar que o bug ocorreu devido a um raciocínio impreciso na tecnologia que foi utilizada durante a construção do nosso software.
+
+Essa falta de raciocínio preciso e atenção aos detalhes não ocorre somente quando nós, desenvolvedores num geral, estamos escrevendo nosso código, mas também pode ocorrer para os desenvolvedores de tecnologias. Por exemplo, você está fazendo uso da tecnologia X e seu código está 100% lógico e preciso, porém, ocorre um bug em seu software. Podemos deduzir bug ocorreu devido a um raciocínio impreciso na tecnologia que foi utilizada durante a construção do nosso software.
 
 </br>
 
