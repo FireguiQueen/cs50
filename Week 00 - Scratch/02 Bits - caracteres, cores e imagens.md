@@ -100,14 +100,10 @@ Imagine que temos 8 posições (8 bits) para representar uma cor (um fósforo). 
 </br>
 
 # BITS: o surgimento das imagens
-Da explicação acima, compreendemos que a criação de uma cor requer 24 bits (3 bytes) e que podemos associar uma cor a um pixel. Um pixel é simplesmente um pequeno quadrado preenchido com uma cor.
-E, como sabemos, uma imagem é composta de muitos e muitos pixels. Portanto, podemos concluir que tanto as imagens nada mais são do que bits.
-> Caso tenha ficado confuso, é bem fácil de entender. As três cores principais que se combinam para formar outras cores são 'vermelho', 'verde' e 'azul'. Cada cor exige 8 bits, os quais controlam a intensidade dessa cor. Como há três cores, teremos 8 bits + 8 bits + 8 bits = 24 bits (3 bytes).
+Da explicação acima, compreendemos que a criação de uma cor requer 24 bits (3 bytes) e que podemos associar uma cor a um pixel. Um pixel é simplesmente um pequeno quadrado preenchido com uma cor. E, como sabemos, uma imagem é composta de muitos e muitos pixels. Portanto, podemos concluir que tanto as imagens nada mais são do que bits.
 
 </br>
 
 # Formatos de arquivo
-No universo computacional, tudo o que percebemos se resume a um conjunto de bits, representando zeros e uns. No entanto, é essencial decifrar esses bits de maneiras diversas para alcançarmos o resultado almejado. Ao lidar com um arquivo .TXT, nosso desejo é visualizar texto, e para isso, requeremos que os bits sejam traduzidos em caracteres legíveis. Já no caso dos arquivos .JPG, nossa intenção é visualizar imagens, o que implica na conversão dos bits em pixels coloridos.
-
-No entanto, a incrível diversidade do mundo digital não se limita apenas a textos e imagens. Músicas, vídeos, planilhas e muito mais também encontram sua origem nos mesmos zeros e uns. Em um arquivo .MP3, por exemplo, os bits são traduzidos em notas musicais que compõem melodias envolventes. Em arquivos de vídeo como o .MP4, os bits se transformam em sequências de quadros em movimento, criando a ilusão de cenas dinâmicas.
-
+O formato do arquivo é essencial para informar ao computador como ele deve interpretar esses bits. Por exemplo, ao lidar com um arquivo .TXT, nosso objetivo é visualizar texto, o que requer a tradução dos bits em caracteres legíveis (usamos o sistema ASCII para isso). No caso dos arquivos .JPG, nosso objetivo é visualizar imagens, o que implica na conversão dos bits em pixels coloridos.
+Músicas, vídeos, planilhas e muito mais também têm sua origem nos mesmos zeros e uns. Em um arquivo .MP3, por exemplo, os bits são traduzidos em notas musicais que compõem melodias envolventes. Em arquivos de vídeo como o .MP4, os bits se transformam em sequências de quadros em movimento, criando a ilusão de cenas dinâmicas.
