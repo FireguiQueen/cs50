@@ -19,4 +19,5 @@ Os HDs são essenciais para preservar dados que não podem ser perdidos. Nossos 
 Já a memóriam RAM (memória de acesso aleatório) é uma memória temporária computacional de acesso rápido; ou seja, é um local de armazenamento temporário de informações digitais usada pelo processador para armazenar informações temporariamente. Tudo o que fazemos em nossos computadores demandam memória RAM. 
 Podemos pensar num programa que permite o usuário digitar dois números, e é retornado a soma de ambos. Para essa ação ocorrer, os valores digitados pelo usuário foram atribuidos a variáveis, e essas variáveis são salvas na memória RAM.
 
-Um outro exemplo é o software "Bloco de Notas" (ou notepad),
+
+A memória RAM é volátil, o que significa que os dados são apagados quando o computador é desligado, ao contrário do HD, que mantém os dados a longo prazo.
