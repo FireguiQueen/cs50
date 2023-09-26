@@ -41,3 +41,6 @@ No entanto, do ponto de vista do usuário e do sistema operacional, o HDD é ger
 </br>
 
 ![Random_vs_sequential_access](https://github.com/FireguiQueen/CS50/assets/98475125/5904c1dd-a65a-4116-8a50-0042aac2b8e7)
+
+
+![memoriaRAMIMG](https://github.com/FireguiQueen/CS50/assets/98475125/edd70d3f-ed4f-4df7-b643-9382b2d9e4d1)
