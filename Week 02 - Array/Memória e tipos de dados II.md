@@ -9,7 +9,7 @@ Cada tipo de dado ocupa uma quantidade fixa de espaço na memória, e na verdade
 - ..
 
 Nós sabemos que linguagens compiladas terão seu código fonte transformado em Assembly, e por fim, código de máquina (binário). 
-E apenas esta informação já nos mostra a importância de definir o tipo de dado que estamos trabalhando. Por exemplo, ao definir uma variável contendo números inteiros, usaremos o int:
+E apenas esta informação já nos mostra a importância de definir o tipo de dado que estamos trabalhando. Por exemplo, ao definir uma variável contendo números inteiros, usaremos o __int__:
 ```c
 int num = 5; 
 ```
@@ -19,7 +19,7 @@ Após a compilação, tudo irá se transformar em zeros e uns, então já é de 
 int num = 5; // na verdade, a variável 'num' irá receber o binário 101.
 ```
 
-Mas o comportamento seria um pouco diferente caso mudássemos o tipo de dado da variável. Se colocarmos o char (tipo de dado para caracteres), o computador compreende que aquele '5' precisa virar um binário referente à tabela ASCII. 
+Mas o comportamento seria um _pouco diferente_ caso mudássemos o tipo de dado da variável. Se colocarmos o __char__ (tipo de dado para caracteres), o computador compreende que aquele '5' precisa virar um binário referente à tabela ASCII. 
 > Na tabela ASCII, o caracter '5' é o binário 110101.
 ```c
 char num = 5; // agora, a variável 'num' irá receber o binário 110101. 
@@ -61,6 +61,12 @@ No entanto, do ponto de vista do usuário e do sistema operacional, o HDD é ger
 </br>
 
 ![Random_vs_sequential_access](https://github.com/FireguiQueen/CS50/assets/98475125/5904c1dd-a65a-4116-8a50-0042aac2b8e7)
+
+</br>
+</br>
+
+# Tipos de dados sendo armezenados na memória
+Vimos que cada tipo de dado ocupa uma quantidade fixa de espaço na memória, mas como extamente funciona esta armazenamento?
 
 ![ramMemoryIMG](https://github.com/FireguiQueen/CS50/assets/98475125/8c964ee3-15f1-424f-ac32-0ddfca583289)
 
