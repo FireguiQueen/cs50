@@ -66,7 +66,6 @@ No entanto, do ponto de vista do usuário e do sistema operacional, o HDD é ger
 </br>
 
 # Tipos de dados sendo armezenados na memória
-Vimos que cada tipo de dado ocupa uma quantidade fixa de espaço na memória, mas como extamente funciona esta armazenamento?
-
+Vimos que cada tipo de dado ocupa uma quantidade fixa de espaço na memória, mas como extamente funciona esta armazenamento? Primeiro, vejamos o que é a memória RAM em si.:
 ![ramMemoryIMG](https://github.com/FireguiQueen/CS50/assets/98475125/8c964ee3-15f1-424f-ac32-0ddfca583289)
 
