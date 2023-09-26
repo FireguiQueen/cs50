@@ -14,7 +14,7 @@ Cada tipo de dado ocupa uma quantidade fixa de espaço, e na verdade, diferentes
 Há muita confusão no que se diz a respeito de memória RAM e HD. 
 O HD (hard disk) é um dispositivo usado para armazenar dados. Ele não apenas armazena os dados, mas também os lê quando necessário. Para entender seu funcionamento, podemos imaginar um HD como sendo semelhante a uma vitrola, com um prato mecânico (onde salvamos os dados) e uma agulha móvel (para ler e gravar informações).
 Os HDs são essenciais para preservar dados que não podem ser perdidos. Nossos jogos, arquivos e sistema operacional residem nele, e por isso ele foi feito para ser um tipo de __armazenamento não volátil__ que mantém os dados intactos mesmo quando o dispositivo está desligado.
->  armazenamento não volátil consiste no tipo de armazenamento em que se pode persistir dados; isto é: uma vez gravados, os dados são conservados e portanto não há perda ao se retirar a fonte de energia."
+>  armazenamento não volátil consiste no tipo de armazenamento em que se pode persistir dados; isto é: uma vez gravados, os dados são conservados e portanto não há perda ao se retirar a fonte de energia.
 
 A memória RAM (Random Access Memory), ou memória de acesso aleatório, é uma parte temporária e ágil do computador. Basicamente, é como um depósito temporário de informações digitais usado pelo processador para guardar dados temporariamente. Tudo o que fazemos em nossos computadores depende da memória RAM.
 Vamos pensar em um programa que permite ao usuário digitar dois números, e a soma deles é retornada. Para que isso aconteça, os valores digitados pelo usuário são atribuídos a variáveis, que são temporariamente armazenadas na memória RAM.
