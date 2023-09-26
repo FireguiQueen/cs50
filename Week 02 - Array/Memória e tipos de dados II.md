@@ -8,22 +8,19 @@ Cada tipo de dado ocupa uma quantidade fixa de espaço na memória, e na verdade
 - `long`    _8 bytes_
 - ..
 
-Nós sabemos que linguagens compiladas terão seu código fonte transformado em Assembly, e por fim, código de máquina (binário).
-E apenas esta informação já nos mostra a importância de definir o tipo de dado que estamos trabalhando.
-Por exemplo, ao definir uma variável contendo números inteiros, usaremos o `int`:
+Nós sabemos que linguagens compiladas terão seu código fonte transformado em Assembly, e por fim, código de máquina (binário). 
+E apenas esta informação já nos mostra a importância de definir o tipo de dado que estamos trabalhando. Por exemplo, ao definir uma variável contendo números inteiros, usaremos o int:
 ```c
 int num = 5; 
 ```
 
-Após a compilação, tudo irá se transformar em zeros e uns, então já é de se esperar que aquele '5' irá virar um número binário.
-E aqui que a palavra-chave "int" entra. Já que foi definido que estamos trabalhando com números inteiros, o computador compreender que este '5'
-precisa virar um binário referente ao número em questão.
+Após a compilação, tudo irá se transformar em zeros e uns, então já é de se esperar que aquele '5' irá virar um número binário. E aqui que a palavra-chave "int" entra. Já que foi definido que estamos trabalhando com números inteiros, o computador compreende que este '5' precisa virar um binário referente ao número em questão.
 ```c
 int num = 5; // na verdade, a variável 'num' irá receber o binário 101.
 ```
 
-Mas o comportamento seria um pouco diferente caso mudassemos o tipo de dado da variável.
-Se colocarmos o `char` (tipo de dado para caracteres) o computador compreende que aquele '5' precisa virar um binário referente a tabela ASCII.
+Mas o comportamento seria um pouco diferente caso mudássemos o tipo de dado da variável. Se colocarmos o char (tipo de dado para caracteres), o computador compreende que aquele '5' precisa virar um binário referente à tabela ASCII. 
+> Na tabela ASCII, o caracter '5' é o binário 110101.
 ```c
 char num = 5; // agora, a variável 'num' irá receber o binário 110101. 
 ```
