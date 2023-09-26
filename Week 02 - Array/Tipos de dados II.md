@@ -16,8 +16,7 @@ O HD (hard disk) é um dispositivo usado para armazenar dados. Ele não apenas a
 Os HDs são essenciais para preservar dados que não podem ser perdidos. Nossos jogos, arquivos e sistema operacional residem nele, e por isso ele foi feito para ser um tipo de __armazenamento não volátil__ que mantém os dados intactos mesmo quando o dispositivo está desligado.
 >  armazenamento não volátil consiste no tipo de armazenamento em que se pode persistir dados; isto é: uma vez gravados, os dados são conservados e portanto não há perda ao se retirar a fonte de energia."
 
-Já a memóriam RAM (memória de acesso aleatório) é uma memória temporária computacional de acesso rápido; ou seja, é um local de armazenamento temporário de informações digitais usada pelo processador para armazenar informações temporariamente. Tudo o que fazemos em nossos computadores demandam memória RAM. 
-Podemos pensar num programa que permite o usuário digitar dois números, e é retornado a soma de ambos. Para essa ação ocorrer, os valores digitados pelo usuário foram atribuidos a variáveis, e essas variáveis são salvas na memória RAM.
+A memória RAM (Random Access Memory), ou memória de acesso aleatório, é uma parte temporária e ágil do computador. Basicamente, é como um depósito temporário de informações digitais usado pelo processador para guardar dados temporariamente. Tudo o que fazemos em nossos computadores depende da memória RAM.
+Vamos pensar em um programa que permite ao usuário digitar dois números, e a soma deles é retornada. Para que isso aconteça, os valores digitados pelo usuário são atribuídos a variáveis, que são temporariamente armazenadas na memória RAM.
+Um dos principais protagonistas dos computadores é o sistema operacional. Ele fica guardado no HD, mas para ser usado, precisa da ajuda da memória RAM. A RAM é muito mais rápida do que o HD, permitindo que o processador acesse rapidamente as informações necessárias para realizar tarefas. No entanto, é importante destacar que a RAM é volátil, o que significa que os dados são apagados quando o computador é desligado, ao contrário do HD, que mantém os dados a longo prazo.
 
-
-A memória RAM é volátil, o que significa que os dados são apagados quando o computador é desligado, ao contrário do HD, que mantém os dados a longo prazo.
