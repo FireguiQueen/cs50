@@ -71,6 +71,6 @@ Vimos que cada tipo de dado ocupa uma quantidade fixa de espaço na memória, ma
 ![ramMemoryIMG0](https://github.com/FireguiQueen/CS50/assets/98475125/b1df96f0-5f12-48af-833d-9bf1c53d3d64)
 
 Nesta imagem, o que nos interessa, são aqueles pequenos chips. Podemos colocar uma figura em formato de grade para enteder de maneira mais simples como funciona o endereçamento e a ocupação de dados na memória. 
+![Ilustação mem. RAM](https://github.com/FireguiQueen/CS50/assets/98475125/1e790ea4-94ca-49d2-b51c-52d9a4b72c29)
 
-![657c8b83-f403-431e-99fe-9d49067e93fe](https://github.com/FireguiQueen/CS50/assets/98475125/8e5197a5-8008-4dbb-9a8c-c6e0d516f667)
 
