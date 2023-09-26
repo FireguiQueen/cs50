@@ -70,9 +70,12 @@ Vimos que cada tipo de dado ocupa uma quantidade fixa de espaço na memória, ma
 
 ![ramMemoryIMG0](https://github.com/FireguiQueen/CS50/assets/98475125/b1df96f0-5f12-48af-833d-9bf1c53d3d64)
 
-Nesta imagem, o que nos interessa, são aqueles pequenos chips. Podemos colocar uma figura em formato de grade para enteder de maneira mais simples como funciona o endereçamento e a ocupação de dados na memória. 
-
+Nesta imagem, o que nos interessa, são aqueles pequenos chips. Podemos colocar uma figura em formato de grade para enteder de maneira mais simples como funciona o endereçamento e a ocupação de dados na memória. A memória RAM tem uma capacidade limitada de armazenamento temporário, em geral, os pentes de memória RAM varia entre 2gb a 64gb. Para este exemplo seremos um pouco mais limitados para simplificar a explicação, vamos imaginar que cada quadradinho representa 1 byte (8 bits).
+ 
 ![oie_G2AmVZERsuVK](https://github.com/FireguiQueen/CS50/assets/98475125/013c99dc-0d76-498a-99e3-b2bd75ce8e75)
+
+Quando nós definimos uma variável ela será alocada na nossa memória RAM em algum lugar. E aqui vemos a importância das declarações, ou seja, dos nomes dessas variáveis, que desempenham um papel de enderaçmento. Não seria muito útil definir que em algum lugar da memória será armazenado o número 5, se não conseguissemos localizar este valor, e por isso, os nomes das variáveis servem como endereço. 
+Ao definir uma variável, ela irá ocupar uma quantidade de espaço referente ao tipo dela. Por exemplo, o tipo `int` exige 4 bytes de armazenamento, então 4bytes em nossa memória RAM serão ocupados. 
 
 ![oie_G2AmVZERsuVK](https://github.com/FireguiQueen/CS50/assets/98475125/147c4bc4-e08d-4752-abc2-c23e03815cf1)
 
