@@ -32,6 +32,7 @@ A Memória de Acesso Aleatório é chamada assim porque você pode acessar qualq
 
 Em contraste, dispositivos de armazenamento sequencial, como as fitas magnéticas, exigem que você leia ou escreva os dados sequencialmente a partir de um ponto de partida. Se você quiser acessar os dados no final de uma fita, precisará percorrer todos os dados anteriores na fita, o que pode ser um processo demorado, especialmente se a fita for longa. Essa é uma das razões pelas quais a RAM é muito mais rápida para acesso aleatório do que dispositivos de armazenamento sequencial.
 
+
 Os discos rígidos (HDDs) são considerados dispositivos de armazenamento de acesso sequencial em um nível técnico. Isso se deve ao fato de que, fisicamente, as cabeças de leitura/gravação precisam se mover para acessar diferentes trilhas (cylinders) e setores no disco. Esse movimento das cabeças e a espera pela rotação do disco podem causar atrasos no acesso aos dados, especialmente quando os dados estão localizados em locais físicos diferentes no disco.
 No entanto, do ponto de vista do usuário e do sistema operacional, o HDD é geralmente visto como um dispositivo de armazenamento de acesso direto, graças ao sistema de endereçamento e às tabelas de alocação de arquivos mantidas pelo sistema operacional. Isso permite que os usuários acessem rapidamente arquivos e pastas específicos sem a necessidade de percorrer todo o disco.
 
@@ -42,5 +43,5 @@ No entanto, do ponto de vista do usuário e do sistema operacional, o HDD é ger
 
 ![Random_vs_sequential_access](https://github.com/FireguiQueen/CS50/assets/98475125/5904c1dd-a65a-4116-8a50-0042aac2b8e7)
 
+![ramMemoryIMG](https://github.com/FireguiQueen/CS50/assets/98475125/8c964ee3-15f1-424f-ac32-0ddfca583289)
 
-![memoriaRAMIMG](https://github.com/FireguiQueen/CS50/assets/98475125/edd70d3f-ed4f-4df7-b643-9382b2d9e4d1)
