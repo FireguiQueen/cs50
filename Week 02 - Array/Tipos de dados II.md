@@ -17,4 +17,6 @@ Os HDs são essenciais para preservar dados que não podem ser perdidos. Nossos 
 >  armazenamento não volátil consiste no tipo de armazenamento em que se pode persistir dados; isto é: uma vez gravados, os dados são conservados e portanto não há perda ao se retirar a fonte de energia."
 
 Já a memóriam RAM (memória de acesso aleatório) é uma memória temporária computacional de acesso rápido; ou seja, é um local de armazenamento temporário de informações digitais usada pelo processador para armazenar informações temporariamente. Tudo o que fazemos em nossos computadores demandam memória RAM. 
-Podemos pensar num programa que permite o usuário digitar dois números, e é retornado a soma de ambos. Para essa ação ocorrer, foi pego os valores do usuário, e foram atribuidos a variáveis, e olha que interessante, essas variáveis são salvas na memória RAM.
+Podemos pensar num programa que permite o usuário digitar dois números, e é retornado a soma de ambos. Para essa ação ocorrer, os valores digitados pelo usuário foram atribuidos a variáveis, e essas variáveis são salvas na memória RAM.
+
+Um outro exemplo é o software "Bloco de Notas" (ou notepad),
