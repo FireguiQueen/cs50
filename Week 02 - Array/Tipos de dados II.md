@@ -21,3 +21,14 @@ Vamos pensar em um programa que permite ao usuário digitar dois números, e a s
 Um dos principais protagonistas dos computadores é o sistema operacional. Ele fica guardado no HD, mas para ser usado, precisa da ajuda da memória RAM. A RAM é muito mais rápida do que o HD, permitindo que o processador acesse rapidamente as informações necessárias para realizar tarefas. No entanto, é importante destacar que a RAM é volátil, o que significa que os dados são apagados quando o computador é desligado, ao contrário do HD, que mantém os dados a longo prazo.
 __A memória RAM é reponsável por manter os dados que estão em processamento__ 
 > A memória RAM foi projetada para ser volátil, não faria sentido que ela desempenhasse outro papel. Ela serve apenas como um meio para que nossos processadores tenham dados disponíveis para leitura e armazenamento temporário. Esses dados sempre serão temporários, como, por exemplo, manter seu navegador aberto.
+
+### Acesso aleatório & sequencial
+A Memória de Acesso Aleatório é chamada assim porque você pode acessar qualquer posição de memória nela de forma direta e rápida, independentemente de onde os dados estejam armazenados. Isso significa que, se você precisa ler ou gravar dados em uma localização específica na RAM, não é necessário percorrer todos os dados anteriores ou posteriores para chegar a essa posição. Você pode acessar diretamente o __endereço__ de memória desejado.
+> Podemos pensar na memória RAM como uma rua extensa. O dado que você deseja ler é a última casa desta rua. Em vez de você percorrer a rua inteira até chegar ao seu destino, você é instantaneamente teleportado para o endereço da casa desejada.
+
+Em contraste, dispositivos de armazenamento sequencial, como as fitas magnéticas, exigem que você leia ou escreva os dados sequencialmente a partir de um ponto de partida. Se você quiser acessar os dados no final de uma fita, precisará percorrer todos os dados anteriores na fita, o que pode ser um processo demorado, especialmente se a fita for longa. Essa é uma das razões pelas quais a RAM é muito mais rápida para acesso aleatório do que dispositivos de armazenamento sequencial.
+
++ Memórias de acesso aleatório: HD, SDD, RAM, Pendrives
++ Memórias de acesso sequencial: fitas,
+
+![Random_vs_sequential_access svg](https://github.com/FireguiQueen/CS50/assets/98475125/5904c1dd-a65a-4116-8a50-0042aac2b8e7)
