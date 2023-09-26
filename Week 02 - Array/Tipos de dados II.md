@@ -9,6 +9,8 @@ Cada tipo de dado ocupa uma quantidade fixa de espaço, e na verdade, diferentes
 - ..
 
 </br>
+</br>
+
 
 # RAM (random acess memory) & HD (hard disk) 
 Há muita confusão no que se diz a respeito de memória RAM e HD. 
@@ -22,6 +24,8 @@ Um dos principais protagonistas dos computadores é o sistema operacional. Ele f
 __A memória RAM é reponsável por manter os dados que estão em processamento__ 
 > A memória RAM foi projetada para ser volátil, não faria sentido que ela desempenhasse outro papel. Ela serve apenas como um meio para que nossos processadores tenham dados disponíveis para leitura e armazenamento temporário. Esses dados sempre serão temporários, como, por exemplo, manter seu navegador aberto.
 
+</br>
+
 ### Acesso aleatório & sequencial
 A Memória de Acesso Aleatório é chamada assim porque você pode acessar qualquer posição de memória nela de forma direta e rápida, independentemente de onde os dados estejam armazenados. Isso significa que, se você precisa ler ou gravar dados em uma localização específica na RAM, não é necessário percorrer todos os dados anteriores ou posteriores para chegar a essa posição. Você pode acessar diretamente o __endereço__ de memória desejado.
 > Podemos pensar na memória RAM como uma rua extensa. O dado que você deseja ler é a última casa desta rua. Em vez de você percorrer a rua inteira até chegar ao seu destino, você é instantaneamente teleportado para o endereço da casa desejada.
@@ -34,6 +38,6 @@ No entanto, do ponto de vista do usuário e do sistema operacional, o HDD é ger
 + Memórias de acesso aleatório: _SDD, RAM, Pendrives_
 + Memórias de acesso sequencial: _fitas magnéticas, HD_
 
-
+</br>
 
 ![Random_vs_sequential_access](https://github.com/FireguiQueen/CS50/assets/98475125/5904c1dd-a65a-4116-8a50-0042aac2b8e7)
