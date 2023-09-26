@@ -74,4 +74,5 @@ Nesta imagem, o que nos interessa, são aqueles pequenos chips. Podemos colocar 
 
 ![oie_G2AmVZERsuVK](https://github.com/FireguiQueen/CS50/assets/98475125/013c99dc-0d76-498a-99e3-b2bd75ce8e75)
 
+![oie_G2AmVZERsuVK](https://github.com/FireguiQueen/CS50/assets/98475125/147c4bc4-e08d-4752-abc2-c23e03815cf1)
 
