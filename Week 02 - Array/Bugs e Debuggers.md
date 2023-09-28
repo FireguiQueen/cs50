@@ -69,7 +69,7 @@ Como resultado, o "$" é repetido seis vezes, afinal, de zero a cinco temos 6 n�
 Vamos analisar o algoritimo feito:
 - Inciar um loop
     1. Definir uma variável de inicialização: _I = 0_    (variável i recebe zero);
-    2. Definir uma condição: Se a condição for verdadeira (ou seja, se I for _menor_ ou _igual_ a 5):
+    2. Definir uma condição: Se a condição for verdadeira (ou seja, se I for _menor_ ou _igual_ a 5): </br>
         &nbsp; &nbsp; printe o caractere '$' no terminal.
     4. Após rodar o bloco, adicione +1 a nossa variável de controle.
   > Na segunda vez que o "for" ser executado, o valor da nossa variável de inicialização será '1', na terceira vez, será '2' e assim respectivamente. 
