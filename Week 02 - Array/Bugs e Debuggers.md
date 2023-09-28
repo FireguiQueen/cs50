@@ -33,10 +33,7 @@ $       // cinco..
 $       // seis..
 ```
 
-Bem, queríamos o cifrão se repetisse cinco vezes, e não seis. O importante agora é pensar em voz alta: </br>
-"Isso é um bug". O que fazer para resolvê-lo? </br> 
-Para a depuração, existe uma ferramenta "antiga" porém muito útil quando se trabalha com programas simples, ela é a famosa função `printf()` da biblioteca `stdio.h`. 
-Neste caso em específico, podemos imprimir o valor da nossa variável de controle "i" toda vez que nosso "for" for executado, por exemplo:
+Queríamos o cifrão se repetisse cinco vezes, e não seis.. Ou seja, temos um bug. Para a depuração, podemos usar a famosa função `printf()` da biblioteca `stdio.h`. Neste caso em específico, podemos imprimir o valor da nossa variável de controle "i" toda vez que nosso `for` for executado.
 ```c
     for(int i = 0; i <= 5; i++)
     {
@@ -66,14 +63,16 @@ O valor de I é: 5
 $ 
 ```
 
-Agora ficou muito simples solucionar o nosso bug. Podemos observar que o valor de "i" variou de 0 a 5, e a cada valor diferente, o caractere "$" é impresso. Vemos a variável i teve seis números: `0, 1, 2, 3, 4, 5` 
-</br> Como resultado, o "$" é repetido seis vezes.
+Agora ficou muito simples solucionar o nosso bug. O valor de "i" variou de 0 a 5, e a cada valor diferente, o caractere "$" é impresso devido ao `printf()`. 
+Como resultado, o "$" é repetido seis vezes, afinal, de zero a cinco temos 6 números no total (0, 1, 2, 3, 4, 5).
 
 Vamos analisar o algoritimo feito:
 - Inciar um loop
-    1. Definir uma variável de inicialização: I = 0    (variável i recebe zero);
-    2. Definir uma condição: Se a condição for verdadeira (ou seja, se I for _menor_ ou _igual_ a 5), printe o caractere '$' no terminal.
-    4. Após rodar o nosso código, adicione +1 a nossa variável de controle. Na segunda vez que o "for" ser executado, o valor da nossa variável de inicialização será '1', na terceira vez, será '2' e assim respectivamente. 
+    1. Definir uma variável de inicialização: _I = 0_    (variável i recebe zero);
+    2. Definir uma condição: Se a condição for verdadeira (ou seja, se I for _menor_ ou _igual_ a 5):
+        &nbsp; &nbsp; printe o caractere '$' no terminal.
+    4. Após rodar o bloco, adicione +1 a nossa variável de controle.
+  > Na segunda vez que o "for" ser executado, o valor da nossa variável de inicialização será '1', na terceira vez, será '2' e assim respectivamente. 
 
 Observamos no terminal que o valor de 'i' variou de 0 a 5 devido à segunda etapa do nosso algoritmo. Isso ocorreu porque a condição 'i <= 5' foi usada, o que significa que o loop continuará enquanto 'i' for menor ou __igual__ a 5. No entanto, na última iteração, 'i' atinge o valor 5, e como '5' é __igual__ a 5, o código será executado. Para corrigir esse erro e garantir que o caractere '$' seja impresso apenas cinco vezes, precisamos modificar a condição para 'i < 5'. Dessa forma, o loop será executado de 0 a 4,
 ```c
