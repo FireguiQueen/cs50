@@ -106,6 +106,7 @@ Isso é particularmente útil para entender como as variáveis mudam à medida q
 </br>
 
 ## Rubber duck debugging
-Apesar do nome, esta é uma ferramenta muito útil para depurar nosso código. A ideia é você "conversar" com um pato. Claro, este é apenas um nome comumente utilizado, mas você pode falar com objetos, pessoas ou simplesmente falar.
+A ideia é você "conversar" com um pato. Claro, este é apenas um nome comumente utilizado, mas você pode falar com outros objetos, pessoas ou simplesmente falar.
 O objetivo disso é que, quando falamos, temos uma percepção maior do que está sendo feito. Ouvir a nós mesmos ou outras pessoas dizendo algo ilógico é mais perceptível do que ao ler.
-Essa técnica é especialmente útil quando estamos presos em um problema complexo e não sabemos por onde começar. Ao compartilhar nossos pensamentos em voz alta, ganhamos clareza e, muitas vezes, encontramos soluções que não teríamos descoberto de outra forma.
+Essa técnica é especialmente útil quando estamos presos em um problema complexo e não sabemos por onde começar. 
+Ao compartilhar nossos pensamentos em voz alta, ganhamos clareza e, muitas vezes, encontramos soluções que não teríamos descoberto de outra forma.
