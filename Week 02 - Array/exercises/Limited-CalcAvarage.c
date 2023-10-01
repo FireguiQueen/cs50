@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main(void)
 {
     float scores[] = {5, 4, 8, 7};
@@ -15,6 +14,4 @@ int main(void)
     printf("Array length: %i\n", scoresLength);
     printf("Total Score: %f\n", totalScore);
     printf("Avarage: %f\n", totalScore / scoresLength);
-
-
 }
