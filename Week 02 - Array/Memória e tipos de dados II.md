@@ -75,9 +75,10 @@ Nesta imagem, o que nos interessa são aqueles pequenos chips. Podemos colocar u
 
 </br>
 
-Quando definimos uma variável, ela será alocada na nossa memória RAM em algum lugar. E aqui vemos a importância dos nomes e dos tipos dados a essas variáveis. Os nomes desempenham um papel de endereçamento; não seria muito útil definir que em algum lugar da memória será armazenado o número 5, se não conseguíssemos localizar este valor. Já o tipo (int, char, long) define o quanto de bytes iremos usar daquela memória. 
+Quando definimos uma variável, ela é alocada na nossa memória RAM em algum lugar. E aqui vemos a importância dos nomes e dos tipos de dados para essas variáveis. Os nomes desempenham um papel de endereçamento; não seria muito útil definir que em algum lugar da memória será armazenado o número 5, se não conseguíssemos localizar esse valor. Já o tipo (int, char, long) define a quantidade de bytes que iremos usar naquela memória.
 
-Por exemplo, o `long` é um tipo de dado usado para números inteiros que são muito altos, em geral, acima de 2 bilhões. Mas também podemos atribuir pequenos valores a variável do tipo `long`. Mas isso obviamente não é nem um pouco recomendado, tendo em vista que esse tipo de dado ocupa 8 bytes, poderiamos simplesmente usar o `int`, que ocupa 4 bytes.
+Por exemplo, o long é um tipo de dado usado para números inteiros que são muito altos, geralmente acima de 2 bilhões. No entanto, também podemos atribuir valores pequenos a uma variável do tipo long. Isso, obviamente, não é recomendado, considerando que esse tipo de dado ocupa 8 bytes; poderíamos simplesmente usar o int, que ocupa 4 bytes.
+
 ```c
 // Pode ser feito. Mas não há sentido em faze-lo.
 long num = 5;
