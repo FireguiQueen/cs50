@@ -66,20 +66,27 @@ No entanto, do ponto de vista do usuário e do sistema operacional, o HDD é ger
 </br>
 
 # Diferentes tipos de dados sendo armezenados em memória
-Vimos que cada tipo de dado ocupa uma quantidade fixa de espaço na memória, mas como extamente funciona esta armazenamento? Primeiro, vejamos o que é a memória RAM em si.:
-
+Vimos que cada tipo de dado ocupa uma quantidade fixa de espaço na memória, mas como exatamente funciona esse armazenamento? Primeiro, vejamos o que é a memória RAM em si.
 ![ramMemoryIMG0](https://github.com/FireguiQueen/CS50/assets/98475125/b1df96f0-5f12-48af-833d-9bf1c53d3d64)
 
-
-Nesta imagem, o que nos interessa são aqueles pequenos chips. Podemos colocar uma figura em formato de grade para entender de maneira mais simples como funciona o endereçamento e a ocupação de dados na memória. A memória RAM tem uma capacidade limitada de armazenamento temporário, em geral, os pentes de memória RAM variam entre 2 GB a 64 GB. Para este exemplo, seremos um pouco mais limitados. Vamos imaginar que cada quadradinho representa 1 byte (8 bits).
+Nesta imagem, o que nos interessa são aqueles pequenos chips. Podemos colocar uma figura em formato de grade para entender de maneira mais simples como funciona o endereçamento e a ocupação de dados na memória. A memória RAM tem uma capacidade limitada de armazenamento temporário; em geral, os pentes de memória RAM variam entre 2 GB a 64 GB. Para este exemplo, seremos um pouco mais limitados. Vamos imaginar que cada quadradinho representa 1 byte (8 bits).
  
 ![ramMemoryIMG1](https://github.com/FireguiQueen/CS50/assets/98475125/013c99dc-0d76-498a-99e3-b2bd75ce8e75)
 
 </br>
 
-Quando nós definimos uma variável, ela será alocada na nossa memória RAM em algum lugar. E aqui vemos a importância das declarações, ou seja, dos nomes dessas variáveis, que desempenham um papel de endereçamento. Não seria muito útil definir que em algum lugar da memória será armazenado o número 5, se não conseguíssemos localizar este valor, e por isso, os nomes das variáveis servem como endereço.
+Quando definimos uma variável, ela será alocada na nossa memória RAM em algum lugar. E aqui vemos a importância dos nomes e dos tipos dados a essas variáveis. Os nomes desempenham um papel de endereçamento; não seria muito útil definir que em algum lugar da memória será armazenado o número 5, se não conseguíssemos localizar este valor. Já o tipo (int, char, long) define o quanto de bytes iremos usar daquela memória. 
 
-Ao definir uma variável, ela irá ocupar uma quantidade de espaço referente ao tipo dela. Por exemplo, o tipo int exige 4 bytes de armazenamento, então 4 bytes em nossa memória RAM serão ocupados.
+Por exemplo, o `long` é um tipo de dado usado para números inteiros que são muito altos, em geral, acima de 2 bilhões. Mas também podemos atribuir pequenos valores a variável do tipo `long`. Mas isso obviamente não é nem um pouco recomendado, tendo em vista que esse tipo de dado ocupa 8 bytes, poderiamos simplesmente usar o `int`, que ocupa 4 bytes.
+```c
+// Pode ser feito. Mas não há sentido em faze-lo.
+long num = 5;
+
+// É o recomendado
+int num = 5;
+```
+
+Ao definir uma variável, ela ocupará uma quantidade de espaço referente ao seu tipo. Por exemplo, o tipo int exige 4 bytes de armazenamento, então 4 bytes em nossa memória RAM serão ocupados.
 
 ![ramMEMORY2](https://github.com/FireguiQueen/CS50/assets/98475125/147c4bc4-e08d-4752-abc2-c23e03815cf1)
 
