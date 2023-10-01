@@ -93,6 +93,7 @@ Ao definir uma variável, ela ocupará uma quantidade de espaço referente ao se
 ![ramMEMORY2](https://github.com/FireguiQueen/CS50/assets/98475125/147c4bc4-e08d-4752-abc2-c23e03815cf1)
 
 Para deixar tudo mais claro, vamos pensar na memória RAM como uma grande grade. E as coisas continuam iguais, cada quadradinho ocupa 1 byte.
+
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/749a8901-a28b-4d8b-ab09-0aa6c791aa37)
 
 
