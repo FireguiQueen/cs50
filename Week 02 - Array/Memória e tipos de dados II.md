@@ -81,14 +81,16 @@ Já a definição de tipos (int, char, long) define a quantidade de bytes que ir
 > o long é um tipo de dado usado para números inteiros que são muito altos, geralmente acima de 2 bilhões. No entanto, também podemos atribuir valores pequenos a uma variável do tipo long. Isso, obviamente, não é recomendado, considerando que esse tipo de dado ocupa 8 bytes; poderíamos simplesmente usar o int, que ocupa 4 bytes.
 
 ```c
-// Pode ser feito. Mas não há sentido em faze-lo.
+// Pode ser feito. Mas não há sentido em fazê-lo.
 long num = 5;
 
-// É o recomendado
+// É o recomendado.
 int num = 5;
 ```
 
 Ao definir uma variável, ela ocupará uma quantidade de espaço referente ao seu tipo. Por exemplo, o tipo `int` exige 4 bytes de armazenamento, então 4 bytes em nossa memória RAM serão ocupados.
 
 ![ramMEMORY2](https://github.com/FireguiQueen/CS50/assets/98475125/147c4bc4-e08d-4752-abc2-c23e03815cf1)
+
+
 
