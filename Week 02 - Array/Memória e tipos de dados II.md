@@ -104,3 +104,21 @@ Na memória RAM, podemos considerar a seguinte representação:
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/684515ac-75d6-4860-b4df-5466d97edff7)
 
 
+</br>
+</br>
+
+## Array
+Um array é uma coleção de elementos, onde cada elemento é identificado por um índice. 
+Arrays são fundamentais para tornar nosso código mais dinâmico e eficiente, pois nos permitem armazenar múltiplos valores em uma única variável.
+
+### Sintaxe
+Assim como objetos, números e caracteres, os arrays também são um tipo de dado em programação. Definir um array é bastante simples:
+
+1. Comece definindo uma variável.
+2. Junto ao nome da variável, coloque colchetes duplos []. Dentro dos colchetes, especifique quantos elementos você deseja que o array contenha. Se você não souber quantos elementos ele terá com antecedência, deixe esse campo em branco.
+3. Em seguida, atribua os valores desejados ao array.
+
+```c
+// Foi definido que ele irá receber 3 elementos. Se passar disso, irá ocorrer um erro: "excess elements in array initializer".
+int numeros[3] = {510, 220, 310};
+```
