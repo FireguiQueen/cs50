@@ -1,5 +1,5 @@
 # Tipos de dados 
-Cada tipo de dado ocupa uma quantidade fixa de espaço na memória, embora seja importante notar que a quantidade de espaço realmente usada para cada tipo pode variar em diferentes sistemas de computador. No entanto, em geral, pode-se considerar o seguinte:
+Cada tipo de dado possui um tamanho específico na memória, embora seja importante destacar que esse tamanho pode variar entre diferentes sistemas de computadores.
 - `bool`    _1 byte_
 - `char`    _1 byte_
 - `double`  _8 bytes_
