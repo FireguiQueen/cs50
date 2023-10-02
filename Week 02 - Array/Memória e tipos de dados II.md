@@ -1,5 +1,6 @@
 # Tipos de dados 
 Cada tipo de dado possui um tamanho específico na memória, embora seja importante destacar que esse tamanho pode variar entre diferentes sistemas de computadores.
+No entanto, em geral, pode-se considerar o seguinte:
 - `bool`    _1 byte_
 - `char`    _1 byte_
 - `double`  _8 bytes_
