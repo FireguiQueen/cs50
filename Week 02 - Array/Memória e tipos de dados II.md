@@ -9,16 +9,12 @@ No entanto, em geral, pode-se considerar o seguinte:
 - `long`    _8 bytes_
 - ..
 
-Nós sabemos que linguagens compiladas terão seu código fonte transformado em Assembly, e por fim, código de máquina (binário). 
-E apenas esta informação já nos mostra a importância de definir o tipo de dado que estamos trabalhando. Por exemplo, ao definir uma variável contendo números inteiros, usaremos o __int__:
+Nas linguagens compiladas, o código-fonte é transformado em Assembly e, finalmente, em código de máquina (binário). No binário, há duas maneiras de representar o número 5: como um caractere ('5') ou como um número inteiro (5). Portanto, é de extrema importância especificar o tipo de dado do nosso valor.
+> E aqui que a palavra-chave "int" entra. Já que foi definido que estamos trabalhando com números inteiros, o computador compreende que este '5' precisa virar um binário referente ao número em questão.
 ```c
-int num = 5; 
+int num = 5;  // na verdade, a variável 'num' irá receber o binário 101
 ```
 
-Após a compilação, tudo irá se transformar em zeros e uns, então já é de se esperar que aquele '5' irá virar uma sequência de números binários. E aqui que a palavra-chave "int" entra. Já que foi definido que estamos trabalhando com números inteiros, o computador compreende que este '5' precisa virar um binário referente ao número em questão.
-```c
-int num = 5; // na verdade, a variável 'num' irá receber o binário 101.
-```
 
 Mas o comportamento seria um _pouco diferente_ caso mudássemos o tipo de dado da variável. Usando o __char__ (tipo de dado para caracteres), o computador compreende que aquele '5' precisa virar um binário referente à tabela ASCII. 
 > Na tabela ASCII, o caracter '5' é o binário 110101.
