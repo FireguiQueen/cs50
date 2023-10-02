@@ -105,5 +105,7 @@ char letra = 'A';
 
 Na memóriam RAM, podemos considerar esta seguinte representação: 
 
+![image](https://github.com/FireguiQueen/CS50/assets/98475125/684515ac-75d6-4860-b4df-5466d97edff7)
+
 
 
