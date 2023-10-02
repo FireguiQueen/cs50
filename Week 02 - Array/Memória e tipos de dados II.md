@@ -100,7 +100,7 @@ char letra = 'A';
 ```
 Na memória RAM, podemos considerar a seguinte representação:
 
+> Para fins didáticos, utilizamos "1000001" para o CHAR e "101" para o INT. No entanto, é importante notar que existem zeros adicionais, pois o CHAR utiliza 8 bits (oito dígitos binários), enquanto o INT utiliza 32 bits. Portanto, a representação correta seria a seguinte: CHAR - 01000001. INT - 00000000 00000000 00000000 00000101.
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/684515ac-75d6-4860-b4df-5466d97edff7)
-
 
 
