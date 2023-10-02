@@ -14,17 +14,16 @@ E apenas esta informação já nos mostra a importância de definir o tipo de da
 int num = 5; 
 ```
 
-Após a compilação, tudo irá se transformar em zeros e uns, então já é de se esperar que aquele '5' irá virar um número binário. E aqui que a palavra-chave "int" entra. Já que foi definido que estamos trabalhando com números inteiros, o computador compreende que este '5' precisa virar um binário referente ao número em questão.
+Após a compilação, tudo irá se transformar em zeros e uns, então já é de se esperar que aquele '5' irá virar uma sequência de números binários. E aqui que a palavra-chave "int" entra. Já que foi definido que estamos trabalhando com números inteiros, o computador compreende que este '5' precisa virar um binário referente ao número em questão.
 ```c
 int num = 5; // na verdade, a variável 'num' irá receber o binário 101.
 ```
 
-Mas o comportamento seria um _pouco diferente_ caso mudássemos o tipo de dado da variável. Se colocarmos o __char__ (tipo de dado para caracteres), o computador compreende que aquele '5' precisa virar um binário referente à tabela ASCII. 
+Mas o comportamento seria um _pouco diferente_ caso mudássemos o tipo de dado da variável. Usando o __char__ (tipo de dado para caracteres), o computador compreende que aquele '5' precisa virar um binário referente à tabela ASCII. 
 > Na tabela ASCII, o caracter '5' é o binário 110101.
 ```c
 char num = 5; // agora, a variável 'num' irá receber o binário 110101. 
 ```
-
 
 
 </br>
