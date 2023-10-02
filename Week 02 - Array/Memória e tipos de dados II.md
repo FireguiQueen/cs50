@@ -96,5 +96,14 @@ Para deixar tudo mais claro, vamos pensar na memória RAM como uma grande grade.
 
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/749a8901-a28b-4d8b-ab09-0aa6c791aa37)
 
+Definir tipos não serve apenas para especificar quanto de memória será ocupada pela variável, mas também define como aquele determinado valor deve ser armazenado num formato binário.
+Considere o seguinte código:
+```c
+int num = 5;
+char letra = 'A';
+```
+
+Na memóriam RAM, podemos considerar esta seguinte representação: 
+
 
 
