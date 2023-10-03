@@ -190,7 +190,7 @@ Agora temos caracteres organizados em um array. No entanto, eles ainda estão se
 // Este array contém 9 elementos ao total.
 char nome[] = {'G', 'u', 'i', 'l', 'h', 'e', 'r', 'm', 'e'};
 
-// Primeiro vamos formar uma condição onde é pergunta se o nosso 'i' é menor do que 9 (pois o array possui 9 elementos).
+// Primeiro vamos formar uma condição onde é perguntado se o nosso 'i' é menor do que 9 (pois o array possui 9 elementos).
 // Na primeira execução do FOR, o nosso 'i' vale 0. Sendo assim, será printado o 'G', pois: nome[0].
 // Na segunda execução, o nosso 'i' vale 1. Sendo assim, será printado o 'u', pois: nome[1]
 // Na última execução, o nosso 'i' vale 8. Sendo assim, será printado o último 'e', pois: nome[8]
