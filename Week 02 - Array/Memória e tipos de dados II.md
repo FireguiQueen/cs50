@@ -107,7 +107,7 @@ Na memória RAM, podemos considerar a seguinte representação:
 </br>
 </br>
 
-## Array
+# Array
 Um array (também conhecido como vetor) é uma coleção de elementos, onde cada elemento é identificado por um índice. Arrays são fundamentais para tornar nosso código mais dinâmico e eficiente, pois nos permitem armazenar múltiplos valores em uma única variável.
 
 ### Sintaxe
@@ -159,3 +159,8 @@ numeros[1] = 55;
 // Definindo o valor do índice 2.
 numeros[2] = 90;
 ```
+
+</br>
+
+## Arrays e strings
+As "strings" são uma cadeia de caracteres, ou seja, uma palavra, uma frase, um texto e etc. 
