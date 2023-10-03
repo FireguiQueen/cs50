@@ -114,11 +114,18 @@ Um array (também conhecido como vetor) é uma coleção de elementos, onde cada
 Assim como objetos, números e caracteres, os arrays também são um tipo de dado em programação. Definir um array é bastante simples.
 
 1. Comece definindo uma variável.
-2. Ao lado do nome da variável, coloque colchetes duplos \[\]. Dentro dos colchetes, especifique quantos elementos você deseja que o array contenha. Se você não souber quantos elementos ele precisa ter, deixe esse campo em branco (isso permitirá que você coloque um número variável de valores dentro do array).
+2. Ao lado do nome da variável, coloque colchetes duplos []. Dentro dos colchetes, especifique quantos elementos você deseja que o array contenha. Se você não souber quantos elementos ele precisa ter, deixe esse campo em branco (isso permitirá que você coloque um número variável de valores dentro do array).
 3. Em seguida, use o sinal de atribuição = e coloque chaves {}. É dentro das chaves que nossos elementos serão armazenados.
 
+```c
+// Foi definido que será recebido 3 elementos. 
+// Se passar disso, irá ocorrer um erro: "excess elements in array initializer".
+int numeros[3] = {510, 220, 310};
+```
 
 ```c
-// Foi definido que ele irá receber 3 elementos. Se passar disso, irá ocorrer um erro: "excess elements in array initializer".
-int numeros[3] = {510, 220, 310};
+// Foi definido que será recebido infinitos elementos. 
+// É possível colocar qualquer quantidade de elementos.
+int numeros[] = {510, 220, 310, 55, 22, 55, 66, 12412, 4214, 424};
+
 ```
