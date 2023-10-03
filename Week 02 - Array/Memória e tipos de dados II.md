@@ -118,7 +118,8 @@ Assim como objetos, números e caracteres, os arrays também são um tipo de dad
 3. Em seguida, use o sinal de atribuição e coloque chaves. É dentro das chaves que nossos elementos serão armazenados. Os elementos do array serão separados por vírgulas dentro das chaves.
 
 #### Acessando valores
-Para acessar um valor específico em um array, você precisa fornecer o nome da variável que representa o array, seguido por colchetes [] e o índice do elemento que deseja acessar. Os índices são números inteiros que indicam a posição do elemento no array. É importante lembrar que os índices começam em 0, ou seja, o primeiro elemento de um array tem o índice 0, o segundo tem o índice 1, o terceiro tem o índice 2, e assim por diante. 
+Para acessar um valor específico em um array, você precisa fornecer o nome da variável que representa o array, seguido por colchetes [] e o índice do elemento que deseja acessar. 
+> Os índices são números inteiros que indicam a posição do elemento no array. É importante lembrar que os índices começam em 0, ou seja, o primeiro elemento de um array tem o índice 0, o segundo tem o índice 1, o terceiro tem o índice 2, e assim por diante. 
  
 ```c
 // Foi definido que será recebido 3 elementos. 
