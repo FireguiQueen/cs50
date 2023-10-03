@@ -164,3 +164,14 @@ numeros[2] = 90;
 
 ## Arrays e strings
 As "strings" são uma cadeia de caracteres, ou seja, uma palavra, uma frase, um texto e etc. 
+Em muitas linguagens, como por exemplo no Javascript, a "string" é um tipo de dado. Então quanto definimos uma variável que receba um ou mais caracteres, o tipo daquela variável será uma string.
+```js
+// Exemplo em código Javascript.
+
+// Definindo uma variável que recebe caracteres.
+const nome = "Flora";
+
+// Perguntando o tipo de dado desta variável. Irá retornar "string".
+console.log(typeof nome);
+``` 
+
