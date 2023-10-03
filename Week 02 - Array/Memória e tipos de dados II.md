@@ -163,8 +163,7 @@ numeros[2] = 90;
 </br>
 
 ## Arrays e strings
-As "strings" são uma cadeia de caracteres, ou seja, uma palavra, uma frase, um texto e etc. 
-Em muitas linguagens, como por exemplo no Javascript, a "string" é um tipo de dado. Então quanto definimos uma variável que receba um ou mais caracteres, o tipo daquela variável será uma string.
+As "strings" são uma sequência de caracteres, ou seja, uma palavra, uma frase, um texto, etc. Em muitas linguagens, como por exemplo o Javascript, a "string" é um tipo de dado. Portanto, quando definimos uma variável que recebe um ou mais caracteres, o tipo daquela variável será uma string. 
 ```js
 /* exemplo em código Javascript */
 
@@ -175,10 +174,9 @@ const nome = "Flora";
 console.log(typeof nome);
 ``` 
 
-Mas em algumas outras linguagens, como no C, a `string` __não__ é um tipo de dado que não existe nativamente. Ela é apenas uma palavra para nos referimos a uma cadeia de caracteres.
+No entanto, em algumas outras linguagens, como C, a `string` __não__ é um tipo de dado nativo. Ela é apenas um termo que usamos para nos referir a uma sequência de caracteres.
 
-No C, o único tipo de dado para caracteres é o `char` (character), ele serve exclusivamente para colocarmos __um__ único caracter. 
-E é neste momento onde o array entra. Nos arrays, podemos criar uma coleção de valores de um tipo de dado, sendo assim, basta criar um array que contenha diversos caracteres, e pronto, você terá uma string. 
+Em C, o único tipo de dado para caracteres é o `char` (character), que serve exclusivamente para representar um único caractere. É nesse momento que os arrays entram em cena. Com os arrays, podemos criar uma coleção de valores de um tipo de dado. Portanto, basta criar um array que contenha diversos caracteres, e pronto, você terá uma string.
 
 ```c
 /* exemplo em código C */
@@ -186,8 +184,7 @@ E é neste momento onde o array entra. Nos arrays, podemos criar uma coleção d
 char nome[] = {'G', 'u', 'i', 'l', 'h', 'e', 'r', 'm', 'e'};
 ```
 
-Pronto, agora temos caracteres organizados num array. E claro, eles ainda estão separados, e consequentemente, ainda não são uma STRING, mas eles irão formar uma string.
-Para fazer isso, utilize o `for loop` e itere (percorra) sobre cada elemento (caracter) dentro do array.
+Agora temos caracteres organizados em um array. No entanto, eles ainda estão separados e, consequentemente, ainda não formam uma STRING. Para fazer isso, você pode usar um `loop for` para iterar (percorrer) sobre cada elemento (caractere) dentro do array e concatená-los para criar a string desejada
 ```c
 // Array do tipo 'char'. Só haverá valores do tipo 'char' neste array.
 // Este array contém 9 elementos ao total.
