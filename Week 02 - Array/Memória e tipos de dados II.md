@@ -175,3 +175,6 @@ const nome = "Flora";
 console.log(typeof nome);
 ``` 
 
+Mas em algumas outras linguagens, como no C, a `string` __não__ é um tipo de dado que não existe nativamente. 
+
+
