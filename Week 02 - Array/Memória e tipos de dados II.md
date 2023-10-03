@@ -108,15 +108,14 @@ Na memória RAM, podemos considerar a seguinte representação:
 </br>
 
 ## Array
-Um array é uma coleção de elementos, onde cada elemento é identificado por um índice. 
-Arrays são fundamentais para tornar nosso código mais dinâmico e eficiente, pois nos permitem armazenar múltiplos valores em uma única variável.
+Um array (também conhecido como vetor) é uma coleção de elementos, onde cada elemento é identificado por um índice. Arrays são fundamentais para tornar nosso código mais dinâmico e eficiente, pois nos permitem armazenar múltiplos valores em uma única variável.
 
 ### Sintaxe
-Assim como objetos, números e caracteres, os arrays também são um tipo de dado em programação. Definir um array é bastante simples:
+Assim como objetos, números e caracteres, os arrays também são um tipo de dado em programação. Definir um array é bastante simples.
 
 1. Comece definindo uma variável.
-2. Junto ao nome da variável, coloque colchetes duplos []. Dentro dos colchetes, especifique quantos elementos você deseja que o array contenha. Se você não souber quantos elementos ele terá com antecedência, deixe esse campo em branco.
-3. Em seguida, atribua os valores desejados ao array.
+2. Junto ao nome da variável, coloque colchetes duplos []. Dentro dos colchetes, especifique quantos elementos você deseja que o array contenha. Se você não souber quantos elementos ele precisa ter, deixe esse campo em branco (isso permitirá que você coloque infinitos valores dentro do array).
+3. Em seguida, coloque o sinal de atruibuição = e dupla chaves {}. Serão dentro das chaves onde nossos elementos serão armenados.
 
 ```c
 // Foi definido que ele irá receber 3 elementos. Se passar disso, irá ocorrer um erro: "excess elements in array initializer".
