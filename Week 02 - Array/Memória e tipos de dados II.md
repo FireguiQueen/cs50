@@ -118,23 +118,43 @@ Assim como objetos, números e caracteres, os arrays também são um tipo de dad
 3. Em seguida, use o sinal de atribuição e coloque chaves. É dentro das chaves que nossos elementos serão armazenados.
 
 #### Acessando valores
-Todos os elementos de um array possuem um _"endereço"_, e o chamamos de _"índice"_. O primeiro elemento de um array terá o indice 0. O segundo elemento terá o indice 01. O terceiro terá o indice 2, e assim respectivamente.
+Para acessar um valor específico em um array, você precisa fornecer o nome da variável que representa o array, seguido por colchetes [] e o índice do elemento que deseja acessar. Os índices são números inteiros que indicam a posição do elemento no array. É importante lembrar que os índices começam em 0, ou seja, o primeiro elemento de um array tem o índice 0, o segundo tem o índice 1, o terceiro tem o índice 2, e assim por diante. 
  
-
 ```c
 // Foi definido que será recebido 3 elementos. 
 // Se passar disso, irá ocorrer um erro: "excess elements in array initializer".
 int numeros[3] = {510, 220, 310};
+
+// Acessando o primeiro elemento do array.
+printf("%i", numeros[0]);
 ```
 
 ```c
 // Foi definido que será recebido infinitos elementos. 
 // É possível colocar qualquer quantidade de elementos.
 int numeros[] = {510, 220, 310, 55, 22, 55, 66, 12412, 4214, 424};
+
+// Acessando o quarto elemento do array
+printf("%i", numeros[3]);
 ```
 
 Há também outra forma para definir um array e adicionar elementos nele.
 
 1. Defina uma variável.
 2. __Neste__ caso, você é obrigado a definir quantos elementos o array irá receber. 
-3. Utilize os colchetes  
+
+Para adicionar os elementos, é bem simples, basta espeficar um indice e atribuir um valor a ele. 
+
+```c
+// Definindo um array que irá conter 3 elementos.
+int numeros[3];
+
+// Definindo o valor do indice 0.
+numeros[0] = 10;
+
+// Definindo o valor do indice 1.
+numeros[1] = 55;
+
+// Definindo o valor do indice 2.
+numeros[2] = 90;
+```
