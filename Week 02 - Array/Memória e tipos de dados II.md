@@ -138,23 +138,23 @@ int numeros[] = {510, 220, 310, 55, 22, 55, 66, 12412, 4214, 424};
 printf("%i", numeros[3]);
 ```
 
-Há também outra forma para definir um array e adicionar elementos nele.
+Há outra maneira de definir um array e adicionar elementos a ele.
 
-1. Defina uma variável.
-2. __Neste__ caso, você é obrigado a definir quantos elementos o array irá receber. 
+1. Comece definindo uma variável.
+2. _Nesse_ caso, você __deve__ especificar quantos elementos o array irá conter.
 
-Para adicionar os elementos, é bem simples, basta espeficar um indice e atribuir um valor a ele. 
+Para adicionar os elementos, é simples: basta especificar um índice e atribuir um valor a ele.
 
 ```c
 // Definindo um array que irá conter 3 elementos.
 int numeros[3];
 
-// Definindo o valor do indice 0.
+// Definindo o valor do índice 0.
 numeros[0] = 10;
 
-// Definindo o valor do indice 1.
+// Definindo o valor do índice 1.
 numeros[1] = 55;
 
-// Definindo o valor do indice 2.
+// Definindo o valor do índice 2.
 numeros[2] = 90;
 ```
