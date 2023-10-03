@@ -193,7 +193,8 @@ char nome[] = {'G', 'u', 'i', 'l', 'h', 'e', 'r', 'm', 'e'};
 // Na primeira execução do FOR, o nosso 'i' vale 0. Sendo assim, será printado o 'G', pois: nome[0].
 // Na segunda execução, o nosso 'i' vale 1. Sendo assim, será printado o 'u', pois: nome[1]
 // Na última execução, o nosso 'i' vale 8. Sendo assim, será printado o último 'e', pois: nome[8]
-// Após isso, o nosso valor de 'i' irá valer 9. Será perguntado I < 9, ou seja, 9 < 9? A resposta é false, pois o novo não é menor do que nove. Então, o for loop irá acabar.
+// Após isso, o nosso valor de 'i' irá valer 9. Será perguntado I < 9, ou seja, 9 < 9? A resposta é false..
+// pois o novo não é menor do que nove. Então, o for loop irá acabar.
 for (int i = 0; i < 9; i++)
 {
     printf("%c", nome[i]);
