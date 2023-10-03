@@ -202,5 +202,13 @@ for (int i = 0; i < 9; i++)
 }
 ```
 
+Observamos que a nossa condição utiliza o número 9 pois o array possui nove elementos.
+Mas e se não soubessemos quantos elementos há no array? Como podemos descobrir? 
+
+### strlen 
+
+### \0 
+
+### sizeof
 
 
