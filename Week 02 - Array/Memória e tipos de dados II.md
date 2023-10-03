@@ -166,7 +166,7 @@ numeros[2] = 90;
 As "strings" são uma cadeia de caracteres, ou seja, uma palavra, uma frase, um texto e etc. 
 Em muitas linguagens, como por exemplo no Javascript, a "string" é um tipo de dado. Então quanto definimos uma variável que receba um ou mais caracteres, o tipo daquela variável será uma string.
 ```js
-// Exemplo em código Javascript.
+/* exemplo em código Javascript */
 
 // Definindo uma variável que recebe caracteres.
 const nome = "Flora";
@@ -177,7 +177,31 @@ console.log(typeof nome);
 
 Mas em algumas outras linguagens, como no C, a `string` __não__ é um tipo de dado que não existe nativamente. Ela é apenas uma palavra para nos referimos a uma cadeia de caracteres.
 
-No C, o único tipo de dado para caracteres é o "char" (character )
+No C, o único tipo de dado para caracteres é o `char` (character), ele serve exclusivamente para colocarmos __um__ único caracter. 
+E é neste momento onde o array entra. Nos arrays, podemos criar uma coleção de valores de um tipo de dado, sendo assim, basta criar um array que contenha diversos caracteres, e pronto, você terá uma string. 
+
+```c
+/* exemplo em código C */
+
+char nome[] = {'G', 'u', 'i', 'l', 'h', 'e', 'r', 'm', 'e'};
+```
+
+Pronto, agora temos caracteres organizados num array. E claro, eles ainda estão separados, e consequentemente, ainda não são uma STRING, mas eles irão formar uma string.
+Para fazer isso, utilize o `for loop` e itere (percorra) sobre cada elemento (caracter) dentro do array.
+```c
+// Array do tipo 'char'. Só haverá valores do tipo 'char' neste array.
+// Este array contém 9 elementos ao total.
+char nome[] = {'G', 'u', 'i', 'l', 'h', 'e', 'r', 'm', 'e'};
+
+// Na primeira execução do FOR, o nosso 'i' vale 0. Sendo assim, será printado o 'G', pois: nome[0].
+// Na segunda execução, o nosso 'i' vale 1. Sendo assim, será printado o 'u', pois: nome[1]
+// Na última execução, o nosso 'i' vale 8. Sendo assim, será printado o último 'e', pois: nome[8]
+// Após isso, o nosso valor de 'i' irá valer 9. Será perguntado I < 9, ou seja, 9 < 9? A resposta é false, pois o novo não é menor do que nove. Então, o for loop irá acabar.
+for (int i = 0; i < 9; i++)
+{
+    printf("%c", nome[i]);
+}
+```
 
 
 
