@@ -204,10 +204,24 @@ for (int i = 0; i < 9; i++)
 
 Observamos que a nossa condição utiliza o número 9 pois já sabemos que a string possui 9 caracteres..
 Mas e se não soubessemos quantos elementos há na string? Como podemos descobrir?
- 
+> Não se esqueça, uma string, é na verdade, é um array de chars. Sendo assim, o que nós realmente precisamos descobrir é quantos elementos do tipo 'char' existem no array. 
 
 ### strlen 
+O `strlen()` é uma função da biblioteca `string.h`. 
+Esta função retorna a quantidade de elementos que existem em determinado array. 
+E obviamente, o retorno é um número inteiro, sendo assim, vamos definir uma variável do tipo `int` e atribuir a ela esta função. 
+> Como argumento, a função pede o array que desejamos saber quantos elementos há.
+```c
+#include <string.h>
 
+int main(void)
+{
+    char nome[] = {'F', 'l', 'o', 'r', 'a'};
+    int comprimentoArray = strlen(nome);
+
+    printf("%i", comprimentoArray);
+}
+```
 
 ### \0 
 
