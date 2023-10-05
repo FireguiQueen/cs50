@@ -202,8 +202,9 @@ for (int i = 0; i < 9; i++)
 }
 ```
 
-Observamos que a nossa condição utiliza o número 9 pois o array possui nove elementos.
-Mas e se não soubessemos quantos elementos há no array? Como podemos descobrir? 
+Observamos que a nossa condição utiliza o número 9 pois já sabemos que a string possui 9 caracteres..
+Mas e se não soubessemos quantos elementos há na string? Como podemos descobrir?
+ 
 
 ### strlen 
 
