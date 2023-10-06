@@ -107,6 +107,8 @@ Na memória RAM, podemos considerar a seguinte representação:
 </br>
 </br>
 
+_________________________________________________________
+
 # Array
 Um array (também conhecido como vetor) é uma coleção de elementos, onde cada elemento é identificado por um índice. Arrays são fundamentais para tornar nosso código mais dinâmico e eficiente, pois nos permitem armazenar múltiplos valores em uma única variável.
 
