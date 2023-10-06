@@ -232,6 +232,22 @@ int main(void)
 </br>
 
 ### \0 
+O `\0` é um caracter especial usado em C para representar o fim de uma string. Ou seja, o fim de um array do tipo `char`.
+
+Não devemos esquecer que, em C, um caractere na realidade é representado como um valor numérico decimal, que é interpretado e traduzido com base na tabela ASCII. Portanto, é viável declarar uma variável do tipo `int` e, se o seu valor corresponder a um código ASCII válido, podemos usá-la para imprimir um caractere utilizando a função printf(). Tudo o que precisamos fazer é indicar ao printf que o valor (o segundo argumento) deve ser interpretado como um caractere.
+
+```c
+int valorNumerico = 94; 
+printf("%c", valorNumerico); // será printado o caracter '^'. 
+```
+
+Agora, vamos criar um array com dois caracteres e printar ambos.  
+```c
+char digaOi[] = {'o', 'i'};
+
+printf("%c %c", digaOi[0], digaOi[1]); // será printado: oi 
+```
+
 
 
 </br>
