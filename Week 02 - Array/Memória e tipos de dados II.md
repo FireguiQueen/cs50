@@ -208,8 +208,8 @@ Mas e se não soubessemos quantos elementos há na string? Como podemos descobri
 
 ### strlen 
 O `strlen()` é uma função da biblioteca `string.h`. 
-Esta função retorna a quantidade de elementos que existem em determinado array. 
-E obviamente, o retorno é um número inteiro, sendo assim, vamos definir uma variável do tipo `int` e atribuir a ela esta função. 
+Esta função retorna a quantidade de elementos que existem em um determinado array de _caracteres_. 
+E obviamente, o retorno é um número inteiro, sendo assim, precisamos definir uma variável do tipo `int` e atribuir a ela esta função. 
 > Como argumento, a função pede o array que desejamos saber quantos elementos há.
 ```c
 #include <string.h>
