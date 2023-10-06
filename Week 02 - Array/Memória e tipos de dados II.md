@@ -218,6 +218,7 @@ E obviamente, o retorno é um número inteiro, sendo assim, precisamos definir u
 > Como argumento, a função pede o array que desejamos saber quantos elementos há.
 ```c
 #include <string.h>
+#include <stdio.h>
 
 int main(void)
 {
