@@ -231,15 +231,35 @@ int main(void)
 
 </br>
 
+### sizeof
+O `sizeof()` é uma função nativa de C. E ela é bem simples de se utilizar.
+Assim como o `strlen()`, ela também retorna um número do tipo inteiro, então, devemos criar uma variável do tipo `int` para armazenar o valor retornado por esta função.
+> Como argumento desta função, iremos passar qual array desejamos saber a quantidade de elementos.
+```c
+
+```
+
+</br>
+
 ### \0 
 O `\0` é um caracter especial usado em C para representar o fim de uma string. Ou seja, o fim de um array do tipo `char`.
 
-Não devemos esquecer que, em C, um caractere na realidade é representado como um valor numérico decimal, que é interpretado e traduzido com base na tabela ASCII. Portanto, é viável declarar uma variável do tipo `int` e, se o seu valor corresponder a um código ASCII válido, podemos usá-la para imprimir um caractere utilizando a função printf(). Tudo o que precisamos fazer é indicar ao printf que o valor (o segundo argumento) deve ser interpretado como um caractere.
+Não devemos esquecer que, em C, um caractere na realidade é representado como um valor numérico decimal, que é interpretado e traduzido com base na tabela ASCII. Portanto, é viável declarar uma variável do tipo int e, se o seu valor corresponder a um código ASCII válido, podemos usá-la para imprimir um caractere utilizando a função printf(). Basta indicar ao printf que o valor (segundo argumento) deve ser interpretado como um caractere.
 
 ```c
 int valorNumerico = 94; 
 printf("%c", valorNumerico); // será printado o caracter '^'. 
 ```
+
+O mesmo vale no sentido oposto.
+Se colocarmos, por exemplo, char letra = 55;, podemos usar printf() para imprimir o caractere correspondente:
+
+```c
+char letra = 55;
+printf("%c", letra);
+// Isso imprimirá o caractere '7', porque 55 na tabela ASCII representa o caractere '7'
+```
+
 
 Agora, vamos criar um array com dois caracteres e printar ambos.  
 ```c
@@ -250,7 +270,6 @@ printf("%c %c", digaOi[0], digaOi[1]); // será printado: oi
 
 
 
-</br>
 
 ### sizeof
 
