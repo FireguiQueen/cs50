@@ -103,9 +103,10 @@ Na memória RAM, podemos considerar a seguinte representação:
 > Para fins didáticos, utilizamos "1000001" para o CHAR e "101" para o INT. No entanto, é importante notar que existem zeros adicionais, pois o CHAR utiliza 8 bits (oito dígitos binários), enquanto o INT utiliza 32 bits. Portanto, a representação correta seria a seguinte: CHAR - 01000001. INT - 00000000 00000000 00000000 00000101.
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/684515ac-75d6-4860-b4df-5466d97edff7)
 
+</br>
 
-</br>
-</br>
+_________________________________________________________
+
 
 # Array
 Um array (também conhecido como vetor) é uma coleção de elementos, onde cada elemento é identificado por um índice. Arrays são fundamentais para tornar nosso código mais dinâmico e eficiente, pois nos permitem armazenar múltiplos valores em uma única variável.
@@ -117,7 +118,9 @@ Assim como objetos, números e caracteres, os arrays também são um tipo de dad
 2. Ao lado do nome da variável, coloque colchetes duplos []. Dentro dos colchetes, especifique quantos elementos você deseja que o array contenha. Se você não souber quantos elementos ele precisa ter, deixe esse campo em branco (isso permitirá que você coloque infinitos elementos - mas não é uma prática muito recomendada).
 3. Em seguida, use o sinal de atribuição e coloque chaves. É dentro das chaves que nossos elementos serão armazenados. Os elementos do array serão separados por vírgulas dentro das chaves.
 
-#### Acessando valores
+</br>
+
+### Acessando valores
 Para acessar um valor específico em um array, você precisa fornecer o nome da variável que representa o array, seguido por colchetes [] e o índice do elemento que deseja acessar. 
 > Os índices são números inteiros que indicam a posição do elemento no array. É importante lembrar que os índices começam em 0, ou seja, o primeiro elemento de um array tem o índice 0, o segundo tem o índice 1, o terceiro tem o índice 2, e assim por diante. 
  
@@ -206,6 +209,8 @@ Observamos que a nossa condição utiliza o número 9 pois já sabemos que a str
 Mas e se não soubessemos quantos elementos há na string? Como podemos descobrir?
 > Não se esqueça, uma string, é na verdade, é um array de chars. Sendo assim, o que nós realmente precisamos descobrir é quantos elementos do tipo 'char' existem no array. 
 
+</br>
+
 ### strlen 
 O `strlen()` é uma função da biblioteca `string.h`. 
 Esta função retorna a quantidade de elementos que existem em um determinado array de _caracteres_. 
@@ -223,7 +228,12 @@ int main(void)
 }
 ```
 
+</br>
+
 ### \0 
+
+
+</br>
 
 ### sizeof
 
