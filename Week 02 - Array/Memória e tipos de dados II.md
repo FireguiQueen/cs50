@@ -208,6 +208,8 @@ Observamos que a nossa condição utiliza o número 9 pois já sabemos que a str
 Mas e se não soubessemos quantos elementos há na string? Como podemos descobrir?
 > Não se esqueça, uma string, é na verdade, é um array de chars. Sendo assim, o que nós realmente precisamos descobrir é quantos elementos do tipo 'char' existem no array. 
 
+</br>
+
 ### strlen 
 O `strlen()` é uma função da biblioteca `string.h`. 
 Esta função retorna a quantidade de elementos que existem em um determinado array de _caracteres_. 
@@ -225,7 +227,12 @@ int main(void)
 }
 ```
 
+</br>
+
 ### \0 
+
+
+</br>
 
 ### sizeof
 
