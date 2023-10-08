@@ -1,7 +1,7 @@
 # Ciência da Computação 
-A Ciência da Computação é a ciência que desenvolve soluções por meio de máquinas. Podemos pensar que o objetivo principal éautomatizar a resolução de problemas do mundo real, com o processo de coletar informações (detalhes sobre nosso problema) e gerar resultados (a solução para nosso problema), e tudo isso é realizado por uma máquina.
+A Ciência da Computação é a ciência que desenvolve soluções por meio de máquinas. Podemos pensar que o objetivo principal é automatizar a resolução de problemas do mundo real, com o processo de coletar informações (detalhes sobre nosso problema) e gerar resultados (a solução para nosso problema), e tudo isso é realizado por uma máquina.
 
-Input é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um output, ou seja, uma resposta. E todas essas etapas é conhecida como a "ciência da computação".
+"Input" é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um "output", ou seja, uma resposta. E todas essas etapas são conhecidas como a "ciência da computação".
 
 ![image](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
 
