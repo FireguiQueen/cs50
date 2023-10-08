@@ -13,6 +13,8 @@ Um exemplo claro de interface é quando você lê este texto em seu computador, 
 
 Além disso, muitos programas, como calculadoras, também oferecem interfaces para que você possa usá-los. Isso geralmente inclui botões numéricos, operadores e outras opções de interação. Essas interfaces são projetadas para tornar a utilização do programa mais fácil e eficiente.
 
+</br>
+
 #### GUI (graphic user interface)
 A GUI é uma interface visual que utiliza elementos gráficos, como botões, ícones e janelas, para permitir a interação do usuário com o sistema. Essa abordagem é altamente intuitiva e amplamente adotada em aplicativos, jogos e sistemas operacionais, como o Windows e o macOS. Na GUI, os usuários podem clicar, arrastar e soltar elementos na tela para executar ações, tornando-a acessível até mesmo para pessoas sem conhecimentos técnicos profundos.
 
