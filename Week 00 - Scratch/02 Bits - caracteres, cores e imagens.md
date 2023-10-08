@@ -16,8 +16,13 @@ Além disso, muitos programas, como calculadoras, também oferecem interfaces pa
 #### GUI (graphic user interface)
 A GUI é uma interface visual que utiliza elementos gráficos, como botões, ícones e janelas, para permitir a interação do usuário com o sistema. Essa abordagem é altamente intuitiva e amplamente adotada em aplicativos, jogos e sistemas operacionais, como o Windows e o macOS. Na GUI, os usuários podem clicar, arrastar e soltar elementos na tela para executar ações, tornando-a acessível até mesmo para pessoas sem conhecimentos técnicos profundos.
 
+![image](https://github.com/FireguiQueen/CS50/assets/98475125/d21179e6-7102-4362-938e-0931437ce526)
+
+
 #### CLI (comand line interface)
 A CLI, por outro lado, é uma interface baseada em texto, onde os usuários interagem com o sistema através da digitação de comandos específicos em um terminal. Embora possa parecer menos amigável à primeira vista, a CLI oferece um alto nível de controle e eficiência para usuários avançados e desenvolvedores. Ela é frequentemente usada em ambientes de programação, administração de servidores e tarefas automatizadas, permitindo que os usuários executem comandos precisos e personalizados.
+
+![image](https://github.com/FireguiQueen/CS50/assets/98475125/5bb084b0-91de-4d43-a6bc-ac010c1eee21)
 
 
 
