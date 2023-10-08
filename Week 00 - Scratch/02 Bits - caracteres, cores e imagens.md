@@ -13,11 +13,13 @@ Um exemplo claro de interface é quando você lê este texto em seu computador, 
 
 Além disso, muitos programas, como calculadoras, também oferecem interfaces para que você possa usá-los. Isso geralmente inclui botões numéricos, operadores e outras opções de interação. Essas interfaces são projetadas para tornar a utilização do programa mais fácil e eficiente.
 
-#### GUI 
+#### GUI (graphic user interface)
 A GUI é uma interface visual que utiliza elementos gráficos, como botões, ícones e janelas, para permitir a interação do usuário com o sistema. Essa abordagem é altamente intuitiva e amplamente adotada em aplicativos, jogos e sistemas operacionais, como o Windows e o macOS. Na GUI, os usuários podem clicar, arrastar e soltar elementos na tela para executar ações, tornando-a acessível até mesmo para pessoas sem conhecimentos técnicos profundos.
 
-#### CLI
+#### CLI (comand line interface)
 A CLI, por outro lado, é uma interface baseada em texto, onde os usuários interagem com o sistema através da digitação de comandos específicos em um terminal. Embora possa parecer menos amigável à primeira vista, a CLI oferece um alto nível de controle e eficiência para usuários avançados e desenvolvedores. Ela é frequentemente usada em ambientes de programação, administração de servidores e tarefas automatizadas, permitindo que os usuários executem comandos precisos e personalizados.
+
+
 
 ### Como os computadores são capazes de apresentar caracteres (alfabéticos, numéricos..) em interfaces?
 A humanidade teve uma ideia muito simples e útil nos primórdios da computação ao tentar representar caracteres. Foi pensado: Vamos atribuir caracteres aos números em binário. Por exemplo, a sequência de bits '1000001' forma o número 65; portanto, vamos associar a letra "A" a essa sequência de bits. 
