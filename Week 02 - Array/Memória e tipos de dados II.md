@@ -247,11 +247,22 @@ int quantidadeDeBytes = sizeof(4500);
 printf("%i", quantidadeDeBytes);
 ```
 
-Já o número `2200000000` (dois bilhões e 200 milhões) é do tipo `long (longer integer)`
-
-> Assim como o `strlen()`, ela também retorna um número do tipo inteiro, então, devemos criar uma variável do tipo `int` para armazenar o valor retornado por esta função.
+Já o número `2200000000` (dois bilhões e 200 milhões) é do tipo `long (longer integer)`, e este tipo de dado ocupa 8 bytes.
+Por exemplo, o número `4500` é um valor do tipo `int (integer)`, ou seja, ele ocupa 4 bytes. 
 ```c
+int quantidadeDeBytes = sizeof(2200000000);
 
+// Será retornado 8. 
+printf("%i", quantidadeDeBytes);
+```
+
+Se usarmos o `sizeof()` num array, será retornado a quantidade total de bytes encontrados neste array. 
+```c
+int numeros[] = {50, 90, 40, 70, 85};
+int bytes = sizeof(numeros);
+
+// Será retornado 20. Pois cada elemento naquele array ocupa 4 bytes. 4 bytes x 5 (elementos) = 20 bytes.
+printf("%i", bytes);
 ```
 
 </br>
