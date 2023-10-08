@@ -11,7 +11,7 @@ Contudo, nos dias de hoje, os computadores desempenham uma vasta gama de funçõ
 Uma interface é um conceito bastante amplo, mas, em geral, podemos pensar que ela é uma forma de comunicação entre a máquina e o ser humano.
 Um exemplo claro de interface é quando você lê este texto em seu computador, através de um navegador. O navegador apresenta uma interface gráfica amigável que simplifica a navegação na web. Porém, por trás dessa interface, estão linhas de código complexas que executam todas as ações. A interface serve como um canal de comunicação que permite que você interaja com essas linhas de código de maneira intuitiva.
 
-Além disso, muitos programas, como calculadoras, também oferecem interfaces para que você possa usá-los. Isso geralmente inclui botões numéricos, operadores e outras opções de interação. Essas interfaces são projetadas para tornar a utilização do programa mais fácil e eficiente.
+Além disso, muitos programas, como calculadoras, também oferecem interfaces para que você possa usá-la. Por exemplo, a interface de uma calculadora geralmente irá incluir botões numéricos, operadores e outras opções de interação. Essas interfaces são projetadas para tornar a utilização do programa mais fácil e eficiente.
 
 </br>
 
