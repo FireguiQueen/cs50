@@ -246,8 +246,7 @@ int quantidadeDeBytes = sizeof(4500);
 printf("%i", quantidadeDeBytes);
 ```
 
-Já o número `2200000000` (dois bilhões e 200 milhões) é do tipo `long (longer integer)`, e este tipo de dado ocupa 8 bytes.
-Por exemplo, o número `4500` é um valor do tipo `int (integer)`, ou seja, ele ocupa 4 bytes. 
+Por outro lado, o número `2200000000` (dois bilhões e duzentos milhões) é do tipo long (long integer), e esse tipo de dado ocupa 8 bytes.
 ```c
 int quantidadeDeBytes = sizeof(2200000000);
 
@@ -255,12 +254,13 @@ int quantidadeDeBytes = sizeof(2200000000);
 printf("%i", quantidadeDeBytes);
 ```
 
-Se usarmos o `sizeof()` num array, será retornado a quantidade total de bytes encontrados neste array. 
+
+Se utilizarmos o `sizeof()` em um array, será retornado o total de bytes ocupados por esse array.
 ```c
 int numeros[] = {50, 90, 40, 70, 85};
 int bytes = sizeof(numeros);
 
-// Será retornado 20. Pois cada elemento naquele array ocupa 4 bytes. 4 bytes x 5 (elementos) = 20 bytes.
+// Será retornado 20, porque cada elemento no array ocupa 4 bytes. 4 bytes x 5 (elementos) = 20 bytes.
 printf("%i", bytes);
 ```
 
