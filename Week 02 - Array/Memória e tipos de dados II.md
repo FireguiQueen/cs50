@@ -209,7 +209,10 @@ Observamos que a nossa condição utiliza o número 9 pois já sabemos que a str
 Mas e se não soubessemos quantos elementos há na string? Como podemos descobrir?
 > Não se esqueça, uma string, é na verdade, é um array de chars. Sendo assim, o que nós realmente precisamos descobrir é quantos elementos do tipo 'char' existem no array. 
 
+
 </br>
+
+
 
 ### strlen 
 O `strlen()` é uma função da biblioteca `string.h`. 
@@ -231,6 +234,8 @@ int main(void)
 
 </br>
 
+
+
 ### sizeof
 O `sizeof()` é uma função nativa de C. E ela é bem simples de se utilizar.
 Assim como o `strlen()`, ela também retorna um número do tipo inteiro, então, devemos criar uma variável do tipo `int` para armazenar o valor retornado por esta função.
@@ -240,6 +245,8 @@ Assim como o `strlen()`, ela também retorna um número do tipo inteiro, então,
 ```
 
 </br>
+
+
 
 ### \0 
 O `\0` é um caracter especial usado em C para representar o fim de uma string. Ou seja, o fim de um array do tipo `char`.
@@ -269,8 +276,5 @@ printf("%c %c", digaOi[0], digaOi[1]); // será printado: oi
 ```
 
 
-
-
-### sizeof
 
 
