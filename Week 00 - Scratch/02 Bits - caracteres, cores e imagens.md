@@ -7,7 +7,19 @@ ________________________________________________
 Antigamente a principal função dos computadores era computar, ou seja, atuar como calculadoras. Eles foram originalmente criados para facilitar cálculos matemáticos demorados ou complexos para os seres humanos.
 Contudo, nos dias de hoje, os computadores desempenham uma vasta gama de funções. As atividades que realizamos neles, como assistir a vídeos, jogar e realizar transações bancárias, são muito mais complexas do que simples cálculos. Naturalmente, todas essas ações envolvem interações com caracteres, que são essenciais nas interfaces dos softwares. E isso não se aplica apenas aos utilizadores finais, mas também aos desenvolvedores, que necessitam manipular caracteres de várias maneiras ao criar os seus softwares.
 
-### Surge uma pergunta: _como os computadores são capazes de apresentar caracteres (alfabéticos, numéricos..) em interfaces?_
+### O Conceito de Interfaces 
+Uma interface é um conceito bastante amplo, mas, em geral, podemos pensar que ela é uma forma de comunicação entre a máquina e o ser humano.
+Um exemplo claro de interface é quando você lê este texto em seu computador, através de um navegador. O navegador apresenta uma interface gráfica amigável que simplifica a navegação na web. Porém, por trás dessa interface, estão linhas de código complexas que executam todas as ações. A interface serve como um canal de comunicação que permite que você interaja com essas linhas de código de maneira intuitiva.
+
+Além disso, muitos programas, como calculadoras, também oferecem interfaces para que você possa usá-los. Isso geralmente inclui botões numéricos, operadores e outras opções de interação. Essas interfaces são projetadas para tornar a utilização do programa mais fácil e eficiente.
+
+#### GUI 
+A GUI é uma interface visual que utiliza elementos gráficos, como botões, ícones e janelas, para permitir a interação do usuário com o sistema. Essa abordagem é altamente intuitiva e amplamente adotada em aplicativos, jogos e sistemas operacionais, como o Windows e o macOS. Na GUI, os usuários podem clicar, arrastar e soltar elementos na tela para executar ações, tornando-a acessível até mesmo para pessoas sem conhecimentos técnicos profundos.
+
+#### CLI
+A CLI, por outro lado, é uma interface baseada em texto, onde os usuários interagem com o sistema através da digitação de comandos específicos em um terminal. Embora possa parecer menos amigável à primeira vista, a CLI oferece um alto nível de controle e eficiência para usuários avançados e desenvolvedores. Ela é frequentemente usada em ambientes de programação, administração de servidores e tarefas automatizadas, permitindo que os usuários executem comandos precisos e personalizados.
+
+### Como os computadores são capazes de apresentar caracteres (alfabéticos, numéricos..) em interfaces?
 A humanidade teve uma ideia muito simples e útil nos primórdios da computação ao tentar representar caracteres. Foi pensado: Vamos atribuir caracteres aos números em binário. Por exemplo, a sequência de bits '1000001' forma o número 65; portanto, vamos associar a letra "A" a essa sequência de bits. 
 Para isso, foi criado o ASCII (American Standard Code for Information Interchange), um sistema utilizado para representar letras, algarismos, sinais de pontuação e caracteres de controle por meio de sequências de bits.
 
