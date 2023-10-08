@@ -209,7 +209,6 @@ Observamos que a nossa condição utiliza o número 9 pois já sabemos que a str
 Mas e se não soubessemos quantos elementos há na string? Como podemos descobrir?
 > Não se esqueça, uma string, é na verdade, é um array de chars. Sendo assim, o que nós realmente precisamos descobrir é quantos elementos do tipo 'char' existem no array. 
 
-
 </br>
 
 
@@ -237,9 +236,20 @@ int main(void)
 
 
 ### sizeof
-O `sizeof()` é uma função nativa de C. E ela é bem simples de se utilizar.
-Assim como o `strlen()`, ela também retorna um número do tipo inteiro, então, devemos criar uma variável do tipo `int` para armazenar o valor retornado por esta função.
-> Como argumento desta função, iremos passar qual array desejamos saber a quantidade de elementos.
+O `sizeof()` é uma função nativa de C. E, na verdade, o sizeof não é função específica para saber a quantidade de elementos de um determinado array.
+A funçao `sizeof()` foi criada para saber a _quantidade_ de __bytes__ de determinado tipo de dado.
+
+Por exemplo, o número `4500` é um valor do tipo `int (integer)`, ou seja, ele ocupa 4 bytes. 
+```c
+int quantidadeDeBytes = sizeof(4500);
+
+// Será retornado 4. 
+printf("%i", quantidadeDeBytes);
+```
+
+Já o número `2200000000` (dois bilhões e 200 milhões) é do tipo `long (longer integer)`
+
+> Assim como o `strlen()`, ela também retorna um número do tipo inteiro, então, devemos criar uma variável do tipo `int` para armazenar o valor retornado por esta função.
 ```c
 
 ```
