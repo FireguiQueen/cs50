@@ -22,7 +22,7 @@ A GUI é uma interface visual que utiliza elementos gráficos, como botões, íc
 
 </br>
 
-#### CLI (comand line interface)
+#### CLI (command line interface)
 A CLI, por outro lado, é uma interface baseada em texto, onde os usuários interagem com o sistema através da digitação de comandos específicos em um terminal. Embora possa parecer menos amigável à primeira vista, a CLI oferece um alto nível de controle e eficiência para usuários avançados e desenvolvedores. Ela é frequentemente usada em ambientes de programação, administração de servidores e tarefas automatizadas, permitindo que os usuários executem comandos precisos e personalizados.
 
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/5bb084b0-91de-4d43-a6bc-ac010c1eee21)
