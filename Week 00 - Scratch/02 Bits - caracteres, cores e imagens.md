@@ -31,10 +31,7 @@ Isso ocorre porque por trás dos caracteres estão os BITS. Uma sequência de BI
 Uma forma de ver que os caracteres são bits é abrir Bloco de Notas e digitar o número '1' (ou qualquer outro caracter), salve e feche o arquivo. Agora, localize o arquivo, clique com o botão direito e selecione "Propriedades" para verificar o tamanho do arquivo. Esse tamanho será exatamente a quantidade de bits contidos nele.
 Cada caractere do conjunto ASCII é representado por uma sequência de 8 bits. Portanto, quando inserimos o número '1' no Bloco de Notas, por trás dos panos, o que realmente é armazenado são 8 bits (oito dígitos binários). Ao verificar o tamanho do arquivo, constataremos que ele ocupa 8 bits (1 byte).
 
-<details>
-    <summary>Clique aqui para ver a imagem</summary>
-    <img src="https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609"/>
-</details>
+![bitsAndChars](https://github.com/FireguiQueen/CC50/assets/98475125/c56fffea-5495-441a-ad15-965c8ad4c609)
 
 
 ### O grande problema do ASCII
