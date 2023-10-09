@@ -236,7 +236,7 @@ int main(void)
 
 
 ### sizeof
-A função `sizeof()` é uma função nativa em C. No entanto, `sizeof` não é usada especificamente para determinar a quantidade de elementos em um array. Ela é, na verdade, utilizada para determinar a quantidade de **bytes** ocupados por um determinado tipo de dado.
+A função `sizeof()` é uma função nativa do C. No entanto, `sizeof` não é usada especificamente para determinar a quantidade de elementos em um array. Ela é, na verdade, utilizada para determinar a quantidade de **bytes** ocupados por um determinado tipo de dado.
 
 Por exemplo, o número `4500` é do tipo `int (integer)`, o que significa que ele ocupa 4 bytes.
 ```c
@@ -256,13 +256,23 @@ printf("%i", quantidadeDeBytes);
 
 
 Se utilizarmos o `sizeof()` em um array, será retornado o total de bytes ocupados por esse array.
+
+> Será retornado 0. Cada elemento ocupa 4 bytes (já que o array é do tipo INT), no entanto, não há elementos.
+```c
+int numeros0[] = {};
+int bytes0 = sizeof(numeros0);
+
+printf("%i", bytes);
+```
+
+> Será retornado 20, porque cada elemento no array ocupa 4 bytes. 4 bytes x 5 (elementos) = 20 bytes.
 ```c
 int numeros[] = {50, 90, 40, 70, 85};
 int bytes = sizeof(numeros);
 
-// Será retornado 20, porque cada elemento no array ocupa 4 bytes. 4 bytes x 5 (elementos) = 20 bytes.
 printf("%i", bytes);
 ```
+
 
 </br>
 
