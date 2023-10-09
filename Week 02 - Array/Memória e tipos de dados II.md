@@ -1,6 +1,5 @@
 # Tipos de dados 
-Cada tipo de dado possui um tamanho específico na memória, embora seja importante destacar que esse tamanho pode variar entre diferentes sistemas de computadores.
-No entanto, em geral, pode-se considerar o seguinte:
+Cada tipo de dado  ocupa uma quantidade específica de memória, embora seja importante ressaltar que esses tamanhos podem variar entre diferentes sistemas de computadores. No entanto, em geral, podemos considerar as seguintes alocações de memória:
 - `bool`    _1 byte_
 - `char`    _1 byte_
 - `double`  _8 bytes_
@@ -9,17 +8,19 @@ No entanto, em geral, pode-se considerar o seguinte:
 - `long`    _8 bytes_
 - ..
 
-Nas linguagens compiladas, o código-fonte é transformado em Assembly e, finalmente, em código de máquina (binário). No binário, há duas maneiras de representar o número 5: como um caractere ('5') ou como um número inteiro (5). Portanto, é de extrema importância especificar o tipo de dado do nosso valor.
-> E aqui que a palavra-chave "int" entra. Já que foi definido que estamos trabalhando com números inteiros, o computador compreende que este '5' precisa virar um binário referente ao número em questão.
+Nas linguagens de programação compiladas, como C e C++, quando escrevemos código-fonte, esse código passa por um processo de tradução. Primeiro, ele é convertido em uma sequência de instruções em linguagem de montagem (Assembly) e, em seguida, é transformado em código de máquina (binário) que pode ser executado diretamente pelo computador.
+
+O tipo de dado desempenha um papel crucial nesse processo. Imagine que temos o número 5 no nosso código-fonte. O computador precisa entender como interpretar esse número no mundo binário. Se nosso objetivo é tratá-lo como um caractere, o binário correspondente precisa ser 0110101. No entanto, se pretendemos usá-lo como um valor em cálculos ou condições, então ele deve ser representado como o binário 101.
+
+É aqui que as palavras-chave, como "int" (para números inteiros) e "char" (para caracteres), entram em cena. Quando usamos "int", estamos informando ao computador que estamos lidando com números inteiros. Portanto, o computador compreende que o '5' precisa ser convertido em sua representação binária correspondente, que é 101.
+
 ```c
-int num = 5;  // na verdade, a variável 'num' irá receber o binário 101
+int num = 5;  // A variável 'num' recebe o binário 101
 ```
 
-
-Mas o comportamento seria um _pouco diferente_ caso mudássemos o tipo de dado da variável. Usando o __char__ (tipo de dado para caracteres), o computador compreende que aquele '5' precisa virar um binário referente à tabela ASCII. 
-> Na tabela ASCII, o caracter '5' é o binário 110101.
+No entanto, se mudarmos o tipo de dado para "char", estamos indicando que queremos trabalhar com caracteres. Nesse caso, o '5' é interpretado de acordo com a tabela ASCII, onde o caracter '5' é representado pelo binário 110101.
 ```c
-char num = 5; // agora, a variável 'num' irá receber o binário 110101. 
+char num = 5; // A variável 'num' recebe o binário 110101
 ```
 
 
