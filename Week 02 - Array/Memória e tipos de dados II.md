@@ -1,5 +1,5 @@
 # Tipos de dados 
-Cada tipo de dado  ocupa uma quantidade específica de memória, embora seja importante ressaltar que esses tamanhos podem variar entre diferentes sistemas de computadores. No entanto, em geral, podemos considerar as seguintes alocações de memória:
+Cada tipo de dado  ocupa uma quantidade específica de memória, embora seja importante ressaltar que esses tamanhos podem variar entre diferentes sistemas de computadores. Mas em geral, podemos considerar as seguintes alocações de memória:
 - `bool`    _1 byte_
 - `char`    _1 byte_
 - `double`  _8 bytes_
