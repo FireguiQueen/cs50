@@ -1,5 +1,5 @@
 # Tipos de dados 
-Cada tipo de dado  ocupa uma quantidade específica de memória, embora seja importante ressaltar que esses tamanhos podem variar entre diferentes sistemas de computadores. No entanto, em geral, podemos considerar as seguintes alocações de memória:
+Cada tipo de dado  ocupa uma quantidade específica de memória, embora seja importante ressaltar que esses tamanhos podem variar entre diferentes sistemas de computadores. Mas em geral, podemos considerar as seguintes alocações de memória:
 - `bool`    _1 byte_
 - `char`    _1 byte_
 - `double`  _8 bytes_
@@ -8,6 +8,7 @@ Cada tipo de dado  ocupa uma quantidade específica de memória, embora seja imp
 - `long`    _8 bytes_
 - ..
 
+### Importância
 Nas linguagens de programação compiladas, como C e C++, quando escrevemos código-fonte, esse código passa por um processo de tradução. Primeiro, ele é convertido em uma sequência de instruções em linguagem de montagem (Assembly) e, em seguida, é transformado em código de máquina (binário) que pode ser executado diretamente pelo computador.
 
 O tipo de dado desempenha um papel crucial nesse processo. Imagine que temos o número 5 no nosso código-fonte. O computador precisa entender como interpretar esse número no mundo binário. Se nosso objetivo é tratá-lo como um caractere, o binário correspondente precisa ser 0110101. No entanto, se pretendemos usá-lo como um valor em cálculos ou condições, então ele deve ser representado como o binário 101.
