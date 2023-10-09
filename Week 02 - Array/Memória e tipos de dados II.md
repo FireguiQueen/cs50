@@ -230,9 +230,10 @@ Mas e se não soubessemos quantos elementos há na string? Como podemos descobri
 
 ### strlen 
 O `strlen()` é uma função da biblioteca `string.h`. 
-Esta função retorna a quantidade de elementos que existem em um determinado array de _caracteres_. 
-E obviamente, o retorno é um número inteiro, sendo assim, precisamos definir uma variável do tipo `int` e atribuir a ela esta função. 
+Esta função __retorna__, através do `return`, a quantidade de elementos que existem em um determinado array de _caracteres_. 
+E claro, o retorno é um número inteiro, sendo assim, precisamos definir uma variável do tipo `int` e atribuir a ela esta função. 
 > Como argumento, a função pede o array que desejamos saber quantos elementos há.
+
 ```c
 #include <string.h>
 #include <stdio.h>
@@ -254,7 +255,7 @@ int main(void)
 ### sizeof
 A função `sizeof()` é uma função nativa do C. No entanto, `sizeof` não é usada especificamente para determinar a quantidade de elementos em um array. Ela é, na verdade, utilizada para determinar a quantidade de **bytes** ocupados por um determinado tipo de dado.
 
-Por exemplo, o número `4500` é do tipo `int (integer)`, o que significa que ele ocupa 4 bytes.
+Por exemplo, o número `4500` é do tipo `int (integer)`, o que significa que, por padrão, ele ocupa 4 bytes.
 ```c
 int quantidadeDeBytes = sizeof(4500);
 
@@ -262,7 +263,7 @@ int quantidadeDeBytes = sizeof(4500);
 printf("%i", quantidadeDeBytes);
 ```
 
-Por outro lado, o número `2200000000` (dois bilhões e duzentos milhões) é do tipo long (long integer), e esse tipo de dado ocupa 8 bytes.
+Por outro lado, o número `2200000000` (dois bilhões e duzentos milhões) é do tipo `long (long integer)`, e esse tipo de dado ocupa 8 bytes.
 ```c
 int quantidadeDeBytes = sizeof(2200000000);
 
@@ -274,7 +275,7 @@ printf("%i", quantidadeDeBytes);
 
 Se utilizarmos o `sizeof()` em um array, será retornado o total de bytes ocupados por esse array.
 
-##### Será retornado 0. Cada elemento ocupa 4 bytes, no entanto, não há elementos.
+##### Será retornado __0 bytes__. Cada elemento ocupa 4 bytes, no entanto, não há elementos.
 ```c
 int numeros[] = {};
 int bytes = sizeof(numeros);
@@ -282,7 +283,16 @@ int bytes = sizeof(numeros);
 printf("%i", bytes);
 ```
 
-##### Será retornado 20, porque cada elemento no array ocupa 4 bytes. 4 bytes x 5 (elementos) = 20 bytes.
+##### Será retornado __40 bytes__. Mesmo que ainda não tenha sido definido quais elementos iremos armazenar, nós definimos (utilizando os colchetes) quantos elementos o array irá conter.
+```c
+int numeros[10];
+int bytes = sizeof(numeros);
+
+printf("%i", bytes);
+```
+
+
+##### Será retornado __20 bytes__, porque cada elemento no array ocupa 4 bytes.
 ```c
 int numeros[] = {50, 90, 40, 70, 85};
 int bytes = sizeof(numeros);
