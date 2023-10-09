@@ -274,6 +274,16 @@ int bytes = sizeof(numeros);
 printf("%i", bytes);
 ```
 
+Com um pouco de matemática, já podemos perceber que é __possível__ utilizar o `sizeof()` para descobrir a quantidade de elementos de um array. 
+Se temos um array de inteiros _(int array[])_, sabemos que cada elemento dele irá ocupar 4 bytes. 
+Sendo assim, basta pegar o retorno da função `sizeof()` e dividir o resultado por quatro. 
+
+```c
+int numeros[] = {20, 10, 25, 99, 76, 67, 34};
+
+// o sizeof() irá retornar 28 bytes (cada elemento ocupa 4 bytes).
+int length = sizeof(numeros) / 4; // irá retornar a quantidade exata de elementos no array.
+```
 
 </br>
 
