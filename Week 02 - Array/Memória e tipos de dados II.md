@@ -177,6 +177,8 @@ numeros[2] = 90;
 
 </br>
 
+
+
 ## Arrays e strings
 As "strings" são uma sequência de caracteres, ou seja, uma palavra, uma frase, um texto, etc. Em muitas linguagens, como por exemplo o Javascript, a "string" é um tipo de dado. Portanto, quando definimos uma variável que recebe um ou mais caracteres, o tipo daquela variável será uma string. 
 ```js
@@ -225,6 +227,7 @@ Mas e se não soubessemos quantos elementos há na string? Como podemos descobri
 
 
 
+
 ### strlen 
 O `strlen()` é uma função da biblioteca `string.h`. 
 Esta função retorna a quantidade de elementos que existem em um determinado array de _caracteres_. 
@@ -244,6 +247,7 @@ int main(void)
 ```
 
 </br>
+
 
 
 
@@ -303,10 +307,8 @@ long numeros[] = {20, 10, 25, 99, 76, 67, 34};
 int length = sizeof(numeros) / sizeof(numeros[0]); 
 ```
 
-
-
-
 </br>
+
 
 
 
