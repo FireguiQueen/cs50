@@ -254,6 +254,7 @@ int quantidadeDeBytes = sizeof(2200000000);
 printf("%i", quantidadeDeBytes);
 ```
 
+</br>
 
 Se utilizarmos o `sizeof()` em um array, será retornado o total de bytes ocupados por esse array.
 
