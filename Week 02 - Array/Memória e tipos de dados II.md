@@ -253,17 +253,19 @@ int main(void)
 
 
 ### sizeof
-A função `sizeof()` é uma função nativa do C. No entanto, `sizeof` não é usada especificamente para determinar a quantidade de elementos em um array. Ela é, na verdade, utilizada para determinar a quantidade de **bytes** ocupados por um determinado tipo de dado.
+A função `sizeof()` é uma função nativa da linguagem de programação C. No entanto, seu propósito não é determinar a quantidade de elementos em um array, mas sim a quantidade de _bytes ocupados_ por um determinado tipo de dado (arrays, chars, int..).
 
-Por exemplo, o número `4500` é do tipo `int (integer)`, o que significa que, por padrão, ele ocupa 4 bytes.
+Para entender isso melhor, vejamos alguns exemplos:
+
+1. O número `4500` por padrão é do tipo `int (integer)`. Podemos ver quantos bytes este valor está ocupando para ser armazenado
 ```c
-int quantidadeDeBytes = sizeof(4500);
+int      = sizeof(4500);
 
 // Será retornado 4. 
 printf("%i", quantidadeDeBytes);
 ```
 
-Por outro lado, o número `2200000000` (dois bilhões e duzentos milhões) é do tipo `long (long integer)`, e esse tipo de dado ocupa 8 bytes.
+2. O número `2200000000` (dois bilhões e duzentos milhões) é do tipo `long (long integer)`, e esse tipo de dado ocupa 8 bytes. 
 ```c
 int quantidadeDeBytes = sizeof(2200000000);
 
@@ -273,15 +275,16 @@ printf("%i", quantidadeDeBytes);
 
 </br>
 
-Se utilizarmos o `sizeof()` em um array, será retornado o total de bytes ocupados por esse array.
+Quando utilizamos um array como argumento para a função sizeof(), os bytes retornados se referem ao tamanho total da memória ocupada por esse array. Alguns exemplos são:
 
 ##### Será retornado __0 bytes__. Cada elemento ocupa 4 bytes, no entanto, não há elementos.
 ```c
-int numeros[] = {};
+int numeros[] = { };
 int bytes = sizeof(numeros);
 
 printf("%i", bytes);
 ```
+
 
 ##### Será retornado __40 bytes__. Mesmo que ainda não tenha sido definido quais elementos iremos armazenar, nós definimos (utilizando os colchetes) quantos elementos o array irá conter.
 ```c
