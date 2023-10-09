@@ -258,10 +258,10 @@ printf("%i", quantidadeDeBytes);
 
 Se utilizarmos o `sizeof()` em um array, será retornado o total de bytes ocupados por esse array.
 
-##### Será retornado 0. Cada elemento ocupa 4 bytes (já que o array é do tipo INT), no entanto, não há elementos.
+##### Será retornado 0. Cada elemento ocupa 4 bytes, no entanto, não há elementos.
 ```c
-int numeros0[] = {};
-int bytes0 = sizeof(numeros0);
+int numeros[] = {};
+int bytes = sizeof(numeros);
 
 printf("%i", bytes);
 ```
