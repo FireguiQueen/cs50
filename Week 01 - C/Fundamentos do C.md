@@ -111,7 +111,7 @@ Você já se perguntou o porquê dos caracteres aleatórios no seu bloco de nota
 
 ![image](https://github.com/FireguiQueen/CS50/assets/98475125/29a6caee-f0af-4d16-ae14-664c1e56ba77)
 
-Antes de responder a esta pergunta, vamos pensar na compilação. Após criar o seu arquivo em C, você irá compilá-lo, pois todo aquele código precisa ser transformado em zeros e uns para a máquina poder entender. Após a compilação, será criado um arquivo executável (um arquivo que contém diversos zeros e uns). Sendo assim, caso você tente abri-lo pelo bloco de notas, vários caracteres "aleatórios" serão mostrados. Isso ocorre porque o bloco de notas é um software para fazer a leitura de bits ou transformar caracteres em bits para o computador. Todos aqueles zeros e uns no arquivo executável são lidos pelo bloco de notas usando a tabela ASCII.
+Antes de responder a esta pergunta, vamos pensar na compilação. Após criar o seu arquivo em C, você irá compilá-lo, pois todo aquele código precisa ser transformado em zeros e uns para a máquina poder entender. Após a compilação, será criado um arquivo executável (um arquivo que contém diversos zeros e uns). Sendo assim, caso você tente abri-lo pelo bloco de notas, vários caracteres "aleatórios" serão mostrados. Isso ocorre porque o bloco de notas é um software para fazer a leitura de bits e transformar-los em caracteres. Todos aqueles zeros e uns no arquivo executável são lidos pelo bloco de notas usando a tabela ASCII.
 
 </br>
 </br>
