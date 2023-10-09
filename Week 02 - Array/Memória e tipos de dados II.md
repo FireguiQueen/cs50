@@ -227,7 +227,6 @@ Mas e se não soubessemos quantos elementos há na string? Como podemos descobri
 
 
 
-
 ### strlen 
 O `strlen()` é uma função da biblioteca `string.h`. 
 Esta função __retorna__, através do `return`, a quantidade de elementos que existem em um determinado array de _caracteres_. 
@@ -248,7 +247,7 @@ int main(void)
 ```
 
 </br>
-
+</br>
 
 
 
@@ -264,6 +263,8 @@ int      = sizeof(4500);
 // Será retornado 4. 
 printf("%i", quantidadeDeBytes);
 ```
+
+</br>
 
 2. O número `2200000000` (dois bilhões e duzentos milhões) é do tipo `long (long integer)`, e esse tipo de dado ocupa 8 bytes. 
 ```c
@@ -285,6 +286,8 @@ int bytes = sizeof(numeros);
 printf("%i", bytes);
 ```
 
+</br>
+
 
 2. Será retornado __40 bytes__. Mesmo que ainda não tenha sido definido quais elementos iremos armazenar, nós definimos (utilizando os colchetes) quantos elementos o array irá conter.
 ```c
@@ -293,6 +296,8 @@ int bytes = sizeof(numeros);
 
 printf("%i", bytes);
 ```
+
+</br>
 
 
 3. Será retornado __20 bytes__, porque cada elemento no array ocupa 4 bytes.
