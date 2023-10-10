@@ -23,15 +23,16 @@ int num = 5;
 No entanto, se mudarmos o tipo de dado para "char", estamos indicando que queremos trabalhar com caracteres. 
 Mas existem dois jeitos diferentes de se definir um caracter pelo tipo de dado `char`.
 
-1. Quando colocamos o 5 entre aspas simples, estamos dizendo que iremos trabalhar com os caracteres. Sendo assim, este '5' __precisa__ virar um número decimal. Se olharmos na tabela ASCII, o decimal que representa o caracter '5' é o número 53. Sendo assim, a nossa variável recebe o _número_ decimal 53. 
-
+1. Quando colocamos o 5 _entre aspas simples_, estamos dizendo que iremos trabalhar com os caracteres. Sendo assim, este '5' __precisa__ virar um número decimal. Se olharmos na tabela ASCII, o decimal que representa o caracter '5' é o número 53.  
 ```c
 // A variável 'letra' recebe número 53. 
-// Após a compilação o valor recebido será 
+// Após a compilação o valor recebido será 110101 
 char letra = '5'; 
 ```
 
-Podemos notar que um caracter
+</br>
+
+2. Quando _não_ colocamos o 5 entre as aspas simples, estamos dizendo que nenhuma conversão será feita. Isto é, se a variável receber 5 como valor, o que nos será retornado é o caracter 
 
 </br>
 </br>
