@@ -273,7 +273,7 @@ Para entender isso melhor, vejamos alguns exemplos:
 
 1. O número `4500` por padrão é do tipo `int (integer)`. Podemos ver quantos bytes este valor está ocupando para ser armazenado
 ```c
-int      = sizeof(4500);
+int quantidadeDeBytes = sizeof(4500);
 
 // Será retornado 4. 
 printf("%i", quantidadeDeBytes);
