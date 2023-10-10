@@ -23,16 +23,22 @@ int num = 5;
 No entanto, se mudarmos o tipo de dado para "char", estamos indicando que queremos trabalhar com caracteres. 
 Mas existem dois jeitos diferentes de se definir um caracter pelo tipo de dado `char`.
 
-1. Quando colocamos o 5 _entre aspas simples_, estamos dizendo que iremos trabalhar com os caracteres. Sendo assim, este '5' __precisa__ virar um número decimal. Se olharmos na tabela ASCII, o decimal que representa o caracter '5' é o número 53.  
+1. Quando utilizamos as aspas simples (por exemplo, '5'), estamos indicando explicitamente que queremos tratar o valor como um caractere. O valor dentro das aspas simples é interpretado como o caractere correspondente na tabela ASCII. Portanto, se usarmos '5', o programa entenderá que se trata do caractere '5' e o representará internamente com seu valor ASCII, que é 53.
 ```c
 // A variável 'letra' recebe número 53. 
 // Após a compilação o valor recebido será 110101 
 char letra = '5'; 
+printf("%c \n", num); // Retorna '5'. 
+
 ```
 
 </br>
 
-2. Para este exemplo, usaremos outro número. Quando _não_ colocamos o 65 entre as aspas simples, estamos dizendo que nenhuma conversão será feita. Isto é, se a variável receber 65 como valor, o que nos será retornado é o caracter correspondente na tabela ASCII, ou seja, o 
+2. Quando não usamos aspas simples (por exemplo, 5), estamos tratando o valor como um número inteiro, não como um caractere. Nesse caso, o valor não é convertido automaticamente para um caractere. Se a variável char receber o valor 65, por exemplo, ela representará o caractere correspondente na tabela ASCII, que é 'A'. Nenhuma conversão explícita é realizada.
+```c
+char num = 65;
+printf("%c \n", num); // retorna 'A'. 
+```
 
 </br>
 </br>
