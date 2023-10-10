@@ -16,14 +16,22 @@ O tipo de dado desempenha um papel crucial nesse processo. Imagine que temos o n
 É aqui que as palavras-chave, como "int" (para números inteiros) e "char" (para caracteres), entram em cena. Quando usamos "int", estamos informando ao computador que estamos lidando com números inteiros. Portanto, o computador compreende que o '5' precisa ser convertido em sua representação binária correspondente, que é 101.
 
 ```c
-int num = 5;  // A variável 'num' recebe o binário 101
+// A variável 'num' recebe o binário 00000101
+int num = 5;  
 ```
 
-No entanto, se mudarmos o tipo de dado para "char", estamos indicando que queremos trabalhar com caracteres. Nesse caso, o '5' é interpretado de acordo com a tabela ASCII, onde o caracter '5' é representado pelo binário 110101.
+No entanto, se mudarmos o tipo de dado para "char", estamos indicando que queremos trabalhar com caracteres. 
+Mas existem dois jeitos diferentes de se definir um caracter pelo tipo de dado `char`.
+
+1. Quando colocamos o 5 entre aspas simples, estamos dizendo que iremos trabalhar com os caracteres. Sendo assim, este '5' __precisa__ virar um número decimal. Se olharmos na tabela ASCII, o decimal que representa o caracter '5' é o número 53. Sendo assim, a nossa variável recebe o _número_ decimal 53. 
+
 ```c
-char num = 5; // A variável 'num' recebe o binário 110101
+// A variável 'letra' recebe número 53. 
+// Após a compilação o valor recebido será 
+char letra = '5'; 
 ```
 
+Podemos notar que um caracter
 
 </br>
 </br>
