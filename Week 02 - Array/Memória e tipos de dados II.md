@@ -331,17 +331,8 @@ int length = sizeof(numeros) / sizeof(numeros[0]);
 
 
 ### \0 
-O `\0` é um caracter especial usado em C para representar o fim de uma string. Ou seja, o fim de um array do tipo `char`.
+O \0 é um caractere especial usado na linguagem C para representar o fim de uma string, ou seja, o fim de um array do tipo char.
 
-Não devemos esquecer que, em C, um caractere na realidade é representado como um valor numérico decimal, que é interpretado e traduzido com base na tabela ASCII. Portanto, é viável declarar uma variável do tipo int e, se o seu valor corresponder a um código ASCII válido, podemos usá-la para imprimir um caractere utilizando a função printf(). Basta indicar ao printf que o valor (segundo argumento) deve ser interpretado como um caractere.
-
-```c
-int valorNumerico = 94; 
-printf("%c", valorNumerico); // será printado o caracter '^'. 
-```
-
-O mesmo vale no sentido oposto.
-Se colocarmos, por exemplo, char letra = 55;, podemos usar printf() para imprimir o caractere correspondente:
 
 ```c
 char letra = 55;
