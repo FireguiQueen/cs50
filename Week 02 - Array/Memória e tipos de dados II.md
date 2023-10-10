@@ -32,7 +32,7 @@ char letra = '5';
 
 </br>
 
-2. Quando _não_ colocamos o 5 entre as aspas simples, estamos dizendo que nenhuma conversão será feita. Isto é, se a variável receber 5 como valor, o que nos será retornado é o caracter 
+2. Para este exemplo, usaremos outro número. Quando _não_ colocamos o 65 entre as aspas simples, estamos dizendo que nenhuma conversão será feita. Isto é, se a variável receber 65 como valor, o que nos será retornado é o caracter correspondente na tabela ASCII, ou seja, o 
 
 </br>
 </br>
