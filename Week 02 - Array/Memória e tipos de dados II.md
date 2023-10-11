@@ -410,10 +410,26 @@ Para obter o comprimento do array através do caracter nulo, precisamos montar u
 E a cada vez que percorremos um elemento, é somado +1 a nossa variável de contagem de elementos.
 
 ```c
-    char nome[] = {'F', '\0', 'o', 'r', 'a', 'a'};
-
+    char nome[] = {'F', 'l', 'o', 'r', 'a'};
+    int total = 0;
     for (int i = 0; nome[i] != '\0'; i++)
     {
-        printf("%c", nome[i]);
+        total++;
     }
+
+    printf("%i", total);
+```
+
+</br>
+
+Ou também podemos fazer assim:
+```c
+    char nome[] = {'F', 'l', 'o', 'r', 'a'};
+    int total = 0;
+
+    while(nome[total] != '\0')
+    {
+        total++;
+    }
+    printf("%i", total);
 ```
