@@ -355,7 +355,8 @@ printf("%i", bytes);
 #### Comprimento do array
 Para obter o número de elementos em um array com a função `sizeof()`, é comum dividir o valor retornado por ela pelo tamanho de um elemento individual do array.
 
-Por exemplo, se tivermos um array de inteiros como `int numeros[] = {20, 10, 25, 99, 76, 67, 34};`, sabemos que cada elemento ocupa 4 bytes de memória. Portanto, para descobrir quantos elementos estão no array, dividimos o valor retornado por sizeof() por 4:
+Por exemplo, se tivermos um array de inteiros como `int numeros[] = {20, 10, 25, 99, 76, 67, 34};`, sabemos que cada elemento ocupa 4 bytes de memória. E como retorno, o `sizeof()` irá retornar 28 bytes.
+Portanto, para descobrir quantos elementos estão no array, dividimos o valor retornado (28 bytes) por 4 bytes (pois cada elemento ocupa 4 bytes).
 ```c
 int numeros[] = {20, 10, 25, 99, 76, 67, 34};
 
