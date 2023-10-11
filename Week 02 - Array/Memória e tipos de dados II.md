@@ -402,4 +402,18 @@ printf("%i", name[3]); // retorna 122. Este é o número inteiro que representa 
 Sendo assim, também podemos observar qual o número inteiro que representa o nosso caracter 'nulo'. 
 ```c
 printf("%i", name[4]); // retorna 0
+
+```
+
+#### Comprimento do array
+Para obter o comprimento do array através do caracter nulo, precisamos montar um algoritimo que consiste em percorrer o nosso array de chars enquanto o valor atual for diferente de nulo (\0).
+E a cada vez que percorremos um elemento, é somado +1 a nossa variável de contagem de elementos.
+
+```c
+    char nome[] = {'F', '\0', 'o', 'r', 'a', 'a'};
+
+    for (int i = 0; nome[i] != '\0'; i++)
+    {
+        printf("%c", nome[i]);
+    }
 ```
