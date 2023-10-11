@@ -393,5 +393,13 @@ _Mas se e passarmos deste indice?_
 printf("%c", name[4]); // retorna ''
 ```
 
-Exatamente, não foi retornado nada, sendo que em teoria, deveriamos ver o caracter '
+Não foi retornado "nenhuma" coisa, mas era este o resultado que esperávamos, afinal, estamos tentando printar o caracter "null". 
+Como já foi dito diversas e diversas vezes, os caracteres, são na realidade, números inteiros, e cada número representa um caracter.
+```c
+printf("%i", name[3]); // retorna 122. Este é o número inteiro que representa o caracter 'z'. 
+```
 
+Sendo assim, também podemos observar qual o número inteiro que representa o nosso caracter 'nulo'. 
+```c
+printf("%i", name[4]); // retorna 0
+```
