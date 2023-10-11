@@ -296,7 +296,7 @@ int main(void)
 
 
 ### sizeof
-A função `sizeof()` é uma função nativa da linguagem de programação C. Em tradução para o português, é algo como "Tamanho do..". Seu propósito não é determinar a quantidade de elementos em um array, mas sim a quantidade de _bytes ocupados_ por um determinado tipo de dado (arrays, chars, int..).
+A função `sizeof()` é uma função nativa da linguagem de programação C. Em tradução para o português, seu nome pode ser interpretado como "Tamanho de...". No entanto, seu propósito __não__ é determinar a quantidade de elementos em um array, mas sim a quantidade de bytes _ocupados_ por um determinado tipo de dado, como arrays, chars, inteiros, entre outros.
 
 Para entender isso melhor, vejamos alguns exemplos:
 
