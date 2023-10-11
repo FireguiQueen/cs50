@@ -296,11 +296,11 @@ int main(void)
 
 
 ### sizeof
-A função `sizeof()` é uma função nativa da linguagem de programação C. No entanto, seu propósito não é determinar a quantidade de elementos em um array, mas sim a quantidade de _bytes ocupados_ por um determinado tipo de dado (arrays, chars, int..).
+A função `sizeof()` é uma função nativa da linguagem de programação C. Em tradução para o português, é algo como "Tamanho do..". Seu propósito não é determinar a quantidade de elementos em um array, mas sim a quantidade de _bytes ocupados_ por um determinado tipo de dado (arrays, chars, int..).
 
 Para entender isso melhor, vejamos alguns exemplos:
 
-1. O número `4500` por padrão é do tipo `int (integer)`. Podemos ver quantos bytes este valor está ocupando para ser armazenado
+1. O número `4500` por padrão é do tipo `int (integer)`, e este tipo de dado ocupa 4 bytes.
 ```c
 int quantidadeDeBytes = sizeof(4500);
 
@@ -320,25 +320,25 @@ printf("%i", quantidadeDeBytes);
 
 </br>
 
-Quando utilizamos um array como argumento para a função sizeof(), os bytes retornados se referem ao tamanho total da memória ocupada por esse array. Alguns exemplos são:
+Quando utilizamos um array como argumento para a função sizeof(), os bytes retornados se referem ao _tamanho total_ da memória ocupada por esse array. Exemplos:
 
-1. Será retornado __0 bytes__. Cada elemento ocupa 4 bytes, no entanto, não há elementos.
+1. Será retornado __0 bytes__. O array é do tipo `int`, logo, cada elemento ocupa 4 bytes, no entanto, não há elementos.
 ```c
 int numeros[] = { };
 int bytes = sizeof(numeros);
 
-printf("%i", bytes);
+printf("%i", bytes); // 0
 ```
 
 </br>
 
 
-2. Será retornado __40 bytes__. Mesmo que ainda não tenha sido definido quais elementos iremos armazenar, nós definimos (utilizando os colchetes) quantos elementos o array irá conter.
+2. Será retornado __40 bytes__. Mesmo que ainda não tenha sido definido quais elementos iremos armazenar, nós definimos (utilizando os __colchetes__) quantos elementos o array irá conter.
 ```c
 int numeros[10];
 int bytes = sizeof(numeros);
 
-printf("%i", bytes);
+printf("%i", bytes); // 40
 ```
 
 </br>
@@ -347,9 +347,9 @@ printf("%i", bytes);
 3. Será retornado __20 bytes__, porque cada elemento no array ocupa 4 bytes.
 ```c
 int numeros[] = {50, 90, 40, 70, 85};
-int bytes = sizeof(numeros);
+int bytes = sizeof(numeros); 
 
-printf("%i", bytes);
+printf("%i", bytes); // 20
 ```
 
 #### Comprimento do array
@@ -363,7 +363,7 @@ int numeros[] = {20, 10, 25, 99, 76, 67, 34};
 int length = sizeof(numeros) / 4; 
 ```
 
-Se não soubermos o tipo de dado do array com antecedência, podemos usar a função `sizeof(array)` para obter o tamanho total do array em bytes e, em seguida, dividir esse valor pelo tamanho de um elemento individual do array, que é obtido com `sizeof(array[0])`. Isso nos dará o número exato de elementos, independentemente do tipo de dado:
+Se não soubermos o tipo de dado do array com antecedência, podemos usar a função `sizeof(array)` para obter o tamanho total do array em bytes e, em seguida, dividir esse valor pelo tamanho de um elemento individual do array, que é obtido com `sizeof(array[0])`. Isso nos dará o número exato de elementos, independentemente do tipo de dado.
 ```c
 long numeros[] = {20, 10, 25, 99, 76, 67, 34};
 
@@ -376,23 +376,22 @@ int length = sizeof(numeros) / sizeof(numeros[0]);
 
 
 ### \0 
-O \0 é um caractere especial usado na linguagem C para representar o fim de uma string, ou seja, o fim de um array do tipo char.
+O \0 é um caractere especial usado na linguagem C, e ele també é conhecido como 'null' (nulo). Ele é usado para representar o fim de uma string, ou seja, o fim de um array do tipo char.
 
-
+Podemos observar ele em nosso array quando ultrapassamos o indice final. 
 ```c
-char letra = 55;
-printf("%c", letra);
-// Isso imprimirá o caractere '7', porque 55 na tabela ASCII representa o caractere '7'
+char name[] = {'L', 'u', 'i', 'z'};
 ```
 
-
-Agora, vamos criar um array com dois caracteres e printar ambos.  
+_Em nosso array acima, o último indice é 3, e seu elemento é o 'z'._
 ```c
-char digaOi[] = {'o', 'i'};
-
-printf("%c %c", digaOi[0], digaOi[1]); // será printado: oi 
+printf("%c", name[3]); // retorna 'z'
 ```
 
+_Mas se e passarmos deste indice?_ 
+```c
+printf("%c", name[4]); // retorna ''
+```
 
-
+Exatamente, não foi retornado nada, sendo que em teoria, deveriamos ver o caracter '
 
