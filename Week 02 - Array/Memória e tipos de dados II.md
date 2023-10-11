@@ -300,17 +300,17 @@ A função `sizeof()` é uma função nativa da linguagem de programação C. Em
 
 Para entender isso melhor, vejamos alguns exemplos:
 
-1. O número `4500` por padrão é do tipo `int (integer)`, e este tipo de dado ocupa 4 bytes.
+1. O número `4500` é, por padrão, do tipo `int (integer)`, e esse tipo de dado ocupa 4 bytes.
 ```c
 int quantidadeDeBytes = sizeof(4500);
 
-// Será retornado 4. 
+// Isso retornará 4. 
 printf("%i", quantidadeDeBytes);
 ```
 
 </br>
 
-2. O número `2200000000` (dois bilhões e duzentos milhões) é do tipo `long (long integer)`, e esse tipo de dado ocupa 8 bytes. 
+2. O número `2200000000` (dois bilhões e duzentos milhões) é do tipo long (long integer), que ocupa 8 bytes.
 ```c
 int quantidadeDeBytes = sizeof(2200000000);
 
