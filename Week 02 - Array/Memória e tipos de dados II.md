@@ -422,7 +422,7 @@ Para obter o comprimento do array usando o caractere nulo, podemos criar um algo
 
 </br>
 
-Ou também podemos fazer assim:
+Ou também podemos fazer da seguinte maneira:
 ```c
     char nome[] = {'F', 'l', 'o', 'r', 'a'};
     int total = 0;
