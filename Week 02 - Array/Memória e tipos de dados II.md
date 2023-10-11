@@ -8,12 +8,39 @@ Cada tipo de dado  ocupa uma quantidade específica de memória, embora seja imp
 - `long`    _8 bytes_
 - ..
 
+
 ### Importância
 Nas linguagens de programação compiladas, como C e C++, quando escrevemos código-fonte, esse código passa por um processo de tradução. Primeiro, ele é convertido em uma sequência de instruções em linguagem de montagem (Assembly) e, em seguida, é transformado em código de máquina (binário) que pode ser executado diretamente pelo computador.
 
-O tipo de dado desempenha um papel crucial nesse processo. Imagine que temos o número 5 no nosso código-fonte. O computador precisa entender como interpretar esse número no mundo binário. Se nosso objetivo é tratá-lo como um caractere, o binário correspondente precisa ser 0110101. No entanto, se pretendemos usá-lo como um valor em cálculos ou condições, então ele deve ser representado como o binário 101.
+O tipo de dado desempenha um papel crucial nesse processo. Imagine que temos o número 5 no nosso código-fonte.
+Podemos pensar que existem duas coisas que podemos fazer com este número 5. 
 
-É aqui que as palavras-chave, como "int" (para números inteiros) e "char" (para caracteres), entram em cena. Quando usamos "int", estamos informando ao computador que estamos lidando com números inteiros. Portanto, o computador compreende que o '5' precisa ser convertido em sua representação binária correspondente, que é 101.
+1. Utilizar ele para fazer a lógica do nosso programa, como realizar cálculos, condições e etc.. 
+```c
+int num1 = 5;
+int num2 = 5; 
+int total = num1 + num2; 
+```
+
+```c
+int idade = 5; 
+
+if (idade < 16)
+{
+    printf("Você não pode dirigir!");
+}
+```
+
+</br>
+
+2. Mas também podemos usá-lo para escrever coisas na tela
+```c
+printf("Você possui 5 anos!");
+```
+
+Quando digitamos o número cinco em nosso código, o computador precisa entender como interpretar esse número no mundo binário. Se nosso objetivo é tratá-lo como um caractere, o binário correspondente precisa ser `0110101`. No entanto, se pretendemos usá-lo para cálculos ou condições, então ele deve ser representado como o binário `101`.
+
+É aqui que as palavras-chave, como "int" (para números inteiros) e "char" (para caracteres), entram em cena. Quando usamos "int", estamos informando ao computador que estamos lidando com números inteiros. Portanto, o computador compreende que o '5' precisa ser convertido em sua representação binária correspondente, que é `101`.
 
 ```c
 // A variável 'num' recebe o binário 00000101
@@ -23,18 +50,17 @@ int num = 5;
 No entanto, se mudarmos o tipo de dado para "char", estamos indicando que queremos trabalhar com caracteres. 
 Mas existem dois jeitos diferentes de se definir um caracter pelo tipo de dado `char`.
 
-1. Quando utilizamos as aspas simples (por exemplo, '5'), estamos indicando explicitamente que queremos tratar o valor como um caractere. O valor dentro das aspas simples é interpretado como o caractere correspondente na tabela ASCII. Portanto, se usarmos '5', o programa entenderá que se trata do caractere '5' e o representará internamente com seu valor ASCII, que é 53.
+1. Quando utilizamos as aspas simples, estamos indicando explicitamente que queremos tratar o valor como um caractere. Portanto, se usarmos '5' para a nossa variável, o programa entenderá que se trata do caractere '5' e o representará internamente com seu valor ASCII, que é 53.
 ```c
 // A variável 'letra' recebe número 53. 
 // Após a compilação o valor recebido será 110101 
 char letra = '5'; 
 printf("%c \n", num); // Retorna '5'. 
-
 ```
 
 </br>
 
-2. Quando não usamos aspas simples (por exemplo, 5), estamos tratando o valor como um número inteiro, não como um caractere. Nesse caso, o valor não é convertido automaticamente para um caractere. Se a variável char receber o valor 65, por exemplo, ela representará o caractere correspondente na tabela ASCII, que é 'A'. Nenhuma conversão explícita é realizada.
+2. Quando não usamos aspas simples, estamos tratando o valor como um número inteiro, não como um caractere. Nesse caso, o valor não é convertido automaticamente para um caractere. Se a variável char receber o valor 65, por exemplo, ela representará o caractere correspondente na tabela ASCII, que é 'A'. Nenhuma conversão explícita é realizada.
 ```c
 char num = 65;
 printf("%c \n", num); // retorna 'A'. 
