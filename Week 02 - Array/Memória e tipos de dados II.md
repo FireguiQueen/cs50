@@ -310,19 +310,19 @@ printf("%i", quantidadeDeBytes);
 
 </br>
 
-2. O número `2200000000` (dois bilhões e duzentos milhões) é do tipo long (long integer), que ocupa 8 bytes.
+2. O número `2200000000` (dois bilhões e duzentos milhões) é do tipo `long (long integer)`, que ocupa 8 bytes.
 ```c
 int quantidadeDeBytes = sizeof(2200000000);
 
-// Será retornado 8. 
+// Isso retornará 8.
 printf("%i", quantidadeDeBytes);
 ```
 
 </br>
 
-Quando utilizamos um array como argumento para a função sizeof(), os bytes retornados se referem ao _tamanho total_ da memória ocupada por esse array. Exemplos:
+Quando utilizamos um array como argumento para a função `sizeof()`, os bytes retornados se referem ao tamanho total da memória ocupada por esse array. Exemplos:
 
-1. Será retornado __0 bytes__. O array é do tipo `int`, logo, cada elemento ocupa 4 bytes, no entanto, não há elementos.
+1. Será retornado __0 bytes__. O array é do tipo int, o que significa que cada elemento ocupa 4 bytes, no entanto, não há elementos no array.
 ```c
 int numeros[] = { };
 int bytes = sizeof(numeros);
@@ -333,7 +333,7 @@ printf("%i", bytes); // 0
 </br>
 
 
-2. Será retornado __40 bytes__. Mesmo que ainda não tenha sido definido quais elementos iremos armazenar, nós definimos (utilizando os __colchetes__) quantos elementos o array irá conter.
+2. Será retornado __40 bytes__. Mesmo que ainda não tenhamos definido quais elementos iremos armazenar, especificamos (utilizando _colchetes_) quantos elementos o array irá conter.
 ```c
 int numeros[10];
 int bytes = sizeof(numeros);
@@ -353,10 +353,9 @@ printf("%i", bytes); // 20
 ```
 
 #### Comprimento do array
-Para obter o número de elementos em um array com a função `sizeof()`, é comum dividir o valor retornado por ela pelo tamanho de um elemento individual do array.
+Para obter o número de elementos em um array usando a função `sizeof()`, é comum dividir o valor retornado por ela pelo tamanho de um elemento individual do array.
 
-Por exemplo, se tivermos um array de inteiros como `int numeros[] = {20, 10, 25, 99, 76, 67, 34};`, sabemos que cada elemento ocupa 4 bytes de memória. E como retorno, o `sizeof()` irá retornar 28 bytes.
-Portanto, para descobrir quantos elementos estão no array, dividimos o valor retornado (28 bytes) por 4 bytes (pois cada elemento ocupa 4 bytes).
+Por exemplo, se tivermos um array de inteiros como `int numeros[] = {20, 10, 25, 99, 76, 67, 34};`, sabemos que cada elemento ocupa 4 bytes de memória. Portanto, o `sizeof()` retornará 28 bytes. Para descobrir quantos elementos estão no array, dividimos o valor retornado (28 bytes) por 4 bytes (pois cada elemento ocupa 4 bytes).
 ```c
 int numeros[] = {20, 10, 25, 99, 76, 67, 34};
 
@@ -376,38 +375,39 @@ int length = sizeof(numeros) / sizeof(numeros[0]);
 
 
 ### \0 
-O \0 é um caractere especial usado na linguagem C, e ele també é conhecido como 'null' (nulo). Ele é usado para representar o fim de uma string, ou seja, o fim de um array do tipo char.
+O caractere \0 é um caractere especial utilizado na linguagem C e também é conhecido como 'null' (nulo). Ele é empregado para representar o fim de uma string, ou seja, o fim de um array do tipo char.
+> Esta barra invertida pode parecer estranha, mas vemos o uso dela para outros caracteres, como por exemplo o '\n', que serve para pular para a próxima linha. 
 
-Podemos observar ele em nosso array quando ultrapassamos o indice final. 
+Podemos observá-lo em nosso array quando ultrapassamos o índice final.
 ```c
 char name[] = {'L', 'u', 'i', 'z'};
 ```
 
-_Em nosso array acima, o último indice é 3, e seu elemento é o 'z'._
+Neste array, o último índice é o terceiro, e seu elemento é o 'z'.
 ```c
 printf("%c", name[3]); // retorna 'z'
 ```
 
-_Mas se e passarmos deste indice?_ 
+_Mas o que acontece se ultrapassarmos esse índice?_
 ```c
 printf("%c", name[4]); // retorna ''
 ```
 
-Não foi retornado "nenhuma" coisa, mas era este o resultado que esperávamos, afinal, estamos tentando printar o caracter "null". 
-Como já foi dito diversas e diversas vezes, os caracteres, são na realidade, números inteiros, e cada número representa um caracter.
+__Nada é retornado, mas esse é o resultado esperado, afinal, estamos tentando imprimir o caractere "null".__
+
+Como já foi dito inúmeras vezes, os caracteres são, na verdade, representados por números inteiros, onde cada número corresponde a um caractere.
 ```c
 printf("%i", name[3]); // retorna 122. Este é o número inteiro que representa o caracter 'z'. 
 ```
 
-Sendo assim, também podemos observar qual o número inteiro que representa o nosso caracter 'nulo'. 
+Portanto, também podemos verificar qual número inteiro representa o nosso caractere 'nulo'.
 ```c
 printf("%i", name[4]); // retorna 0
 
 ```
 
 #### Comprimento do array
-Para obter o comprimento do array através do caracter nulo, precisamos montar um algoritimo que consiste em percorrer o nosso array de chars enquanto o valor atual for diferente de nulo (\0).
-E a cada vez que percorremos um elemento, é somado +1 a nossa variável de contagem de elementos.
+Para obter o comprimento do array usando o caractere nulo, podemos criar um algoritmo que percorre o nosso array de caracteres enquanto o valor atual for diferente de nulo (\0). A cada iteração, adicionamos +1 à nossa variável de contagem de elementos.
 
 ```c
     char nome[] = {'F', 'l', 'o', 'r', 'a'};
