@@ -66,6 +66,9 @@ char num = 65;
 printf("%c \n", num); // retorna 'A'. 
 ```
 
+__Resumidamente__, caso você coloque aspas simples e um caracter dentro, este caracter irá se transformar num número decimal e assim irá virar zeros e uns após a compilação.
+Quando não usamos as aspas simples, aquele valor será entendido diretamente como um caracter de acordo com a tabela ASCII. 
+
 </br>
 </br>
 
