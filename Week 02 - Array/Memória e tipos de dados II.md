@@ -407,7 +407,7 @@ printf("%i", name[4]); // retorna 0
 ```
 
 #### Comprimento do array
-Para obter o comprimento do array usando o caractere nulo, podemos criar um algoritmo que percorre o nosso array de caracteres enquanto o valor atual for diferente de nulo (\0). A cada iteração, adicionamos +1 à nossa variável de contagem de elementos.
+Para obter o comprimento do array usando o caractere nulo, podemos criar um algoritmo que percorre o nosso array de caracteres __enquanto__ o valor atual for diferente de nulo (\0). A cada iteração, adicionamos +1 à nossa variável de contagem de elementos.
 
 ```c
     char nome[] = {'F', 'l', 'o', 'r', 'a'};
