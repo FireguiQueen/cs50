@@ -39,5 +39,9 @@ Por outro lado, os valores `num0` e `num1`, que são passados como __argumentos_
 
 ## Compilação
 No processo de compilar, também vemos a presença dos argumentos. 
-Por exemplo, quando utilizamos o compilador gcc, iremos dar a seguinte instrução para compilar nosso código: </br> 
-`gcc -o `
+Por exemplo, quando utilizamos o compilador GCC, iremos dar a seguinte instrução para compilar nosso código: </br> 
+`gcc -o nomeDesejado arquivoParaCompilar.C`
+
+Nesse contexto, os comandos `-o`, `nomeDesejado` e `arquivoParaCompilar.c` desempenham de argumentos. Em algum ponto do compilador, esses argumentos são inseridos nos devidos lugares, correspondendo aos parâmetros que a própria compilação requer.
+
+
