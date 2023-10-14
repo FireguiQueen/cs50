@@ -25,13 +25,12 @@ int somar(int x, int y)
 int main(void)
 {
     int num0 = 10; 
-    int num1= = 50;
+    int num1 = 50;
 
     somar(num0, num1);
 }
 ```
 
-No exemplo acima, a função `somar` é a responsável por retornar a soma entre dois números. 
-O `int x` e o `int y` são os __parâmetros__ desta função.
+No exemplo anterior, a função `somar()` é encarregada de calcular a soma entre dois números. O `int x` e `int y` desempenham a função de __parâmetros__ nesta função.
 
-Enquanto o `num0` e `num1` que estão __dentro__ do somar (linha 30), são os argumentos. 
+Por outro lado, os valores `num0` e `num1`, que são passados como __argumentos__ dentro da chamada da função somar (na linha 30). Então todas as partes do corpo da função `somar()` que utilia dos parâmetros `int x` e `int y` serão substituidos por 10 e 50.
