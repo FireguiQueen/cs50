@@ -412,11 +412,11 @@ Para obter o comprimento do array usando o caractere nulo, podemos criar um algo
 ```c
     char nome[] = {'F', 'l', 'o', 'r', 'a'};
     int total = 0;
+
     for (int i = 0; nome[i] != '\0'; i++)
     {
         total++;
     }
-
     printf("%i", total);
 ```
 
