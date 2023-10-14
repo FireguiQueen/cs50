@@ -34,3 +34,9 @@ int main(void)
 No exemplo anterior, a função `somar()` é encarregada de calcular a soma entre dois números. O `int x` e `int y` desempenham a função de __parâmetros__ nesta função.
 
 Por outro lado, os valores `num0` e `num1`, que são passados como __argumentos__ dentro da chamada da função somar (na linha 30). Então todas as partes do corpo da função `somar()` que utilia dos parâmetros `int x` e `int y` serão substituidos por 10 e 50.
+
+
+## Compilação
+No processo de compilar, também vemos a presença dos argumentos. 
+Por exemplo, quando utilizamos o compilador gcc, iremos dar a seguinte instrução para compilar nosso código: </br> 
+`gcc -o `
