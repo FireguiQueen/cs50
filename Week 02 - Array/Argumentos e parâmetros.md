@@ -25,7 +25,7 @@ int somar(int x, int y)
 int main(void)
 {
     int num0 = 10; 
-    float num1 = 50.4;
+    int num1= = 50;
 
     somar(num0, num1);
 }
