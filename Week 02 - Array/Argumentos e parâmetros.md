@@ -1,5 +1,5 @@
 # Parâmetros e argumentos
-Para o desenvolvimento de programas complexos, a presença de parâmetros desempenha um papel fundamental, uma vez que são os elementos responsáveis por receber entradas, ou seja, informações fornecidas ao programa. Um parâmetro é uma variável que está pronta para aceitar um valor dentro de uma função.
+Vamos criar uma função que recebe dois argumentos e retorna a soma deles. Para isso, é importante lembrar que os parâmetros, como mencionado anteriormente, funcionam como variáveis. Quando criamos uma função que possui um ou mais parâmetros, precisamos especificar o tipo de dado que esses parâmetros aceitarão
 
 Essa situação é comumente encontrada em várias circunstâncias, como, por exemplo, quando utilizamos a função `strlen` da biblioteca `string`. A função `strlen()` possui apenas um parâmetro, por consequência, ela requer apenas um único argumento. 
 > Os parâmetros se assemelham a variáveis, e os argumentos são os valores que são atribuídos a essas variáveis.
@@ -13,8 +13,8 @@ Dentro do corpo da função `strlen()`, há várias instruções que indicam o q
 
 
 ## Sintaxe 
-Vamos criar uma função que recebe dois argumentos e retorna a soma deles. Para isso, precisamos lembrar que 
-os parâmetros, como foi mencionado anteriormente, são como variáveis. Então quando criamos uma função que possui um parâmetro, precisamos espeificiar o tipo dele. 
+Vamos criar uma função que recebe dois argumentos e retorna a soma deles. 
+Para isso, vamos precisar de dois parâmetros. E como mencionado anteriormente, eles funcionam como variáveis, sendo assim, precisamos definir o tipo de dado deles.
 
 ```c
 int somar(int x, int y)
@@ -25,7 +25,7 @@ int somar(int x, int y)
 int main(void)
 {
     int num0 = 10; 
-    int num1 = 50;
+    float num1 = 50.4;
 
     somar(num0, num1);
 }
