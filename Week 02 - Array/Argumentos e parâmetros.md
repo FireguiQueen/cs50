@@ -11,6 +11,7 @@ int quantasLetrasHa = strlen(nome);
 Neste exemplo, o `nome` (que está dentro dos parênteses da função strlen) atua como o argumento. 
 Dentro do corpo da função `strlen()`, há várias instruções que indicam o que fazer com o parâmetro. E quando passamos um argumento, esse parâmetro é substituído pelo valor do argumento fornecido.
 
+</br>
 
 ## Sintaxe 
 Vamos criar uma função que recebe dois argumentos e retorna a soma deles. 
