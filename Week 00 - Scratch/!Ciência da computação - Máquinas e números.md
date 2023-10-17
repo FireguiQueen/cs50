@@ -11,8 +11,13 @@ A Ciência da Computação é a ciência que desenvolve soluções por meio de m
 
 ## Representação de Números
 Imagine-se como um professor em sala de aula verificando a presença dos alunos. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa. Esse sistema é chamado de 'sistema unário', onde cada dígito representa uma única unidade. No entanto, a contagem não permite ir muito longe. Somando os dedos erguidos, o máximo possível seria contar até 10 alunos.
-Por outro lado, existem outras formas de representar números maiores usando o sistema unário. Por exemplo, para cada aluno presente na sala, você poderia fazer um pequeno risco na folha.
-Mas há um método ainda mais eficiente para representar os alunos, conhecido como sistema decimal ou base 10. Nele, agrupamos diferentes unidades. Cada posição em um valor específico pode conter dez valores distintos, variando de 0 a 9, o que nos permite criar números para representar a quantidade de alunos presentes.
+
+Por outro lado, existem outras formas de representar números maiores usando o mesmo sistema, o sistema unário. 
+Por exemplo, para cada aluno presente na sala, você poderia fazer um pequeno risco na folha, e dependendo do tamanho dela, seria possível colocar muitos riscos, representando uma alta quantidade de alunos presentes.
+
+Mas há um método ainda mais eficiente para representar os alunos, conhecido como sistema decimal ou base 10. 
+Nele, agrupamos diferentes unidades numéricas (0, 1, 2, 3..). 
+Após juntar diferentes números, cada posição neste valor pode conter dez valores distintos, variando de 0 a 9, o que nos permite criar números para representar a quantidade de alunos presentes.
 
 Essa ação também pode ser traduzida para os computadores, onde facilitaria o seu trabalho:
 - **Entrada (input):** _há 7 alunos presentes e um total de 30._
