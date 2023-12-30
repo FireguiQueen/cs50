@@ -110,12 +110,11 @@ No entanto, do ponto de vista do usuário e do sistema operacional, o HDD é ger
 </br>
 
 
-
 # Diferentes tipos de dados sendo armezenados em memória
 Vimos que cada tipo de dado ocupa uma quantidade fixa de espaço na memória, mas como exatamente funciona esse armazenamento? Primeiro, vejamos o que é a memória RAM em si.
 ![ramMemoryIMG0](https://github.com/FireguiQueen/CS50/assets/98475125/b1df96f0-5f12-48af-833d-9bf1c53d3d64)
 
-Nesta imagem, o que nos interessa são esses pequenos chips. A memória RAM tem uma capacidade limitada de armazenamento temporário; em geral, os pentes de memória RAM variam de 2 GB a 64 GB. Para este exemplo, seremos um pouco mais limitados. Vamos imaginar que cada quadrado representa 1 byte (8 bits).
+Nesta imagem, o que nos interessa são esses pequenos chips. A memória RAM tem uma capacidade limitada de armazenamento temporário; em geral, os pentes de memória RAM variam de 2 GB a 64 GB. Por exemplo, se um pente de memória RAM possui 8 GB, podemos imaginar que cada chip contribui com 2 GB. No entanto, para este exemplo, seremos um pouco mais limitados. Vamos imaginar que cada quadrado representa 1 byte (8 bits), o que totalizaria 36 bytes por chip, ou seja, nosso pente de RAM teria um total de 144 bytes. 
 > Podemos representar a memória RAM com uma grade para entender de maneira mais simples como funciona o endereçamento e a ocupação de dados na memória.
 
 ![ramMemoryIMG1](https://github.com/FireguiQueen/CS50/assets/98475125/013c99dc-0d76-498a-99e3-b2bd75ce8e75)
