@@ -6,9 +6,10 @@ um simples processo que se resume em:
 2. Gerar resultados (saídas de informação).
 
 
+![analogia](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
+
 "Input" é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um "output", ou seja, uma resposta. E todas essas etapas são conhecidas como a "ciência da computação".
 
-![image](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
 
 </br>
 </br>
