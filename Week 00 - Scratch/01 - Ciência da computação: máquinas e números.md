@@ -10,6 +10,8 @@ um simples processo que se resume em:
 
 "Input" é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um "output", ou seja, uma resposta. E todas essas etapas são conhecidas como a "ciência da computação".
 
+<br>
+
 ## Entendendo o conceito de input/ouput através de uma conversa entre duas pessoas
 Essencialmente, assim como as máquinas, nós também necessitamos do que é conhecido como "input" (para receber informações sobre nosso problema) e também "output" para transmitir a resolução deste problema.
 
