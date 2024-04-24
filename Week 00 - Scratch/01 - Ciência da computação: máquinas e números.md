@@ -10,7 +10,7 @@ um simples processo que se resume em:
 
 "Input" é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um "output", ou seja, uma resposta. E todas essas etapas são conhecidas como a "ciência da computação".
 
-## Analogia através de uma conversa entre duas pessoas
+## Entendendo o conceito de input/ouput através de uma conversa entre duas pessoas
 ![analogy](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b)
 
 
