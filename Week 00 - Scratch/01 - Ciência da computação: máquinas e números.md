@@ -5,7 +5,7 @@ mundo real por meio de  um simples processo que se resume em:
 1. Coletar informações (entradas de informação) 
 2. Gerar resultados (saídas de informação).
   
-![inputouput](https://github.com/FireguiQueen/CS50/assets/98475125/13cc27e1-f421-47aa-937b-0c1853f8abef)
+![inputouput](https://github.com/FireguiQueen/CS50/assets/98475125/f0285159-3d9c-41ba-9c06-f63f87babd8b)
 
 ![analogia](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
 
