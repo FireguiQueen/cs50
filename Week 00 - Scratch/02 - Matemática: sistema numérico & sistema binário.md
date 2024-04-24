@@ -1,7 +1,7 @@
 ## Representação de Números
 Imagine-se como um professor em sala de aula verificando a presença dos alunos. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa. Esse sistema é chamado de 'sistema unário', onde cada dígito representa uma única unidade. No entanto, a contagem não permite ir muito longe. Somando os dedos erguidos, o máximo possível seria contar até 10 alunos.
 
-Por outro lado, existem outras formas de representar números maiores usando o mesmo sistema, o sistema unário.
+Por outro lado, existem outras formas de representar números maiores usando o sistema unário.
 Por exemplo, você poderia desenhar pequenos traços em uma folha, onde cada traço representa um aluno presente. 
 Essa representação visual pode ser capaz de indicar uma alta quantidade de alunos presentes.
 
