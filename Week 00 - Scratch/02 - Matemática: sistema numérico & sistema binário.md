@@ -11,9 +11,11 @@ Mas existe um método ainda mais eficiente para representar os alunos, conhecido
 <br>
 
 ## Entendendo a Estrutura Numérica
-Quando olhamos para o valor `123`, pensamos no número cento e vinte e três. Isso ocorre porque o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
-Cada posição nesse valor representa uma potência de base dez, uma vez que há dez dígitos possíveis para cada posição. A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
-- **Unidade:** 3 _(10<sup>0</sup> * __3__ = 3)_;
+Quando olhamos para o valor `123`, pensamos no número cento e vinte e três. Isso ocorre porque o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. 
+
+Cada posição nesse valor representa uma potência de base dez, uma vez que há dez dígitos possíveis para cada posição. 
+A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
+- **Unidade:** 3 _(10⁰ * __3__ = 3)_;
 - **Dezena:** &nbsp; 2  _(10¹ * __2__ = 20)_.
 - **Centena:** 1 _(10² * __1__ = 100)_.
 - **RESULTADO = 100 + 20 + 3**
