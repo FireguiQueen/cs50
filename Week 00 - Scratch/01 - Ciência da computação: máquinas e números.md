@@ -4,8 +4,13 @@ Podemos pensar que seu objetivo principal é automatizar resoluções de problem
 mundo real por meio de  um simples processo que se resume em: 
 1. Coletar informações (entradas de informação) 
 2. Gerar resultados (saídas de informação).
-  
+
+_______ 
+
 ![inputouput](https://github.com/FireguiQueen/CS50/assets/98475125/f0285159-3d9c-41ba-9c06-f63f87babd8b)
+
+![analogia](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
+
 
 "Input" é 'entrada', ou seja, entrada de informação. Este 'input' será jogado ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um "output" (saída de informação), ou seja, uma resposta. E todas essas etapas podem resumir o que conhecemos como "ciência da computação". 
 
