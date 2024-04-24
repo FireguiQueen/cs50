@@ -10,7 +10,7 @@ _______
 ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/f0285159-3d9c-41ba-9c06-f63f87babd8b)
 > "Input" é 'entrada', ou seja, entrada de informação. Este 'input' será jogado ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, receberemos um "output" (uma saída de informação), ou seja, uma resposta. Todas essas etapas _resumem_ o que conhecemos como "ciência da computação".
 
-A Ciência da computação engloba tudo aquilo que se origina da computação.: algoritimos, softwares, rede, IA.. Mas no fim, todas essas ferramentas citadas tem um único propósito; __desenvolver seoluções por meio de máquinas__.
+A Ciência da Computação engloba tudo o que se origina da computação: algoritmos (sequências de instruções em um programa), softwares, redes (troca de informações entre máquinas), IA, entre outros. Mas no final, todas essas ferramentas mencionadas têm um único propósito: __desenvolver soluções por meio de máquinas__.
 
 <br>
 
