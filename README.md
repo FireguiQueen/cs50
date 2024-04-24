@@ -1,7 +1,9 @@
 # Curso de Ciências da Computação da Universidade Harvard (CC50)
 
 ##  Sobre o Curso
-O CC50 (computer science fifty) é um curso abrangente de Ciências da Computação ministrado pela Universidade Harvard. Este repositório contém minhas anotações pessoais, baseadas no meu entendimento do curso. Aqui, você encontrará insights, resumos e reflexões que tenham o potencial de serem úteis não apenas para mim, mas também para todos que acessarem o repositório.
+O CC50 (computer science fifty) é um curso abrangente de Ciências da Computação ministrado pela Universidade Harvard. 
+
+Este repositório contém minhas anotações pessoais, baseadas no meu entendimento do curso. Aqui, você encontrará insights, resumos e reflexões que tenham o potencial de serem úteis não apenas para mim, mas também para todos que acessarem o repositório.
 
 </br>
 
