@@ -9,7 +9,8 @@ um simples processo que se resume em:
 ![analogia](https://github.com/FireguiQueen/CC50/assets/98475125/62364135-bb2d-467b-b31e-9bd1114e2061)
 
 "Input" é 'entrada', ou seja, entrada de informação. Ela será jogada ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um "output", ou seja, uma resposta. E todas essas etapas são conhecidas como a "ciência da computação".
-<!-- ![Analogia](https://github.com/FireguiQueen/CS50/assets/98475125/3ffe9e35-0957-4f60-909b-1daaff680c24) --> 
+
+## Analogia através de uma conversa entre duas pessoas
 ![analogy](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b)
 
 
