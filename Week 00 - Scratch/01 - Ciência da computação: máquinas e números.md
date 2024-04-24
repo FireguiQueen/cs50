@@ -8,7 +8,7 @@ mundo real por meio de  um simples processo que se resume em:
 _______ 
 
 ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/f0285159-3d9c-41ba-9c06-f63f87babd8b)
-> "Input" é 'entrada', ou seja, entrada de informação. Este 'input' será jogado ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, será retornado para nós um "output" (saída de informação), ou seja, uma resposta. E todas essas etapas podem resumir o que conhecemos como "ciência da computação". 
+> "Input" é 'entrada', ou seja, entrada de informação. Este 'input' será jogado ao nosso programa (a caixa preta), onde há diversas instruções em relação ao tratamento desta informação. Por fim, receberemos um "output" (uma saída de informação), ou seja, uma resposta. Todas essas etapas _resumem_ o que conhecemos como "ciência da computação".
 
 A Ciência da computação engloba tudo aquilo que se origina da computação.: algoritimos, softwares, rede, IA.. Mas no fim, todas essas ferramentas citadas tem um único propósito; __desenvolver seoluções por meio de máquinas__.
 
