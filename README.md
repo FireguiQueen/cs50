@@ -1,6 +1,6 @@
-# Curso de Ciências da Computação CS50 (CC50) da Universidade Harvard
+# Curso de Ciências da Computação da Universidade Harvard (CC50)
 
-## Sobre o Curso
+##  Sobre o Curso
 O CS50 (CC50) é um curso abrangente de Ciências da Computação ministrado pela Universidade Harvard. Este repositório contém minhas anotações pessoais, baseadas no meu entendimento do curso. Aqui, você encontrará insights, resumos e reflexões que tenham o potencial de serem úteis não apenas para mim, mas também para todos que acessarem o repositório.
 
 </br>
