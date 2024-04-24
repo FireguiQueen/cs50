@@ -46,9 +46,7 @@ Essa ação também pode ser traduzida para os computadores, onde facilitaria o 
 - **Saída (output):** _há 23 alunos ausentes._
 <details>
     <summary>Exemplo em código Javascript:</summary>
-<code>  
-        function alunosFaltosos(alunosPresentes, totalAlunos)
-        {
+<code>  function alunosFaltosos(alunosPresentes, totalAlunos){
             console.log(totalAlunos - alunosPresentes);
         }
         alunosFaltosos(7, 30);
@@ -56,8 +54,8 @@ Essa ação também pode ser traduzida para os computadores, onde facilitaria o 
 </details>
 
 
-</br>
-</br>
+<br>
+<br>
 
 ## Entendendo a Estrutura Numérica
 Quando olhamos para o valor `123`, pensamos no número cento e vinte e três. Isso ocorre porque o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. </br>
@@ -77,7 +75,7 @@ Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse
 ![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76) 
 
 
-</br>
+<br>
 
 ## Sistema Binário, eletricidade e a estrutura numérica
 Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.

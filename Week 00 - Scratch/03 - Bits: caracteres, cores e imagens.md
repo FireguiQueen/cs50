@@ -3,7 +3,7 @@
 
 ________________________________________________
 
-# BITS: o surgimento dos caracteres
+# Bits: o surgimento dos caracteres
 Antigamente a principal função dos computadores era computar, ou seja, atuar como calculadoras. Eles foram originalmente criados para facilitar cálculos matemáticos demorados ou complexos para os seres humanos.
 Contudo, nos dias de hoje, os computadores desempenham uma vasta gama de funções. As atividades que realizamos neles, como assistir a vídeos, jogar e realizar transações bancárias, são muito mais complexas do que simples cálculos. Naturalmente, todas essas ações envolvem interações com caracteres, que são essenciais nas interfaces dos softwares. E isso não se aplica apenas aos utilizadores finais, mas também aos desenvolvedores, que necessitam manipular caracteres de várias maneiras ao criar os seus softwares.
 
