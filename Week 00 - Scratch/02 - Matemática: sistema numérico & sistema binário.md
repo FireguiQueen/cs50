@@ -17,7 +17,7 @@ Cada posição nesse valor representa uma potência de base dez, uma vez que há
 A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
 - **Centena:** 1 _(10² * __1__ = 100)_.
 - **Dezena:** &nbsp; 2  _(10¹ * __2__ = 20)_.
-- **Unidade:** 3 _(10⁰ 1 * __3__ = 3)_;
+- **Unidade:** 3 _(10⁰ * __3__ = 3)_;
 - **RESULTADO = 100 + 20 + 3**
 
 Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse agrupamento de dígitos gera um valor com 'n' posições.
