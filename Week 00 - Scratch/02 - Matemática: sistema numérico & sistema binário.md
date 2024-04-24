@@ -5,7 +5,7 @@ Por outro lado, existem outras formas de representar números maiores usando o s
 Por exemplo, você poderia desenhar pequenos traços em uma folha, onde cada traço representa um aluno presente. 
 Essa representação visual pode ser capaz de indicar uma alta quantidade de alunos presentes.
 
-Mas existe um método ainda mais eficiente para representar os alunos, conhecido como sistema decimal ou base 10. Neste método, agrupamos diferentes unidades numéricas (0, 1, 2, 3..). Ao combinar esses números distintos teremos um valor final, e cada posição neste valor pode conter dez valores distintos, variando de 0 a 9. Isso nos permite criar valores para representar a quantidade de alunos presentes de forma precisa e escalável.
+Mas existe um método ainda mais eficiente para representar os alunos, conhecido como sistema decimal ou base 10. Neste método, agrupamos diferentes unidades numéricas (0, 1, 2, 3..). Ao combinar esses números distintos teremos um valor final, e cada __posição__ neste valor pode conter dez valores distintos, variando de 0 a 9. Isso nos permite criar valores para representar a quantidade de alunos presentes de forma precisa e escalável.
 
 <br>
 
