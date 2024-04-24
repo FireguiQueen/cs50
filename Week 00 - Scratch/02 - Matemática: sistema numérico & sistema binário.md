@@ -5,25 +5,8 @@ Por outro lado, existem outras formas de representar números maiores usando o m
 Por exemplo, você poderia desenhar pequenos traços em uma folha, onde cada traço representa um aluno presente. 
 Essa representação visual pode ser capaz de indicar uma alta quantidade de alunos presentes.
 
-Mas existe um método ainda mais eficiente para representar os alunos, conhecido como sistema decimal ou base 10. Neste método, agrupamos diferentes unidades numéricas (0, 1, 2, 3..). Ao combinar esses números distintos teremos um valor final, e cada posição neste valor pode conter dez valores distintos, variando de 0 a 9.
+Mas existe um método ainda mais eficiente para representar os alunos, conhecido como sistema decimal ou base 10. Neste método, agrupamos diferentes unidades numéricas (0, 1, 2, 3..). Ao combinar esses números distintos teremos um valor final, e cada posição neste valor pode conter dez valores distintos, variando de 0 a 9. Isso nos permite criar valores para representar a quantidade de alunos presentes de forma precisa e escalável.
 
-Isso nos permite criar valores para representar a quantidade de alunos presentes de forma precisa e escalável.
-
-Essa ação também pode ser traduzida para os computadores, onde facilitaria o seu trabalho:
-- **Entrada (input):** _há 7 alunos presentes e um total de 30._
-- **Processamento (algoritimo(s) para a resolução do problema):** _há 30 alunos no total e 7 presentes. Sendo assim, 30 - 7 = 23 alunos faltosos._
-- **Saída (output):** _há 23 alunos ausentes._
-<details>
-    <summary>Exemplo em código Javascript:</summary>
-<code>  function alunosFaltosos(alunosPresentes, totalAlunos){
-            console.log(totalAlunos - alunosPresentes);
-        }
-        alunosFaltosos(7, 30);
-</code>
-</details>
-
-
-<br>
 <br>
 
 ## Entendendo a Estrutura Numérica
