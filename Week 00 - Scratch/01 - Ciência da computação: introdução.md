@@ -46,7 +46,8 @@ Essa ação também pode ser traduzida para os computadores, onde facilitaria o 
 - **Saída (output):** _há 23 alunos ausentes._
 <details>
     <summary>Exemplo em código Javascript:</summary>
-<code>  function alunosFaltosos(alunosPresentes, totalAlunos)
+<code>  
+        function alunosFaltosos(alunosPresentes, totalAlunos)
         {
             console.log(totalAlunos - alunosPresentes);
         }
