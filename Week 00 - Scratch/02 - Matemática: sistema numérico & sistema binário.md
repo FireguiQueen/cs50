@@ -6,6 +6,7 @@ Por exemplo, você poderia desenhar pequenos traços em uma folha, onde cada tra
 Essa representação visual pode ser capaz de indicar uma alta quantidade de alunos presentes.
 
 Mas existe um método ainda mais eficiente para representar os alunos, conhecido como sistema decimal ou base 10. Neste método, agrupamos diferentes unidades numéricas (0, 1, 2, 3..). Ao combinar esses números distintos teremos um valor final, e cada __posição__ neste valor pode conter dez valores distintos, variando de 0 a 9. Isso nos permite criar valores para representar a quantidade de alunos presentes de forma precisa e escalável.
+> Exemplo: 105. Este valor possui 3 posições (centenas, dezenas e unidades). Para cada uma delas, podemos colocar 10 números distintos: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9. 
 
 <br>
 
