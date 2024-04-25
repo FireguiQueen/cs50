@@ -47,7 +47,7 @@ Professor de Práticas de Ciência da Computação com a cátedra Gordon McKay, 
 </div>
 
 
-<br clear="">
+<br clear="right">
 
 
 #### Roadmap
