@@ -21,8 +21,7 @@ Essencialmente, assim como as máquinas, nós humanos também fazemos uso do con
 
 A pergunta que chegou ao garoto é o que chamamos de "Input", ou seja, uma entrada de informação. Para responder, o garoto processou essa entrada utilizando uma instrução simples (5.5.5; 5.5 = 25, 25.5 = 125). Após concluir sua reflexão, ele respondeu à mulher, mostrando o que chamamos de saída de informação (output).
 
-Resumidamente, podemos dizer que o garoto recebeu uma entrada de informação (uma pergunta) e gerou uma saída de informação (uma resposta).
-
+Resumidamente, é como se nossos cérebros funcionassem como programas de computador, processando informações de entrada para produzir respostas ou ações como resultado. Neste caso, podemos dizer que o garoto recebeu uma entrada de informação (uma pergunta) e gerou uma saída de informação (uma resposta).
 
 
 
