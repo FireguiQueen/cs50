@@ -1,5 +1,5 @@
 # Ciência da Computação 
-A Ciência da Computação é a ciência que desenvolve soluções por meio de máquinas. 
+A Ciência da Computação é a ciência que desenvolve soluções por meio de tecnologia computacional. 
 Podemos pensar que seu objetivo principal é automatizar resoluções de problemas do 
 mundo real por meio de  um simples processo que se __resume__ em: 
 1. Coletar informações (entradas de informação) 
@@ -15,8 +15,7 @@ A Ciência da Computação engloba tudo o que se origina da computação: algori
 <br>
 
 ## Um simples diálogo entre humanos também utilizam conceitos de entrada e saída de informação 
-Essencialmente, assim como as máquinas, nós também necessitamos do que é conhecido como "input" (para receber informações sobre nosso problema) e também "output" para transmitir a resolução deste problema. 
-
+Essencialmente, assim como as máquinas, nós humanos também fazemos uso do conceito de input e output. Quando somos questionados sobre algo, recebemos um input (uma entrada de informação), e quando respondemos ao questionamento, estamos gerando um output (uma saída de informação). 
 > Na analogia seguinte, ocorre um diálogo entre duas pessoas: a mulher fez uma pergunta ao garoto, e após pensar, o garoto responde.
 ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b)
 
