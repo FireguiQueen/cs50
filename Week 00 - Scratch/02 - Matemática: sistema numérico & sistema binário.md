@@ -1,4 +1,4 @@
-#### Leitura recomendada: []()
+#### Leitura recomendada: [Ciência da Computação: Introdução](https://github.com/FireguiQueen/CS50/blob/main/Week%2000%20-%20Scratch/01%20-%20Ci%C3%AAncia%20da%20computa%C3%A7%C3%A3o%3A%20Introdu%C3%A7%C3%A3o.md)
 
 ## Representação de Números
 Imagine-se como um professor em sala de aula verificando a presença dos alunos. Para isso, você pode levantar um dedo de cada vez, representando cada pessoa. Esse sistema é chamado de 'sistema unário', onde cada dígito representa uma única unidade. No entanto, a contagem não permite ir muito longe. Somando os dedos erguidos, o máximo possível seria contar até 10 alunos.
