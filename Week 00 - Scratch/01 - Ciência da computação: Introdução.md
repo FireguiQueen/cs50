@@ -14,7 +14,7 @@ A Ciência da Computação engloba tudo o que se origina da computação: algori
 
 <br>
 
-## Um simples diálogo entre humanos também utilizam conceitos de entrada e saída de informação 
+## Simples diálogos entre humanos também utilizam conceitos de entrada e saída de informação 
 Essencialmente, assim como as máquinas, nós humanos também fazemos uso do conceito de input e output. Quando somos questionados sobre algo, recebemos um input (uma entrada de informação), e quando respondemos ao questionamento, estamos gerando um output (uma saída de informação). 
 > Na analogia seguinte, ocorre um diálogo entre duas pessoas: a mulher fez uma pergunta ao garoto, e após pensar, o garoto responde.
 
