@@ -14,10 +14,10 @@ A Ciência da Computação engloba tudo o que se origina da computação: algori
 
 <br>
 
-## Entendendo o conceito de input/ouput através de uma conversa entre duas pessoas
-Essencialmente, assim como as máquinas, nós também necessitamos do que é conhecido como "input" (para receber informações sobre nosso problema) e também "output" para transmitir a resolução deste problema.
+## Um simples diálogo entre humanos também utilizam conceitos de
+Essencialmente, assim como as máquinas, nós também necessitamos do que é conhecido como "input" (para receber informações sobre nosso problema) e também "output" para transmitir a resolução deste problema. 
 
-Na analogia seguinte, ocorre uma conversa entre duas pessoas. A mulher fez uma pergunta ao garoto, e após ponderar sobre a resposta, o garoto respondeu.
+> Na analogia seguinte, ocorre um diálogo entre duas pessoas: a mulher fez uma pergunta ao garoto, e após pensar, o garoto responde,
 
 A pergunta chegou ao garoto como o que chamamos de "Input", uma entrada de informação. Para gerar uma resposta, ele processou essa entrada de informação (input) utilizando uma instrução simples (5.5.5; 5.5 = 25, 25.5 = 125). E após chegar a uma conclusão, ele respondeu à mulher, e isso é o que chamamos de saída de informação (output). 
 
