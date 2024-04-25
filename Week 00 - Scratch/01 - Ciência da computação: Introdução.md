@@ -8,7 +8,7 @@ mundo real por meio de  um simples processo que se __resume__ em:
 _______ 
 
 ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/f0285159-3d9c-41ba-9c06-f63f87babd8b)
-Quando falamos de 'input', estamos nos referindo à informação que entra em um programa ou máquina. Neste exemplo, podemos imaginar essa máquina como uma caixa preta, que contém uma série de instruções para lidar com essa informação. O resultado desse processo é o 'output', ou seja, a saída de informação da máquina, que é a resposta que obtemos no final.
+> Quando falamos de 'input', estamos nos referindo à informação que entra em um programa ou máquina. Neste exemplo, podemos imaginar essa máquina como uma caixa preta, que contém uma série de instruções para lidar com essa informação. O resultado desse processo é o 'output', ou seja, a saída de informação da máquina, que é a resposta que obtemos no final.
 
 A Ciência da Computação engloba tudo o que se origina da computação: algoritmos (sequências de instruções em um programa), softwares, redes (troca de informações entre máquinas), IA, entre outros. Mas no final, todas essas ferramentas mencionadas têm um único propósito: __desenvolver soluções por meio de máquinas__.
 
