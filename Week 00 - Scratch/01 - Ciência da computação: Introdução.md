@@ -18,7 +18,7 @@ A Ciência da Computação engloba tudo o que se origina da computação: algori
 Essencialmente, assim como as máquinas, nós humanos também fazemos uso do conceito de input e output. Quando somos questionados sobre algo, recebemos um input (uma entrada de informação), e quando respondemos ao questionamento, estamos gerando um output (uma saída de informação). 
 > Na analogia seguinte, ocorre um diálogo entre duas pessoas: a mulher fez uma pergunta ao garoto, e após pensar, o garoto responde.
 
-![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b)
+<!-- ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b) -->
 
 ![teste](https://github.com/FireguiQueen/CS50/assets/98475125/8b312c1e-efeb-4ada-9a7e-e910c04f95bf)
 
