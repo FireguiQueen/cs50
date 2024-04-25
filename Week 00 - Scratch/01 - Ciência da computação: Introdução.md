@@ -20,7 +20,7 @@ Essencialmente, assim como as máquinas, nós também necessitamos do que é con
 > Na analogia seguinte, ocorre um diálogo entre duas pessoas: a mulher fez uma pergunta ao garoto, e após pensar, o garoto responde.
 ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b)
 
-A pergunta que a mulher fez ao garoto é o que chamamos de "Input", ou seja, uma entrada de informação. Para responder, o garoto processou essa entrada utilizando uma instrução simples (5.5.5; 5.5 = 25, 25.5 = 125). Após concluir sua reflexão, ele respondeu à mulher, mostrando o que chamamos de saída de informação (output).
+A pergunta que chegou ao garoto é o que chamamos de "Input", ou seja, uma entrada de informação. Para responder, o garoto processou essa entrada utilizando uma instrução simples (5.5.5; 5.5 = 25, 25.5 = 125). Após concluir sua reflexão, ele respondeu à mulher, mostrando o que chamamos de saída de informação (output).
 
 Resumidamente, podemos dizer que o garoto recebeu uma entrada de informação (uma pergunta) e gerou uma saída de informação (uma resposta).
 
