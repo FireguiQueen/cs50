@@ -18,12 +18,12 @@ A Ciência da Computação engloba tudo o que se origina da computação: algori
 Essencialmente, assim como as máquinas, nós também necessitamos do que é conhecido como "input" (para receber informações sobre nosso problema) e também "output" para transmitir a resolução deste problema. 
 
 > Na analogia seguinte, ocorre um diálogo entre duas pessoas: a mulher fez uma pergunta ao garoto, e após pensar, o garoto responde,
+![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b)
 
-A pergunta chegou ao garoto como o que chamamos de "Input", uma entrada de informação. Para gerar uma resposta, ele processou essa entrada de informação (input) utilizando uma instrução simples (5.5.5; 5.5 = 25, 25.5 = 125). E após chegar a uma conclusão, ele respondeu à mulher, e isso é o que chamamos de saída de informação (output). 
+A pergunta que a mulher fez ao garoto é o que chamamos de "Input", ou seja, uma entrada de informação. Para responder, o garoto processou essa entrada utilizando uma instrução simples (5.5.5; 5.5 = 25, 25.5 = 125). Após concluir sua reflexão, ele respondeu à mulher, mostrando o que chamamos de saída de informação (output).
 
 Resumidamente, podemos dizer que o garoto recebeu uma entrada de informação (uma pergunta) e gerou uma saída de informação (uma resposta).
 
-![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b)
 
 
 
