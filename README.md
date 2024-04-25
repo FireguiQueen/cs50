@@ -23,6 +23,7 @@ Links úteis:
 </br>
 
 #### "Roadmap"
+- [ ] Melhorar o readme
 - [X] Melhorar explicação da aula 1 (semana 0)
 - [ ] Melhorar explicação da aula 2 (semana 0)
 - [ ] Melhorar explicação da aula 3 (semana 0)
