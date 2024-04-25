@@ -20,6 +20,8 @@ Essencialmente, assim como as máquinas, nós humanos também fazemos uso do con
 
 ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b)
 
+![teste](https://github.com/FireguiQueen/CS50/assets/98475125/8b312c1e-efeb-4ada-9a7e-e910c04f95bf)
+
 #### Conclusão
 A pergunta que chegou ao garoto é o que chamamos de "Input", ou seja, uma entrada de informação. Para responder, o garoto processou essa entrada utilizando uma instrução simples (5.5.5; 5.5 = 25, 25.5 = 125). Após concluir sua reflexão, ele respondeu à mulher, mostrando o que chamamos de saída de informação (output).
 
