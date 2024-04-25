@@ -23,9 +23,9 @@ Links úteis:
 </br>
 
 #### "Roadmap"
-[X] Melhorar explicação da aula 1 (semana 0)
-[ ] Melhorar explicação da aula 2 (semana 0)
-[ ] Melhorar explicação da aula 3 (semana 0)
+- [X] Melhorar explicação da aula 1 (semana 0)
+- [ ] Melhorar explicação da aula 2 (semana 0)
+- [ ] Melhorar explicação da aula 3 (semana 0)
 
 <br>
 
