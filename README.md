@@ -44,6 +44,10 @@ Professor de Práticas de Ciência da Computação com a cátedra Gordon McKay, 
 Professor de Práticas de Ciência da Computação com a cátedra Gordon McKay, e Membro da Faculdade de Educação em Harvard University. Ele recebeu seu bacharelado, mestrado, e PhD em Ciência da Computação em Harvard nos anos 1999, 2004 e 2007, respectivamente.
 </p>
 
+</br>
+</br>
+
+
 #### Roadmap
 [X] Melhorar explicação da aula 1 (semana 0)
 [ ] Melhorar explicação da aula 2 (semana 0)
