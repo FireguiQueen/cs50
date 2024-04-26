@@ -17,10 +17,10 @@ Isso nos permite criar valores para representar a quantidade de alunos presentes
 
 ## Como os humanos compreendem valores? 
 Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. Isso ocorre pois o 0 está na coluna das unidades, o 5 está na coluna das dezenas e o 2 está na coluna das centenas. 
-- **Unidade:** 3 _(10⁰ * __3__ = 3)_;
-- **Dezena:** &nbsp; 2  _(10¹ * __2__ = 20)_.
-- **Centena:** 1 _(10² * __1__ = 100)_.
-- **RESULTADO = 100 + 20 + 3**
+- **Unidade:** 0 _(10⁰ * __0__ = 0)_;
+- **Dezena:** &nbsp; 5  _(10¹ * __5__ = 50)_.
+- **Centena:** 2 _(10² * __2__ = 200)_.
+- **RESULTADO = 200 + 50 + 0**
 
 ![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76)
 > A regra fundamental da notação decimal é que cada posição à __esquerda__ de um número é _dez vezes maior do que a posição à sua direita_. Por isso que uma dezena é composta por 10 unidades, uma centena por 10 dezenas, e assim por diante.
