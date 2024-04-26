@@ -17,23 +17,14 @@ Isso nos permite criar valores para representar a quantidade de alunos presentes
 
 ## Entendendo a Estrutura Numérica
 Quando olhamos para o valor `123`, pensamos no número cento e vinte e três. Isso ocorre porque o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. 
-
-Cada posição nesse valor representa uma potência de base dez, uma vez que há dez dígitos possíveis para cada posição. 
-A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
 - **Centena:** 1 _(10² * __1__ = 100)_.
 - **Dezena:** &nbsp; 2  _(10¹ * __2__ = 20)_.
 - **Unidade:** 3 _(10⁰ * __3__ = 3)_;
 - **RESULTADO = 100 + 20 + 3**
 
-Chegamos à conclusão que um valor consiste em unidades foram agrupadas. E esse agrupamento de dígitos gera um valor com 'n' posições.
-> Como o valor `3.150` (há 4 posições), contamos da esquerda para a direita: unidade de milhar (10^3 * 3), centenas (10^2 * 1), dezenas (10^1 * 5) e unidades (10^0 * 0).
-
-
-### Na matemática, isso pode ser representado desta maneira:
-> Cada posição possui a mesma base, porém com expoentes diferentes. A primeira posição possui o expoente 0 (10<sup>0</sup> = 1), a segunda possui o expoente 1 (10<sup>1</sup> = 10), e assim sucessivamente.  <a name="img1"> </a>
 
 ![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76)
-
+> A regra é que cada posição à esquerda de um número em notação decimal é dez vezes maior do que a posição à sua direita.
 
 <br>
 
