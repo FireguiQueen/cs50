@@ -23,7 +23,7 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 - **RESULTADO = 100 + 20 + 3**
 
 ![image 2](https://github.com/FireguiQueen/CC50/assets/98475125/43cf09fb-06c8-4d56-906b-0cd7022c1f76)
-> A regra fundamental da notação decimal é que cada posição à __esquerda__ de um número é _dez vezes maior do que a posição à sua direita_. Por isso que uma dezena é composta por 10 unidades, uma centena por dez dezenas, e assim por diante.
+> A regra fundamental da notação decimal é que cada posição à __esquerda__ de um número é _dez vezes maior do que a posição à sua direita_. Por isso que uma dezena é composta por 10 unidades, uma centena por 10 dezenas, e assim por diante.
 
 <br>
 
