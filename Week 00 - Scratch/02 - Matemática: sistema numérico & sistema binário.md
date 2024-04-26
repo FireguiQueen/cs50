@@ -28,9 +28,11 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 <br>
 
 ## Sistema Binário, eletricidade e a estrutura numérica
-Acontece que, no mundo dos computadores, o sistema deles é fundamentalmente idêntico ao nosso.
-A diferença é que os computadores só tem acesso a dois números: 0 e 1, em outras palavras, só tem acesso a dois bits. Por isso, eles fazem uso da base de dois (binário) para a criação de outros números.
-> Bits é derivado de "binary digits". Dígitos binários são 0 e 1.
+O sistema  é fundamentalmente idêntico ao nosso.
+A diferença é que os computadores só tem acesso a dois números: 0 e 1, enquanto nós possuimos acesso a 10 diferentes números (0, 1, 2, 3, 4, 5, 6, 7, 8 e 9). 
+
+em outras palavras, só tem acesso a dois bits. Por isso, eles fazem uso da base de dois (binário) para a criação de outros números.
+> Bits é derivado de "binary digits". Dígitos binários são: 0 e 1.
 
 __Mas qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?__
 Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretamos informações.
@@ -42,7 +44,7 @@ Percebemos que nosso cérebro simplifica muito as coisas. O nosso 'input' (nossa
 __No entanto, o que os computadores utilizam como INPUT?__ Na realidade, apenas eletricidade.
 Algo que todos nós fazemos ao utilizar um dispositivo eletrônico é garantir que esteja conectado à tomada ou que tenha energia na sua bateria/pilha.
 Através dessa eletricidade, começamos a representar informações. </br>
-Um dispositivo que recebe eletricidade possui dois estados: desligado/ligado. Esse comportamento de ligar/desligar pode ser denominado de forma binária, 0 e 1.
+Um dispositivo que recebe eletricidade é capaz de estar em dois estados: desligado/ligado. Esse comportamento de ligar/desligar pode ser denominado de forma binária, 0 e 1.
 
 Dado que os computadores possuem basicamente um único tipo de ENTRADA física (eletricidade), podemos aproveitar isso para armazenar informações.
 
