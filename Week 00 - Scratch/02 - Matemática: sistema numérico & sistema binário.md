@@ -15,8 +15,8 @@ Isso nos permite criar valores para representar a quantidade de alunos presentes
 
 <br>
 
-## Entendendo a Estrutura Numérica
-Quando olhamos para o valor `123`, pensamos no número cento e vinte e três. Isso ocorre porque o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. 
+## Como os humanos compreendem valores? 
+Quando olhamos para o valor `123`, pensamos no número __cento e vinte e três__. Isso ocorre pois o 3 está na coluna das unidades, o 2 está na coluna das dezenas e o 1 está na coluna das centenas. 
 - **Unidade:** 3 _(10⁰ * __3__ = 3)_;
 - **Dezena:** &nbsp; 2  _(10¹ * __2__ = 20)_.
 - **Centena:** 1 _(10² * __1__ = 100)_.
