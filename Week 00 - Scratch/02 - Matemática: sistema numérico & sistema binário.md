@@ -27,7 +27,7 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 
 <br>
 
-## Sistema Binário, eletricidade e a estrutura numérica
+# Números representam informações, mas como informações representam números? 
 O sistema  é fundamentalmente idêntico ao nosso.
 A diferença é que os computadores só tem acesso a dois números: 0 e 1, enquanto nós possuimos acesso a 10 diferentes números (0, 1, 2, 3, 4, 5, 6, 7, 8 e 9). 
 
