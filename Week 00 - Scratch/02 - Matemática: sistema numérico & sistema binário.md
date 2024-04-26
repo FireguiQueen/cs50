@@ -18,7 +18,7 @@ Isso nos permite criar valores para representar a quantidade de alunos presentes
 ## Como os humanos compreendem valores? 
 Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. Isso ocorre pois o 0 está na coluna das unidades, o 5 está na coluna das dezenas e o 2 está na coluna das centenas. 
 - **Unidade:** 0 _(10⁰ * __0__ = 0)_;
-- **Dezena:** &nbsp; 5  _(10¹ * __5__ = 50)_.
+- **Dezena:** &nbsp; 5  _(10¹ * __5__ = 50)_;
 - **Centena:** 2 _(10² * __2__ = 200)_.
 - **RESULTADO = 200 + 50 + 0**
 
