@@ -28,6 +28,11 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 <br>
 
 # Números representam informações, mas como informações representam números? 
+Talvez, um dos pedidos mais feitos em mercado e lojas num geral seja: "Poderia me __informar__ o _preço_ deste produto?" 
+
+Na vida real, temos acesso aos 10 diferentes números: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9; E nós utilizamos eles para formar
+valores cada vez mais altos, a fim de representar 
+
 O sistema  é fundamentalmente idêntico ao nosso.
 A diferença é que os computadores só tem acesso a dois números: 0 e 1, enquanto nós possuimos acesso a 10 diferentes números (0, 1, 2, 3, 4, 5, 6, 7, 8 e 9). 
 
