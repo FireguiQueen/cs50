@@ -27,21 +27,26 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 
 <br>
 
-# Números representam informações, mas como informações representam números? 
-Talvez, um dos pedidos mais feitos em mercado e lojas num geral seja: "Poderia me __informar__ o _preço_ deste produto?", e a resposta a esta pergunta será um número, um valor. 
+# Representatividade de informações por computadores e humanos
+Tudo o que presenciamos ao nosso redor, sejam ruas, animais, plantas.. Todas essas coisas podem ser interpretadoas como informações. > _"Informação é um conceito amplo, mas em termos gerais, pode ser definida como dados organizados de forma significativa, que têm o potencial de transmitir conhecimento ou instrução para aqueles que a recebem."_ 
+ 
+
+
+# Estados básicos são capazes de criar infinitas informa
+
+# Números representam informações, e informações representam números. 
 
 Na vida real, temos acesso aos 10 diferentes números: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9; E nós utilizamos eles para formar
-valores cada vez mais altos, a fim de representar 
+valores cada vez maiores, a fim de representar um valor final.  
 
-O sistema  é fundamentalmente idêntico ao nosso.
-A diferença é que os computadores só tem acesso a dois números: 0 e 1, enquanto nós possuimos acesso a 10 diferentes números (0, 1, 2, 3, 4, 5, 6, 7, 8 e 9). 
+A diferença é que os computadores só tem acesso a dois números: __0 e 1__
 
 em outras palavras, só tem acesso a dois bits. Por isso, eles fazem uso da base de dois (binário) para a criação de outros números.
 > Bits é derivado de "binary digits". Dígitos binários são: 0 e 1.
 
-__Mas qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?__
+__Qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?__
 Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretamos informações.
-1. __INPUT:__ _Entrada de uma informação (seja ouvindo ou lendo)_
+1. __INPUT:__ _Entrada de uma informação (seja ouvindo, lendo ou até mesmo pelo tato)_
 2. __PROCESSAMENTO:__ _Tratamento desta informação (pensamos como podemos resolver este problema)_
 3. __OUTPUT:__ _Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)_
 
