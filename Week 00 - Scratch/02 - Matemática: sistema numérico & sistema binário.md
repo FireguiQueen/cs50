@@ -28,9 +28,13 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 <br>
 
 # Representatividade de informações por computadores e humanos
-Tudo o que presenciamos ao nosso redor, sejam ruas, diálogos entre pessoas, animais, plantas.. Todas essas coisas podem ser interpretadoas como informações. 
+
+#### O conceito de informação
 > _"Informação é um conceito amplo, mas em termos gerais, pode ser definida como dados organizados de forma significativa, que têm o potencial de __transmitir conhecimento__ ou __instrução para aqueles que a recebem__."_ 
- 
+
+Tudo o que presenciamos ao nosso redor, sejam ruas, diálogos entre pessoas, animais, plantas.. Todas essas coisas podem ser interpretadoas como informações. 
+
+Quando eu digo que tudo pode ser interpretado como uma informação, me refiro a tudo que existe em nosso universo. Em uma conversa por exemplo, somos capazes de receber conhecimento ou instruções, e isto, é uma informação. 
 
 
 # Estados básicos são capazes de criar infinitas informa
