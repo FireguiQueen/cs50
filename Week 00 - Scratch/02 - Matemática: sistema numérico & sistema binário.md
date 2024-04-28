@@ -35,8 +35,9 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 Tudo o que presenciamos ao nosso redor, sejam ruas, diálogos entre pessoas, animais, plantas.. Absolutamente tudo existente em nosso universo são informações. Em uma conversa, por exemplo, somos capazes de receber conhecimento ou instruções de outras pessoas, e este conceito, nada mais é do que uma informação passada do ponto A (pessoa 1) até o ponto B (pessoa 2).
 
 #### Como objetos mais abstratos continuam sendo informações? 
-Para entender isto, podemos pensar em uma flor. Uma flor pode aparentar não ser uma informação, pois ela, supostamente, não está lhe transmitido conhecimento ou instruções. Mas a realidade é que uma flor comunica uma série de informações valiosas sobre si mesma e de seu ambiente.   
+Para entender isto, podemos pensar em uma flor. Uma flor pode aparentar não ser uma informação, pois ela, supostamente, não está lhe transmitido conhecimento ou instruções. Mas a realidade é que uma flor comunica uma série de informações valiosas sobre si mesma e de seu ambiente. 
 
+Vamos supor que um grande conhecedor de plantas que vive na Europa seja teletransportado para um local aleatório no mundo. De repente, ele avista uma flor de Carajás, que só existe no Brasil, na Amazônia. Isso significa que, através de uma simples flor, ele foi capaz de adquirir conhecimento sobre sua localização atual. 
 
 # Estados básicos são capazes de criar infinitas informa
 
