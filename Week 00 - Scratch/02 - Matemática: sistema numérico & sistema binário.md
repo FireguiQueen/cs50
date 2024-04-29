@@ -50,7 +50,8 @@ Vamos supor que um biólogo que vive na Europa seja teleportado para um local al
 ## Semelhança entre o mundo real e o computacional 
 Tudo ao nosso redor __é feito energia__. Um exemplo disso, é o corpo humano, que em um nível fundamental, é formado por máteria.: atomos, que formam moléculas, que formam células, que formam tecidos, orgãos.. A mesma coisa vale para qualquer matéria que vemos em nosso universo, no fim, tudo se resume a energia.
 
-Nos computadores, isto não é diferente. Para criarmos informação
+Nos computadores, isto não é diferente. Para criarmos informações, juntamos dois estados básicos: ligado/desligado.
+E isto, só é possível através de energia. 
  
 
 
@@ -70,9 +71,9 @@ em outras palavras, só tem acesso a dois bits. Por isso, eles fazem uso da base
 
 __Qual é o motivo pelo qual as máquinas operam exclusivamente com o binário?__
 Antes disso, vamos refletir um pouco sobre como nós, seres humanos, interpretamos informações.
-1. __INPUT:__ _Entrada de uma informação (seja ouvindo, lendo ou até mesmo pelo tato)_
+1. __INPUT:__ _Entrada de uma informação (seja ouvindo, vendo ou até mesmo pelo tato)_
 2. __PROCESSAMENTO:__ _Tratamento desta informação (pensamos como podemos resolver este problema)_
-3. __OUTPUT:__ _Saída de uma solução (falamos ou escrevemos a resposta pensada na etapa anterior)_
+3. __OUTPUT:__ _Saída de uma solução (transmitimos a resposta pensada na etapa anterior)_
 
 Percebemos que nosso cérebro simplifica muito as coisas. O nosso 'input' (nossa entrada de informação) pode ser captada de diversas maneiras: ouvindo, vendo ou até mesmo pelo tato.
 __No entanto, o que os computadores utilizam como INPUT?__ Na realidade, apenas eletricidade.
