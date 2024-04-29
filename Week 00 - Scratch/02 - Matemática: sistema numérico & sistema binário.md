@@ -42,7 +42,7 @@ Ao olhar para um jornal, vemos diferentes notícias sobre acontecimentos e fatos
 
 __A partir do momento que somos capazes de interpretar algo, podemos considerar aquilo uma informação.__
 
-#### Como objetos mais abstratos continuam sendo informações? 
+### Como objetos mais abstratos continuam sendo informações? 
 Para entender isto, podemos pensar em uma flor. Uma flor pode aparentar não ser uma informação, pois ela, supostamente, não está lhe transmitido conhecimento ou instruções. Mas a realidade é que uma flor comunica uma série de informações valiosas sobre si mesma e de seu ambiente. 
 
 Vamos supor que um biólogo que vive na Europa seja teleportado para um local aleatório no mundo. De repente, ele se depara com uma flor de Carajás, que só existe no Brasil, na Amazônia. Neste momento, já podemos imaginar que esta flor avistada pelo biólogo, é um tipo de informação, pois deu a ele um conhecimento (que neste caso, foi mostrar ao biólogo sua localização).
