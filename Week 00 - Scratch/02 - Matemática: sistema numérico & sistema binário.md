@@ -55,7 +55,8 @@ Nos computadores, isto não é diferente. Para criarmos informação
 
 
 
-# Estados básicos são capazes de criar infinitas informa
+# Estados básicos são capazes de criar infinitas informações
+......
 
 # Números representam informações, e informações representam números. 
 
