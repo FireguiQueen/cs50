@@ -32,13 +32,13 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 ## O conceito de informação
 > _"Informação é um conceito amplo, mas em termos gerais, pode ser definida como dados organizados de forma significativa, que têm o potencial de __transmitir conhecimento__ ou __instrução para aqueles que a recebem__."_ 
 
-Tudo o que presenciamos ao nosso redor, sejam ruas, diálogos entre pessoas, animais, plantas.. Absolutamente tudo existente em nosso universo podem ser interpretado como "mera" informações. 
+Tudo o que presenciamos ao nosso redor, sejam ruas, diálogos entre pessoas, animais, plantas.. Absolutamente tudo existente em nosso universo podem ser interpretado como "meras" informações. 
 
-Em uma conversa, por exemplo, somos capazes de receber conhecimento ou instruções de outras pessoas, e este conceito, nada mais é do que uma informação passada do ponto A (pessoa 1) até o ponto B (pessoa 2).
+Em uma conversa, por exemplo, somos capazes de receber conhecimento ou instruções de outras pessoas, e este conceito nada mais é do que uma informação transmitida do ponto A (pessoa 1) até o ponto B (pessoa 2).
 
-Quando vemos um 'S.O.S' escrito em na areia de uma ilha, sabemos que aquilo é uma informação, e ganhamos o conhecimento que alguém possívelmente esteja precisando de ajuda. 
+Quando vemos um 'S.O.S' escrito na areia de uma ilha, sabemos que aquilo é uma informação, e ganhamos o conhecimento de que alguém possivelmente esteja precisando de ajuda.
 
-Ao olhar para um jornal, vemos diferentes notícias sobre acontecimentos e fatos, e isto, é uma informação, pois nos deu o conhecimento sobre determinado evento. 
+Ao olhar para um jornal, vemos diferentes notícias sobre acontecimentos e fatos, e isto é uma informação, pois nos dá o conhecimento sobre determinado evento.
 
 ___A partir do momento que somos capazes de interpretar algo, podemos considerar aquilo uma informação.___
 
