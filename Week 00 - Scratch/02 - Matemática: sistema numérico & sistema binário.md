@@ -5,7 +5,7 @@ Imagine-se como um professor em sala de aula verificando a presença dos alunos.
 
 Por outro lado, existem outras formas de representar números maiores usando o sistema unário.
 Por exemplo, você poderia desenhar pequenos traços em uma folha, onde cada traço representa um aluno presente. 
-Essa representação visual pode ser capaz de indicar uma alta quantidade de alunos presentes.
+Essa representação visual pode ser capaz de indicar uma alta quantidade de alunos presentes. 
 
 Mas existe um método ainda mais eficiente e prático para representar os alunos, conhecido como __sistema decimal ou base 10__. Neste método, agrupamos diferentes unidades numéricas (0, 1, 2, 3..). Ao combinar esses números distintos teremos um valor final, e cada __posição__ neste valor pode conter dez valores distintos, variando de 0 a 9. 
 
@@ -29,15 +29,18 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 
 # Representatividade de informações por computadores e humanos
 
-#### O conceito de informação
+### O conceito de informação
 > _"Informação é um conceito amplo, mas em termos gerais, pode ser definida como dados organizados de forma significativa, que têm o potencial de __transmitir conhecimento__ ou __instrução para aqueles que a recebem__."_ 
 
-Tudo o que presenciamos ao nosso redor, sejam ruas, diálogos entre pessoas, animais, plantas.. Absolutamente tudo existente em nosso universo são informações. Em uma conversa, por exemplo, somos capazes de receber conhecimento ou instruções de outras pessoas, e este conceito, nada mais é do que uma informação passada do ponto A (pessoa 1) até o ponto B (pessoa 2).
+Tudo o que presenciamos ao nosso redor, sejam ruas, diálogos entre pessoas, animais, plantas.. Absolutamente tudo existente em nosso universo podem ser interpretado como "mera" informações. Em uma conversa, por exemplo, somos capazes de receber conhecimento ou instruções de outras pessoas, e este conceito, nada mais é do que uma informação passada do ponto A (pessoa 1) até o ponto B (pessoa 2).
 
 #### Como objetos mais abstratos continuam sendo informações? 
 Para entender isto, podemos pensar em uma flor. Uma flor pode aparentar não ser uma informação, pois ela, supostamente, não está lhe transmitido conhecimento ou instruções. Mas a realidade é que uma flor comunica uma série de informações valiosas sobre si mesma e de seu ambiente. 
 
-Vamos supor que um grande conhecedor de plantas que vive na Europa seja teletransportado para um local aleatório no mundo. De repente, ele avista uma flor de Carajás, que só existe no Brasil, na Amazônia. Isso significa que, através de uma simples flor, ele foi capaz de adquirir conhecimento sobre sua localização atual. 
+Vamos supor que um biólogo que vive na Europa seja teleportado para um local aleatório no mundo. De repente, ele se depara com uma flor de Carajás, que só existe no Brasil, na Amazônia. Neste momento, já podemos imaginar que esta flor avistada pelo biólogo é um tipo de informação, pois deu a ele um conhecimento (que neste caso, foi mostrar ao biólogo sua localização).
+
+#### Semelhança entre o mundo real e o computacional 
+
 
 # Estados básicos são capazes de criar infinitas informa
 
