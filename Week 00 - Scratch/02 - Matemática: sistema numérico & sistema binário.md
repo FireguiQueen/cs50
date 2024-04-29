@@ -29,8 +29,9 @@ Quando olhamos para o valor `250`, pensamos no número _duzentos e cinquenta__. 
 
 # Representatividade de informações por computadores e humanos
 
-### O conceito de informação
+## O conceito de informação
 > _"Informação é um conceito amplo, mas em termos gerais, pode ser definida como dados organizados de forma significativa, que têm o potencial de __transmitir conhecimento__ ou __instrução para aqueles que a recebem__."_ 
+A partir do momento que somos capazes de interpretar algo, podemos considerar aquilo uma informação. 
 
 Tudo o que presenciamos ao nosso redor, sejam ruas, diálogos entre pessoas, animais, plantas.. Absolutamente tudo existente em nosso universo podem ser interpretado como "mera" informações. 
 
@@ -39,9 +40,19 @@ Em uma conversa, por exemplo, somos capazes de receber conhecimento ou instruç�
 #### Como objetos mais abstratos continuam sendo informações? 
 Para entender isto, podemos pensar em uma flor. Uma flor pode aparentar não ser uma informação, pois ela, supostamente, não está lhe transmitido conhecimento ou instruções. Mas a realidade é que uma flor comunica uma série de informações valiosas sobre si mesma e de seu ambiente. 
 
-Vamos supor que um biólogo que vive na Europa seja teleportado para um local aleatório no mundo. De repente, ele se depara com uma flor de Carajás, que só existe no Brasil, na Amazônia. Neste momento, já podemos imaginar que esta flor avistada pelo biólogo é um tipo de informação, pois deu a ele um conhecimento (que neste caso, foi mostrar ao biólogo sua localização).
+Vamos supor que um biólogo que vive na Europa seja teleportado para um local aleatório no mundo. De repente, ele se depara com uma flor de Carajás, que só existe no Brasil, na Amazônia. Neste momento, já podemos imaginar que esta flor avistada pelo biólogo, é um tipo de informação, pois deu a ele um conhecimento (que neste caso, foi mostrar ao biólogo sua localização).
 
-#### Semelhança entre o mundo real e o computacional 
+## Semelhança entre o mundo real e o computacional 
+Tudo ao nosso redor __é feito energia__. Um exemplo disso, é o corpo humano, que em um nível fundamental, é formado por máteria.: atomos, que formam moléculas, que formam células, que formam tecidos, orgãos.. 
+A mesma coisa vale para qualquer matéria que vemos em nosso universo, no fim, tudo se resume a energia.
+
+mas que no fim, pode ser interpratado como uma informação. 
+
+
+Mas porque, seguindo este aspecto, somos tão parecidos com computadores?
+
+No mundo real, 
+
 
 
 # Estados básicos são capazes de criar infinitas informa
