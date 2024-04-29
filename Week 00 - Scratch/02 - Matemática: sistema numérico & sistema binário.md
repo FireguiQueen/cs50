@@ -40,7 +40,7 @@ Quando vemos um 'S.O.S' escrito em na areia de uma ilha, sabemos que aquilo é u
 
 Ao olhar para um jornal, vemos diferentes notícias sobre acontecimentos e fatos, e isto, é uma informação, pois nos deu o conhecimento sobre determinado evento. 
 
-__A partir do momento que somos capazes de interpretar algo, podemos considerar aquilo uma informação.__
+___A partir do momento que somos capazes de interpretar algo, podemos considerar aquilo uma informação.___
 
 ### Como objetos mais abstratos continuam sendo informações? 
 Para entender isto, podemos pensar em uma flor. Uma flor pode aparentar não ser uma informação, pois ela, supostamente, não está lhe transmitido conhecimento ou instruções. Mas a realidade é que uma flor comunica uma série de informações valiosas sobre si mesma e de seu ambiente. 
