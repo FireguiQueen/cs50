@@ -48,7 +48,7 @@ Para entender isto, podemos pensar em uma flor. Uma flor pode aparentar não ser
 Vamos supor que um biólogo que vive na Europa seja teleportado para um local aleatório no mundo. De repente, ele se depara com uma flor de Carajás, que só existe no Brasil, na Amazônia. Neste momento, já podemos imaginar que esta flor avistada pelo biólogo, é um tipo de informação, pois deu a ele um conhecimento (que neste caso, foi mostrar ao biólogo sua localização).
 
 ## Semelhança entre o mundo real e o computacional 
-Tudo ao nosso redor __é feito energia__. Um exemplo disso, é o corpo humano, que em um nível fundamental, é formado por máteria.: atomos, que formam moléculas, que formam células, que formam tecidos, orgãos.. A mesma coisa vale para qualquer matéria que vemos em nosso universo, no fim, tudo se resume a energia.
+Tudo ao nosso redor __é feito energia__. Um exemplo disso é o corpo humano, que em um nível fundamental, é formado por máteria (átomos, que formam moléculas, que formam células, que formam tecidos, orgãos), e como nós já sabemos, matéria é formada por energia. 
 
 Nos computadores, isto não é diferente. Para criarmos informações, juntamos dois estados básicos: ligado/desligado.
 E isto, só é possível através de energia. 
@@ -58,8 +58,6 @@ E isto, só é possível através de energia.
 
 # Estados básicos são capazes de criar infinitas informações
 ......
-
-# Números representam informações, e informações representam números. 
 
 Na vida real, temos acesso aos 10 diferentes números: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9; E nós utilizamos eles para formar
 valores cada vez maiores, a fim de representar um valor final.  
