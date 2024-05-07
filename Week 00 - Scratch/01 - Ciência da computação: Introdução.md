@@ -2,8 +2,9 @@
 A Ciência da Computação é a ciência que desenvolve soluções por meio de tecnologia computacional. 
 Podemos pensar que seu objetivo principal é automatizar resoluções de problemas do 
 mundo real por meio de  um simples processo que se __resume__ em: 
-1. Coletar informações (entradas de informação) 
-2. Gerar resultados (saídas de informação).
+1. Coletar informações (entradas de informação)
+2. Tratar essas informações (com algoritimos)
+3. Gerar resultados (saídas de informação).
 
 _______ 
 
