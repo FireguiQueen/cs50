@@ -26,6 +26,8 @@ Links úteis:
 
 <br>
 
+____________
+
 ## Professores
 <p>
 <img align="left" height="280px "src="https://github.com/FireguiQueen/CC50/assets/98475125/a568d239-043a-4f3d-b45c-e0b688c3caae" alt="David J. Malan" />
