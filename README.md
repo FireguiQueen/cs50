@@ -3,8 +3,6 @@ O CC50 (computer science fifty) é um curso abrangente de Ciências da Computaç
 
 Este repositório contém minhas anotações pessoais, baseadas no meu entendimento do curso. Aqui, você encontrará insights, explicações e resumos feitos por mim.
 
-</br>
-
 ## Tópicos Abordados
 - Algoritmos e estruturas de dados;
 - Princípios de design de software;
