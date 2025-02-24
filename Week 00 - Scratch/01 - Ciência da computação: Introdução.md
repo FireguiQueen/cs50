@@ -6,7 +6,7 @@ Computer science is the field that develops solutions using computational techno
 
 ---
 
-![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/8b312c1e-efeb-4ada-9a7e-e910c04f95bf)
+![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/f0285159-3d9c-41ba-9c06-f63f87babd8b)
 
 <!--
 A Ciência da Computação é a ciência que desenvolve soluções por meio de tecnologia computacional. 
