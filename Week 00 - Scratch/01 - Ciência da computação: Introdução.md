@@ -1,4 +1,11 @@
-# Ciência da Computação 
+# Computer Science
+Computer science is the field that develops solutions using computational technology. Its main goal is to automate the resolution of real-world problems through a structured process, which can be summarized as follows:
+1. Colect data (inputs)
+2. Process the data (using algorithms)
+3. Generate results (outputs)
+
+
+<!--
 A Ciência da Computação é a ciência que desenvolve soluções por meio de tecnologia computacional. 
 Podemos pensar que seu objetivo principal é automatizar resoluções de problemas do 
 mundo real por meio de  um simples processo que se __resume__ em: 
@@ -29,6 +36,7 @@ Resumidamente, é como se nossos cérebros funcionassem como programas de comput
 
 
 <!-- ignore: ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b) --> 
+--> 
 
 
 
