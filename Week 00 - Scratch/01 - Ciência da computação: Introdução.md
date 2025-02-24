@@ -4,6 +4,9 @@ Computer science is the field that develops solutions using computational techno
 2. Process the data (using algorithms)
 3. Generate results (outputs)
 
+---
+
+![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/8b312c1e-efeb-4ada-9a7e-e910c04f95bf)
 
 <!--
 A Ciência da Computação é a ciência que desenvolve soluções por meio de tecnologia computacional. 
