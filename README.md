@@ -3,7 +3,7 @@ CS50 (Computer Science 50) is a comprehensive Computer Science course taught by 
 
 This repository contains my personal notes, based on my understanding of the course. Here, you'll find insights, explanations, and summaries written by me.
 
-## Tópicos Abordados
+## Topics covered
 - Algorithms and data structures
 - Software design principles
 - Cybersecurity concepts
