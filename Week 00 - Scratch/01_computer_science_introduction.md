@@ -8,7 +8,16 @@ Computer science is the field that develops solutions using computational techno
 
 ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/f0285159-3d9c-41ba-9c06-f63f87babd8b)
 
+## 
+
+## Computers aren't the only to use input-process-output
+
+
 <!--
+
+
+
+
 A Ciência da Computação é a ciência que desenvolve soluções por meio de tecnologia computacional. 
 Podemos pensar que seu objetivo principal é automatizar resoluções de problemas do 
 mundo real por meio de  um simples processo que se __resume__ em: 
@@ -39,7 +48,7 @@ Resumidamente, é como se nossos cérebros funcionassem como programas de comput
 
 
 <!-- ignore: ![analogia](https://github.com/FireguiQueen/CS50/assets/98475125/7fa663ed-7394-40e8-8bc7-0432a941f65b) --> 
---> 
+ 
 
 
 
