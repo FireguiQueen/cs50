@@ -21,8 +21,8 @@ Brian Yu - Senior Preceptor in Computer Science at Harvard University
 -------------------
 
 ### Useful links
-+ https://cs50.me/cs50x
 + https://cs50.harvard.edu/x/2025/syllabus/
-+ https://en.wikipedia.org/wiki/CS50
-+ https://www.freecodecamp.org/news/harvard-cs50/
++ [view your progress](https://cs50.me/cs50x)
++ [CS50 - Wiki](https://en.wikipedia.org/wiki/CS50)
++ [CS50 on FreeCodeCamp](https://www.freecodecamp.org/news/harvard-cs50/)
 
